@@ -1,0 +1,523 @@
+/* ===================================
+   Option 2: Light & Airy Tech - Dark Mode
+   =================================== */
+
+:root {
+    /* Monochromatic Gray Palette - High Contrast */
+    --color-bg: #0a0a0a;
+    --color-bg-elevated: #141414;
+    --color-bg-card: #1a1a1a;
+    --color-text: #eeeeee;
+    --color-text-muted: #bbbbbb;
+    --color-text-dim: #999999;
+    --color-border: #2a2a2a;
+
+    /* Gray Accents - Strategic Highlights Only */
+    --color-primary: #999999;
+    --color-primary-light: #aaaaaa;
+    --color-gradient-1: #1a1a1a;
+    --color-gradient-2: #2a2a2a;
+    --color-gradient-3: #3a3a3a;
+
+    /* Typography */
+    --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+
+    /* Spacing */
+    --container-max: 1200px;
+    --container-narrow: 800px;
+
+    /* Transitions */
+    --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ===================================
+   Reset & Base
+   =================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-sans);
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    line-height: 1.6;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* ===================================
+   Navigation
+   =================================== */
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: rgba(10, 10, 10, 0.95);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid var(--color-border);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    transition: var(--transition);
+}
+
+.nav-container {
+    max-width: var(--container-max);
+    margin: 0 auto;
+    padding: 1.25rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-link {
+    color: #eeeeee;
+    text-decoration: none;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+}
+
+/* ===================================
+   Hero Section
+   =================================== */
+
+.hero {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: #000000;
+}
+
+.gradient-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.gradient-canvas {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    max-width: 1100px;
+    padding: 4rem 3rem;
+}
+
+.hero-title {
+    font-size: clamp(4rem, 11vw, 8rem);
+    font-weight: 400;
+    letter-spacing: -0.045em;
+    line-height: 1.02;
+    margin-bottom: 3rem;
+    color: #f5f5f5;
+    opacity: 0;
+    animation: fadeInUp 0.8s ease-out 0.2s forwards;
+}
+
+.hero-role {
+    font-size: clamp(1.625rem, 3.25vw, 2.5rem);
+    font-weight: 500;
+    color: #aaaaaa;
+    margin-bottom: 3.5rem;
+    letter-spacing: 0.015em;
+    opacity: 0;
+    animation: fadeInUp 0.8s ease-out 0.4s forwards;
+}
+
+.hero-description {
+    font-size: clamp(1.1875rem, 2.3vw, 1.5rem);
+    color: #cccccc;
+    line-height: 2;
+    margin-bottom: 4.5rem;
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0;
+    animation: fadeInUp 0.8s ease-out 0.6s forwards;
+}
+
+.hero-description p {
+    margin-bottom: 1.75rem;
+}
+
+.hero-description p:last-child {
+    margin-bottom: 0;
+}
+
+.hero-cta {
+    opacity: 0;
+    animation: fadeInUp 0.8s ease-out 0.8s forwards;
+}
+
+/* ===================================
+   Buttons
+   =================================== */
+
+.btn-primary {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #eeeeee;
+    background: transparent;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 1px solid #555555;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.btn-primary:hover {
+    color: #ffffff;
+    border-color: #888888;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* ===================================
+   Stats Bar
+   =================================== */
+
+.stats-bar {
+    background: #000000;
+    border-top: 1px solid #2a2a2a;
+    border-bottom: 1px solid #2a2a2a;
+    padding: 2.5rem 2rem;
+}
+
+.stats-container {
+    max-width: var(--container-max);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.stat-value {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #eeeeee;
+    margin-bottom: 0.5rem;
+}
+
+.stat-label {
+    font-size: 0.875rem;
+    color: #999999;
+    font-weight: 500;
+}
+
+.stat-divider {
+    width: 1px;
+    height: 40px;
+    background: var(--color-border);
+}
+
+/* ===================================
+   Sections
+   =================================== */
+
+.section {
+    padding: 6rem 2rem;
+}
+
+.container {
+    max-width: var(--container-max);
+    margin: 0 auto;
+}
+
+.container-narrow {
+    max-width: var(--container-narrow);
+    margin: 0 auto;
+}
+
+.section-title {
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 3rem;
+    color: var(--color-text);
+}
+
+.section-title.center {
+    text-align: center;
+}
+
+/* ===================================
+   About Section
+   =================================== */
+
+.about-section {
+    background: #000000;
+    border-bottom: 1px solid #2a2a2a;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 4rem;
+    align-items: start;
+}
+
+.intro-text {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #eeeeee;
+    margin-top: 1rem;
+}
+
+.about-details {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.detail-text {
+    font-size: 1.0625rem;
+    line-height: 1.8;
+    color: #cccccc;
+}
+
+/* ===================================
+   Skills Section
+   =================================== */
+
+.skills-section {
+    background: #000000;
+    border-bottom: 1px solid #2a2a2a;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.skill-card {
+    background: radial-gradient(ellipse at center, #1a1a1a 0%, #0a0a0a 100%);
+    padding: 2.5rem;
+    border-radius: 16px;
+    border: 1px solid #2a2a2a;
+    transition: all 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+    border-color: #3a3a3a;
+    background: radial-gradient(ellipse at center, #1f1f1f 0%, #0f0f0f 100%);
+}
+
+.skill-icon {
+    width: 56px;
+    height: 56px;
+    background: #0a0a0a;
+    border: 1px solid #1a1a1a;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.skill-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #eeeeee;
+    margin-bottom: 1rem;
+}
+
+.skill-description {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #cccccc;
+    margin-bottom: 1.5rem;
+}
+
+.skill-tags {
+    display: none;
+}
+
+/* ===================================
+   Contact Section
+   =================================== */
+
+.contact-section {
+    background: #000000;
+    padding: 8rem 2rem;
+    border-bottom: 1px solid #2a2a2a;
+}
+
+.contact-card {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: radial-gradient(ellipse at center, #1a1a1a 0%, #0a0a0a 100%);
+    border: 1px solid #2a2a2a;
+    border-radius: 24px;
+    color: white;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.contact-title {
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: #f5f5f5;
+}
+
+.contact-text {
+    font-size: 1.25rem;
+    margin-bottom: 2.5rem;
+    color: #cccccc;
+}
+
+.contact-email-btn {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #000000;
+    background: #ffffff;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 1px solid #ffffff;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.contact-email-btn:hover {
+    background: #eeeeee;
+    border-color: #eeeeee;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* ===================================
+   Footer
+   =================================== */
+
+.footer {
+    background: #000000;
+    border-top: 1px solid #2a2a2a;
+    padding: 2rem;
+}
+
+.footer-container {
+    max-width: var(--container-max);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left p {
+    color: #888888;
+    font-size: 0.9375rem;
+}
+
+.footer-note {
+    color: #777777;
+    font-size: 0.875rem;
+}
+
+/* ===================================
+   Animations
+   =================================== */
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ===================================
+   Responsive
+   =================================== */
+
+@media (max-width: 768px) {
+    .stats-container {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .stat-divider {
+        display: none;
+    }
+
+    .about-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .nav-menu {
+        gap: 1rem;
+    }
+
+    .section {
+        padding: 4rem 1.5rem;
+    }
+
+    .contact-section {
+        padding: 4rem 1.5rem;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+}

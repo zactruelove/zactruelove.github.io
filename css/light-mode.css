@@ -1,0 +1,216 @@
+/* ===================================
+   Light Mode Theme
+   =================================== */
+
+body.light-mode {
+    --color-bg: #ffffff;
+    --color-bg-elevated: #f5f5f5;
+    --color-bg-card: #fafafa;
+    --color-text: #1a1a1a;
+    --color-text-muted: #4a4a4a;
+    --color-text-dim: #6a6a6a;
+    --color-border: #c0c0c0;
+    --color-primary: #666666;
+    --color-primary-light: #888888;
+}
+
+/* Override specific elements for light mode */
+body.light-mode {
+    background-color: #ffffff;
+    color: #1a1a1a;
+}
+
+body.light-mode .nav {
+    background: rgba(255, 255, 255, 0.95);
+    border-bottom: 1px solid #c0c0c0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+body.light-mode .nav-logo {
+    color: #1a1a1a;
+}
+
+body.light-mode .nav-link {
+    color: #0a0a0a;
+}
+
+body.light-mode .nav-link:hover {
+    color: #000000;
+}
+
+/* Hero section */
+body.light-mode .hero {
+    background: #ffffff; /* True white */
+}
+
+body.light-mode .gradient-bg {
+    opacity: 0.8; /* Much more visible in light mode */
+    filter: invert(1) grayscale(0.2); /* Invert to make spheres darker on white */
+}
+
+body.light-mode .hero-title {
+    color: #0a0a0a;
+}
+
+body.light-mode .hero-role {
+    color: #555555;
+}
+
+body.light-mode .hero-description {
+    color: #333333;
+}
+
+body.light-mode .btn-primary {
+    color: #1a1a1a;
+    border-color: #c0c0c0;
+}
+
+body.light-mode .btn-primary:hover {
+    color: #000000;
+    border-color: #888888;
+}
+
+/* Stats bar */
+body.light-mode .stats-bar {
+    background: #ffffff;
+    border-top: 1px solid #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+body.light-mode .stat-value {
+    color: #1a1a1a;
+}
+
+body.light-mode .stat-label {
+    color: #666666;
+}
+
+body.light-mode .stat-divider {
+    background: #c0c0c0;
+}
+
+/* Sections */
+body.light-mode .about-section {
+    background: #ffffff;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+body.light-mode .skills-section {
+    background: #ffffff;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+body.light-mode .section-title {
+    color: #1a1a1a;
+}
+
+body.light-mode .intro-text {
+    color: #1a1a1a;
+}
+
+body.light-mode .detail-text {
+    color: #333333;
+}
+
+/* Skill cards */
+body.light-mode .skill-card {
+    background: radial-gradient(ellipse at center, #ffffff 0%, #f5f5f5 100%);
+    border: 1px solid #c0c0c0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+body.light-mode .skill-card:hover {
+    border-color: #cccccc;
+    background: radial-gradient(ellipse at center, #fafafa 0%, #f0f0f0 100%);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+body.light-mode .skill-icon {
+    background: #f5f5f5;
+    border: 1px solid #c0c0c0;
+    color: #333333;
+}
+
+body.light-mode .skill-title {
+    color: #1a1a1a;
+}
+
+body.light-mode .skill-description {
+    color: #333333;
+}
+
+/* Contact section */
+body.light-mode .contact-section {
+    background: #ffffff;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+body.light-mode .contact-card {
+    background: radial-gradient(ellipse at center, #ffffff 0%, #f5f5f5 100%);
+    border: 1px solid #c0c0c0;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+    color: #1a1a1a;
+}
+
+body.light-mode .contact-title {
+    color: #0a0a0a;
+}
+
+body.light-mode .contact-text {
+    color: #333333;
+}
+
+body.light-mode .contact-email-btn {
+    color: #ffffff;
+    background: #1a1a1a;
+    border-color: #1a1a1a;
+}
+
+body.light-mode .contact-email-btn:hover {
+    background: #000000;
+    border-color: #000000;
+}
+
+/* Footer */
+body.light-mode .footer {
+    background: #ffffff;
+    border-top: 1px solid #c0c0c0;
+}
+
+body.light-mode .footer-left p {
+    color: #777777;
+}
+
+body.light-mode .footer-note {
+    color: #888888;
+}
+
+/* Theme toggle button */
+.theme-toggle {
+    background: transparent;
+    border: 1px solid #333333;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 0.875rem;
+    color: #eeeeee;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.theme-toggle:hover {
+    border-color: #666666;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+body.light-mode .theme-toggle {
+    border-color: #cccccc;
+    color: #1a1a1a;
+}
+
+body.light-mode .theme-toggle:hover {
+    border-color: #999999;
+    background: rgba(0, 0, 0, 0.03);
+}
