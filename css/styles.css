@@ -416,6 +416,14 @@ body {
     color: #cccccc;
 }
 
+.contact-links {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .contact-email-btn {
     display: inline-block;
     padding: 1rem 2.5rem;
@@ -433,6 +441,27 @@ body {
 .contact-email-btn:hover {
     background: #eeeeee;
     border-color: #eeeeee;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.contact-linkedin-btn {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #eeeeee;
+    background: transparent;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 1px solid #555555;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.contact-linkedin-btn:hover {
+    color: #ffffff;
+    border-color: #888888;
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
 }

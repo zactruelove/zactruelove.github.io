@@ -171,6 +171,16 @@ body.light-mode .contact-email-btn:hover {
     border-color: #000000;
 }
 
+body.light-mode .contact-linkedin-btn {
+    color: #1a1a1a;
+    border-color: #c0c0c0;
+}
+
+body.light-mode .contact-linkedin-btn:hover {
+    color: #000000;
+    border-color: #888888;
+}
+
 /* Footer */
 body.light-mode .footer {
     background: #ffffff;
