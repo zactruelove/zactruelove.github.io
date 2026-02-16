@@ -94,12 +94,10 @@ body.light-mode .stat-label {
 /* Sections */
 body.light-mode .about-section {
     background: #ffffff;
-    border-bottom: 1px solid #c0c0c0;
 }
 
 body.light-mode .skills-section {
     background: #ffffff;
-    border-bottom: 1px solid #c0c0c0;
 }
 
 body.light-mode .section-title {
@@ -144,7 +142,6 @@ body.light-mode .skill-description {
 /* Contact section */
 body.light-mode .contact-section {
     background: #ffffff;
-    border-bottom: 1px solid #c0c0c0;
 }
 
 body.light-mode .contact-card {
@@ -162,31 +159,21 @@ body.light-mode .contact-text {
     color: #333333;
 }
 
-body.light-mode .contact-email-btn {
-    color: #ffffff;
-    background: #1a1a1a;
-    border-color: #1a1a1a;
-}
-
-body.light-mode .contact-email-btn:hover {
-    background: #000000;
-    border-color: #000000;
-}
-
+body.light-mode .contact-email-btn,
 body.light-mode .contact-linkedin-btn {
-    color: #1a1a1a;
-    border-color: #c0c0c0;
+    color: #ffffff;
+    background: #000000;
 }
 
+body.light-mode .contact-email-btn:hover,
 body.light-mode .contact-linkedin-btn:hover {
-    color: #000000;
-    border-color: #888888;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
 }
 
 /* Footer */
 body.light-mode .footer {
     background: #ffffff;
-    border-top: 1px solid #c0c0c0;
 }
 
 body.light-mode .footer-left p {
