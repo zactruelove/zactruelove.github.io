@@ -2,71 +2,84 @@
 
 ## Overview
 
-Building a professional personal website for Zac Truelove at `zactruelove.com`. The site is hosted on **GitHub Pages** from the repo `zactruelove.github.io`. The domain is currently registered at WordPress.com and will be pointed via DNS once the site is ready — **do not touch DNS or WordPress until explicitly asked.**
+Professional personal website for Zac Truelove at `zactruelove.com`. Hosted on **GitHub Pages** from the repo `zactruelove.github.io`. Domain is managed via **Cloudflare** (DNS active, domain registration transfer in progress from WordPress.com).
 
 ## Technical Stack
 
 - **Hosting:** GitHub Pages (free, static)
-- **Framework:** Plain HTML / CSS / JavaScript (no static site generator — keep it simple)
-- **Repo:** `zactruelove.github.io` (already created, cloned locally, GitHub Pages enabled, deploying from `main` branch root)
-- **Deployment:** `git push origin main` → live at `https://zactruelove.github.io`
+- **DNS:** Cloudflare (free plan, DNS-only mode — no proxy)
+- **Domain:** `zactruelove.com` — registration transferring to Cloudflare (~$10.44/year)
+- **SSL/TLS:** GitHub Pages auto-provisioned certificate, Cloudflare set to "Full" mode
+- **Framework:** Plain HTML / CSS / JavaScript (no build tools, no static site generator)
+- **Repo:** `zactruelove.github.io`, deploying from `main` branch root
+- **Deployment:** `git push origin main` → live at `https://zactruelove.com`
 
-## Design Direction
-
-- **Professional but not corporate.** This is a personal site for a data engineering professional — it should feel polished, modern, and technically credible.
-- **Visually impressive.** Zac wants cool graphics and visualizations even if the site isn't deep in content. Think animated hero sections, interactive data visualizations, scroll animations, particle effects — "wow" moments that showcase technical taste.
-- **Good candidates for visual flair:**
-  - D3.js data visualizations (data lineage, pipeline flows, query performance — things that double as portfolio pieces)
-  - Three.js or Canvas/WebGL for 3D or generative backgrounds
-  - GSAP or CSS animations for scroll effects and transitions
-  - SVG animations for icons and illustrated elements
-- **Low content volume.** This isn't a content-heavy site. Think clean, spacious layout with a few well-crafted sections rather than dozens of pages.
-
-## About Zac (for content and design context)
-
-- **Title/Role:** Data Engineer / SQL Server Developer
-- **Core tech stack:** SQL Server 2019, ETL pipeline development, ActiveBatch workload automation
-- **Industry:** Healthcare
-- **Experience level:** Senior — 49 years old, deep expertise in SQL Server development, data warehousing, and performance optimization
-- **Personality/vibe:** Technically sharp, practical, prefers substance over flash (but appreciates well-executed flash). Not a "personal brand" influencer type — more of a craftsman who wants a clean, credible web presence.
-
-## Site Structure (to be refined)
-
-Likely sections — final content TBD:
-
-- **Hero / Landing** — strong first impression, animated/visual
-- **About** — professional summary, who Zac is
-- **Skills / Tech Stack** — what he works with (could be a great place for interactive visualizations)
-- **Experience / Career** — professional history highlights
-- **Projects / Portfolio** — showcase work or data engineering concepts (optional, could grow over time)
-- **Contact** — simple contact info or form
-- **Resume / CV** — downloadable PDF link (optional)
-
-## Constraints & Preferences
-
-- **Budget:** Free/minimal cost. GitHub Pages is free. No paid services unless there's a strong reason.
-- **Complexity:** Keep the build toolchain simple. No webpack, no npm build step required. Files should be directly servable by GitHub Pages.
-- **Domain:** `zactruelove.com` is registered at WordPress.com. DNS changes come LAST, only when the site is ready. The current WordPress Personal plan will be cancelled after migration.
-- **Development workflow:** Zac is using Claude Code in VS Code. The workflow is: edit files locally → commit → push → live. Keep this simple loop intact.
-- **No static site generator for now.** If blog functionality is wanted later, we can add Hugo or similar at that point.
-
-## Immediate Next Steps
-
-1. Scaffold the initial site structure (index.html, styles, scripts directory)
-2. Build a compelling landing/hero section as a proof of concept
-3. Iterate on design direction with Zac before building out remaining sections
-
-## File Structure (suggested starting point)
+## File Structure
 
 ```
 zactruelove.github.io/
-├── index.html
+├── index.html          ← Single-page site with all sections
 ├── css/
-│   └── styles.css
+│   ├── styles.css      ← Main styles (dark mode default)
+│   └── light-mode.css  ← Light mode theme overrides
 ├── js/
-│   └── main.js
+│   └── main.js         ← All JavaScript (animations, theme toggle, navigation)
 ├── assets/
 │   └── images/
-├── CNAME              ← added later when DNS is pointed
+├── CNAME               ← Custom domain: zactruelove.com
+├── CLAUDE.md
 └── README.md
 ```
+
+## Design
+
+- **Pure monochromatic color scheme** — blacks, whites, grays only. No accent colors.
+- **Dark mode default** with light mode toggle (persisted via localStorage)
+- **Professional but not corporate** — polished, modern, technically credible
+- **Low content volume** — clean, spacious layout with a few well-crafted sections
+
+### Visual Elements
+- **Glass sphere animation** in hero section using Canvas 2D (`FloatingBubbles` class)
+  - 12 spheres with layered gradient rendering (specular highlights, rim lighting, caustics)
+  - Velocity: 0.39375
+  - Canvas 2D was chosen over Three.js/WebGL — Zac preferred this aesthetic
+- **Radial gradient cards** for depth: `radial-gradient(ellipse at center, #1a1a1a, #0a0a0a)`
+- **Scroll reveal animations** using IntersectionObserver
+- **Smooth scroll navigation** with scroll-to-top for "#" links
+
+### Color Palette (Dark Mode)
+- Backgrounds: #000000 (sections), #0a0a0a (base), #1a1a1a (cards)
+- Text: #eeeeee (primary), #cccccc (muted), #999999 (dim)
+- Borders: #2a2a2a
+- Hero title: #f5f5f5
+
+## Site Sections
+
+- **Hero / Landing** — animated glass spheres, name, title, description, CTA
+- **Stats Bar** — SQL Server / Database Development, Healthcare / Industry Focus, ActiveBatch / Workload Automation
+- **About** — professional summary
+- **Skills / Tech Stack** — skill cards with descriptions
+- **Contact** — email (truelovesql@gmail.com) + LinkedIn (linkedin.com/in/ztruelove/)
+- **Footer** — copyright + site credit
+
+## About Zac (content context)
+
+- **Title/Role:** Data Engineer / SQL Server Developer
+- **Core tech stack:** SQL Server, ETL pipeline development, ActiveBatch workload automation
+- **Industry:** Healthcare
+- **Experience level:** Senior — deep expertise in SQL Server development, data warehousing, and performance optimization
+- **Contact:** truelovesql@gmail.com | https://www.linkedin.com/in/ztruelove/
+
+## Constraints & Preferences
+
+- **Budget:** Minimal cost (~$10.44/year for domain only). Everything else is free.
+- **Complexity:** No build tools, no npm, no webpack. Files directly served by GitHub Pages.
+- **Development workflow:** Edit locally in VS Code with Claude Code → commit → push → live.
+- **No static site generator** unless blog functionality is needed later.
+- **Commit style:** Descriptive commit messages with Co-Authored-By tag for Claude.
+
+## Infrastructure Notes
+
+- **Cloudflare DNS:** All records set to "DNS only" (gray cloud), NOT proxied. GitHub Pages needs direct DNS for HTTPS certificates.
+- **GitHub Pages:** Custom domain configured, HTTPS enforced.
+- **WordPress.com:** Plan cancelled (runs through Sep 2026). Domain registration transferring to Cloudflare.
