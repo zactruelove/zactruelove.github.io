@@ -229,29 +229,16 @@ class Navigation {
     }
 
     updateNav() {
-        const isLightMode = document.body.classList.contains('light-mode');
-
         if (window.pageYOffset > 50) {
-            if (isLightMode) {
-                this.nav.style.background = 'rgba(255, 255, 255, 0.98)';
-                this.nav.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.08)';
-            } else {
-                this.nav.style.background = 'rgba(10, 10, 10, 0.98)';
-                this.nav.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.5)';
-            }
+            this.nav.classList.add('nav-scrolled');
         } else {
-            if (isLightMode) {
-                this.nav.style.background = 'rgba(255, 255, 255, 0.95)';
-                this.nav.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.05)';
-            } else {
-                this.nav.style.background = 'rgba(10, 10, 10, 0.95)';
-                this.nav.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.3)';
-            }
+            this.nav.classList.remove('nav-scrolled');
         }
     }
 
     init() {
         window.addEventListener('scroll', () => this.updateNav());
+        this.updateNav();
     }
 }
 
@@ -348,15 +335,13 @@ class ScrollReveal {
 // Initialize
 // ===================================
 
-let navigationInstance;
-
 document.addEventListener('DOMContentLoaded', () => {
     const canvas = document.getElementById('gradientMesh');
     if (canvas) {
         new FloatingBubbles(canvas);
     }
 
-    navigationInstance = new Navigation();
+    new Navigation();
     new SmoothScroll();
     new ScrollReveal();
 });
@@ -402,11 +387,6 @@ class ThemeToggle {
         } else {
             document.body.classList.remove('light-mode');
             this.themeIcon.textContent = '☀️';
-        }
-
-        // Update navigation immediately after theme change
-        if (navigationInstance) {
-            navigationInstance.updateNav();
         }
     }
 }
