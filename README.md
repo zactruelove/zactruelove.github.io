@@ -8,12 +8,14 @@ This is a modern, responsive personal website built with plain HTML, CSS, and Ja
 
 ## Features
 
-- **Animated Hero Section**: Subtle gradient mesh animation using HTML5 Canvas
-- **Dark Modern Design**: Professional dark theme with neutral navy blue accents
+- **Animated Hero Section**: Glass-sphere animation using HTML5 Canvas
+- **Monochrome Apple-Style Design**: Dark theme by default with a light-mode toggle (no flash on load)
+- **Impact Metrics**: Count-up animated career numbers (50% CPU reduction, 1,000 daily jobs, $200K saved, 20+ years)
+- **Career Timeline & Tech Specs**: Résumé highlights presented as a hairline timeline and an Apple-style spec sheet
+- **Dedicated Résumé Page**: `/resume.html` with print stylesheet and downloadable PDF
 - **Responsive Design**: Fully responsive layout that works on all devices
-- **Smooth Animations**: Scroll-triggered animations and smooth transitions
-- **Clean UI**: Modern card-based design with subtle hover interactions
-- **Performance Optimized**: Respects user preferences for reduced motion
+- **Smooth Animations**: Scroll-triggered reveals; respects reduced-motion preferences
+- **Social Previews**: Open Graph image and meta tags, SVG favicon
 - **Accessible**: Semantic HTML and keyboard-friendly navigation
 
 ## Tech Stack
@@ -27,13 +29,19 @@ This is a modern, responsive personal website built with plain HTML, CSS, and Ja
 
 ```
 zactruelove.github.io/
-├── index.html          # Main HTML file
+├── index.html          # Homepage (hero, impact metrics, about, career, tech specs, contact)
+├── resume.html         # Dedicated résumé page (print-friendly)
+├── favicon.svg         # ZT monogram favicon
 ├── css/
-│   └── styles.css      # All styles
+│   ├── styles.css      # All styles (dark default, tokens on :root)
+│   └── light-mode.css  # Light-mode token overrides (html.light-mode)
 ├── js/
-│   └── main.js         # JavaScript animations and interactions
+│   └── main.js         # Spheres, nav, reveals, count-up, theme toggle
 ├── assets/
-│   └── images/         # Images and media files
+│   ├── Zac_Truelove_Resume.pdf   # Downloadable résumé
+│   └── images/
+│       └── og-image.png          # Social share preview (1200×630)
+├── CNAME               # Custom domain: zactruelove.com
 ├── CLAUDE.md           # Project brief and instructions
 └── README.md           # This file
 ```

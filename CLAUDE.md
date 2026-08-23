@@ -18,14 +18,18 @@ Professional personal website for Zac Truelove at `zactruelove.com`. Hosted on *
 
 ```
 zactruelove.github.io/
-├── index.html          ← Single-page site with all sections
+├── index.html          ← Homepage (hero, impact metrics, about, career, tech specs, contact)
+├── resume.html         ← Dedicated résumé page (print stylesheet, PDF download)
+├── favicon.svg         ← ZT monogram favicon
 ├── css/
-│   ├── styles.css      ← Main styles (dark mode default)
-│   └── light-mode.css  ← Light mode theme overrides
+│   ├── styles.css      ← Main styles (dark mode default; tokens on :root)
+│   └── light-mode.css  ← Light mode token overrides (html.light-mode)
 ├── js/
-│   └── main.js         ← All JavaScript (animations, theme toggle, navigation)
+│   └── main.js         ← All JavaScript (spheres, reveals, count-up, theme toggle, navigation)
 ├── assets/
+│   ├── Zac_Truelove_Resume.pdf   ← Downloadable résumé (generated from resume.html via headless Chromium --print-to-pdf)
 │   └── images/
+│       └── og-image.png          ← Social share preview (1200×630)
 ├── CNAME               ← Custom domain: zactruelove.com
 ├── CLAUDE.md
 └── README.md
@@ -40,27 +44,36 @@ zactruelove.github.io/
 
 ### Visual Elements
 - **Glass sphere animation** in hero section using Canvas 2D (`FloatingBubbles` class)
-  - 12 spheres with layered gradient rendering (specular highlights, rim lighting, caustics)
+  - 7 spheres with layered gradient rendering (specular highlights, rim lighting, caustics), at 0.35 canvas opacity so typography leads
   - Velocity: 0.39375
   - Canvas 2D was chosen over Three.js/WebGL — Zac preferred this aesthetic
-- **Radial gradient cards** for depth: `radial-gradient(ellipse at center, #1a1a1a, #0a0a0a)`
-- **Scroll reveal animations** using IntersectionObserver
+- **Hairline dividers** (`--hairline`) instead of cards — Apple product-page aesthetic
+- **Giant count-up metrics** (`.big-number`, animated on reveal, respects reduced motion)
+- **Monospace eyebrows/labels** (`ui-monospace` stack) for a data-engineer voice
+- **Scroll reveal animations** using IntersectionObserver (`.reveal` → `.in`)
 - **Smooth scroll navigation** with scroll-to-top for "#" links
+- **Theme switching:** tokens on `:root`, overridden by `html.light-mode`; an inline `<head>` script applies the saved theme pre-paint (no flash)
 
 ### Color Palette (Dark Mode)
-- Backgrounds: #000000 (sections), #0a0a0a (base), #1a1a1a (cards)
-- Text: #eeeeee (primary), #cccccc (muted), #999999 (dim)
-- Borders: #2a2a2a
-- Hero title: #f5f5f5
+- Background: #000000 (`--bg`), elevated #0d0d0d
+- Hairlines/borders: #262626
+- Text: #f5f5f5 (`--text`), #a3a3a3 (`--text-2`), #6b6b6b (`--text-3`)
 
 ## Site Sections
 
-- **Hero / Landing** — animated glass spheres, name, title, description, CTA
-- **Stats Bar** — SQL Server / Database Development, Healthcare / Industry Focus, ActiveBatch / Workload Automation
-- **About** — professional summary
-- **Skills / Tech Stack** — skill cards with descriptions
-- **Contact** — email (truelovesql@gmail.com) + LinkedIn (linkedin.com/in/ztruelove/)
-- **Footer** — copyright + site credit
+### index.html
+- **Hero / Landing** — animated glass spheres, monospace eyebrow, giant name, one-line value prop, CTAs
+- **Impact** (`#numbers`) — count-up metrics: 50% CPU reduction, 1,000 daily job executions, $200K saved, 20+ years
+- **About** (`#about`) — large statement + Currently / Approach / Next notes
+- **Career** (`#career`) — timeline of MHN, Macy's, Southwestern Energy with highlights
+- **Tech specs** (`#specs`) — Apple-style spec sheet of the technical skill set
+- **Contact** (`#contact`) — email (truelovesql@gmail.com) + LinkedIn (linkedin.com/in/ztruelove/)
+- **Footer** — copyright + links
+
+### resume.html
+- Full typeset résumé (summary, skills, experience, education), Print button (print stylesheet forces clean light output, ~2 pages), Download PDF button → `assets/Zac_Truelove_Resume.pdf`
+- To regenerate the PDF after editing resume.html:
+  `chromium --headless --no-pdf-header-footer --print-to-pdf=assets/Zac_Truelove_Resume.pdf resume.html`
 
 ## About Zac (content context)
 

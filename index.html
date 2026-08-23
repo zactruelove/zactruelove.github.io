@@ -3,190 +3,247 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Zac Truelove - Data Engineer & SQL Server Developer specializing in ETL pipelines, data warehousing, and performance optimization.">
     <title>Zac Truelove | Data Engineer</title>
+    <meta name="description" content="Zac Truelove — Data Engineer and SQL Server specialist. Twenty years of making enterprise data fast, reliable, and automatic: ETL architecture, data warehousing, and performance optimization.">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://zactruelove.com/">
+    <meta property="og:title" content="Zac Truelove | Data Engineer">
+    <meta property="og:description" content="Twenty years of making enterprise data fast, reliable, and automatic. SQL Server, ETL architecture, and workload automation.">
+    <meta property="og:image" content="https://zactruelove.com/assets/images/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <script>
+        /* Applied before first paint so light-mode users get no dark flash */
+        try {
+            if (localStorage.getItem('theme') === 'light') {
+                document.documentElement.classList.add('light-mode');
+            }
+        } catch (e) {}
+    </script>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/light-mode.css">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="nav">
-        <div class="nav-container">
-            <a href="#" class="nav-logo">ZT</a>
+        <div class="nav-inner">
+            <a href="#" class="logo">ZT</a>
             <ul class="nav-menu">
+                <li><a href="#numbers" class="nav-link">Impact</a></li>
                 <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#career" class="nav-link">Career</a></li>
+                <li><a href="#specs" class="nav-link">Stack</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="resume.html" class="nav-link">Résumé</a></li>
                 <li><button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
-                    <span class="theme-icon">☀️</span>
+                    <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="6.5" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.5 A6.5 6.5 0 0 1 8 14.5 Z" fill="currentColor"/></svg>
                 </button></li>
             </ul>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="gradient-bg">
-            <canvas id="gradientMesh" class="gradient-canvas"></canvas>
-        </div>
-        <div class="hero-content">
-            <h1 class="hero-title">
-                Zac Truelove
-            </h1>
-            <p class="hero-role">Data Engineer & SQL Server Developer</p>
-            <p class="hero-description">
-                Transforming complex data challenges into elegant solutions.<br>
-                Specializing in ETL pipelines, data warehousing, and performance optimization.
+    <!-- Hero -->
+    <header class="hero">
+        <div class="hero-canvas"><canvas id="spheres"></canvas></div>
+        <div class="hero-inner">
+            <p class="eyebrow">Data Engineer · SQL Server Specialist</p>
+            <h1>Zac Truelove</h1>
+            <p class="hero-sub">
+                Twenty years of making enterprise data fast, reliable, and automatic.
             </p>
-            <div class="hero-cta">
-                <a href="#contact" class="btn-primary">Let's Connect</a>
+            <div class="hero-actions">
+                <a href="#contact" class="btn">Get in Touch</a>
+                <a href="resume.html" class="btn-ghost">View Résumé</a>
             </div>
         </div>
-    </section>
-
-    <!-- Stats Bar -->
-    <section class="stats-bar">
-        <div class="stats-container">
-            <div class="stat-item">
-                <div class="stat-value">SQL Server</div>
-                <div class="stat-label">Database Development</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-value">Healthcare</div>
-                <div class="stat-label">Industry Focus</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-value">ActiveBatch</div>
-                <div class="stat-label">Workload Automation</div>
-            </div>
+        <div class="scroll-cue" aria-hidden="true">
+            <svg viewBox="0 0 18 18" fill="none"><path d="M4 7 L9 12 L14 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </div>
-    </section>
+    </header>
 
-    <!-- About Section -->
-    <section id="about" class="section about-section">
-        <div class="container">
-            <div class="about-grid">
-                <div class="about-intro">
-                    <h2 class="section-title">About Me</h2>
-                    <p class="intro-text">
-                        I'm a senior data engineer with deep expertise in building and optimizing
-                        enterprise-scale data solutions for the healthcare industry.
+    <!-- Impact -->
+    <section id="numbers">
+        <div class="wrap">
+            <div class="section-head reveal"><p class="eyebrow">Impact, measured</p></div>
+            <div class="numbers">
+                <div class="number-row reveal">
+                    <div class="big-number" data-count="50" data-suffix="%">0%</div>
+                    <p class="number-caption">
+                        <strong>Less CPU. Same platform.</strong> Targeted index strategy and query rewrites
+                        cut SQL Server core utilization in half — saving tens of thousands of dollars a year
+                        in infrastructure cost.
                     </p>
                 </div>
-                <div class="about-details">
-                    <p class="detail-text">
-                        With extensive experience in SQL Server development, I specialize in creating
-                        robust ETL pipelines, optimizing database performance, and implementing workload
-                        automation strategies that streamline complex data workflows.
+                <div class="number-row reveal">
+                    <div class="big-number" data-count="1000" data-comma="true">0</div>
+                    <p class="number-caption">
+                        <strong>Job executions, every day.</strong> Roughly 100 scheduled ActiveBatch jobs
+                        run about a thousand times daily — designed, built, and operated end-to-end,
+                        with SLA compliance across every pipeline.
                     </p>
-                    <p class="detail-text">
-                        My approach combines technical precision with practical problem-solving, ensuring
-                        that every solution is not only powerful but also maintainable and scalable for
-                        long-term success.
+                </div>
+                <div class="number-row reveal">
+                    <div class="big-number" data-count="200" data-prefix="$" data-suffix="K">$0K</div>
+                    <p class="number-caption">
+                        <strong>Saved annually with one system.</strong> A database-driven evaluation platform
+                        built with HR and Finance at Macy's replaced a manual process — permanently.
+                    </p>
+                </div>
+                <div class="number-row reveal">
+                    <div class="big-number" data-count="20" data-suffix="+">0+</div>
+                    <p class="number-caption">
+                        <strong>Years in professional data work.</strong> More than a decade focused purely on
+                        database development, warehousing, and ETL architecture — from oil and gas to retail
+                        to healthcare.
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="section skills-section">
-        <div class="container">
-            <h2 class="section-title center">Core Competencies</h2>
+    <!-- About -->
+    <section id="about">
+        <div class="wrap">
+            <div class="section-head reveal"><p class="eyebrow">About</p></div>
+            <p class="statement reveal">
+                I own critical data systems end-to-end —
+                <span class="dim">from architecture and performance to the daily operations that keep them running.</span>
+            </p>
+            <div class="about-notes">
+                <div class="about-note reveal">
+                    <h3>Currently</h3>
+                    <p>Senior Data Engineer at Medical Home Network in Chicago — sole SQL Server subject-matter
+                    expert for a healthcare data platform powering population health management for 12+ client organizations.</p>
+                </div>
+                <div class="about-note reveal">
+                    <h3>Approach</h3>
+                    <p>Technical precision with practical problem-solving. Every solution should be powerful,
+                    but also maintainable and scalable — built for the team that inherits it, not just the demo.</p>
+                </div>
+                <div class="about-note reveal">
+                    <h3>Next</h3>
+                    <p>Actively driving a migration to the modern cloud data stack — Snowflake, dbt, and Azure —
+                    while keeping a thousand daily production jobs running on time.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-            <div class="skills-grid">
-                <div class="skill-card">
-                    <div class="skill-icon">
-                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-                            <rect x="4" y="8" width="24" height="16" rx="2" stroke="currentColor" stroke-width="2"/>
-                            <line x1="4" y1="14" x2="28" y2="14" stroke="currentColor" stroke-width="2"/>
-                        </svg>
-                    </div>
-                    <h3 class="skill-title">Database Development</h3>
-                    <p class="skill-description">
-                        Expert in SQL Server 2019, T-SQL development, data warehousing architecture,
-                        and performance optimization for enterprise systems.
-                    </p>
-                    <ul class="skill-tags">
-                        <li>SQL Server</li>
-                        <li>T-SQL</li>
-                        <li>Data Warehousing</li>
-                        <li>Performance Tuning</li>
+    <!-- Career -->
+    <section id="career">
+        <div class="wrap">
+            <div class="section-head reveal"><p class="eyebrow">Career</p></div>
+
+            <article class="job reveal">
+                <div class="job-when"><span class="years">2020 — Present</span>Chicago, IL</div>
+                <div>
+                    <h3>Senior Data Engineer</h3>
+                    <p class="company">Medical Home Network</p>
+                    <ul>
+                        <li>Sole SQL Server SME — design, development, performance, and architecture for a healthcare data platform.</li>
+                        <li>Cut SQL Server CPU utilization by 50% through index strategy and query rewrites.</li>
+                        <li>Led the year-long migration from SSIS to stored procedures plus a Python ETL framework, owning all core transformation logic.</li>
+                        <li>Built and operate enterprise workload automation in ActiveBatch: ~100 jobs, ~1,000 daily executions.</li>
+                        <li>Scaled data integration from 2 to 12+ client organizations; led TFS → Git migration; driving Snowflake/dbt/Azure adoption.</li>
                     </ul>
                 </div>
+            </article>
 
-                <div class="skill-card">
-                    <div class="skill-icon">
-                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-                            <circle cx="8" cy="16" r="3" stroke="currentColor" stroke-width="2"/>
-                            <circle cx="24" cy="16" r="3" stroke="currentColor" stroke-width="2"/>
-                            <line x1="11" y1="16" x2="21" y2="16" stroke="currentColor" stroke-width="2"/>
-                            <path d="M8 13 L8 8 L16 4 L24 8 L24 13" stroke="currentColor" stroke-width="2" fill="none"/>
-                        </svg>
-                    </div>
-                    <h3 class="skill-title">ETL & Integration</h3>
-                    <p class="skill-description">
-                        Designing and implementing complex data pipelines, integration processes,
-                        and ensuring data quality across distributed systems.
-                    </p>
-                    <ul class="skill-tags">
-                        <li>ETL Pipelines</li>
-                        <li>Data Integration</li>
-                        <li>Data Modeling</li>
-                        <li>Quality Assurance</li>
+            <article class="job reveal">
+                <div class="job-when"><span class="years">2014 — 2020</span>New York, NY</div>
+                <div>
+                    <h3>Staff Software Engineer</h3>
+                    <p class="company">Macy's Inc. — Enterprise Reporting &amp; Analytics</p>
+                    <ul>
+                        <li>Led Scorecard reporting — the system measuring operational performance and executive KPIs across all Macy's retail locations.</li>
+                        <li>Built a manager-evaluation platform with HR and Finance, replacing a manual process and saving ~$200K per year.</li>
+                        <li>Directed a multi-year consolidation of 2,300+ Crystal Reports down to ~200, migrated to modern platforms.</li>
                     </ul>
                 </div>
+            </article>
 
-                <div class="skill-card">
-                    <div class="skill-icon">
-                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-                            <rect x="6" y="10" width="20" height="3" rx="1" stroke="currentColor" stroke-width="2"/>
-                            <rect x="6" y="18" width="14" height="3" rx="1" stroke="currentColor" stroke-width="2"/>
-                            <circle cx="24" cy="19.5" r="2" stroke="currentColor" stroke-width="2"/>
-                        </svg>
-                    </div>
-                    <h3 class="skill-title">Workload Automation</h3>
-                    <p class="skill-description">
-                        Streamlining operations with ActiveBatch, implementing intelligent job
-                        scheduling and process optimization strategies.
-                    </p>
-                    <ul class="skill-tags">
-                        <li>ActiveBatch</li>
-                        <li>Job Scheduling</li>
-                        <li>Process Automation</li>
-                        <li>Workflow Optimization</li>
+            <article class="job reveal">
+                <div class="job-when"><span class="years">2005 — 2015</span>Houston, TX</div>
+                <div>
+                    <h3>Senior Systems Developer</h3>
+                    <p class="company">Southwestern Energy Company</p>
+                    <ul>
+                        <li>Designed and maintained all reporting for the Client Services department across the IT organization.</li>
+                        <li>Built the enterprise ITSM platform and a Purchase Request system with integrated budget dashboards.</li>
                     </ul>
+                </div>
+            </article>
+
+            <div class="career-cta reveal">
+                <a href="resume.html" class="btn-ghost">Full Résumé</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech specs -->
+    <section id="specs">
+        <div class="wrap">
+            <div class="section-head reveal"><p class="eyebrow">Tech specs</p></div>
+            <div class="specs">
+                <div class="spec-row reveal">
+                    <div class="spec-key">Databases</div>
+                    <div class="spec-val">SQL Server, MySQL <span class="sub">— design, development, optimization, administration</span></div>
+                </div>
+                <div class="spec-row reveal">
+                    <div class="spec-key">Languages</div>
+                    <div class="spec-val">T-SQL <span class="sub">(advanced)</span>, Python <span class="sub">(working knowledge)</span></div>
+                </div>
+                <div class="spec-row reveal">
+                    <div class="spec-key">ETL &amp; Integration</div>
+                    <div class="spec-val">Stored-procedure pipelines, custom Python ETL frameworks, SSIS <span class="sub">(legacy)</span></div>
+                </div>
+                <div class="spec-row reveal">
+                    <div class="spec-key">Performance</div>
+                    <div class="spec-val">Index strategy, query optimization, execution-plan analysis, resource profiling</div>
+                </div>
+                <div class="spec-row reveal">
+                    <div class="spec-key">Automation</div>
+                    <div class="spec-val">ActiveBatch <span class="sub">— design, development, enterprise operations</span></div>
+                </div>
+                <div class="spec-row reveal">
+                    <div class="spec-key">Warehousing</div>
+                    <div class="spec-val">Dimensional modeling, data integration patterns, reporting architecture</div>
+                </div>
+                <div class="spec-row reveal">
+                    <div class="spec-key">Cloud</div>
+                    <div class="spec-val">Snowflake, dbt, Azure <span class="sub">— active migration involvement</span></div>
+                </div>
+                <div class="spec-row reveal">
+                    <div class="spec-key">Source control</div>
+                    <div class="spec-val">Git / Bitbucket, TFS</div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section contact-section">
-        <div class="container-narrow">
-            <div class="contact-card">
-                <h2 class="contact-title">Let's Work Together</h2>
-                <p class="contact-text">
-                    Interested in collaborating or have questions about data engineering?
-                    I'd love to hear from you.
-                </p>
-                <div class="contact-links">
-                    <a href="mailto:truelovesql@gmail.com" class="contact-email-btn">
-                        truelovesql@gmail.com
-                    </a>
-                    <a href="https://www.linkedin.com/in/ztruelove/" target="_blank" rel="noopener noreferrer" class="contact-linkedin-btn">
-                        LinkedIn Profile
-                    </a>
-                </div>
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="wrap">
+            <p class="eyebrow reveal">Contact</p>
+            <h2 class="reveal">Let's talk data.</h2>
+            <p class="reveal">Interested in collaborating, or have a hard SQL Server problem? I'd love to hear from you.</p>
+            <div class="contact-actions reveal">
+                <a href="mailto:truelovesql@gmail.com" class="btn">truelovesql@gmail.com</a>
+                <a href="https://www.linkedin.com/in/ztruelove/" target="_blank" rel="noopener noreferrer" class="btn-ghost">LinkedIn</a>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-left">
-                <p>&copy; 2026 Zac Truelove</p>
+    <footer>
+        <div class="footer-inner">
+            <p>&copy; 2026 Zac Truelove · Chicago, IL</p>
+            <div class="footer-links">
+                <a href="mailto:truelovesql@gmail.com">Email</a>
+                <a href="https://www.linkedin.com/in/ztruelove/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="resume.html">Résumé</a>
             </div>
         </div>
     </footer>
