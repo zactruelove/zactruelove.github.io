@@ -14,12 +14,23 @@ Professional personal website for Zac Truelove at `zactruelove.com`. Hosted on *
 - **Repo:** `zactruelove.github.io`, deploying from `main` branch root
 - **Deployment:** `git push origin main` → live at `https://zactruelove.com`
 
+## Current status: TEMPORARY LANDING PAGE
+
+The published site is intentionally reduced to a **minimal landing page**
+(name, role, email, LinkedIn) while a larger refactor is considered. The full
+site is preserved on the `full-site` branch and restored by reverting the
+takedown commit — see `RESTORE.md`. `resume.html` and the resume PDF are
+deliberately **not deployed** and currently 404.
+
+Do not rebuild the removed sections unless Zac asks to restore or refactor.
+
 ## File Structure
 
 ```
 zactruelove.github.io/
-├── index.html          ← Homepage (hero, impact metrics, about, career, tech specs, contact)
-├── resume.html         ← Dedicated resume page (print stylesheet, PDF download)
+├── index.html          ← TEMPORARY landing page (name, role, contact only)
+├── RESTORE.md          ← How to bring the full site back
+│                         (resume.html + assets/Zac_Truelove_Resume.pdf are on the `full-site` branch)
 ├── favicon.svg         ← ZT monogram favicon
 ├── css/
 │   ├── styles.css      ← Main styles (dark mode default; tokens on :root)
@@ -27,7 +38,6 @@ zactruelove.github.io/
 ├── js/
 │   └── main.js         ← All JavaScript (spheres, reveals, count-up, theme toggle, navigation)
 ├── assets/
-│   ├── Zac_Truelove_Resume.pdf   ← Downloadable resume (generated from resume.html via headless Chromium --print-to-pdf)
 │   └── images/
 │       └── og-image.png          ← Social share preview (1200×630)
 ├── CNAME               ← Custom domain: zactruelove.com
@@ -59,9 +69,13 @@ zactruelove.github.io/
 - Hairlines/borders: #262626
 - Text: #f5f5f5 (`--text`), #a3a3a3 (`--text-2`), #6b6b6b (`--text-3`)
 
-## Site Sections
+## Site Sections (ARCHIVED — the full site on the `full-site` branch)
 
-### index.html
+These describe the full site as it was before the landing-page switch. They are
+kept as the reference for restoring or refactoring it; none of this is currently
+deployed.
+
+### index.html (archived)
 - **Hero / Landing** — animated glass spheres, monospace eyebrow, giant name, one-line value prop, CTAs
 - **Impact** (`#numbers`) — count-up metrics: 50% CPU reduction, 1,000 daily job executions, $200K saved, 20+ years
 - **About** (`#about`) — large statement + Currently / Approach / Next notes
@@ -70,7 +84,7 @@ zactruelove.github.io/
 - **Contact** (`#contact`) — email (zactruelove@gmail.com) + LinkedIn (linkedin.com/in/ztruelove/)
 - **Footer** — copyright + links
 
-### resume.html
+### resume.html (archived, not deployed)
 - Full typeset resume (summary, skills, experience, education), Print button (print stylesheet forces clean light output, ~2 pages), Download PDF button → `assets/Zac_Truelove_Resume.pdf`
 - To regenerate the PDF after editing resume.html:
   `chromium --headless --no-pdf-header-footer --print-to-pdf=assets/Zac_Truelove_Resume.pdf resume.html`
