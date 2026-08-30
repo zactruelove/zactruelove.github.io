@@ -41,6 +41,8 @@ zactruelove.github.io/
 │   └── images/
 │       └── og-image.png          ← Social share preview (1200×630)
 ├── CNAME               ← Custom domain: zactruelove.com
+├── _config.yml         ← Jekyll config; `exclude` keeps the .md docs out of the
+│                         published site (they 404 publicly, stay in the repo)
 ├── CLAUDE.md
 └── README.md
 ```

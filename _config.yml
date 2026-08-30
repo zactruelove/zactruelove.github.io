@@ -1,0 +1,17 @@
+# GitHub Pages (Jekyll) configuration for zactruelove.com
+#
+# Files listed under `exclude` stay in the repository — available for local
+# development, Claude Code, and git history — but are NOT copied into the
+# published site, so they return 404 on zactruelove.com.
+#
+# Note: setting `exclude` replaces Jekyll's default exclude list. That list
+# only covers Ruby/Node build artifacts (Gemfile, node_modules, vendor/),
+# none of which exist in this repo. Add them back here if that ever changes.
+#
+# To exclude another doc, add its filename below. Dotfiles and dot-directories
+# (such as .claude/) are already ignored by Jekyll automatically.
+
+exclude:
+  - CLAUDE.md
+  - README.md
+  - RESTORE.md
