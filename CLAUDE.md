@@ -2,13 +2,13 @@
 
 ## Overview
 
-Professional personal website for Zac Truelove at `zactruelove.com`. Hosted on **GitHub Pages** from the repo `zactruelove.github.io`. Domain is managed via **Cloudflare** (DNS active, domain registration transfer in progress from WordPress.com).
+Professional personal website for Zac Truelove at `zactruelove.com`. Hosted on **GitHub Pages** from the repo `zactruelove.github.io`. Domain DNS is managed via **Cloudflare**.
 
 ## Technical Stack
 
 - **Hosting:** GitHub Pages (free, static)
 - **DNS:** Cloudflare (free plan, DNS-only mode — no proxy)
-- **Domain:** `zactruelove.com` — registration transferring to Cloudflare (~$10.44/year)
+- **Domain:** `zactruelove.com` — registrar: Cloudflare
 - **SSL/TLS:** GitHub Pages auto-provisioned certificate, Cloudflare set to "Full" mode
 - **Framework:** Plain HTML / CSS / JavaScript (no build tools, no static site generator)
 - **Repo:** `zactruelove.github.io`, deploying from `main` branch root
@@ -98,11 +98,11 @@ deployed.
 - **Industry:** Healthcare
 - **Experience level:** Senior — deep expertise in SQL Server development, data warehousing, and performance optimization
 - **Contact:** zactruelove@gmail.com | https://www.linkedin.com/in/ztruelove/
-  - Use `zactruelove@gmail.com` everywhere on the site. `truelovesql@gmail.com` is the address on his LinkedIn profile and is reserved for email filtering — do not use it in site content.
+  - Use `zactruelove@gmail.com` everywhere on the site. The address shown on his LinkedIn profile is different and is reserved for filtering — never substitute it into site content.
 
 ## Constraints & Preferences
 
-- **Budget:** Minimal cost (~$10.44/year for domain only). Everything else is free.
+- **Budget:** Domain registration is the only recurring cost — no paid hosting, services, or tooling.
 - **Complexity:** No build tools, no npm, no webpack. Files directly served by GitHub Pages.
 - **Development workflow:** Edit locally in VS Code with Claude Code → commit → push → live.
 - **No static site generator** unless blog functionality is needed later.
@@ -113,4 +113,3 @@ deployed.
 
 - **Cloudflare DNS:** All records set to "DNS only" (gray cloud), NOT proxied. GitHub Pages needs direct DNS for HTTPS certificates.
 - **GitHub Pages:** Custom domain configured, HTTPS enforced.
-- **WordPress.com:** Plan cancelled (runs through Sep 2026). Domain registration transferring to Cloudflare.
