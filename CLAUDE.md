@@ -19,7 +19,7 @@ Professional personal website for Zac Truelove at `zactruelove.com`. Hosted on *
 ```
 zactruelove.github.io/
 ├── index.html          ← Homepage (hero, impact metrics, about, career, tech specs, contact)
-├── resume.html         ← Dedicated résumé page (print stylesheet, PDF download)
+├── resume.html         ← Dedicated resume page (print stylesheet, PDF download)
 ├── favicon.svg         ← ZT monogram favicon
 ├── css/
 │   ├── styles.css      ← Main styles (dark mode default; tokens on :root)
@@ -27,7 +27,7 @@ zactruelove.github.io/
 ├── js/
 │   └── main.js         ← All JavaScript (spheres, reveals, count-up, theme toggle, navigation)
 ├── assets/
-│   ├── Zac_Truelove_Resume.pdf   ← Downloadable résumé (generated from resume.html via headless Chromium --print-to-pdf)
+│   ├── Zac_Truelove_Resume.pdf   ← Downloadable resume (generated from resume.html via headless Chromium --print-to-pdf)
 │   └── images/
 │       └── og-image.png          ← Social share preview (1200×630)
 ├── CNAME               ← Custom domain: zactruelove.com
@@ -67,11 +67,11 @@ zactruelove.github.io/
 - **About** (`#about`) — large statement + Currently / Approach / Next notes
 - **Career** (`#career`) — timeline of MHN, Macy's, Southwestern Energy with highlights
 - **Tech specs** (`#specs`) — Apple-style spec sheet of the technical skill set
-- **Contact** (`#contact`) — email (truelovesql@gmail.com) + LinkedIn (linkedin.com/in/ztruelove/)
+- **Contact** (`#contact`) — email (zactruelove@gmail.com) + LinkedIn (linkedin.com/in/ztruelove/)
 - **Footer** — copyright + links
 
 ### resume.html
-- Full typeset résumé (summary, skills, experience, education), Print button (print stylesheet forces clean light output, ~2 pages), Download PDF button → `assets/Zac_Truelove_Resume.pdf`
+- Full typeset resume (summary, skills, experience, education), Print button (print stylesheet forces clean light output, ~2 pages), Download PDF button → `assets/Zac_Truelove_Resume.pdf`
 - To regenerate the PDF after editing resume.html:
   `chromium --headless --no-pdf-header-footer --print-to-pdf=assets/Zac_Truelove_Resume.pdf resume.html`
 
@@ -81,7 +81,8 @@ zactruelove.github.io/
 - **Core tech stack:** SQL Server, ETL pipeline development, ActiveBatch workload automation
 - **Industry:** Healthcare
 - **Experience level:** Senior — deep expertise in SQL Server development, data warehousing, and performance optimization
-- **Contact:** truelovesql@gmail.com | https://www.linkedin.com/in/ztruelove/
+- **Contact:** zactruelove@gmail.com | https://www.linkedin.com/in/ztruelove/
+  - Use `zactruelove@gmail.com` everywhere on the site. `truelovesql@gmail.com` is the address on his LinkedIn profile and is reserved for email filtering — do not use it in site content.
 
 ## Constraints & Preferences
 
@@ -90,6 +91,7 @@ zactruelove.github.io/
 - **Development workflow:** Edit locally in VS Code with Claude Code → commit → push → live.
 - **No static site generator** unless blog functionality is needed later.
 - **Commit style:** Descriptive commit messages with Co-Authored-By tag for Claude.
+- **Copy:** Write "Resume" unaccented in all user-facing text (not "Résumé").
 
 ## Infrastructure Notes
 

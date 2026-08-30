@@ -11,8 +11,8 @@ This is a modern, responsive personal website built with plain HTML, CSS, and Ja
 - **Animated Hero Section**: Glass-sphere animation using HTML5 Canvas
 - **Monochrome Apple-Style Design**: Dark theme by default with a light-mode toggle (no flash on load)
 - **Impact Metrics**: Count-up animated career numbers (50% CPU reduction, 1,000 daily jobs, $200K saved, 20+ years)
-- **Career Timeline & Tech Specs**: Résumé highlights presented as a hairline timeline and an Apple-style spec sheet
-- **Dedicated Résumé Page**: `/resume.html` with print stylesheet and downloadable PDF
+- **Career Timeline & Tech Specs**: Resume highlights presented as a hairline timeline and an Apple-style spec sheet
+- **Dedicated Resume Page**: `/resume.html` with print stylesheet and downloadable PDF
 - **Responsive Design**: Fully responsive layout that works on all devices
 - **Smooth Animations**: Scroll-triggered reveals; respects reduced-motion preferences
 - **Social Previews**: Open Graph image and meta tags, SVG favicon
@@ -30,7 +30,7 @@ This is a modern, responsive personal website built with plain HTML, CSS, and Ja
 ```
 zactruelove.github.io/
 ├── index.html          # Homepage (hero, impact metrics, about, career, tech specs, contact)
-├── resume.html         # Dedicated résumé page (print-friendly)
+├── resume.html         # Dedicated resume page (print-friendly)
 ├── favicon.svg         # ZT monogram favicon
 ├── css/
 │   ├── styles.css      # All styles (dark default, tokens on :root)
@@ -38,7 +38,7 @@ zactruelove.github.io/
 ├── js/
 │   └── main.js         # Spheres, nav, reveals, count-up, theme toggle
 ├── assets/
-│   ├── Zac_Truelove_Resume.pdf   # Downloadable résumé
+│   ├── Zac_Truelove_Resume.pdf   # Downloadable resume
 │   └── images/
 │       └── og-image.png          # Social share preview (1200×630)
 ├── CNAME               # Custom domain: zactruelove.com
