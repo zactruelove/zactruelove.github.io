@@ -1,6 +1,10 @@
 // ===================================
 // tv/ — Watchlist page
-// Renders data.json (built by tv/build.py). No dependencies.
+// Renders data.json (built by tv/build.py) in three views:
+//   #schedule          drops grouped by when they land
+//   #shows             every tracked show with last / next dates
+//   #calendar/YYYY-MM  month grid (events.json, loaded on demand)
+// No dependencies.
 // ===================================
 
 (function () {
@@ -8,7 +12,10 @@
 
     const SECTION_ORDER = ['this_week', 'upcoming', 'between_seasons', 'unmatched', 'ended', 'ignored', 'finished'];
     const HIDDEN_PHASES = new Set(['ignored', 'finished']);
+    const HIDDEN_STATUSES = new Set(['ignore', 'finished']);
+    const VIEWS = ['schedule', 'shows', 'calendar'];
     const DAY_MS = 86400000;
+    const MAX_CHIPS = 4;
 
     const state = {
         category: 'all',
@@ -16,7 +23,17 @@
         platform: 'all',
         search: '',
         showHidden: false,
+        sortKey: 'next',
+        sortDir: 'asc',
     };
+
+    let DATA = null;
+    let EVENTS = null;          // events.json, once fetched
+    let eventsPromise = null;
+    let PLATFORMS = [];
+    let view = 'schedule';
+    let month = null;           // 'YYYY-MM' shown in the calendar
+    let selectedDay = null;     // 'YYYY-MM-DD'
 
     // ---------- persistence (per-viewer convenience only) ----------
 
@@ -36,6 +53,10 @@
     function todayLocal() {
         const n = new Date();
         return new Date(n.getFullYear(), n.getMonth(), n.getDate());
+    }
+
+    function isoOf(d) {
+        return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
     }
 
     function parseDate(iso) {
@@ -63,12 +84,24 @@
         return parseDate(iso).toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' });
     }
 
+    function fmtMonth(ym) {
+        return parseDate(ym + '-01').toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
+    }
+
+    function shiftMonth(ym, delta) {
+        const [y, m] = ym.split('-').map(Number);
+        const d = new Date(y, m - 1 + delta, 1);
+        return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}`;
+    }
+
     function relative(iso) {
         const d = daysFromToday(iso);
         if (d === 0) return 'today';
         if (d === 1) return 'tomorrow';
         if (d === -1) return 'yesterday';
-        if (d < 0) return `${-d} days ago`;
+        if (d < 0 && d > -14) return `${-d} days ago`;
+        if (d < 0 && d > -60) return `${Math.round(-d / 7)} weeks ago`;
+        if (d < 0) return `${Math.round(-d / 30)} months ago`;
         if (d < 14) return `in ${d} days`;
         if (d < 60) return `in ${Math.round(d / 7)} weeks`;
         return `in ${Math.round(d / 30)} months`;
@@ -89,9 +122,12 @@
     // build is a day behind: an episode that aired since then moves out of
     // "this week" and the show's next event advances.
     function derive(show) {
-        const today = todayLocal().toISOString().slice(0, 10);
+        const today = isoOf(todayLocal());
         const upcoming = (show.upcoming || []).filter((e) => e.date >= today);
         const next = upcoming[0] || null;
+        // If the build is stale, an episode that was "upcoming" may now be the last one aired.
+        const aired = (show.upcoming || []).filter((e) => e.date < today);
+        const last = aired.length ? aired[aired.length - 1] : show.last;
         let phase;
         if (show.status === 'ignore') phase = 'ignored';
         else if (show.status === 'finished') phase = 'finished';
@@ -99,7 +135,7 @@
         else if (!show.tvmaze) phase = 'unmatched';
         else if (show.tvmaze.status === 'Ended') phase = 'ended';
         else phase = 'between_seasons';
-        return Object.assign({}, show, { upcoming, next, phase });
+        return Object.assign({}, show, { upcoming, next, last, phase });
     }
 
     function matches(show) {
@@ -111,11 +147,15 @@
             } else if (show.platform !== state.platform) return false;
         }
         if (state.search && !show.title.toLowerCase().includes(state.search.toLowerCase())) return false;
-        if (!state.showHidden && HIDDEN_PHASES.has(show.phase)) return false;
+        if (!state.showHidden && HIDDEN_STATUSES.has(show.status)) return false;
         return true;
     }
 
-    // ---------- rendering ----------
+    function visibleShows() {
+        return DATA.shows.map(derive).filter(matches);
+    }
+
+    // ---------- small builders ----------
 
     function el(tag, cls, text) {
         const node = document.createElement(tag);
@@ -128,9 +168,18 @@
         return el('span', 'tag' + (cls ? ' ' + cls : ''), text);
     }
 
+    function priorityLabel(p) {
+        return { 1: 'Must watch', 2: 'Normal', 3: 'Whenever' }[p] || `P${p}`;
+    }
+
     function priorityTag(p) {
-        const label = { 1: 'Must watch', 2: 'Normal', 3: 'Whenever' }[p] || `P${p}`;
-        return tag(label, p === 1 ? 'tag-p1' : p === 3 ? 'tag-p3' : '');
+        return tag(priorityLabel(p), p === 1 ? 'tag-p1' : p === 3 ? 'tag-p3' : '');
+    }
+
+    function eventLabel(ev) {
+        if (ev.kind === 'binge') return 'Full season drops';
+        if (ev.kind === 'manual') return ev.name;
+        return ev.name || '';
     }
 
     function matchDetails(show) {
@@ -163,21 +212,28 @@
         return side;
     }
 
-    // A row for a scheduled event (this week / coming up).
-    function eventRow(show, ev) {
+    // A row for a scheduled event (this week / coming up / calendar day).
+    function eventRow(show, ev, opts) {
+        opts = opts || {};
         const row = el('article', 'row');
-        const when = el('div', 'row-when', fmtShort(ev.date));
-        when.appendChild(el('span', 'time', fmtTime(ev.time)));
+        const when = el('div', 'row-when', opts.timeOnly ? fmtTime(ev.time) : fmtShort(ev.date));
+        if (!opts.timeOnly) when.appendChild(el('span', 'time', fmtTime(ev.time)));
         row.appendChild(when);
 
         const main = el('div', 'row-main');
         main.appendChild(el('div', 'row-title', show.title));
         const sub = el('div', 'row-sub');
         sub.appendChild(el('span', 'ep-code', ev.code));
-        sub.appendChild(document.createTextNode(ev.kind === 'binge' ? 'Full season drops' : (ev.name || '')));
+        sub.appendChild(document.createTextNode(eventLabel(ev)));
+        if (ev.url) {
+            sub.appendChild(document.createTextNode(' · '));
+            const a = el('a', 'tv-link', 'TVmaze');
+            a.href = ev.url; a.target = '_blank'; a.rel = 'noopener noreferrer';
+            sub.appendChild(a);
+        }
         main.appendChild(sub);
-        if (show.notes) main.appendChild(el('div', 'row-notes', show.notes));
-        const md = matchDetails(show);
+        if (show.notes && !opts.compact) main.appendChild(el('div', 'row-notes', show.notes));
+        const md = opts.compact ? null : matchDetails(show);
         if (md) main.appendChild(md);
         row.appendChild(main);
 
@@ -217,6 +273,8 @@
         return row;
     }
 
+    // ---------- schedule view ----------
+
     function renderSection(id, shows) {
         const section = document.getElementById('sec-' + id);
         const list = section.querySelector('.tv-list');
@@ -227,7 +285,6 @@
 
         if (id === 'this_week' || id === 'upcoming') {
             // Event-centric: every scheduled event in the window, grouped by day.
-            const horizon = id === 'this_week' ? 7 : Infinity;
             const events = [];
             shows.forEach((show) => {
                 show.upcoming.forEach((ev) => {
@@ -248,7 +305,6 @@
                 list.appendChild(eventRow(show, ev));
             });
             section.querySelector('.tv-count').textContent = `${events.length} ${events.length === 1 ? 'drop' : 'drops'}`;
-            void horizon;
         } else {
             shows.sort((a, b) => {
                 const la = a.last ? a.last.date : '', lb = b.last ? b.last.date : '';
@@ -258,10 +314,230 @@
         }
     }
 
-    function render() {
-        const shows = DATA.shows.map(derive).filter(matches);
+    function renderSchedule() {
+        const shows = visibleShows();
         SECTION_ORDER.forEach((id) => renderSection(id, shows.filter((s) => s.phase === id)));
         document.getElementById('empty').hidden = shows.length > 0;
+    }
+
+    // ---------- shows view ----------
+
+    const SORTERS = {
+        title: (s) => s.title.toLowerCase(),
+        category: (s) => s.category,
+        priority: (s) => s.priority,
+        platform: (s) => (s.platform || '￿').toLowerCase(),
+        last: (s) => (s.last ? s.last.date : ''),
+        next: (s) => (s.next ? s.next.date : '￿'),   // nothing scheduled sorts last
+        status: (s) => `${HIDDEN_STATUSES.has(s.status) ? 1 : 0}${s.tvmaze ? s.tvmaze.status : 'zz'}`,
+    };
+
+    function dateCell(ev, past) {
+        const td = el('td', 'date');
+        if (!ev) {
+            td.classList.add('muted');
+            td.textContent = '—';
+            return td;
+        }
+        td.appendChild(document.createTextNode(fmtShort(ev.date)));
+        const code = el('span', 'ep-code', ev.code + (ev.time ? ' · ' + fmtTime(ev.time) : ''));
+        if (ev.kind === 'binge') code.appendChild(tag(`×${ev.count}`, 'tag-strong'));
+        else if (ev.premiere && !past) code.appendChild(tag('Premiere', 'tag-strong'));
+        if (ev.kind === 'manual') code.appendChild(tag('Manual', 'tag-dim'));
+        td.appendChild(code);
+        td.title = relative(ev.date);
+        return td;
+    }
+
+    function renderShows() {
+        const shows = visibleShows();
+        const key = SORTERS[state.sortKey] ? state.sortKey : 'next';
+        const dir = state.sortDir === 'desc' ? -1 : 1;
+        shows.sort((a, b) => {
+            const ka = SORTERS[key](a), kb = SORTERS[key](b);
+            if (ka < kb) return -dir;
+            if (ka > kb) return dir;
+            return a.title.localeCompare(b.title);
+        });
+
+        document.querySelectorAll('#showsTable th button').forEach((b) => {
+            if (b.dataset.sort === key) b.dataset.dir = dir === 1 ? 'asc' : 'desc';
+            else delete b.dataset.dir;
+        });
+
+        const body = document.querySelector('#showsTable tbody');
+        body.textContent = '';
+        shows.forEach((show) => {
+            const tr = el('tr', HIDDEN_STATUSES.has(show.status) ? 'is-hidden' : '');
+            const title = el('td', 'title', show.title);
+            if (show.tvmaze && show.tvmaze.url) {
+                title.textContent = '';
+                const a = el('a', 'tv-link', show.title);
+                a.href = show.tvmaze.url; a.target = '_blank'; a.rel = 'noopener noreferrer';
+                title.appendChild(a);
+            }
+            tr.appendChild(title);
+            tr.appendChild(el('td', 'muted', show.category));
+            const pr = el('td'); pr.appendChild(priorityTag(show.priority)); tr.appendChild(pr);
+            const pl = el('td');
+            pl.appendChild(show.platform ? tag(show.platform, show.on_our_platforms === false ? 'tag-dim' : '') : tag('?', 'tag-dim'));
+            tr.appendChild(pl);
+            tr.appendChild(dateCell(show.last, true));
+            tr.appendChild(dateCell(show.next, false));
+            const st = el('td', 'muted', HIDDEN_STATUSES.has(show.status)
+                ? (show.status === 'ignore' ? 'Ignored' : 'Finished')
+                : (show.tvmaze ? show.tvmaze.status : 'Not on TVmaze'));
+            tr.appendChild(st);
+            body.appendChild(tr);
+        });
+        document.getElementById('showsCount').textContent = shows.length ? `${shows.length} shows` : '';
+        document.getElementById('showsEmpty').hidden = shows.length > 0;
+        document.getElementById('showsTable').hidden = shows.length === 0;
+    }
+
+    // ---------- calendar view ----------
+
+    function loadEvents() {
+        if (EVENTS) return Promise.resolve(EVENTS);
+        if (!eventsPromise) {
+            eventsPromise = fetch(DATA.events_file || 'events.json', { cache: 'no-cache' })
+                .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+                .then((json) => { EVENTS = json; return json; })
+                .catch((e) => { eventsPromise = null; throw e; });
+        }
+        return eventsPromise;
+    }
+
+    // Events for the visible month, filtered like everything else, keyed by day.
+    function monthEvents(ym) {
+        const byTitle = {};
+        visibleShows().forEach((s) => { byTitle[s.title] = s; });
+        const days = {};
+        EVENTS.events.forEach((ev) => {
+            if (!ev.date.startsWith(ym)) return;
+            const show = byTitle[ev.show];
+            if (!show) return;
+            (days[ev.date] = days[ev.date] || []).push({ show, ev });
+        });
+        Object.values(days).forEach((list) => list.sort((a, b) =>
+            ((a.ev.time || '') + a.show.title).localeCompare((b.ev.time || '') + b.show.title)));
+        return days;
+    }
+
+    function chip(show, ev) {
+        const c = el('div', 'ev' + (show.priority === 1 ? ' p1' : '') + (ev.kind === 'binge' ? ' binge' : ''));
+        c.appendChild(document.createTextNode(show.title + ' '));
+        c.appendChild(el('span', 'code', ev.kind === 'binge' ? `${ev.code} ×${ev.count}` : ev.code));
+        c.title = `${show.title} ${ev.code} · ${fmtTime(ev.time)}${show.platform ? ' · ' + show.platform : ''}`;
+        return c;
+    }
+
+    function renderDayDetail(days) {
+        const panel = document.getElementById('calDay');
+        panel.textContent = '';
+        if (!selectedDay || !selectedDay.startsWith(month)) { panel.hidden = true; return; }
+        const list = days[selectedDay] || [];
+        const head = el('div', 'tv-section-head');
+        head.appendChild(el('span', 'eyebrow', fmtLong(selectedDay)));
+        head.appendChild(el('span', 'tv-count', list.length ? `${list.length} ${list.length === 1 ? 'drop' : 'drops'} · ${relative(selectedDay)}` : relative(selectedDay)));
+        panel.appendChild(head);
+        if (!list.length) {
+            panel.appendChild(el('p', 'tv-section-note', 'Nothing dropped this day.'));
+        } else {
+            const wrap = el('div', 'tv-list');
+            list.forEach(({ show, ev }) => wrap.appendChild(eventRow(show, ev, { timeOnly: true, compact: true })));
+            panel.appendChild(wrap);
+        }
+        panel.hidden = false;
+    }
+
+    function renderCalendar() {
+        const grid = document.getElementById('calGrid');
+        const agenda = document.getElementById('calAgenda');
+        const loading = document.getElementById('calLoading');
+        grid.textContent = '';
+        agenda.textContent = '';
+        document.getElementById('calTitle').textContent = fmtMonth(month);
+
+        if (!EVENTS) {
+            loading.hidden = false;
+            loadEvents().then(() => { loading.hidden = true; if (view === 'calendar') renderCalendar(); })
+                .catch(() => { loading.textContent = 'Calendar data is not available yet. It appears after the next daily build.'; });
+            return;
+        }
+        loading.hidden = true;
+
+        const first = EVENTS.from.slice(0, 7), last = EVENTS.to.slice(0, 7);
+        document.getElementById('calPrev').disabled = month <= first;
+        document.getElementById('calNext').disabled = month >= last;
+        document.getElementById('calRange').textContent =
+            `Showing ${fmtMonth(first)} through ${fmtMonth(last)}. History runs ${Math.round((parseDate(EVENTS.today) - parseDate(EVENTS.from)) / DAY_MS)} days back; drops beyond that stay in TVmaze.`;
+
+        const days = monthEvents(month);
+        const today = isoOf(todayLocal());
+        const [y, m] = month.split('-').map(Number);
+        const firstDow = new Date(y, m - 1, 1).getDay();
+        const daysInMonth = new Date(y, m, 0).getDate();
+        let total = 0;
+
+        ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'].forEach((d) => grid.appendChild(el('div', 'dow', d)));
+        for (let i = 0; i < firstDow; i++) grid.appendChild(el('div', 'cell blank'));
+        for (let d = 1; d <= daysInMonth; d++) {
+            const iso = `${month}-${String(d).padStart(2, '0')}`;
+            const list = days[iso] || [];
+            total += list.length;
+            const cell = el('button', 'cell');
+            cell.type = 'button';
+            if (iso === today) cell.classList.add('today');
+            if (iso < today) cell.classList.add('past');
+            if (iso === selectedDay) cell.classList.add('selected');
+            cell.appendChild(el('span', 'daynum', String(d)));
+            list.slice(0, MAX_CHIPS).forEach(({ show, ev }) => cell.appendChild(chip(show, ev)));
+            if (list.length > MAX_CHIPS) cell.appendChild(el('span', 'more', `+${list.length - MAX_CHIPS} more`));
+            cell.setAttribute('aria-label', `${fmtLong(iso)}, ${list.length} drops`);
+            cell.addEventListener('click', () => {
+                selectedDay = selectedDay === iso ? null : iso;
+                renderCalendar();
+            });
+            grid.appendChild(cell);
+
+            if (list.length) {
+                const day = el('div', 'tv-day', fmtLong(iso));
+                day.appendChild(el('span', 'tv-day-rel', relative(iso)));
+                agenda.appendChild(day);
+                const wrap = el('div', 'tv-list');
+                list.forEach(({ show, ev }) => wrap.appendChild(eventRow(show, ev, { timeOnly: true, compact: true })));
+                agenda.appendChild(wrap);
+            }
+        }
+        document.getElementById('calEmpty').hidden = total > 0;
+        renderDayDetail(days);
+    }
+
+    // ---------- views & routing ----------
+
+    function parseHash() {
+        const h = (location.hash || '#schedule').slice(1);
+        const [name, arg] = h.split('/');
+        view = VIEWS.includes(name) ? name : 'schedule';
+        if (view === 'calendar') {
+            month = /^\d{4}-\d{2}$/.test(arg || '') ? arg : isoOf(todayLocal()).slice(0, 7);
+        }
+    }
+
+    function setHash(next) {
+        if (location.hash !== next) history.replaceState(null, '', next);
+    }
+
+    function render() {
+        VIEWS.forEach((v) => { document.getElementById('view-' + v).hidden = v !== view; });
+        document.querySelectorAll('.tv-tab').forEach((t) => {
+            if (t.dataset.view === view) t.setAttribute('aria-current', 'page');
+            else t.removeAttribute('aria-current');
+        });
+        if (view === 'schedule') renderSchedule();
+        else if (view === 'shows') renderShows();
+        else renderCalendar();
     }
 
     function renderMeta() {
@@ -283,32 +559,32 @@
     function renderPlatformChips() {
         const group = document.getElementById('platformFilters');
         PLATFORMS.concat(['other']).forEach((p) => {
-            const chip = el('button', 'chip', p === 'other' ? 'Other' : p);
-            chip.dataset.value = p;
-            chip.setAttribute('aria-pressed', 'false');
-            group.appendChild(chip);
+            const c = el('button', 'chip', p === 'other' ? 'Other' : p);
+            c.dataset.value = p;
+            c.setAttribute('aria-pressed', 'false');
+            group.appendChild(c);
         });
     }
 
-    // ---------- filters ----------
+    // ---------- filters & controls ----------
 
     function syncChips() {
         document.querySelectorAll('.tv-filter-group[data-filter]').forEach((group) => {
             const key = group.dataset.filter;
-            group.querySelectorAll('.chip').forEach((chip) => {
-                chip.setAttribute('aria-pressed', String(chip.dataset.value === state[key]));
+            group.querySelectorAll('.chip').forEach((c) => {
+                c.setAttribute('aria-pressed', String(c.dataset.value === state[key]));
             });
         });
         document.getElementById('search').value = state.search;
         document.getElementById('showHidden').checked = state.showHidden;
     }
 
-    function bindFilters() {
+    function bindControls() {
         document.querySelectorAll('.tv-filter-group[data-filter]').forEach((group) => {
             group.addEventListener('click', (e) => {
-                const chip = e.target.closest('.chip');
-                if (!chip) return;
-                state[group.dataset.filter] = chip.dataset.value;
+                const c = e.target.closest('.chip');
+                if (!c) return;
+                state[group.dataset.filter] = c.dataset.value;
                 saveState(); syncChips(); render();
             });
         });
@@ -320,6 +596,23 @@
             state.showHidden = e.target.checked;
             saveState(); render();
         });
+
+        document.querySelector('#showsTable thead').addEventListener('click', (e) => {
+            const b = e.target.closest('button[data-sort]');
+            if (!b) return;
+            if (state.sortKey === b.dataset.sort) state.sortDir = state.sortDir === 'asc' ? 'desc' : 'asc';
+            else { state.sortKey = b.dataset.sort; state.sortDir = b.dataset.sort === 'last' ? 'desc' : 'asc'; }
+            saveState(); renderShows();
+        });
+
+        document.getElementById('calPrev').addEventListener('click', () => { month = shiftMonth(month, -1); setHash('#calendar/' + month); renderCalendar(); });
+        document.getElementById('calNext').addEventListener('click', () => { month = shiftMonth(month, 1); setHash('#calendar/' + month); renderCalendar(); });
+        document.getElementById('calToday').addEventListener('click', () => {
+            month = isoOf(todayLocal()).slice(0, 7); selectedDay = isoOf(todayLocal());
+            setHash('#calendar/' + month); renderCalendar();
+        });
+
+        window.addEventListener('hashchange', () => { parseHash(); render(); });
     }
 
     function bindTheme() {
@@ -332,12 +625,10 @@
 
     // ---------- boot ----------
 
-    let DATA = null;
-    let PLATFORMS = [];
-
     async function boot() {
         bindTheme();
         loadState();
+        parseHash();
         // The subscribe link should point at wherever this page is actually served from.
         const link = document.getElementById('subscribeLink');
         if (location.protocol.startsWith('http')) {
@@ -357,7 +648,7 @@
         // A saved platform filter that no longer exists falls back to All.
         if (state.platform !== 'all' && state.platform !== 'other' && !PLATFORMS.includes(state.platform)) state.platform = 'all';
         syncChips();
-        bindFilters();
+        bindControls();
         renderMeta();
         render();
     }

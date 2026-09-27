@@ -70,7 +70,14 @@
         </div>
     </nav>
 
+    <nav class="tv-tabs wrap" aria-label="Views">
+        <a class="tv-tab" href="#schedule" data-view="schedule">Schedule</a>
+        <a class="tv-tab" href="#shows" data-view="shows">Shows</a>
+        <a class="tv-tab" href="#calendar" data-view="calendar">Calendar</a>
+    </nav>
+
     <main class="wrap" id="app">
+      <div id="view-schedule" class="tv-view">
         <section class="tv-section" id="sec-this_week" hidden>
             <div class="tv-section-head"><span class="eyebrow">This week</span><span class="tv-count"></span></div>
             <div class="tv-list"></div>
@@ -103,6 +110,47 @@
             <div class="tv-list"></div>
         </section>
         <p class="tv-empty" id="empty" hidden>Nothing matches these filters.</p>
+      </div>
+
+      <div id="view-shows" class="tv-view" hidden>
+        <section class="tv-section">
+            <div class="tv-section-head"><span class="eyebrow">All shows</span><span class="tv-count" id="showsCount"></span></div>
+            <p class="tv-section-note">Click a column to sort. Dates are the most recent drop and the next known one.</p>
+            <div class="tv-table-wrap">
+                <table class="tv-table" id="showsTable">
+                    <thead><tr>
+                        <th><button data-sort="title">Show</button></th>
+                        <th><button data-sort="category">Type</button></th>
+                        <th><button data-sort="priority">Priority</button></th>
+                        <th><button data-sort="platform">Where</button></th>
+                        <th><button data-sort="last">Last aired</button></th>
+                        <th><button data-sort="next">Next up</button></th>
+                        <th><button data-sort="status">Status</button></th>
+                    </tr></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+            <p class="tv-empty" id="showsEmpty" hidden>Nothing matches these filters.</p>
+        </section>
+      </div>
+
+      <div id="view-calendar" class="tv-view" hidden>
+        <section class="tv-section">
+            <div class="tv-cal-nav">
+                <button class="chip" id="calPrev" aria-label="Previous month">&#8592;</button>
+                <h2 class="tv-cal-title" id="calTitle"></h2>
+                <button class="chip" id="calNext" aria-label="Next month">&#8594;</button>
+                <button class="chip tv-cal-today" id="calToday">Today</button>
+            </div>
+            <p class="tv-section-note" id="calRange"></p>
+            <div class="tv-cal-grid" id="calGrid" role="grid"></div>
+            <div class="tv-cal-agenda" id="calAgenda"></div>
+            <div class="tv-cal-day" id="calDay" hidden></div>
+            <p class="tv-empty" id="calEmpty" hidden>No drops this month with these filters.</p>
+            <p class="tv-empty" id="calLoading" hidden>Loading calendar…</p>
+        </section>
+      </div>
+
         <p class="tv-empty" id="nodata" hidden>No schedule data yet. Run <code>python3 tv/build.py</code> or wait for the daily build.</p>
     </main>
 
