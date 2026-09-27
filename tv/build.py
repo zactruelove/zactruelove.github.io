@@ -18,6 +18,7 @@ and commits the two output files when they change.
 
 import argparse
 import json
+import re
 import sys
 import time
 import urllib.error
@@ -101,17 +102,31 @@ def source_name(show):
     return None
 
 
-def rank_key(result, country):
-    """Sort search results: same country first, then global streamers, then the rest."""
+def normalize(text):
+    """Lowercase letters and digits only, so "Is It Cake?" == "is it cake"."""
+    return re.sub(r"[^a-z0-9]+", "", (text or "").lower())
+
+
+def rank_key(result, query, country):
+    """Sort search results: exact title first, then titles containing the query,
+    then same country, then global streamers, then TVmaze's own score.
+    (TVmaze's fuzzy search will happily rank "The Love Boat" above "The GOAT".)"""
     show = result["show"]
+    q, name = normalize(query), normalize(show.get("name"))
+    if q and name == q:
+        name_tier = 0
+    elif q and q in name:
+        name_tier = 1
+    else:
+        name_tier = 2
     code = country_of(show)
     if code == country:
-        tier = 0
+        country_tier = 0
     elif code is None and show.get("webChannel"):
-        tier = 1
+        country_tier = 1
     else:
-        tier = 2
-    return (tier, -(result.get("score") or 0))
+        country_tier = 2
+    return (name_tier, country_tier, -(result.get("score") or 0))
 
 
 def brief(show):
@@ -138,7 +153,7 @@ def resolve_show(entry, country):
     if not results:
         log(f"  no search results for {query!r}")
         return None, "search", []
-    results.sort(key=lambda r: rank_key(r, country))
+    results.sort(key=lambda r: rank_key(r, query, country))
     candidates = [brief(r["show"]) for r in results[:5]]
     pick = results[0]["show"]
     log(f"  {query!r} -> {pick['name']} ({pick['id']}, {source_name(pick)}, {country_of(pick)})")
