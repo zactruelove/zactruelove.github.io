@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T22:22:13Z",
+  "generated_at": "2026-09-27T22:58:28Z",
   "today": "2026-09-27",
   "timezone": "America/Chicago",
   "platforms": [
@@ -2540,5 +2540,6 @@
       "upcoming": [],
       "recent": []
     }
-  ]
+  ],
+  "events_file": "events.json"
 }
