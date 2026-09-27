@@ -1,0 +1,3120 @@
+{
+  "generated_at": "2026-09-27T22:00:13Z",
+  "today": "2026-09-27",
+  "timezone": "America/Chicago",
+  "platforms": [
+    "Hulu",
+    "Netflix",
+    "HBO Max",
+    "Peacock",
+    "Paramount+",
+    "Prime Video",
+    "Disney+"
+  ],
+  "calendar_file": "schedule.ics",
+  "alerts": [
+    {
+      "days_before": 7,
+      "time": "09:00",
+      "label": "one week out"
+    },
+    {
+      "days_before": 1,
+      "time": "20:00",
+      "label": "tomorrow"
+    }
+  ],
+  "shows": [
+    {
+      "title": "American Horror Story",
+      "category": "drama",
+      "priority": 2,
+      "status": "active",
+      "notes": "",
+      "platform": "Hulu",
+      "platform_source": "network",
+      "on_our_platforms": true,
+      "phase": "this_week",
+      "matched_by": "search",
+      "candidates": [
+        {
+          "id": 30,
+          "name": "American Horror Story",
+          "premiered": "2011-10-05",
+          "source": "FX",
+          "country": "US",
+          "status": "Running"
+        },
+        {
+          "id": 61526,
+          "name": "Captive Audience: A Real American Horror Story",
+          "premiered": "2022-04-21",
+          "source": "Hulu",
+          "country": "US",
+          "status": "Ended"
+        }
+      ],
+      "tvmaze": {
+        "id": 30,
+        "name": "American Horror Story",
+        "url": "https://www.tvmaze.com/shows/30/american-horror-story",
+        "status": "Running",
+        "source": "FX",
+        "premiered": "2011-10-05",
+        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/642/1607475.jpg",
+        "episode_count": 145
+      },
+      "next": {
+        "kind": "binge",
+        "id": "s13-2026-10-01",
+        "season": 13,
+        "code": "S13",
+        "name": "All 3 episodes",
+        "count": 3,
+        "date": "2026-10-01",
+        "time": null,
+        "datetime": null,
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3667320/american-horror-story-13x04-is-that-all-there-is"
+      },
+      "last": {
+        "kind": "binge",
+        "id": "s13-2026-09-24",
+        "season": 13,
+        "code": "S13",
+        "name": "All 3 episodes",
+        "count": 3,
+        "date": "2026-09-24",
+        "time": null,
+        "datetime": null,
+        "premiere": true,
+        "url": "https://www.tvmaze.com/episodes/3667317/american-horror-story-13x01-13"
+      },
+      "upcoming": [
+        {
+          "kind": "binge",
+          "id": "s13-2026-10-01",
+          "season": 13,
+          "code": "S13",
+          "name": "All 3 episodes",
+          "count": 3,
+          "date": "2026-10-01",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3667320/american-horror-story-13x04-is-that-all-there-is"
+        },
+        {
+          "kind": "episode",
+          "id": "3667323",
+          "season": 13,
+          "code": "S13E07",
+          "name": "The Baddest Witch of Them All",
+          "count": 1,
+          "date": "2026-10-08",
+          "time": "20:00",
+          "datetime": "2026-10-08T20:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3667323/american-horror-story-13x07-the-baddest-witch-of-them-all"
+        },
+        {
+          "kind": "episode",
+          "id": "3667324",
+          "season": 13,
+          "code": "S13E08",
+          "name": "Hell No",
+          "count": 1,
+          "date": "2026-10-08",
+          "time": "20:30",
+          "datetime": "2026-10-08T20:30:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3667324/american-horror-story-13x08-hell-no"
+        },
+        {
+          "kind": "episode",
+          "id": "3667325",
+          "season": 13,
+          "code": "S13E09",
+          "name": "The Devil Is in the Details",
+          "count": 1,
+          "date": "2026-10-15",
+          "time": "20:00",
+          "datetime": "2026-10-15T20:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3667325/american-horror-story-13x09-the-devil-is-in-the-details"
+        },
+        {
+          "kind": "episode",
+          "id": "3667326",
+          "season": 13,
+          "code": "S13E10",
+          "name": "The Prodigal Son",
+          "count": 1,
+          "date": "2026-10-15",
+          "time": "20:30",
+          "datetime": "2026-10-15T20:30:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3667326/american-horror-story-13x10-the-prodigal-son"
+        },
+        {
+          "kind": "episode",
+          "id": "3686782",
+          "season": 13,
+          "code": "S13E11",
+          "name": "Madison's Happy Ending",
+          "count": 1,
+          "date": "2026-10-22",
+          "time": "20:00",
+          "datetime": "2026-10-22T20:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3686782/american-horror-story-13x11-madisons-happy-ending"
+        },
+        {
+          "kind": "episode",
+          "id": "3686783",
+          "season": 13,
+          "code": "S13E12",
+          "name": "Sisters in Arms",
+          "count": 1,
+          "date": "2026-10-22",
+          "time": "20:30",
+          "datetime": "2026-10-22T20:30:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3686783/american-horror-story-13x12-sisters-in-arms"
+        },
+        {
+          "kind": "episode",
+          "id": "3686784",
+          "season": 13,
+          "code": "S13E13",
+          "name": "Devil of a Good Time",
+          "count": 1,
+          "date": "2026-10-29",
+          "time": "20:00",
+          "datetime": "2026-10-29T20:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3686784/american-horror-story-13x13-devil-of-a-good-time"
+        }
+      ],
+      "recent": [
+        {
+          "kind": "binge",
+          "id": "s13-2026-09-24",
+          "season": 13,
+          "code": "S13",
+          "name": "All 3 episodes",
+          "count": 3,
+          "date": "2026-09-24",
+          "time": null,
+          "datetime": null,
+          "premiere": true,
+          "url": "https://www.tvmaze.com/episodes/3667317/american-horror-story-13x01-13"
+        }
+      ]
+    },
+    {
+      "title": "The Real Housewives of New York City",
+      "category": "reality",
+      "priority": 2,
+      "status": "active",
+      "notes": "",
+      "platform": "Peacock",
+      "platform_source": "network",
+      "on_our_platforms": true,
+      "phase": "this_week",
+      "matched_by": "search",
+      "candidates": [
+        {
+          "id": 750,
+          "name": "The Real Housewives of New York City",
+          "premiered": "2008-03-04",
+          "source": "Bravo",
+          "country": "US",
+          "status": "Running"
+        }
+      ],
+      "tvmaze": {
+        "id": 750,
+        "name": "The Real Housewives of New York City",
+        "url": "https://www.tvmaze.com/shows/750/the-real-housewives-of-new-york-city",
+        "status": "Running",
+        "source": "Bravo",
+        "premiered": "2008-03-04",
+        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/639/1598898.jpg",
+        "episode_count": 296
+      },
+      "next": {
+        "kind": "episode",
+        "id": "3750214",
+        "season": 16,
+        "code": "S16E04",
+        "name": "Gloves Off at the Gala",
+        "count": 1,
+        "date": "2026-09-29",
+        "time": "19:00",
+        "datetime": "2026-09-29T19:00:00-05:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3750214/the-real-housewives-of-new-york-city-16x04-gloves-off-at-the-gala"
+      },
+      "last": {
+        "kind": "episode",
+        "id": "3740579",
+        "season": 16,
+        "code": "S16E03",
+        "name": "A Seder in Brooklyn",
+        "count": 1,
+        "date": "2026-09-22",
+        "time": "19:00",
+        "datetime": "2026-09-22T19:00:00-05:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3740579/the-real-housewives-of-new-york-city-16x03-a-seder-in-brooklyn"
+      },
+      "upcoming": [
+        {
+          "kind": "episode",
+          "id": "3750214",
+          "season": 16,
+          "code": "S16E04",
+          "name": "Gloves Off at the Gala",
+          "count": 1,
+          "date": "2026-09-29",
+          "time": "19:00",
+          "datetime": "2026-09-29T19:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3750214/the-real-housewives-of-new-york-city-16x04-gloves-off-at-the-gala"
+        },
+        {
+          "kind": "episode",
+          "id": "3766634",
+          "season": 16,
+          "code": "S16E05",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-10-06",
+          "time": "19:00",
+          "datetime": "2026-10-06T19:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3766634/the-real-housewives-of-new-york-city-16x05-tba"
+        }
+      ],
+      "recent": [
+        {
+          "kind": "episode",
+          "id": "3740578",
+          "season": 16,
+          "code": "S16E02",
+          "name": "Much Ado About Brunching",
+          "count": 1,
+          "date": "2026-09-15",
+          "time": "19:00",
+          "datetime": "2026-09-15T19:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3740578/the-real-housewives-of-new-york-city-16x02-much-ado-about-brunching"
+        },
+        {
+          "kind": "episode",
+          "id": "3740579",
+          "season": 16,
+          "code": "S16E03",
+          "name": "A Seder in Brooklyn",
+          "count": 1,
+          "date": "2026-09-22",
+          "time": "19:00",
+          "datetime": "2026-09-22T19:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3740579/the-real-housewives-of-new-york-city-16x03-a-seder-in-brooklyn"
+        }
+      ]
+    },
+    {
+      "title": "The Real Housewives of Salt Lake City",
+      "category": "reality",
+      "priority": 2,
+      "status": "active",
+      "notes": "",
+      "platform": "Peacock",
+      "platform_source": "network",
+      "on_our_platforms": true,
+      "phase": "this_week",
+      "matched_by": "search",
+      "candidates": [
+        {
+          "id": 49980,
+          "name": "The Real Housewives of Salt Lake City",
+          "premiered": "2020-11-11",
+          "source": "Bravo",
+          "country": "US",
+          "status": "Running"
+        }
+      ],
+      "tvmaze": {
+        "id": 49980,
+        "name": "The Real Housewives of Salt Lake City",
+        "url": "https://www.tvmaze.com/shows/49980/the-real-housewives-of-salt-lake-city",
+        "status": "Running",
+        "source": "Bravo",
+        "premiered": "2020-11-11",
+        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/639/1598899.jpg",
+        "episode_count": 118
+      },
+      "next": {
+        "kind": "episode",
+        "id": "3762931",
+        "season": 7,
+        "code": "S07E03",
+        "name": "Little Green Leprechaun, Big Dirty Secret",
+        "count": 1,
+        "date": "2026-09-30",
+        "time": "19:00",
+        "datetime": "2026-09-30T19:00:00-05:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3762931/the-real-housewives-of-salt-lake-city-7x03-little-green-leprechaun-big-dirty-secret"
+      },
+      "last": {
+        "kind": "episode",
+        "id": "3762930",
+        "season": 7,
+        "code": "S07E02",
+        "name": "Après-Ski with Lisa B",
+        "count": 1,
+        "date": "2026-09-23",
+        "time": "19:00",
+        "datetime": "2026-09-23T19:00:00-05:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3762930/the-real-housewives-of-salt-lake-city-7x02-apres-ski-with-lisa-b"
+      },
+      "upcoming": [
+        {
+          "kind": "episode",
+          "id": "3762931",
+          "season": 7,
+          "code": "S07E03",
+          "name": "Little Green Leprechaun, Big Dirty Secret",
+          "count": 1,
+          "date": "2026-09-30",
+          "time": "19:00",
+          "datetime": "2026-09-30T19:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3762931/the-real-housewives-of-salt-lake-city-7x03-little-green-leprechaun-big-dirty-secret"
+        },
+        {
+          "kind": "episode",
+          "id": "3765171",
+          "season": 7,
+          "code": "S07E04",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-10-07",
+          "time": "19:00",
+          "datetime": "2026-10-07T19:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3765171/the-real-housewives-of-salt-lake-city-7x04-tba"
+        },
+        {
+          "kind": "episode",
+          "id": "3771321",
+          "season": 7,
+          "code": "S07E05",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-10-14",
+          "time": "19:00",
+          "datetime": "2026-10-14T19:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3771321/the-real-housewives-of-salt-lake-city-7x05-tba"
+        }
+      ],
+      "recent": [
+        {
+          "kind": "episode",
+          "id": "3694074",
+          "season": 7,
+          "code": "S07E01",
+          "name": "Chosen Family",
+          "count": 1,
+          "date": "2026-09-16",
+          "time": "19:00",
+          "datetime": "2026-09-16T19:00:00-05:00",
+          "premiere": true,
+          "url": "https://www.tvmaze.com/episodes/3694074/the-real-housewives-of-salt-lake-city-7x01-chosen-family"
+        },
+        {
+          "kind": "episode",
+          "id": "3762930",
+          "season": 7,
+          "code": "S07E02",
+          "name": "Après-Ski with Lisa B",
+          "count": 1,
+          "date": "2026-09-23",
+          "time": "19:00",
+          "datetime": "2026-09-23T19:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3762930/the-real-housewives-of-salt-lake-city-7x02-apres-ski-with-lisa-b"
+        }
+      ]
+    },
+    {
+      "title": "The Real Housewives of Beverly Hills",
+      "category": "reality",
+      "priority": 2,
+      "status": "active",
+      "notes": "",
+      "platform": "Peacock",
+      "platform_source": "network",
+      "on_our_platforms": true,
+      "phase": "between_seasons",
+      "matched_by": "search",
+      "candidates": [
+        {
+          "id": 745,
+          "name": "The Real Housewives of Beverly Hills",
+          "premiered": "2010-10-14",
+          "source": "Bravo",
+          "country": "US",
+          "status": "Running"
+        },
+        {
+          "id": 90954,
+          "name": "The Real Housewives of Beverly Hills AFTER SHOW",
+          "premiered": "2019-04-16",
+          "source": "Bravo",
+          "country": "US",
+          "status": "Running"
+        }
+      ],
+      "tvmaze": {
+        "id": 745,
+        "name": "The Real Housewives of Beverly Hills",
+        "url": "https://www.tvmaze.com/shows/745/the-real-housewives-of-beverly-hills",
+        "status": "Running",
+        "source": "Bravo",
+        "premiered": "2010-10-14",
+        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/601/1504593.jpg",
+        "episode_count": 329
+      },
+      "next": null,
+      "last": {
+        "kind": "episode",
+        "id": "3592199",
+        "season": 15,
+        "code": "S15E21",
+        "name": "Reunion Part 3",
+        "count": 1,
+        "date": "2026-05-07",
+        "time": "19:00",
+        "datetime": "2026-05-07T19:00:00-05:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3592199/the-real-housewives-of-beverly-hills-15x21-reunion-part-3"
+      },
+      "upcoming": [],
+      "recent": []
+    },
+    {
+      "title": "Survivor",
+      "category": "competition",
+      "priority": 2,
+      "status": "active",
+      "notes": "",
+      "platform": "Paramount+",
+      "platform_source": "network",
+      "on_our_platforms": true,
+      "phase": "this_week",
+      "matched_by": "search",
+      "candidates": [
+        {
+          "id": 114,
+          "name": "Survivor",
+          "premiered": "2000-05-31",
+          "source": "CBS",
+          "country": "US",
+          "status": "Running"
+        },
+        {
+          "id": 8167,
+          "name": "Designated Survivor",
+          "premiered": "2016-09-21",
+          "source": "Netflix",
+          "country": null,
+          "status": "Ended"
+        },
+        {
+          "id": 63948,
+          "name": "Survivor",
+          "premiered": "2023-10-28",
+          "source": "BBC One",
+          "country": "GB",
+          "status": "Ended"
+        },
+        {
+          "id": 24927,
+          "name": "Survivor",
+          "premiered": "2004-09-26",
+          "source": "ΣΚΑΪ Τηλεόραση",
+          "country": "GR",
+          "status": "Running"
+        },
+        {
+          "id": 35708,
+          "name": "Survivor",
+          "premiered": "2001-05-21",
+          "source": "ITV1",
+          "country": "GB",
+          "status": "Ended"
+        }
+      ],
+      "tvmaze": {
+        "id": 114,
+        "name": "Survivor",
+        "url": "https://www.tvmaze.com/shows/114/survivor",
+        "status": "Running",
+        "source": "CBS",
+        "premiered": "2000-05-31",
+        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/641/1603530.jpg",
+        "episode_count": 738
+      },
+      "next": {
+        "kind": "episode",
+        "id": "3684560",
+        "season": 51,
+        "code": "S51E02",
+        "name": "Weaponized Honesty",
+        "count": 1,
+        "date": "2026-09-30",
+        "time": "19:00",
+        "datetime": "2026-09-30T19:00:00-05:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3684560/survivor-51x02-weaponized-honesty"
+      },
+      "last": {
+        "kind": "episode",
+        "id": "3675942",
+        "season": 51,
+        "code": "S51E01",
+        "name": "Permanent Uncertainty",
+        "count": 1,
+        "date": "2026-09-23",
+        "time": "19:00",
+        "datetime": "2026-09-23T19:00:00-05:00",
+        "premiere": true,
+        "url": "https://www.tvmaze.com/episodes/3675942/survivor-51x01-permanent-uncertainty"
+      },
+      "upcoming": [
+        {
+          "kind": "episode",
+          "id": "3684560",
+          "season": 51,
+          "code": "S51E02",
+          "name": "Weaponized Honesty",
+          "count": 1,
+          "date": "2026-09-30",
+          "time": "19:00",
+          "datetime": "2026-09-30T19:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3684560/survivor-51x02-weaponized-honesty"
+        },
+        {
+          "kind": "episode",
+          "id": "3684661",
+          "season": 51,
+          "code": "S51E03",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-10-07",
+          "time": "19:00",
+          "datetime": "2026-10-07T19:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3684661/survivor-51x03-tba"
+        },
+        {
+          "kind": "episode",
+          "id": "3711572",
+          "season": 51,
+          "code": "S51E04",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-10-14",
+          "time": "19:00",
+          "datetime": "2026-10-14T19:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3711572/survivor-51x04-tba"
+        },
+        {
+          "kind": "episode",
+          "id": "3711573",
+          "season": 51,
+          "code": "S51E05",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-10-21",
+          "time": "19:00",
+          "datetime": "2026-10-21T19:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3711573/survivor-51x05-tba"
+        },
+        {
+          "kind": "episode",
+          "id": "3711574",
+          "season": 51,
+          "code": "S51E06",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-10-28",
+          "time": "19:00",
+          "datetime": "2026-10-28T19:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3711574/survivor-51x06-tba"
+        },
+        {
+          "kind": "episode",
+          "id": "3711575",
+          "season": 51,
+          "code": "S51E07",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-11-04",
+          "time": "19:00",
+          "datetime": "2026-11-04T19:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3711575/survivor-51x07-tba"
+        },
+        {
+          "kind": "episode",
+          "id": "3711576",
+          "season": 51,
+          "code": "S51E08",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-11-11",
+          "time": "19:00",
+          "datetime": "2026-11-11T19:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3711576/survivor-51x08-tba"
+        },
+        {
+          "kind": "episode",
+          "id": "3711577",
+          "season": 51,
+          "code": "S51E09",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-11-18",
+          "time": "19:00",
+          "datetime": "2026-11-18T19:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3711577/survivor-51x09-tba"
+        }
+      ],
+      "recent": [
+        {
+          "kind": "episode",
+          "id": "3675942",
+          "season": 51,
+          "code": "S51E01",
+          "name": "Permanent Uncertainty",
+          "count": 1,
+          "date": "2026-09-23",
+          "time": "19:00",
+          "datetime": "2026-09-23T19:00:00-05:00",
+          "premiere": true,
+          "url": "https://www.tvmaze.com/episodes/3675942/survivor-51x01-permanent-uncertainty"
+        }
+      ]
+    },
+    {
+      "title": "The Amazing Race",
+      "category": "competition",
+      "priority": 2,
+      "status": "active",
+      "notes": "",
+      "platform": "Paramount+",
+      "platform_source": "network",
+      "on_our_platforms": true,
+      "phase": "this_week",
+      "matched_by": "search",
+      "candidates": [
+        {
+          "id": 18,
+          "name": "The Amazing Race",
+          "premiered": "2001-09-05",
+          "source": "CBS",
+          "country": "US",
+          "status": "Running"
+        },
+        {
+          "id": 3100,
+          "name": "The Amazing Race Canada",
+          "premiered": "2013-07-15",
+          "source": "CTV",
+          "country": "CA",
+          "status": "Running"
+        },
+        {
+          "id": 71233,
+          "name": "The Amazing Race Australia",
+          "premiered": "2019-10-28",
+          "source": "Network 10",
+          "country": "AU",
+          "status": "Running"
+        },
+        {
+          "id": 3227,
+          "name": "The Amazing Race Australia",
+          "premiered": "2011-05-16",
+          "source": "Seven Network",
+          "country": "AU",
+          "status": "Ended"
+        },
+        {
+          "id": 21618,
+          "name": "The Amazing Race Asia",
+          "premiered": "2006-11-09",
+          "source": "AXN Asia",
+          "country": "SG",
+          "status": "Ended"
+        }
+      ],
+      "tvmaze": {
+        "id": 18,
+        "name": "The Amazing Race",
+        "url": "https://www.tvmaze.com/shows/18/the-amazing-race",
+        "status": "Running",
+        "source": "CBS",
+        "premiered": "2001-09-05",
+        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/642/1606113.jpg",
+        "episode_count": 466
+      },
+      "next": {
+        "kind": "episode",
+        "id": "3684167",
+        "season": 39,
+        "code": "S39E01",
+        "name": "Sorry Guys, We Used Our Express Pass",
+        "count": 1,
+        "date": "2026-09-30",
+        "time": "20:30",
+        "datetime": "2026-09-30T20:30:00-05:00",
+        "premiere": true,
+        "url": "https://www.tvmaze.com/episodes/3684167/the-amazing-race-39x01-sorry-guys-we-used-our-express-pass"
+      },
+      "last": {
+        "kind": "episode",
+        "id": "3402688",
+        "season": 38,
+        "code": "S38E12",
+        "name": "One Million Cookies",
+        "count": 1,
+        "date": "2025-12-10",
+        "time": "20:30",
+        "datetime": "2025-12-10T20:30:00-06:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3402688/the-amazing-race-38x12-one-million-cookies"
+      },
+      "upcoming": [
+        {
+          "kind": "episode",
+          "id": "3684167",
+          "season": 39,
+          "code": "S39E01",
+          "name": "Sorry Guys, We Used Our Express Pass",
+          "count": 1,
+          "date": "2026-09-30",
+          "time": "20:30",
+          "datetime": "2026-09-30T20:30:00-05:00",
+          "premiere": true,
+          "url": "https://www.tvmaze.com/episodes/3684167/the-amazing-race-39x01-sorry-guys-we-used-our-express-pass"
+        },
+        {
+          "kind": "episode",
+          "id": "3684168",
+          "season": 39,
+          "code": "S39E02",
+          "name": "Are Tomatoes Good for Skin Care?",
+          "count": 1,
+          "date": "2026-10-01",
+          "time": "20:30",
+          "datetime": "2026-10-01T20:30:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3684168/the-amazing-race-39x02-are-tomatoes-good-for-skin-care"
+        },
+        {
+          "kind": "episode",
+          "id": "3684628",
+          "season": 39,
+          "code": "S39E03",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-10-07",
+          "time": "20:30",
+          "datetime": "2026-10-07T20:30:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3684628/the-amazing-race-39x03-tba"
+        },
+        {
+          "kind": "episode",
+          "id": "3711578",
+          "season": 39,
+          "code": "S39E04",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-10-14",
+          "time": "20:30",
+          "datetime": "2026-10-14T20:30:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3711578/the-amazing-race-39x04-tba"
+        },
+        {
+          "kind": "episode",
+          "id": "3711579",
+          "season": 39,
+          "code": "S39E05",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-10-21",
+          "time": "20:30",
+          "datetime": "2026-10-21T20:30:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3711579/the-amazing-race-39x05-tba"
+        },
+        {
+          "kind": "episode",
+          "id": "3711580",
+          "season": 39,
+          "code": "S39E06",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-10-28",
+          "time": "20:30",
+          "datetime": "2026-10-28T20:30:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3711580/the-amazing-race-39x06-tba"
+        },
+        {
+          "kind": "episode",
+          "id": "3711581",
+          "season": 39,
+          "code": "S39E08",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-11-04",
+          "time": "20:30",
+          "datetime": "2026-11-04T20:30:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3711581/the-amazing-race-39x08-tba"
+        },
+        {
+          "kind": "episode",
+          "id": "3711582",
+          "season": 39,
+          "code": "S39E07",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-11-11",
+          "time": "20:30",
+          "datetime": "2026-11-11T20:30:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3711582/the-amazing-race-39x07-tba"
+        },
+        {
+          "kind": "episode",
+          "id": "3711583",
+          "season": 39,
+          "code": "S39E09",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-11-18",
+          "time": "20:30",
+          "datetime": "2026-11-18T20:30:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3711583/the-amazing-race-39x09-tba"
+        }
+      ],
+      "recent": []
+    },
+    {
+      "title": "It's Always Sunny in Philadelphia",
+      "category": "comedy",
+      "priority": 2,
+      "status": "active",
+      "notes": "",
+      "platform": "Hulu",
+      "platform_source": "network",
+      "on_our_platforms": true,
+      "phase": "this_week",
+      "matched_by": "search",
+      "candidates": [
+        {
+          "id": 347,
+          "name": "It's Always Sunny in Philadelphia",
+          "premiered": "2005-08-04",
+          "source": "FXX",
+          "country": "US",
+          "status": "Running"
+        }
+      ],
+      "tvmaze": {
+        "id": 347,
+        "name": "It's Always Sunny in Philadelphia",
+        "url": "https://www.tvmaze.com/shows/347/its-always-sunny-in-philadelphia",
+        "status": "Running",
+        "source": "FXX",
+        "premiered": "2005-08-04",
+        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/636/1592247.jpg",
+        "episode_count": 187
+      },
+      "next": {
+        "kind": "episode",
+        "id": "3702399",
+        "season": 18,
+        "code": "S18E08",
+        "name": "Mac and Dennis Tear Their ACLs",
+        "count": 1,
+        "date": "2026-09-28",
+        "time": "20:00",
+        "datetime": "2026-09-28T20:00:00-05:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3702399/its-always-sunny-in-philadelphia-18x08-mac-and-dennis-tear-their-acls"
+      },
+      "last": {
+        "kind": "episode",
+        "id": "3702398",
+        "season": 18,
+        "code": "S18E07",
+        "name": "Gilligan's Island: A Conspiracy Theorist's Paradise",
+        "count": 1,
+        "date": "2026-09-21",
+        "time": "20:00",
+        "datetime": "2026-09-21T20:00:00-05:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3702398/its-always-sunny-in-philadelphia-18x07-gilligans-island-a-conspiracy-theorists-paradise"
+      },
+      "upcoming": [
+        {
+          "kind": "episode",
+          "id": "3702399",
+          "season": 18,
+          "code": "S18E08",
+          "name": "Mac and Dennis Tear Their ACLs",
+          "count": 1,
+          "date": "2026-09-28",
+          "time": "20:00",
+          "datetime": "2026-09-28T20:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3702399/its-always-sunny-in-philadelphia-18x08-mac-and-dennis-tear-their-acls"
+        },
+        {
+          "kind": "episode",
+          "id": "3702400",
+          "season": 18,
+          "code": "S18E09",
+          "name": "Frank's Team: A Dark Day for Baseball",
+          "count": 1,
+          "date": "2026-10-05",
+          "time": "20:00",
+          "datetime": "2026-10-05T20:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3702400/its-always-sunny-in-philadelphia-18x09-franks-team-a-dark-day-for-baseball"
+        },
+        {
+          "kind": "episode",
+          "id": "3702401",
+          "season": 18,
+          "code": "S18E10",
+          "name": "The Guys Have a Sleepover",
+          "count": 1,
+          "date": "2026-10-12",
+          "time": "20:00",
+          "datetime": "2026-10-12T20:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3702401/its-always-sunny-in-philadelphia-18x10-the-guys-have-a-sleepover"
+        }
+      ],
+      "recent": [
+        {
+          "kind": "episode",
+          "id": "3702394",
+          "season": 18,
+          "code": "S18E06",
+          "name": "The War on Alcohol",
+          "count": 1,
+          "date": "2026-09-14",
+          "time": "20:00",
+          "datetime": "2026-09-14T20:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3702394/its-always-sunny-in-philadelphia-18x06-the-war-on-alcohol"
+        },
+        {
+          "kind": "episode",
+          "id": "3702398",
+          "season": 18,
+          "code": "S18E07",
+          "name": "Gilligan's Island: A Conspiracy Theorist's Paradise",
+          "count": 1,
+          "date": "2026-09-21",
+          "time": "20:00",
+          "datetime": "2026-09-21T20:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3702398/its-always-sunny-in-philadelphia-18x07-gilligans-island-a-conspiracy-theorists-paradise"
+        }
+      ]
+    },
+    {
+      "title": "Big Brother",
+      "category": "competition",
+      "priority": 2,
+      "status": "active",
+      "notes": "Airs several nights a week in season.",
+      "platform": "Paramount+",
+      "platform_source": "network",
+      "on_our_platforms": true,
+      "phase": "this_week",
+      "matched_by": "search",
+      "candidates": [
+        {
+          "id": 1453,
+          "name": "Big Brother",
+          "premiered": "2000-07-05",
+          "source": "CBS",
+          "country": "US",
+          "status": "Running"
+        },
+        {
+          "id": 71810,
+          "name": "Big Brother",
+          "premiered": "2023-10-05",
+          "source": "ITV2",
+          "country": "GB",
+          "status": "Running"
+        },
+        {
+          "id": 8471,
+          "name": "Big Brother",
+          "premiered": "2001-04-23",
+          "source": "Nine Network",
+          "country": "AU",
+          "status": "Ended"
+        },
+        {
+          "id": 87106,
+          "name": "Big Brother",
+          "premiered": "2025-11-09",
+          "source": "Network 10",
+          "country": "AU",
+          "status": "Running"
+        },
+        {
+          "id": 48488,
+          "name": "Big Brother",
+          "premiered": "2020-06-08",
+          "source": "Seven Network",
+          "country": "AU",
+          "status": "Ended"
+        }
+      ],
+      "tvmaze": {
+        "id": 1453,
+        "name": "Big Brother",
+        "url": "https://www.tvmaze.com/shows/1453/big-brother",
+        "status": "Running",
+        "source": "CBS",
+        "premiered": "2000-07-05",
+        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/631/1578029.jpg",
+        "episode_count": 1006
+      },
+      "next": {
+        "kind": "episode",
+        "id": "3684558",
+        "season": 28,
+        "code": "S28E35",
+        "name": "Episode 35",
+        "count": 1,
+        "date": "2026-09-27",
+        "time": "20:30",
+        "datetime": "2026-09-27T20:30:00-05:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3684558/big-brother-28x35-episode-35"
+      },
+      "last": {
+        "kind": "episode",
+        "id": "3684556",
+        "season": 28,
+        "code": "S28E34",
+        "name": "Episode 34--Live Eviction",
+        "count": 1,
+        "date": "2026-09-24",
+        "time": "19:00",
+        "datetime": "2026-09-24T19:00:00-05:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3684556/big-brother-28x34-episode-34-live-eviction"
+      },
+      "upcoming": [
+        {
+          "kind": "episode",
+          "id": "3684558",
+          "season": 28,
+          "code": "S28E35",
+          "name": "Episode 35",
+          "count": 1,
+          "date": "2026-09-27",
+          "time": "20:30",
+          "datetime": "2026-09-27T20:30:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3684558/big-brother-28x35-episode-35"
+        },
+        {
+          "kind": "episode",
+          "id": "3767837",
+          "season": 28,
+          "code": "S28E36",
+          "name": "Episode 36--Live Finale",
+          "count": 1,
+          "date": "2026-10-01",
+          "time": "19:00",
+          "datetime": "2026-10-01T19:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3767837/big-brother-28x36-episode-36-live-finale"
+        }
+      ],
+      "recent": [
+        {
+          "kind": "episode",
+          "id": "3652973",
+          "season": 28,
+          "code": "S28E29",
+          "name": "Episode 29",
+          "count": 1,
+          "date": "2026-09-13",
+          "time": "19:30",
+          "datetime": "2026-09-13T19:30:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3652973/big-brother-28x29-episode-29"
+        },
+        {
+          "kind": "episode",
+          "id": "3652974",
+          "season": 28,
+          "code": "S28E30",
+          "name": "Episode 30",
+          "count": 1,
+          "date": "2026-09-16",
+          "time": "19:00",
+          "datetime": "2026-09-16T19:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3652974/big-brother-28x30-episode-30"
+        },
+        {
+          "kind": "episode",
+          "id": "3652975",
+          "season": 28,
+          "code": "S28E31",
+          "name": "Episode 31--Live Eviction",
+          "count": 1,
+          "date": "2026-09-17",
+          "time": "19:00",
+          "datetime": "2026-09-17T19:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3652975/big-brother-28x31-episode-31-live-eviction"
+        },
+        {
+          "kind": "episode",
+          "id": "3652976",
+          "season": 28,
+          "code": "S28E32",
+          "name": "Episode 32",
+          "count": 1,
+          "date": "2026-09-20",
+          "time": "19:00",
+          "datetime": "2026-09-20T19:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3652976/big-brother-28x32-episode-32"
+        },
+        {
+          "kind": "episode",
+          "id": "3684555",
+          "season": 28,
+          "code": "S28E33",
+          "name": "Episode 33",
+          "count": 1,
+          "date": "2026-09-23",
+          "time": "21:00",
+          "datetime": "2026-09-23T21:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3684555/big-brother-28x33-episode-33"
+        },
+        {
+          "kind": "episode",
+          "id": "3684556",
+          "season": 28,
+          "code": "S28E34",
+          "name": "Episode 34--Live Eviction",
+          "count": 1,
+          "date": "2026-09-24",
+          "time": "19:00",
+          "datetime": "2026-09-24T19:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3684556/big-brother-28x34-episode-34-live-eviction"
+        }
+      ]
+    },
+    {
+      "title": "The Secret Lives of Mormon Wives",
+      "category": "reality",
+      "priority": 2,
+      "status": "active",
+      "notes": "",
+      "platform": "Hulu",
+      "platform_source": "webChannel",
+      "on_our_platforms": true,
+      "phase": "between_seasons",
+      "matched_by": "search",
+      "candidates": [
+        {
+          "id": 78970,
+          "name": "The Secret Lives of Mormon Wives",
+          "premiered": "2024-09-06",
+          "source": "Hulu",
+          "country": "US",
+          "status": "Running"
+        }
+      ],
+      "tvmaze": {
+        "id": 78970,
+        "name": "The Secret Lives of Mormon Wives",
+        "url": "https://www.tvmaze.com/shows/78970/the-secret-lives-of-mormon-wives",
+        "status": "Running",
+        "source": "Hulu",
+        "premiered": "2024-09-06",
+        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/640/1601973.jpg",
+        "episode_count": 43
+      },
+      "next": null,
+      "last": {
+        "kind": "binge",
+        "id": "s5-2026-09-10",
+        "season": 5,
+        "code": "S05",
+        "name": "All 5 episodes",
+        "count": 5,
+        "date": "2026-09-10",
+        "time": null,
+        "datetime": null,
+        "premiere": true,
+        "url": "https://www.tvmaze.com/episodes/3716232/the-secret-lives-of-mormon-wives-5x01-the-book-of-more-men"
+      },
+      "upcoming": [],
+      "recent": []
+    },
+    {
+      "title": "Still Flipping Out",
+      "category": "reality",
+      "priority": 2,
+      "status": "active",
+      "notes": "",
+      "platform": "Peacock",
+      "platform_source": "network",
+      "on_our_platforms": true,
+      "phase": "this_week",
+      "matched_by": "search",
+      "candidates": [
+        {
+          "id": 93787,
+          "name": "Still Flipping Out",
+          "premiered": "2026-09-28",
+          "source": "Bravo",
+          "country": "US",
+          "status": "In Development"
+        }
+      ],
+      "tvmaze": {
+        "id": 93787,
+        "name": "Still Flipping Out",
+        "url": "https://www.tvmaze.com/shows/93787/still-flipping-out",
+        "status": "In Development",
+        "source": "Bravo",
+        "premiered": "2026-09-28",
+        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/639/1598001.jpg",
+        "episode_count": 1
+      },
+      "next": {
+        "kind": "episode",
+        "id": "3716223",
+        "season": 1,
+        "code": "S01E01",
+        "name": "Did You Miss Me?",
+        "count": 1,
+        "date": "2026-09-28",
+        "time": "20:00",
+        "datetime": "2026-09-28T20:00:00-05:00",
+        "premiere": true,
+        "url": "https://www.tvmaze.com/episodes/3716223/still-flipping-out-1x01-did-you-miss-me"
+      },
+      "last": null,
+      "upcoming": [
+        {
+          "kind": "episode",
+          "id": "3716223",
+          "season": 1,
+          "code": "S01E01",
+          "name": "Did You Miss Me?",
+          "count": 1,
+          "date": "2026-09-28",
+          "time": "20:00",
+          "datetime": "2026-09-28T20:00:00-05:00",
+          "premiere": true,
+          "url": "https://www.tvmaze.com/episodes/3716223/still-flipping-out-1x01-did-you-miss-me"
+        }
+      ],
+      "recent": []
+    },
+    {
+      "title": "Project Runway",
+      "category": "competition",
+      "priority": 2,
+      "status": "active",
+      "notes": "",
+      "platform": "Hulu",
+      "platform_source": "network",
+      "on_our_platforms": true,
+      "phase": "between_seasons",
+      "matched_by": "search",
+      "candidates": [
+        {
+          "id": 687,
+          "name": "Project Runway",
+          "premiered": "2004-12-01",
+          "source": "Freeform",
+          "country": "US",
+          "status": "To Be Determined"
+        },
+        {
+          "id": 6401,
+          "name": "Project Runway Junior",
+          "premiered": "2015-11-12",
+          "source": "Lifetime",
+          "country": "US",
+          "status": "Ended"
+        },
+        {
+          "id": 887,
+          "name": "Project Runway: Threads",
+          "premiered": "2014-10-23",
+          "source": "Lifetime",
+          "country": "US",
+          "status": "Ended"
+        },
+        {
+          "id": 4595,
+          "name": "Project Runway All Stars",
+          "premiered": "2012-01-05",
+          "source": "Lifetime",
+          "country": "US",
+          "status": "Ended"
+        },
+        {
+          "id": 21573,
+          "name": "Project Runway: Fashion Startup",
+          "premiered": "2016-10-20",
+          "source": "Lifetime",
+          "country": "US",
+          "status": "Ended"
+        }
+      ],
+      "tvmaze": {
+        "id": 687,
+        "name": "Project Runway",
+        "url": "https://www.tvmaze.com/shows/687/project-runway",
+        "status": "To Be Determined",
+        "source": "Freeform",
+        "premiered": "2004-12-01",
+        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/587/1468363.jpg",
+        "episode_count": 303
+      },
+      "next": null,
+      "last": {
+        "kind": "episode",
+        "id": "3662207",
+        "season": 22,
+        "code": "S22E10",
+        "name": "The Finale",
+        "count": 1,
+        "date": "2026-09-10",
+        "time": "21:00",
+        "datetime": "2026-09-10T21:00:00-05:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3662207/project-runway-22x10-the-finale"
+      },
+      "upcoming": [],
+      "recent": []
+    },
+    {
+      "title": "RuPaul's Drag Race",
+      "category": "competition",
+      "priority": 2,
+      "status": "active",
+      "notes": "",
+      "platform": "Paramount+",
+      "platform_source": "network",
+      "on_our_platforms": true,
+      "phase": "between_seasons",
+      "matched_by": "search",
+      "candidates": [
+        {
+          "id": 1526,
+          "name": "RuPaul's Drag Race",
+          "premiered": "2009-02-02",
+          "source": "MTV",
+          "country": "US",
+          "status": "Running"
+        },
+        {
+          "id": 8963,
+          "name": "RuPaul's Drag Race: Untucked!",
+          "premiered": "2009-02-02",
+          "source": "MTV",
+          "country": "US",
+          "status": "Running"
+        },
+        {
+          "id": 25001,
+          "name": "RuPaul's Drag Race: RuVealed",
+          "premiered": "2013-09-30",
+          "source": "Logo TV",
+          "country": "US",
+          "status": "Ended"
+        },
+        {
+          "id": 47170,
+          "name": "RuPaul's Secret Celebrity Drag Race",
+          "premiered": "2020-04-24",
+          "source": "VH1",
+          "country": "US",
+          "status": "To Be Determined"
+        },
+        {
+          "id": 49317,
+          "name": "RuPaul's Drag Race: Vegas Revue",
+          "premiered": "2020-08-21",
+          "source": "VH1",
+          "country": "US",
+          "status": "Ended"
+        }
+      ],
+      "tvmaze": {
+        "id": 1526,
+        "name": "RuPaul's Drag Race",
+        "url": "https://www.tvmaze.com/shows/1526/rupauls-drag-race",
+        "status": "Running",
+        "source": "MTV",
+        "premiered": "2009-02-02",
+        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/607/1517980.jpg",
+        "episode_count": 254
+      },
+      "next": null,
+      "last": {
+        "kind": "episode",
+        "id": "3485605",
+        "season": 18,
+        "code": "S18E16",
+        "name": "Grand Finale",
+        "count": 1,
+        "date": "2026-04-17",
+        "time": "19:00",
+        "datetime": "2026-04-17T19:00:00-05:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3485605/rupauls-drag-race-18x16-grand-finale"
+      },
+      "upcoming": [],
+      "recent": []
+    },
+    {
+      "title": "The Traitors",
+      "category": "competition",
+      "priority": 2,
+      "status": "active",
+      "notes": "US version.",
+      "platform": "Peacock",
+      "platform_source": "override",
+      "on_our_platforms": true,
+      "phase": "upcoming",
+      "matched_by": "search",
+      "candidates": [
+        {
+          "id": 58177,
+          "name": "The Traitors",
+          "premiered": "2023-01-12",
+          "source": "NBC",
+          "country": "US",
+          "status": "Running"
+        },
+        {
+          "id": 81801,
+          "name": "The Traitors",
+          "premiered": "2025-06-12",
+          "source": "Prime Video",
+          "country": null,
+          "status": "Running"
+        },
+        {
+          "id": 58174,
+          "name": "The Traitors",
+          "premiered": "2022-11-29",
+          "source": "BBC One",
+          "country": "GB",
+          "status": "Running"
+        },
+        {
+          "id": 64591,
+          "name": "The Traitors",
+          "premiered": "2022-10-16",
+          "source": "Network 10",
+          "country": "AU",
+          "status": "Running"
+        },
+        {
+          "id": 82989,
+          "name": "The Traitors",
+          "premiered": null,
+          "source": "Sweet.tv",
+          "country": "UA",
+          "status": "In Development"
+        }
+      ],
+      "tvmaze": {
+        "id": 58177,
+        "name": "The Traitors",
+        "url": "https://www.tvmaze.com/shows/58177/the-traitors",
+        "status": "Running",
+        "source": "NBC",
+        "premiered": "2023-01-12",
+        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/643/1607830.jpg",
+        "episode_count": 59
+      },
+      "next": {
+        "kind": "episode",
+        "id": "3772240",
+        "season": 5,
+        "code": "S05E05",
+        "name": "Wake of the Living Dead",
+        "count": 1,
+        "date": "2026-10-08",
+        "time": "20:00",
+        "datetime": "2026-10-08T20:00:00-05:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3772240/the-traitors-5x05-wake-of-the-living-dead"
+      },
+      "last": {
+        "kind": "episode",
+        "id": "3772085",
+        "season": 5,
+        "code": "S05E04",
+        "name": "The Death Parade",
+        "count": 1,
+        "date": "2026-09-24",
+        "time": "20:00",
+        "datetime": "2026-09-24T20:00:00-05:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3772085/the-traitors-5x04-the-death-parade"
+      },
+      "upcoming": [
+        {
+          "kind": "episode",
+          "id": "3772240",
+          "season": 5,
+          "code": "S05E05",
+          "name": "Wake of the Living Dead",
+          "count": 1,
+          "date": "2026-10-08",
+          "time": "20:00",
+          "datetime": "2026-10-08T20:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3772240/the-traitors-5x05-wake-of-the-living-dead"
+        },
+        {
+          "kind": "episode",
+          "id": "3772247",
+          "season": 5,
+          "code": "S05E06",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-10-15",
+          "time": "20:00",
+          "datetime": "2026-10-15T20:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3772247/the-traitors-5x06-tba"
+        },
+        {
+          "kind": "episode",
+          "id": "3772248",
+          "season": 5,
+          "code": "S05E07",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-10-22",
+          "time": "20:00",
+          "datetime": "2026-10-22T20:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3772248/the-traitors-5x07-tba"
+        },
+        {
+          "kind": "episode",
+          "id": "3772249",
+          "season": 5,
+          "code": "S05E08",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-10-29",
+          "time": "20:00",
+          "datetime": "2026-10-29T20:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3772249/the-traitors-5x08-tba"
+        },
+        {
+          "kind": "episode",
+          "id": "3772250",
+          "season": 5,
+          "code": "S05E09",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-11-05",
+          "time": "20:00",
+          "datetime": "2026-11-05T20:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3772250/the-traitors-5x09-tba"
+        },
+        {
+          "kind": "episode",
+          "id": "3772251",
+          "season": 5,
+          "code": "S05E10",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-11-12",
+          "time": "20:00",
+          "datetime": "2026-11-12T20:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3772251/the-traitors-5x10-tba"
+        },
+        {
+          "kind": "episode",
+          "id": "3772252",
+          "season": 5,
+          "code": "S05E11",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-11-19",
+          "time": "20:00",
+          "datetime": "2026-11-19T20:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3772252/the-traitors-5x11-tba"
+        },
+        {
+          "kind": "episode",
+          "id": "3772253",
+          "season": 5,
+          "code": "S05E12",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-11-19",
+          "time": "20:00",
+          "datetime": "2026-11-19T20:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3772253/the-traitors-5x12-tba"
+        }
+      ],
+      "recent": [
+        {
+          "kind": "episode",
+          "id": "3772082",
+          "season": 5,
+          "code": "S05E01",
+          "name": "A New Dawn is Rising",
+          "count": 1,
+          "date": "2026-09-17",
+          "time": "19:00",
+          "datetime": "2026-09-17T19:00:00-05:00",
+          "premiere": true,
+          "url": "https://www.tvmaze.com/episodes/3772082/the-traitors-5x01-a-new-dawn-is-rising"
+        },
+        {
+          "kind": "episode",
+          "id": "3772083",
+          "season": 5,
+          "code": "S05E02",
+          "name": "I'm a Sweaty Boy",
+          "count": 1,
+          "date": "2026-09-17",
+          "time": "20:00",
+          "datetime": "2026-09-17T20:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3772083/the-traitors-5x02-im-a-sweaty-boy"
+        },
+        {
+          "kind": "episode",
+          "id": "3772084",
+          "season": 5,
+          "code": "S05E03",
+          "name": "The Traitors are Watching",
+          "count": 1,
+          "date": "2026-09-24",
+          "time": "19:00",
+          "datetime": "2026-09-24T19:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3772084/the-traitors-5x03-the-traitors-are-watching"
+        },
+        {
+          "kind": "episode",
+          "id": "3772085",
+          "season": 5,
+          "code": "S05E04",
+          "name": "The Death Parade",
+          "count": 1,
+          "date": "2026-09-24",
+          "time": "20:00",
+          "datetime": "2026-09-24T20:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3772085/the-traitors-5x04-the-death-parade"
+        }
+      ]
+    },
+    {
+      "title": "Next Gen NYC",
+      "category": "reality",
+      "priority": 2,
+      "status": "active",
+      "notes": "",
+      "platform": "Peacock",
+      "platform_source": "network",
+      "on_our_platforms": true,
+      "phase": "between_seasons",
+      "matched_by": "search",
+      "candidates": [
+        {
+          "id": 83941,
+          "name": "Next Gen NYC",
+          "premiered": "2025-06-03",
+          "source": "Bravo",
+          "country": "US",
+          "status": "Running"
+        }
+      ],
+      "tvmaze": {
+        "id": 83941,
+        "name": "Next Gen NYC",
+        "url": "https://www.tvmaze.com/shows/83941/next-gen-nyc",
+        "status": "Running",
+        "source": "Bravo",
+        "premiered": "2025-06-03",
+        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/630/1577261.jpg",
+        "episode_count": 22
+      },
+      "next": null,
+      "last": {
+        "kind": "episode",
+        "id": "3709089",
+        "season": 2,
+        "code": "S02E14",
+        "name": "Reunion Part 2",
+        "count": 1,
+        "date": "2026-09-23",
+        "time": "20:00",
+        "datetime": "2026-09-23T20:00:00-05:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3709089/next-gen-nyc-2x14-reunion-part-2"
+      },
+      "upcoming": [],
+      "recent": [
+        {
+          "kind": "episode",
+          "id": "3709088",
+          "season": 2,
+          "code": "S02E13",
+          "name": "Reunion Part 1",
+          "count": 1,
+          "date": "2026-09-16",
+          "time": "20:15",
+          "datetime": "2026-09-16T20:15:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3709088/next-gen-nyc-2x13-reunion-part-1"
+        },
+        {
+          "kind": "episode",
+          "id": "3709089",
+          "season": 2,
+          "code": "S02E14",
+          "name": "Reunion Part 2",
+          "count": 1,
+          "date": "2026-09-23",
+          "time": "20:00",
+          "datetime": "2026-09-23T20:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3709089/next-gen-nyc-2x14-reunion-part-2"
+        }
+      ]
+    },
+    {
+      "title": "Next Gen LA",
+      "category": "reality",
+      "priority": 2,
+      "status": "active",
+      "notes": "",
+      "platform": "Peacock",
+      "platform_source": "override",
+      "on_our_platforms": true,
+      "phase": "between_seasons",
+      "matched_by": "search",
+      "candidates": [],
+      "tvmaze": null,
+      "next": null,
+      "last": null,
+      "upcoming": [],
+      "recent": []
+    },
+    {
+      "title": "Is It Cake?",
+      "category": "competition",
+      "priority": 2,
+      "status": "active",
+      "notes": "",
+      "platform": "Netflix",
+      "platform_source": "webChannel",
+      "on_our_platforms": true,
+      "phase": "between_seasons",
+      "matched_by": "search",
+      "candidates": [
+        {
+          "id": 60662,
+          "name": "Is It Cake?",
+          "premiered": "2022-03-18",
+          "source": "Netflix",
+          "country": null,
+          "status": "Running"
+        },
+        {
+          "id": 87502,
+          "name": "Is It Cake? Halloween",
+          "premiered": "2025-10-08",
+          "source": "Netflix",
+          "country": null,
+          "status": "Running"
+        },
+        {
+          "id": 89143,
+          "name": "Is It Cake? Valentines",
+          "premiered": "2026-02-04",
+          "source": "Netflix",
+          "country": null,
+          "status": "To Be Determined"
+        },
+        {
+          "id": 80440,
+          "name": "Is It Cake? Holiday",
+          "premiered": "2024-11-28",
+          "source": "Netflix",
+          "country": null,
+          "status": "Running"
+        }
+      ],
+      "tvmaze": {
+        "id": 60662,
+        "name": "Is It Cake?",
+        "url": "https://www.tvmaze.com/shows/60662/is-it-cake",
+        "status": "Running",
+        "source": "Netflix",
+        "premiered": "2022-03-18",
+        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/397/993124.jpg",
+        "episode_count": 24
+      },
+      "next": null,
+      "last": {
+        "kind": "binge",
+        "id": "s3-2024-03-29",
+        "season": 3,
+        "code": "S03",
+        "name": "All 8 episodes",
+        "count": 8,
+        "date": "2024-03-29",
+        "time": null,
+        "datetime": null,
+        "premiere": true,
+        "url": "https://www.tvmaze.com/episodes/2756722/is-it-cake-3x01-cake-whodunit"
+      },
+      "upcoming": [],
+      "recent": []
+    },
+    {
+      "title": "Only Murders in the Building",
+      "category": "comedy",
+      "priority": 2,
+      "status": "active",
+      "notes": "",
+      "platform": "Hulu",
+      "platform_source": "webChannel",
+      "on_our_platforms": true,
+      "phase": "upcoming",
+      "matched_by": "search",
+      "candidates": [
+        {
+          "id": 48830,
+          "name": "Only Murders in the Building",
+          "premiered": "2021-08-31",
+          "source": "Hulu",
+          "country": "US",
+          "status": "Running"
+        }
+      ],
+      "tvmaze": {
+        "id": 48830,
+        "name": "Only Murders in the Building",
+        "url": "https://www.tvmaze.com/shows/48830/only-murders-in-the-building",
+        "status": "Running",
+        "source": "Hulu",
+        "premiered": "2021-08-31",
+        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/586/1466415.jpg",
+        "episode_count": 60
+      },
+      "next": {
+        "kind": "episode",
+        "id": "3714462",
+        "season": 6,
+        "code": "S06E01",
+        "name": "TBA",
+        "count": 1,
+        "date": "2026-12-08",
+        "time": null,
+        "datetime": null,
+        "premiere": true,
+        "url": "https://www.tvmaze.com/episodes/3714462/only-murders-in-the-building-6x01-tba"
+      },
+      "last": {
+        "kind": "episode",
+        "id": "3311578",
+        "season": 5,
+        "code": "S05E10",
+        "name": "The House Always...",
+        "count": 1,
+        "date": "2025-10-28",
+        "time": null,
+        "datetime": null,
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3311578/only-murders-in-the-building-5x10-the-house-always"
+      },
+      "upcoming": [
+        {
+          "kind": "episode",
+          "id": "3714462",
+          "season": 6,
+          "code": "S06E01",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-12-08",
+          "time": null,
+          "datetime": null,
+          "premiere": true,
+          "url": "https://www.tvmaze.com/episodes/3714462/only-murders-in-the-building-6x01-tba"
+        },
+        {
+          "kind": "episode",
+          "id": "3714463",
+          "season": 6,
+          "code": "S06E02",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-12-15",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3714463/only-murders-in-the-building-6x02-tba"
+        },
+        {
+          "kind": "episode",
+          "id": "3714464",
+          "season": 6,
+          "code": "S06E03",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-12-22",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3714464/only-murders-in-the-building-6x03-tba"
+        },
+        {
+          "kind": "episode",
+          "id": "3714468",
+          "season": 6,
+          "code": "S06E04",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-12-29",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3714468/only-murders-in-the-building-6x04-tba"
+        },
+        {
+          "kind": "episode",
+          "id": "3714473",
+          "season": 6,
+          "code": "S06E05",
+          "name": "TBA",
+          "count": 1,
+          "date": "2027-01-05",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3714473/only-murders-in-the-building-6x05-tba"
+        },
+        {
+          "kind": "episode",
+          "id": "3714480",
+          "season": 6,
+          "code": "S06E06",
+          "name": "TBA",
+          "count": 1,
+          "date": "2027-01-12",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3714480/only-murders-in-the-building-6x06-tba"
+        },
+        {
+          "kind": "episode",
+          "id": "3714485",
+          "season": 6,
+          "code": "S06E07",
+          "name": "TBA",
+          "count": 1,
+          "date": "2027-01-19",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3714485/only-murders-in-the-building-6x07-tba"
+        }
+      ],
+      "recent": []
+    },
+    {
+      "title": "House of Villains",
+      "category": "competition",
+      "priority": 2,
+      "status": "active",
+      "notes": "",
+      "platform": "Peacock",
+      "platform_source": "webChannel",
+      "on_our_platforms": true,
+      "phase": "between_seasons",
+      "matched_by": "search",
+      "candidates": [
+        {
+          "id": 68675,
+          "name": "House of Villains",
+          "premiered": "2023-10-12",
+          "source": "Peacock",
+          "country": "US",
+          "status": "To Be Determined"
+        },
+        {
+          "id": 89473,
+          "name": "House of Villains",
+          "premiered": "2026-01-01",
+          "source": "Videoland",
+          "country": "NL",
+          "status": "Running"
+        }
+      ],
+      "tvmaze": {
+        "id": 68675,
+        "name": "House of Villains",
+        "url": "https://www.tvmaze.com/shows/68675/house-of-villains",
+        "status": "To Be Determined",
+        "source": "Peacock",
+        "premiered": "2023-10-12",
+        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/615/1538945.jpg",
+        "episode_count": 31
+      },
+      "next": null,
+      "last": {
+        "kind": "episode",
+        "id": "3530421",
+        "season": 3,
+        "code": "S03E10",
+        "name": "It Feels So Good To Be Hated",
+        "count": 1,
+        "date": "2026-04-16",
+        "time": null,
+        "datetime": null,
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3530421/house-of-villains-3x10-it-feels-so-good-to-be-hated"
+      },
+      "upcoming": [],
+      "recent": []
+    },
+    {
+      "title": "The Challenge",
+      "category": "competition",
+      "priority": 2,
+      "status": "active",
+      "notes": "MTV flagship series.",
+      "platform": "Paramount+",
+      "platform_source": "network",
+      "on_our_platforms": true,
+      "phase": "ended",
+      "matched_by": "search",
+      "candidates": [
+        {
+          "id": 60545,
+          "name": "The Challenge: USA",
+          "premiered": "2022-07-06",
+          "source": "CBS",
+          "country": "US",
+          "status": "Ended"
+        },
+        {
+          "id": 64327,
+          "name": "The Challenge Workout",
+          "premiered": "2022-09-26",
+          "source": "MTV",
+          "country": "US",
+          "status": "Running"
+        },
+        {
+          "id": 2100,
+          "name": "The Challenge",
+          "premiered": "1998-06-01",
+          "source": "Paramount+",
+          "country": null,
+          "status": "Running"
+        },
+        {
+          "id": 67008,
+          "name": "The Challenge Argentina",
+          "premiered": "2023-02-14",
+          "source": "Paramount+",
+          "country": null,
+          "status": "Running"
+        },
+        {
+          "id": 55606,
+          "name": "The Challenge: Aftermath",
+          "premiered": "2021-04-01",
+          "source": "Paramount+",
+          "country": null,
+          "status": "To Be Determined"
+        }
+      ],
+      "tvmaze": {
+        "id": 60545,
+        "name": "The Challenge: USA",
+        "url": "https://www.tvmaze.com/shows/60545/the-challenge-usa",
+        "status": "Ended",
+        "source": "CBS",
+        "premiered": "2022-07-06",
+        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/471/1179686.jpg",
+        "episode_count": 25
+      },
+      "next": null,
+      "last": {
+        "kind": "episode",
+        "id": "2630143",
+        "season": 2,
+        "code": "S02E14",
+        "name": "The Pursuit of Glory",
+        "count": 1,
+        "date": "2023-10-19",
+        "time": "21:20",
+        "datetime": "2023-10-19T21:20:00-05:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/2630143/the-challenge-usa-2x14-the-pursuit-of-glory"
+      },
+      "upcoming": [],
+      "recent": []
+    },
+    {
+      "title": "Wonka's The Golden Ticket",
+      "category": "competition",
+      "priority": 2,
+      "status": "active",
+      "notes": "",
+      "platform": "Netflix",
+      "platform_source": "override",
+      "on_our_platforms": true,
+      "phase": "this_week",
+      "matched_by": "search",
+      "candidates": [
+        {
+          "id": 92870,
+          "name": "Wonka's The Golden Ticket",
+          "premiered": "2026-09-23",
+          "source": "Netflix",
+          "country": null,
+          "status": "Running"
+        }
+      ],
+      "tvmaze": {
+        "id": 92870,
+        "name": "Wonka's The Golden Ticket",
+        "url": "https://www.tvmaze.com/shows/92870/wonkas-the-golden-ticket",
+        "status": "Running",
+        "source": "Netflix",
+        "premiered": "2026-09-23",
+        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/641/1604141.jpg",
+        "episode_count": 9
+      },
+      "next": {
+        "kind": "episode",
+        "id": "3658869",
+        "season": 1,
+        "code": "S01E08",
+        "name": "Episode 8",
+        "count": 1,
+        "date": "2026-09-30",
+        "time": null,
+        "datetime": null,
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3658869/wonkas-the-golden-ticket-1x08-episode-8"
+      },
+      "last": {
+        "kind": "binge",
+        "id": "s1-2026-09-23",
+        "season": 1,
+        "code": "S01",
+        "name": "All 7 episodes",
+        "count": 7,
+        "date": "2026-09-23",
+        "time": null,
+        "datetime": null,
+        "premiere": true,
+        "url": "https://www.tvmaze.com/episodes/3658860/wonkas-the-golden-ticket-1x01-no-turning-back-now"
+      },
+      "upcoming": [
+        {
+          "kind": "episode",
+          "id": "3658869",
+          "season": 1,
+          "code": "S01E08",
+          "name": "Episode 8",
+          "count": 1,
+          "date": "2026-09-30",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3658869/wonkas-the-golden-ticket-1x08-episode-8"
+        },
+        {
+          "kind": "episode",
+          "id": "3658870",
+          "season": 1,
+          "code": "S01E09",
+          "name": "Episode 9",
+          "count": 1,
+          "date": "2026-09-30",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3658870/wonkas-the-golden-ticket-1x09-episode-9"
+        }
+      ],
+      "recent": [
+        {
+          "kind": "binge",
+          "id": "s1-2026-09-23",
+          "season": 1,
+          "code": "S01",
+          "name": "All 7 episodes",
+          "count": 7,
+          "date": "2026-09-23",
+          "time": null,
+          "datetime": null,
+          "premiere": true,
+          "url": "https://www.tvmaze.com/episodes/3658860/wonkas-the-golden-ticket-1x01-no-turning-back-now"
+        }
+      ]
+    },
+    {
+      "title": "America's Culinary Cup",
+      "category": "competition",
+      "priority": 2,
+      "status": "active",
+      "notes": "",
+      "platform": "Paramount+",
+      "platform_source": "network",
+      "on_our_platforms": true,
+      "phase": "between_seasons",
+      "matched_by": "search",
+      "candidates": [
+        {
+          "id": 84160,
+          "name": "America's Culinary Cup",
+          "premiered": "2026-03-04",
+          "source": "CBS",
+          "country": "US",
+          "status": "To Be Determined"
+        }
+      ],
+      "tvmaze": {
+        "id": 84160,
+        "name": "America's Culinary Cup",
+        "url": "https://www.tvmaze.com/shows/84160/americas-culinary-cup",
+        "status": "To Be Determined",
+        "source": "CBS",
+        "premiered": "2026-03-04",
+        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/616/1540793.jpg",
+        "episode_count": 11
+      },
+      "next": null,
+      "last": {
+        "kind": "episode",
+        "id": "3576796",
+        "season": 1,
+        "code": "S01E11",
+        "name": "Million-Dollar Menu",
+        "count": 1,
+        "date": "2026-05-13",
+        "time": "20:30",
+        "datetime": "2026-05-13T20:30:00-05:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3576796/americas-culinary-cup-1x11-million-dollar-menu"
+      },
+      "upcoming": [],
+      "recent": []
+    },
+    {
+      "title": "The GOAT",
+      "category": "competition",
+      "priority": 2,
+      "status": "active",
+      "notes": "",
+      "platform": "Prime Video",
+      "platform_source": "override",
+      "on_our_platforms": true,
+      "phase": "ended",
+      "matched_by": "search",
+      "candidates": [
+        {
+          "id": 1484,
+          "name": "The Love Boat",
+          "premiered": "1977-09-24",
+          "source": "ABC",
+          "country": "US",
+          "status": "Ended"
+        },
+        {
+          "id": 732,
+          "name": "Fresh Off the Boat",
+          "premiered": "2015-02-04",
+          "source": "ABC",
+          "country": "US",
+          "status": "Ended"
+        },
+        {
+          "id": 68478,
+          "name": "The GOAT",
+          "premiered": "2024-05-09",
+          "source": "Amazon Freevee",
+          "country": null,
+          "status": "To Be Determined"
+        },
+        {
+          "id": 61175,
+          "name": "The Real Love Boat",
+          "premiered": "2022-10-05",
+          "source": "Paramount+",
+          "country": null,
+          "status": "Ended"
+        },
+        {
+          "id": 73058,
+          "name": "The Billion Dollar Goal",
+          "premiered": "2023-12-11",
+          "source": "Paramount+",
+          "country": null,
+          "status": "To Be Determined"
+        }
+      ],
+      "tvmaze": {
+        "id": 1484,
+        "name": "The Love Boat",
+        "url": "https://www.tvmaze.com/shows/1484/the-love-boat",
+        "status": "Ended",
+        "source": "ABC",
+        "premiered": "1977-09-24",
+        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/8/21183.jpg",
+        "episode_count": 245
+      },
+      "next": null,
+      "last": {
+        "kind": "episode",
+        "id": "133967",
+        "season": 9,
+        "code": "S09E25",
+        "name": "Happily Ever After / Have I Got a Job for You / Mr. Smith Goes to Minikulu",
+        "count": 1,
+        "date": "1986-05-24",
+        "time": null,
+        "datetime": null,
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/133967/the-love-boat-9x25-happily-ever-after-have-i-got-a-job-for-you-mr-smith-goes-to-minikulu"
+      },
+      "upcoming": [],
+      "recent": []
+    },
+    {
+      "title": "Botched Homes",
+      "category": "reality",
+      "priority": 2,
+      "status": "active",
+      "notes": "",
+      "platform": "HGTV",
+      "platform_source": "network",
+      "on_our_platforms": false,
+      "phase": "this_week",
+      "matched_by": "search",
+      "candidates": [
+        {
+          "id": 88034,
+          "name": "Botched Homes",
+          "premiered": "2026-09-02",
+          "source": "HGTV",
+          "country": "US",
+          "status": "Running"
+        }
+      ],
+      "tvmaze": {
+        "id": 88034,
+        "name": "Botched Homes",
+        "url": "https://www.tvmaze.com/shows/88034/botched-homes",
+        "status": "Running",
+        "source": "HGTV",
+        "premiered": "2026-09-02",
+        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/639/1597998.jpg",
+        "episode_count": 6
+      },
+      "next": {
+        "kind": "episode",
+        "id": "3723384",
+        "season": 1,
+        "code": "S01E05",
+        "name": "Bathroom of the Misfit Tub",
+        "count": 1,
+        "date": "2026-09-30",
+        "time": "21:00",
+        "datetime": "2026-09-30T21:00:00-05:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3723384/botched-homes-1x05-bathroom-of-the-misfit-tub"
+      },
+      "last": {
+        "kind": "episode",
+        "id": "3723383",
+        "season": 1,
+        "code": "S01E04",
+        "name": "The Ghosts of Exxx-Wives' Past",
+        "count": 1,
+        "date": "2026-09-23",
+        "time": "21:00",
+        "datetime": "2026-09-23T21:00:00-05:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3723383/botched-homes-1x04-the-ghosts-of-exxx-wives-past"
+      },
+      "upcoming": [
+        {
+          "kind": "episode",
+          "id": "3723384",
+          "season": 1,
+          "code": "S01E05",
+          "name": "Bathroom of the Misfit Tub",
+          "count": 1,
+          "date": "2026-09-30",
+          "time": "21:00",
+          "datetime": "2026-09-30T21:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3723384/botched-homes-1x05-bathroom-of-the-misfit-tub"
+        },
+        {
+          "kind": "episode",
+          "id": "3729421",
+          "season": 1,
+          "code": "S01E06",
+          "name": "Welcome to the Swamp",
+          "count": 1,
+          "date": "2026-10-07",
+          "time": "21:00",
+          "datetime": "2026-10-07T21:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3729421/botched-homes-1x06-welcome-to-the-swamp"
+        }
+      ],
+      "recent": [
+        {
+          "kind": "episode",
+          "id": "3720759",
+          "season": 1,
+          "code": "S01E03",
+          "name": "Ratastrophe",
+          "count": 1,
+          "date": "2026-09-16",
+          "time": "21:00",
+          "datetime": "2026-09-16T21:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3720759/botched-homes-1x03-ratastrophe"
+        },
+        {
+          "kind": "episode",
+          "id": "3723383",
+          "season": 1,
+          "code": "S01E04",
+          "name": "The Ghosts of Exxx-Wives' Past",
+          "count": 1,
+          "date": "2026-09-23",
+          "time": "21:00",
+          "datetime": "2026-09-23T21:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3723383/botched-homes-1x04-the-ghosts-of-exxx-wives-past"
+        }
+      ]
+    },
+    {
+      "title": "The Great British Baking Show",
+      "category": "competition",
+      "priority": 2,
+      "status": "active",
+      "notes": "TVmaze tracks the UK airing (Tuesday); Netflix US drops each episode three days later. Adjust date_shift_days if that changes.",
+      "platform": "Netflix",
+      "platform_source": "override",
+      "on_our_platforms": true,
+      "phase": "this_week",
+      "matched_by": "search",
+      "candidates": [
+        {
+          "id": 2950,
+          "name": "The Great British Bake Off",
+          "premiered": "2010-08-17",
+          "source": "Channel 4",
+          "country": "GB",
+          "status": "Running"
+        },
+        {
+          "id": 93980,
+          "name": "The Great British Bake Off: Second Helpings",
+          "premiered": "2026-09-22",
+          "source": "Channel 4",
+          "country": "GB",
+          "status": "Running"
+        },
+        {
+          "id": 52465,
+          "name": "The Great British Bake Off: The Winners",
+          "premiered": "2020-12-15",
+          "source": "Channel 4",
+          "country": "GB",
+          "status": "Ended"
+        },
+        {
+          "id": 52466,
+          "name": "The Great British Bake Off: Best Bits",
+          "premiered": "2020-12-01",
+          "source": "Channel 4",
+          "country": "GB",
+          "status": "Ended"
+        },
+        {
+          "id": 2951,
+          "name": "The Great British Bake Off: An Extra Slice",
+          "premiered": "2014-08-08",
+          "source": "Channel 4",
+          "country": "GB",
+          "status": "Ended"
+        }
+      ],
+      "tvmaze": {
+        "id": 2950,
+        "name": "The Great British Bake Off",
+        "url": "https://www.tvmaze.com/shows/2950/the-great-british-bake-off",
+        "status": "Running",
+        "source": "Channel 4",
+        "premiered": "2010-08-17",
+        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/642/1606557.jpg",
+        "episode_count": 157
+      },
+      "next": {
+        "kind": "episode",
+        "id": "3765531",
+        "season": 17,
+        "code": "S17E02",
+        "name": "Biscuit Week",
+        "count": 1,
+        "date": "2026-10-02",
+        "time": null,
+        "datetime": null,
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3765531/the-great-british-bake-off-17x02-biscuit-week"
+      },
+      "last": {
+        "kind": "episode",
+        "id": "3744890",
+        "season": 17,
+        "code": "S17E01",
+        "name": "Cake Week",
+        "count": 1,
+        "date": "2026-09-25",
+        "time": null,
+        "datetime": null,
+        "premiere": true,
+        "url": "https://www.tvmaze.com/episodes/3744890/the-great-british-bake-off-17x01-cake-week"
+      },
+      "upcoming": [
+        {
+          "kind": "episode",
+          "id": "3765531",
+          "season": 17,
+          "code": "S17E02",
+          "name": "Biscuit Week",
+          "count": 1,
+          "date": "2026-10-02",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3765531/the-great-british-bake-off-17x02-biscuit-week"
+        },
+        {
+          "kind": "episode",
+          "id": "3770244",
+          "season": 17,
+          "code": "S17E03",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-10-09",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3770244/the-great-british-bake-off-17x03-tba"
+        }
+      ],
+      "recent": [
+        {
+          "kind": "episode",
+          "id": "3744890",
+          "season": 17,
+          "code": "S17E01",
+          "name": "Cake Week",
+          "count": 1,
+          "date": "2026-09-25",
+          "time": null,
+          "datetime": null,
+          "premiere": true,
+          "url": "https://www.tvmaze.com/episodes/3744890/the-great-british-bake-off-17x01-cake-week"
+        }
+      ]
+    },
+    {
+      "title": "Best Medicine",
+      "category": "comedy",
+      "priority": 2,
+      "status": "active",
+      "notes": "",
+      "platform": "Hulu",
+      "platform_source": "network",
+      "on_our_platforms": true,
+      "phase": "this_week",
+      "matched_by": "search",
+      "candidates": [
+        {
+          "id": 84556,
+          "name": "Best Medicine",
+          "premiered": "2026-01-04",
+          "source": "FOX",
+          "country": "US",
+          "status": "Running"
+        }
+      ],
+      "tvmaze": {
+        "id": 84556,
+        "name": "Best Medicine",
+        "url": "https://www.tvmaze.com/shows/84556/best-medicine",
+        "status": "Running",
+        "source": "FOX",
+        "premiered": "2026-01-04",
+        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/639/1597644.jpg",
+        "episode_count": 19
+      },
+      "next": {
+        "kind": "episode",
+        "id": "3725324",
+        "season": 2,
+        "code": "S02E02",
+        "name": "Breakin' in Is Hard to Do",
+        "count": 1,
+        "date": "2026-09-29",
+        "time": "19:00",
+        "datetime": "2026-09-29T19:00:00-05:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3725324/best-medicine-2x02-breakin-in-is-hard-to-do"
+      },
+      "last": {
+        "kind": "episode",
+        "id": "3673496",
+        "season": 2,
+        "code": "S02E01",
+        "name": "Be Careful What You Fish For",
+        "count": 1,
+        "date": "2026-09-20",
+        "time": "19:00",
+        "datetime": "2026-09-20T19:00:00-05:00",
+        "premiere": true,
+        "url": "https://www.tvmaze.com/episodes/3673496/best-medicine-2x01-be-careful-what-you-fish-for"
+      },
+      "upcoming": [
+        {
+          "kind": "episode",
+          "id": "3725324",
+          "season": 2,
+          "code": "S02E02",
+          "name": "Breakin' in Is Hard to Do",
+          "count": 1,
+          "date": "2026-09-29",
+          "time": "19:00",
+          "datetime": "2026-09-29T19:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3725324/best-medicine-2x02-breakin-in-is-hard-to-do"
+        },
+        {
+          "kind": "episode",
+          "id": "3762532",
+          "season": 2,
+          "code": "S02E03",
+          "name": "Crate Expectations",
+          "count": 1,
+          "date": "2026-10-06",
+          "time": "19:00",
+          "datetime": "2026-10-06T19:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3762532/best-medicine-2x03-crate-expectations"
+        },
+        {
+          "kind": "episode",
+          "id": "3762533",
+          "season": 2,
+          "code": "S02E04",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-10-13",
+          "time": "19:00",
+          "datetime": "2026-10-13T19:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3762533/best-medicine-2x04-tba"
+        },
+        {
+          "kind": "episode",
+          "id": "3768313",
+          "season": 2,
+          "code": "S02E05",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-10-20",
+          "time": "19:00",
+          "datetime": "2026-10-20T19:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3768313/best-medicine-2x05-tba"
+        },
+        {
+          "kind": "episode",
+          "id": "3768314",
+          "season": 2,
+          "code": "S02E06",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-11-03",
+          "time": "19:00",
+          "datetime": "2026-11-03T19:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3768314/best-medicine-2x06-tba"
+        }
+      ],
+      "recent": [
+        {
+          "kind": "episode",
+          "id": "3673496",
+          "season": 2,
+          "code": "S02E01",
+          "name": "Be Careful What You Fish For",
+          "count": 1,
+          "date": "2026-09-20",
+          "time": "19:00",
+          "datetime": "2026-09-20T19:00:00-05:00",
+          "premiere": true,
+          "url": "https://www.tvmaze.com/episodes/3673496/best-medicine-2x01-be-careful-what-you-fish-for"
+        }
+      ]
+    },
+    {
+      "title": "Heated Rivalry",
+      "category": "drama",
+      "priority": 2,
+      "status": "active",
+      "notes": "",
+      "platform": "HBO Max",
+      "platform_source": "override",
+      "on_our_platforms": true,
+      "phase": "between_seasons",
+      "matched_by": "search",
+      "candidates": [
+        {
+          "id": 85269,
+          "name": "Heated Rivalry",
+          "premiered": "2025-11-28",
+          "source": "Crave",
+          "country": "CA",
+          "status": "Running"
+        }
+      ],
+      "tvmaze": {
+        "id": 85269,
+        "name": "Heated Rivalry",
+        "url": "https://www.tvmaze.com/shows/85269/heated-rivalry",
+        "status": "Running",
+        "source": "Crave",
+        "premiered": "2025-11-28",
+        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/598/1495771.jpg",
+        "episode_count": 6
+      },
+      "next": null,
+      "last": {
+        "kind": "episode",
+        "id": "3393094",
+        "season": 1,
+        "code": "S01E06",
+        "name": "The Cottage",
+        "count": 1,
+        "date": "2025-12-26",
+        "time": null,
+        "datetime": null,
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3393094/heated-rivalry-1x06-the-cottage"
+      },
+      "upcoming": [],
+      "recent": []
+    },
+    {
+      "title": "Adults",
+      "category": "comedy",
+      "priority": 2,
+      "status": "active",
+      "notes": "",
+      "platform": "Hulu",
+      "platform_source": "webChannel",
+      "on_our_platforms": true,
+      "phase": "between_seasons",
+      "matched_by": "search",
+      "candidates": [
+        {
+          "id": 83946,
+          "name": "Adults",
+          "premiered": "2025-05-29",
+          "source": "Hulu",
+          "country": "US",
+          "status": "To Be Determined"
+        },
+        {
+          "id": 59994,
+          "name": "Adults Adopting Adults",
+          "premiered": "2022-01-31",
+          "source": "A&E",
+          "country": "US",
+          "status": "Ended"
+        },
+        {
+          "id": 64791,
+          "name": "La vita bugiarda degli adulti",
+          "premiered": "2023-01-04",
+          "source": "Netflix",
+          "country": null,
+          "status": "Ended"
+        },
+        {
+          "id": 77706,
+          "name": "Adult Kids",
+          "premiered": "2023-06-19",
+          "source": "YouTube",
+          "country": null,
+          "status": "Ended"
+        },
+        {
+          "id": 51722,
+          "name": "Adults Only!",
+          "premiered": "2018-05-21",
+          "source": "5",
+          "country": "GB",
+          "status": "Ended"
+        }
+      ],
+      "tvmaze": {
+        "id": 83946,
+        "name": "Adults",
+        "url": "https://www.tvmaze.com/shows/83946/adults",
+        "status": "To Be Determined",
+        "source": "Hulu",
+        "premiered": "2025-05-29",
+        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/641/1603022.jpg",
+        "episode_count": 16
+      },
+      "next": null,
+      "last": {
+        "kind": "binge",
+        "id": "s2-2026-08-27",
+        "season": 2,
+        "code": "S02",
+        "name": "All 8 episodes",
+        "count": 8,
+        "date": "2026-08-27",
+        "time": null,
+        "datetime": null,
+        "premiere": true,
+        "url": "https://www.tvmaze.com/episodes/3641554/adults-2x01-the-scrub"
+      },
+      "upcoming": [],
+      "recent": []
+    },
+    {
+      "title": "Overcompensating",
+      "category": "comedy",
+      "priority": 2,
+      "status": "active",
+      "notes": "",
+      "platform": "Prime Video",
+      "platform_source": "override",
+      "on_our_platforms": true,
+      "phase": "between_seasons",
+      "matched_by": "search",
+      "candidates": [
+        {
+          "id": 74993,
+          "name": "Overcompensating",
+          "premiered": "2025-05-15",
+          "source": "Prime Video",
+          "country": null,
+          "status": "Running"
+        }
+      ],
+      "tvmaze": {
+        "id": 74993,
+        "name": "Overcompensating",
+        "url": "https://www.tvmaze.com/shows/74993/overcompensating",
+        "status": "Running",
+        "source": "Prime Video",
+        "premiered": "2025-05-15",
+        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/568/1420131.jpg",
+        "episode_count": 8
+      },
+      "next": null,
+      "last": {
+        "kind": "binge",
+        "id": "s1-2025-05-15",
+        "season": 1,
+        "code": "S01",
+        "name": "All 8 episodes",
+        "count": 8,
+        "date": "2025-05-15",
+        "time": null,
+        "datetime": null,
+        "premiere": true,
+        "url": "https://www.tvmaze.com/episodes/3172629/overcompensating-1x01-lucky"
+      },
+      "upcoming": [],
+      "recent": []
+    },
+    {
+      "title": "Not Suitable for Work",
+      "category": "reality",
+      "priority": 2,
+      "status": "active",
+      "notes": "",
+      "platform": "Hulu",
+      "platform_source": "webChannel",
+      "on_our_platforms": true,
+      "phase": "ended",
+      "matched_by": "search",
+      "candidates": [
+        {
+          "id": 83015,
+          "name": "Not Suitable for Work",
+          "premiered": "2026-06-02",
+          "source": "Hulu",
+          "country": "US",
+          "status": "Ended"
+        }
+      ],
+      "tvmaze": {
+        "id": 83015,
+        "name": "Not Suitable for Work",
+        "url": "https://www.tvmaze.com/shows/83015/not-suitable-for-work",
+        "status": "Ended",
+        "source": "Hulu",
+        "premiered": "2026-06-02",
+        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/627/1568662.jpg",
+        "episode_count": 9
+      },
+      "next": null,
+      "last": {
+        "kind": "episode",
+        "id": "3639831",
+        "season": 1,
+        "code": "S01E09",
+        "name": "A Birthday Party For the Whole World",
+        "count": 1,
+        "date": "2026-06-23",
+        "time": null,
+        "datetime": null,
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3639831/not-suitable-for-work-1x09-a-birthday-party-for-the-whole-world"
+      },
+      "upcoming": [],
+      "recent": []
+    },
+    {
+      "title": "Members Only Palm Beach",
+      "category": "reality",
+      "priority": 2,
+      "status": "active",
+      "notes": "",
+      "platform": "Netflix",
+      "platform_source": "webChannel",
+      "on_our_platforms": true,
+      "phase": "between_seasons",
+      "matched_by": "search",
+      "candidates": [
+        {
+          "id": 88500,
+          "name": "Members Only: Palm Beach",
+          "premiered": "2025-12-29",
+          "source": "Netflix",
+          "country": null,
+          "status": "To Be Determined"
+        }
+      ],
+      "tvmaze": {
+        "id": 88500,
+        "name": "Members Only: Palm Beach",
+        "url": "https://www.tvmaze.com/shows/88500/members-only-palm-beach",
+        "status": "To Be Determined",
+        "source": "Netflix",
+        "premiered": "2025-12-29",
+        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/605/1514058.jpg",
+        "episode_count": 8
+      },
+      "next": null,
+      "last": {
+        "kind": "binge",
+        "id": "s1-2025-12-29",
+        "season": 1,
+        "code": "S01",
+        "name": "All 8 episodes",
+        "count": 8,
+        "date": "2025-12-29",
+        "time": null,
+        "datetime": null,
+        "premiere": true,
+        "url": "https://www.tvmaze.com/episodes/3448632/members-only-palm-beach-1x01-welcome-to-palm-beach"
+      },
+      "upcoming": [],
+      "recent": []
+    }
+  ]
+}
