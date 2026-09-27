@@ -15,3 +15,5 @@ exclude:
   - CLAUDE.md
   - README.md
   - RESTORE.md
+  - tv/README.md
+  - tv/build.py

@@ -1,0 +1,45 @@
+# Rebuilds tv/data.json and tv/schedule.ics from tv/shows.json using the
+# free TVmaze API, then commits them if anything changed. GitHub Pages
+# republishes the site on that commit.
+#
+# Runs every morning, whenever the watchlist or builder changes, and on demand
+# from the Actions tab. (The schedule only fires on the default branch.)
+name: TV feed
+
+on:
+  schedule:
+    - cron: '17 10 * * *'   # 10:17 UTC = 5:17 AM Central (CDT) / 4:17 AM (CST)
+  workflow_dispatch:
+  push:
+    paths:
+      - 'tv/shows.json'
+      - 'tv/build.py'
+      - '.github/workflows/tv-feed.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tv-feed
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build data.json and schedule.ics
+        run: python3 tv/build.py --verbose
+
+      - name: Commit if changed
+        run: |
+          git add tv/data.json tv/schedule.ics
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "tv: refresh schedule ($(date -u +%Y-%m-%d))"
+          git push origin HEAD:${{ github.ref_name }}

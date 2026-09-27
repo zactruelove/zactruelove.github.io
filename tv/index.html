@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Watchlist</title>
+    <meta name="description" content="What we're watching, when the next episode drops, and where.">
+    <meta name="robots" content="noindex">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <script>
+        /* Applied before first paint so light-mode users get no dark flash */
+        try {
+            if (localStorage.getItem('theme') === 'light') {
+                document.documentElement.classList.add('light-mode');
+            }
+        } catch (e) {}
+    </script>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/light-mode.css">
+    <link rel="stylesheet" href="tv.css">
+</head>
+<body class="tv-body">
+    <header class="tv-header wrap">
+        <div class="tv-header-row">
+            <a class="eyebrow tv-home" href="/">zactruelove.com · tv</a>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="6.5" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.5 A6.5 6.5 0 0 1 8 14.5 Z" fill="currentColor"/></svg>
+            </button>
+        </div>
+        <h1 class="tv-title">Watchlist</h1>
+        <p class="tv-meta" id="meta">Loading…</p>
+        <div class="tv-actions">
+            <a class="btn-ghost tv-btn" id="subscribeLink" href="webcal://zactruelove.com/tv/schedule.ics">Subscribe to calendar</a>
+            <a class="tv-link" href="schedule.ics" download>Download .ics</a>
+            <a class="tv-link" href="https://github.com/zactruelove/zactruelove.github.io/blob/main/tv/shows.json" target="_blank" rel="noopener noreferrer">Edit the list</a>
+        </div>
+        <details class="tv-help">
+            <summary>How the alerts work</summary>
+            <div class="tv-help-body">
+                <p><strong>iPhone:</strong> tap <em>Subscribe to calendar</em>, then Settings › Apps › Calendar › Accounts › the subscription › keep <em>Remove Alerts</em> off. Each episode carries two alerts: one week out at 9 AM and the night before at 8 PM.</p>
+                <p><strong>Android / Google Calendar:</strong> on the web, open Google Calendar › Other calendars › + › From URL, paste <code>https://zactruelove.com/tv/schedule.ics</code>. Google ignores alerts inside the feed, so open that calendar's settings and add two notifications: 1 week before and 1 day before (set the all-day version too). Google refreshes URL calendars roughly once a day.</p>
+                <p>The feed rebuilds every morning from TVmaze. Shows marked <em>ignore</em> or <em>finished</em> are left out of it.</p>
+            </div>
+        </details>
+    </header>
+
+    <nav class="tv-filters wrap" aria-label="Filters">
+        <div class="tv-filter-group" data-filter="category">
+            <span class="tv-filter-label">Type</span>
+            <button class="chip" data-value="all" aria-pressed="true">All</button>
+            <button class="chip" data-value="reality" aria-pressed="false">Reality</button>
+            <button class="chip" data-value="competition" aria-pressed="false">Competition</button>
+            <button class="chip" data-value="comedy" aria-pressed="false">Comedy</button>
+            <button class="chip" data-value="drama" aria-pressed="false">Drama</button>
+        </div>
+        <div class="tv-filter-group" data-filter="priority">
+            <span class="tv-filter-label">Priority</span>
+            <button class="chip" data-value="all" aria-pressed="true">All</button>
+            <button class="chip" data-value="1" aria-pressed="false">Must watch</button>
+            <button class="chip" data-value="2" aria-pressed="false">Normal</button>
+            <button class="chip" data-value="3" aria-pressed="false">Whenever</button>
+        </div>
+        <div class="tv-filter-group" data-filter="platform" id="platformFilters">
+            <span class="tv-filter-label">Where</span>
+            <button class="chip" data-value="all" aria-pressed="true">All</button>
+        </div>
+        <div class="tv-filter-group tv-filter-search">
+            <input type="search" id="search" placeholder="Find a show" aria-label="Find a show" autocomplete="off">
+            <label class="tv-check"><input type="checkbox" id="showHidden"> Show ignored &amp; finished</label>
+        </div>
+    </nav>
+
+    <main class="wrap" id="app">
+        <section class="tv-section" id="sec-this_week" hidden>
+            <div class="tv-section-head"><span class="eyebrow">This week</span><span class="tv-count"></span></div>
+            <div class="tv-list"></div>
+        </section>
+        <section class="tv-section" id="sec-upcoming" hidden>
+            <div class="tv-section-head"><span class="eyebrow">Coming up</span><span class="tv-count"></span></div>
+            <div class="tv-list"></div>
+        </section>
+        <section class="tv-section" id="sec-between_seasons" hidden>
+            <div class="tv-section-head"><span class="eyebrow">Between seasons</span><span class="tv-count"></span></div>
+            <p class="tv-section-note">Nothing scheduled yet. They show up above the moment TVmaze lists a date.</p>
+            <div class="tv-list"></div>
+        </section>
+        <section class="tv-section" id="sec-unmatched" hidden>
+            <div class="tv-section-head"><span class="eyebrow">Not on TVmaze yet</span><span class="tv-count"></span></div>
+            <p class="tv-section-note">No listing found. Give them a <code>next_date</code> in shows.json, or a better <code>query</code> / <code>tvmaze_id</code>.</p>
+            <div class="tv-list"></div>
+        </section>
+        <section class="tv-section" id="sec-ended" hidden>
+            <div class="tv-section-head"><span class="eyebrow">Ended</span><span class="tv-count"></span></div>
+            <p class="tv-section-note">TVmaze lists these as over. Mark them <code>finished</code> in shows.json to hide them.</p>
+            <div class="tv-list"></div>
+        </section>
+        <section class="tv-section tv-section-dim" id="sec-ignored" hidden>
+            <div class="tv-section-head"><span class="eyebrow">Ignored for now</span><span class="tv-count"></span></div>
+            <div class="tv-list"></div>
+        </section>
+        <section class="tv-section tv-section-dim" id="sec-finished" hidden>
+            <div class="tv-section-head"><span class="eyebrow">Finished</span><span class="tv-count"></span></div>
+            <div class="tv-list"></div>
+        </section>
+        <p class="tv-empty" id="empty" hidden>Nothing matches these filters.</p>
+        <p class="tv-empty" id="nodata" hidden>No schedule data yet. Run <code>python3 tv/build.py</code> or wait for the daily build.</p>
+    </main>
+
+    <footer class="tv-footer wrap">
+        <p>Episode data from <a href="https://www.tvmaze.com" target="_blank" rel="noopener noreferrer">TVmaze</a>. Times shown in Central. Rebuilt daily.</p>
+    </footer>
+
+    <script src="tv.js"></script>
+</body>
+</html>
