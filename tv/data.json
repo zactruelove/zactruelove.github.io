@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T22:58:28Z",
+  "generated_at": "2026-09-27T23:01:25Z",
   "today": "2026-09-27",
   "timezone": "America/Chicago",
   "platforms": [
@@ -460,7 +460,7 @@
     {
       "title": "Survivor",
       "category": "competition",
-      "priority": 2,
+      "priority": 1,
       "status": "active",
       "notes": "",
       "platform": "Paramount+",
@@ -917,7 +917,7 @@
     {
       "title": "Big Brother",
       "category": "competition",
-      "priority": 2,
+      "priority": 1,
       "status": "active",
       "notes": "Airs several nights a week in season.",
       "platform": "Paramount+",
@@ -1244,7 +1244,7 @@
     {
       "title": "The Traitors",
       "category": "competition",
-      "priority": 2,
+      "priority": 1,
       "status": "active",
       "notes": "US version.",
       "platform": "Peacock",
