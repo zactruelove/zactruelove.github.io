@@ -7,7 +7,8 @@ plus a calendar feed at `https://zactruelove.com/tv/schedule.ics`.
 |---|---|
 | `shows.json` | **The only file you edit.** The watchlist plus config (time zone, alert times, platform map). |
 | `build.py` | Standard-library Python. Reads `shows.json`, asks TVmaze for episodes, writes the two files below. |
-| `data.json` | Generated. What the page renders. |
+| `data.json` | Generated. What the Schedule and Shows views render. |
+| `events.json` | Generated. Every drop from `history_days` back through the upcoming window; the Calendar view loads it on demand. |
 | `schedule.ics` | Generated. Subscribe to it on your phone. |
 | `index.html`, `tv.css`, `tv.js` | The page. Pulls tokens and shared styles from `../css/`. |
 
@@ -47,7 +48,25 @@ Each entry in `shows.json`:
 
 Config knobs worth knowing: `alerts` (the calendar reminders), `platforms`
 (the services you both have; anything else is flagged), `calendar_priorities`
-(which priorities go in the feed), `upcoming_window_days`.
+(which priorities go in the feed), `upcoming_window_days` (how far ahead the
+page and feed look), `history_days` (how far back the Calendar view goes).
+
+## The page
+
+Three views, switched by the tabs under the filters (the URL hash remembers
+which, so `/tv/#calendar/2026-10` links straight to a month):
+
+- **Schedule** — drops grouped into This week, Coming up, Between seasons,
+  Not on TVmaze, Ended, plus Ignored and Finished when the checkbox is on.
+- **Shows** — one row per show with last aired and next up; click a column
+  header to sort.
+- **Calendar** — a month grid (a day-by-day list on phones). Click a day to
+  see that day's drops with episode names, times and TVmaze links. Shows
+  marked ignore or finished still appear in past months when the checkbox
+  is on, since they did air.
+
+The filters (type, priority, platform, search, show hidden) apply to all
+three views and are remembered per browser.
 
 ## Running it locally
 

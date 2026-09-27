@@ -4,6 +4,8 @@ Build the TV watchlist data file and calendar feed.
 
 Reads  tv/shows.json   (the hand-edited watchlist + config)
 Writes tv/data.json    (what tv/index.html renders)
+       tv/events.json  (every drop from history_days back through the upcoming
+                        window; the calendar view loads it on demand)
        tv/schedule.ics (subscribe to it on your phone for alerts)
 
 Episode data comes from the free TVmaze API (https://api.tvmaze.com), which
@@ -33,6 +35,7 @@ HERE = Path(__file__).resolve().parent
 SHOWS_FILE = HERE / "shows.json"
 DATA_FILE = HERE / "data.json"
 ICS_FILE = HERE / "schedule.ics"
+EVENTS_FILE = HERE / "events.json"
 
 VALID_CATEGORIES = {"reality", "competition", "comedy", "drama"}
 VALID_STATUSES = {"active", "ignore", "finished"}
@@ -291,6 +294,7 @@ def build_show(entry, cfg, tz, today):
     threshold = int(cfg.get("binge_threshold", 3))
     window_end = today + timedelta(days=int(cfg.get("upcoming_window_days", 120)))
     recent_start = today - timedelta(days=int(cfg.get("recent_window_days", 14)))
+    history_start = today - timedelta(days=int(cfg.get("history_days", 90)))
 
     episodes = []
     if tvshow:
@@ -311,7 +315,10 @@ def build_show(entry, cfg, tz, today):
     upcoming = [e for e in future_events if e["date"] <= window_end.isoformat()]
     recent = [e for e in group_events(past, threshold) if e["date"] >= recent_start.isoformat()]
     next_event = future_events[0] if future_events else None
-    last_event = group_events(past, threshold)[-1] if past else None
+    past_events = group_events(past, threshold)
+    last_event = past_events[-1] if past else None
+    # Everything for the calendar view: history_days back through the upcoming window.
+    calendar = [e for e in past_events if e["date"] >= history_start.isoformat()] + upcoming
 
     manual = None
     if not next_event and entry.get("next_date"):
@@ -331,6 +338,7 @@ def build_show(entry, cfg, tz, today):
         if manual["date"] >= today_iso:
             next_event = manual
             upcoming = [manual]
+            calendar = calendar + [manual]
 
     platform, platform_source = platform_for(entry, tvshow, cfg["network_platforms"])
 
@@ -360,6 +368,7 @@ def build_show(entry, cfg, tz, today):
         "last": last_event,
         "upcoming": upcoming,
         "recent": recent,
+        "calendar": calendar,
     }
 
 
@@ -546,7 +555,7 @@ def main(argv=None):
                 "status": entry["status"], "notes": entry.get("notes") or "",
                 "platform": entry.get("watch_on"), "platform_source": "override" if entry.get("watch_on") else "unknown",
                 "on_our_platforms": None, "phase": "error", "matched_by": "error", "candidates": [],
-                "tvmaze": None, "next": None, "last": None, "upcoming": [], "recent": [],
+                "tvmaze": None, "next": None, "last": None, "upcoming": [], "recent": [], "calendar": [],
                 "error": str(exc),
             })
 
@@ -560,14 +569,29 @@ def main(argv=None):
         "shows": shows,
     }
 
+    events = []
+    for show in shows:
+        for ev in show.pop("calendar"):
+            events.append(dict(ev, show=show["title"]))
+    events.sort(key=lambda e: (e["date"], e["time"] or "", e["show"]))
+    events_doc = {
+        "generated_at": data["generated_at"],
+        "today": today.isoformat(),
+        "from": (today - timedelta(days=int(cfg.get("history_days", 90)))).isoformat(),
+        "to": (today + timedelta(days=int(cfg.get("upcoming_window_days", 120)))).isoformat(),
+        "events": events,
+    }
+    data["events_file"] = EVENTS_FILE.name
+
     args.out_dir.mkdir(parents=True, exist_ok=True)
     (args.out_dir / DATA_FILE.name).write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    (args.out_dir / EVENTS_FILE.name).write_text(json.dumps(events_doc, ensure_ascii=False) + "\n", encoding="utf-8")
     (args.out_dir / ICS_FILE.name).write_text(build_ics(shows, cfg, tz, now), encoding="utf-8", newline="")
 
     matched = sum(1 for s in shows if s["tvmaze"])
     unverified = sum(1 for s in shows if s["tvmaze"] and s["matched_by"] == "search")
     print(f"{len(shows)} shows · {matched} matched on TVmaze ({unverified} by search, not pinned) · "
-          f"{sum(len(s['upcoming']) for s in shows)} upcoming events")
+          f"{sum(len(s['upcoming']) for s in shows)} upcoming events · {len(events)} calendar events")
     for s in shows:
         if not s["tvmaze"]:
             why = f" ({s['error']})" if s.get("error") else (" (using next_date from shows.json)" if s["next"] else "")

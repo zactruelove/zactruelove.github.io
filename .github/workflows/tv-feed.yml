@@ -1,4 +1,4 @@
-# Rebuilds tv/data.json and tv/schedule.ics from tv/shows.json using the
+# Rebuilds tv/data.json, tv/events.json and tv/schedule.ics from tv/shows.json using the
 # free TVmaze API, then commits them if anything changed. GitHub Pages
 # republishes the site on that commit.
 #
@@ -38,7 +38,7 @@ jobs:
 
       - name: Commit if changed
         run: |
-          git add tv/data.json tv/schedule.ics
+          git add tv/data.json tv/events.json tv/schedule.ics
           if git diff --cached --quiet; then
             echo "No changes."
             exit 0

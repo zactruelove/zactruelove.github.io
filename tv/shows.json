@@ -12,6 +12,7 @@
       { "days_before": 1, "time": "20:00", "label": "tomorrow" }
     ],
     "upcoming_window_days": 120,
+    "history_days": 90,
     "recent_window_days": 14,
     "binge_threshold": 3,
     "platforms": ["Hulu", "Netflix", "HBO Max", "Peacock", "Paramount+", "Prime Video", "Disney+"],
