@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T10:29:52Z",
+  "generated_at": "2026-09-28T23:15:26Z",
   "today": "2026-09-28",
   "timezone": "America/Chicago",
   "platforms": [
@@ -456,6 +456,115 @@
       },
       "upcoming": [],
       "recent": []
+    },
+    {
+      "title": "The Real Housewives: Ultimate Girls Trip",
+      "category": "reality",
+      "priority": 2,
+      "status": "active",
+      "notes": "",
+      "platform": "Peacock",
+      "platform_source": "override",
+      "on_our_platforms": true,
+      "phase": "this_week",
+      "matched_by": "search",
+      "candidates": [
+        {
+          "id": 59007,
+          "name": "The Real Housewives: Ultimate Girls Trip",
+          "premiered": "2021-11-15",
+          "source": "Bravo",
+          "country": "US",
+          "status": "Running"
+        },
+        {
+          "id": 84249,
+          "name": "The Real Housewives Ultimate Girls Trip - South Africa",
+          "premiered": "2024-05-27",
+          "source": "Showmax",
+          "country": null,
+          "status": "Running"
+        }
+      ],
+      "tvmaze": {
+        "id": 59007,
+        "name": "The Real Housewives: Ultimate Girls Trip",
+        "url": "https://www.tvmaze.com/shows/59007/the-real-housewives-ultimate-girls-trip",
+        "status": "Running",
+        "source": "Bravo",
+        "premiered": "2021-11-15",
+        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/635/1589199.jpg",
+        "episode_count": 37
+      },
+      "next": {
+        "kind": "episode",
+        "id": "3747227",
+        "season": 5,
+        "code": "S05E09",
+        "name": "Bluestone Manners",
+        "count": 1,
+        "date": "2026-10-04",
+        "time": "20:00",
+        "datetime": "2026-10-04T20:00:00-05:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3747227/the-real-housewives-ultimate-girls-trip-5x09-bluestone-manners"
+      },
+      "last": {
+        "kind": "episode",
+        "id": "3747226",
+        "season": 5,
+        "code": "S05E08",
+        "name": "Mic Drop, Please",
+        "count": 1,
+        "date": "2026-09-27",
+        "time": "20:00",
+        "datetime": "2026-09-27T20:00:00-05:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3747226/the-real-housewives-ultimate-girls-trip-5x08-mic-drop-please"
+      },
+      "upcoming": [
+        {
+          "kind": "episode",
+          "id": "3747227",
+          "season": 5,
+          "code": "S05E09",
+          "name": "Bluestone Manners",
+          "count": 1,
+          "date": "2026-10-04",
+          "time": "20:00",
+          "datetime": "2026-10-04T20:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3747227/the-real-housewives-ultimate-girls-trip-5x09-bluestone-manners"
+        }
+      ],
+      "recent": [
+        {
+          "kind": "episode",
+          "id": "3747225",
+          "season": 5,
+          "code": "S05E07",
+          "name": "Sisterhood of the Traveling Housewives",
+          "count": 1,
+          "date": "2026-09-20",
+          "time": "20:00",
+          "datetime": "2026-09-20T20:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3747225/the-real-housewives-ultimate-girls-trip-5x07-sisterhood-of-the-traveling-housewives"
+        },
+        {
+          "kind": "episode",
+          "id": "3747226",
+          "season": 5,
+          "code": "S05E08",
+          "name": "Mic Drop, Please",
+          "count": 1,
+          "date": "2026-09-27",
+          "time": "20:00",
+          "datetime": "2026-09-27T20:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3747226/the-real-housewives-ultimate-girls-trip-5x08-mic-drop-please"
+        }
+      ]
     },
     {
       "title": "Survivor",
@@ -1113,7 +1222,7 @@
         "id": 93787,
         "name": "Still Flipping Out",
         "url": "https://www.tvmaze.com/shows/93787/still-flipping-out",
-        "status": "In Development",
+        "status": "Running",
         "source": "Bravo",
         "premiered": "2026-09-28",
         "image": "https://static.tvmaze.com/uploads/images/medium_portrait/639/1598001.jpg",
@@ -1402,8 +1511,8 @@
           "name": "TBA",
           "count": 1,
           "date": "2026-11-19",
-          "time": "20:00",
-          "datetime": "2026-11-19T20:00:00-06:00",
+          "time": "19:00",
+          "datetime": "2026-11-19T19:00:00-06:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3772252/the-traitors-5x11-tba"
         },
@@ -2228,13 +2337,13 @@
           "id": "3770244",
           "season": 17,
           "code": "S17E03",
-          "name": "TBA",
+          "name": "Audience Choice Week",
           "count": 1,
           "date": "2026-10-09",
           "time": null,
           "datetime": null,
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3770244/the-great-british-bake-off-17x03-tba"
+          "url": "https://www.tvmaze.com/episodes/3770244/the-great-british-bake-off-17x03-audience-choice-week"
         }
       ],
       "recent": [
