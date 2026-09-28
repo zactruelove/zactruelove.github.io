@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T23:15:26Z",
+  "generated_at": "2026-09-28T23:16:27Z",
   "today": "2026-09-28",
   "timezone": "America/Chicago",
   "platforms": [
@@ -467,25 +467,8 @@
       "platform_source": "override",
       "on_our_platforms": true,
       "phase": "this_week",
-      "matched_by": "search",
-      "candidates": [
-        {
-          "id": 59007,
-          "name": "The Real Housewives: Ultimate Girls Trip",
-          "premiered": "2021-11-15",
-          "source": "Bravo",
-          "country": "US",
-          "status": "Running"
-        },
-        {
-          "id": 84249,
-          "name": "The Real Housewives Ultimate Girls Trip - South Africa",
-          "premiered": "2024-05-27",
-          "source": "Showmax",
-          "country": null,
-          "status": "Running"
-        }
-      ],
+      "matched_by": "id",
+      "candidates": [],
       "tvmaze": {
         "id": 59007,
         "name": "The Real Housewives: Ultimate Girls Trip",
