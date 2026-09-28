@@ -63,6 +63,7 @@
     { "title": "The Real Housewives of New York City", "query": "The Real Housewives of New York City", "tvmaze_id": 750, "category": "reality", "priority": 2, "status": "active", "watch_on": null, "notes": "" },
     { "title": "The Real Housewives of Salt Lake City", "query": "The Real Housewives of Salt Lake City", "tvmaze_id": 49980, "category": "reality", "priority": 2, "status": "active", "watch_on": null, "notes": "" },
     { "title": "The Real Housewives of Beverly Hills", "query": "The Real Housewives of Beverly Hills", "tvmaze_id": 745, "category": "reality", "priority": 2, "status": "active", "watch_on": null, "notes": "" },
+    { "title": "The Real Housewives: Ultimate Girls Trip", "query": "The Real Housewives Ultimate Girls Trip", "tvmaze_id": null, "category": "reality", "priority": 2, "status": "active", "watch_on": "Peacock", "notes": "" },
     { "title": "Survivor", "query": "Survivor", "tvmaze_id": 114, "category": "competition", "priority": 1, "status": "active", "watch_on": null, "notes": "" },
     { "title": "The Amazing Race", "query": "The Amazing Race", "tvmaze_id": 18, "category": "competition", "priority": 2, "status": "active", "watch_on": null, "notes": "" },
     { "title": "It's Always Sunny in Philadelphia", "query": "It's Always Sunny in Philadelphia", "tvmaze_id": 347, "category": "comedy", "priority": 2, "status": "active", "watch_on": null, "notes": "" },
