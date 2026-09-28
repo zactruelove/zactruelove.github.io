@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-27T23:01:25Z",
-  "today": "2026-09-27",
+  "generated_at": "2026-09-28T10:29:52Z",
+  "today": "2026-09-28",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -938,44 +938,31 @@
       },
       "next": {
         "kind": "episode",
+        "id": "3767837",
+        "season": 28,
+        "code": "S28E36",
+        "name": "Episode 36--Live Finale",
+        "count": 1,
+        "date": "2026-10-01",
+        "time": "19:00",
+        "datetime": "2026-10-01T19:00:00-05:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3767837/big-brother-28x36-episode-36-live-finale"
+      },
+      "last": {
+        "kind": "episode",
         "id": "3684558",
         "season": 28,
         "code": "S28E35",
         "name": "Episode 35",
         "count": 1,
         "date": "2026-09-27",
-        "time": "20:30",
-        "datetime": "2026-09-27T20:30:00-05:00",
+        "time": "21:15",
+        "datetime": "2026-09-27T21:15:00-05:00",
         "premiere": false,
         "url": "https://www.tvmaze.com/episodes/3684558/big-brother-28x35-episode-35"
       },
-      "last": {
-        "kind": "episode",
-        "id": "3684556",
-        "season": 28,
-        "code": "S28E34",
-        "name": "Episode 34--Live Eviction",
-        "count": 1,
-        "date": "2026-09-24",
-        "time": "19:00",
-        "datetime": "2026-09-24T19:00:00-05:00",
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3684556/big-brother-28x34-episode-34-live-eviction"
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3684558",
-          "season": 28,
-          "code": "S28E35",
-          "name": "Episode 35",
-          "count": 1,
-          "date": "2026-09-27",
-          "time": "20:30",
-          "datetime": "2026-09-27T20:30:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3684558/big-brother-28x35-episode-35"
-        },
         {
           "kind": "episode",
           "id": "3767837",
@@ -991,19 +978,6 @@
         }
       ],
       "recent": [
-        {
-          "kind": "episode",
-          "id": "3652973",
-          "season": 28,
-          "code": "S28E29",
-          "name": "Episode 29",
-          "count": 1,
-          "date": "2026-09-13",
-          "time": "19:30",
-          "datetime": "2026-09-13T19:30:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3652973/big-brother-28x29-episode-29"
-        },
         {
           "kind": "episode",
           "id": "3652974",
@@ -1068,6 +1042,19 @@
           "datetime": "2026-09-24T19:00:00-05:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3684556/big-brother-28x34-episode-34-live-eviction"
+        },
+        {
+          "kind": "episode",
+          "id": "3684558",
+          "season": 28,
+          "code": "S28E35",
+          "name": "Episode 35",
+          "count": 1,
+          "date": "2026-09-27",
+          "time": "21:15",
+          "datetime": "2026-09-27T21:15:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3684558/big-brother-28x35-episode-35"
         }
       ]
     },
@@ -1130,7 +1117,7 @@
         "source": "Bravo",
         "premiered": "2026-09-28",
         "image": "https://static.tvmaze.com/uploads/images/medium_portrait/639/1598001.jpg",
-        "episode_count": 1
+        "episode_count": 4
       },
       "next": {
         "kind": "episode",
@@ -1159,6 +1146,45 @@
           "datetime": "2026-09-28T20:00:00-05:00",
           "premiere": true,
           "url": "https://www.tvmaze.com/episodes/3716223/still-flipping-out-1x01-did-you-miss-me"
+        },
+        {
+          "kind": "episode",
+          "id": "3773304",
+          "season": 1,
+          "code": "S01E02",
+          "name": "Sick of the Shtick",
+          "count": 1,
+          "date": "2026-10-05",
+          "time": "20:00",
+          "datetime": "2026-10-05T20:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3773304/still-flipping-out-1x02-sick-of-the-shtick"
+        },
+        {
+          "kind": "episode",
+          "id": "3773305",
+          "season": 1,
+          "code": "S01E03",
+          "name": "Chumped and Dumped",
+          "count": 1,
+          "date": "2026-10-12",
+          "time": "20:00",
+          "datetime": "2026-10-12T20:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3773305/still-flipping-out-1x03-chumped-and-dumped"
+        },
+        {
+          "kind": "episode",
+          "id": "3773306",
+          "season": 1,
+          "code": "S01E04",
+          "name": "In Thickness and in Health",
+          "count": 1,
+          "date": "2026-10-19",
+          "time": "20:00",
+          "datetime": "2026-10-19T20:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3773306/still-flipping-out-1x04-in-thickness-and-in-health"
         }
       ],
       "recent": []
@@ -1712,6 +1738,19 @@
           "datetime": null,
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3714485/only-murders-in-the-building-6x07-tba"
+        },
+        {
+          "kind": "episode",
+          "id": "3714490",
+          "season": 6,
+          "code": "S06E08",
+          "name": "TBA",
+          "count": 1,
+          "date": "2027-01-26",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3714490/only-murders-in-the-building-6x08-tba"
         }
       ],
       "recent": []
