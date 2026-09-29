@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-29T01:51:55Z",
-  "today": "2026-09-28",
+  "generated_at": "2026-09-29T10:29:01Z",
+  "today": "2026-09-29",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -227,7 +227,7 @@
         "source": "Bravo",
         "premiered": "2008-03-04",
         "image": "https://static.tvmaze.com/uploads/images/medium_portrait/639/1598898.jpg",
-        "episode_count": 296
+        "episode_count": 297
       },
       "variants": [],
       "next": {
@@ -285,6 +285,20 @@
           "datetime": "2026-10-06T19:00:00-05:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3766634/the-real-housewives-of-new-york-city-16x05-tba",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3774992",
+          "season": 16,
+          "code": "S16E06",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-10-13",
+          "time": "19:00",
+          "datetime": "2026-10-13T19:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3774992/the-real-housewives-of-new-york-city-16x06-tba",
           "variant": null
         }
       ],
@@ -972,6 +986,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3702400",
+        "season": 18,
+        "code": "S18E09",
+        "name": "Frank's Team: A Dark Day for Baseball",
+        "count": 1,
+        "date": "2026-10-05",
+        "time": "20:00",
+        "datetime": "2026-10-05T20:00:00-05:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3702400/its-always-sunny-in-philadelphia-18x09-franks-team-a-dark-day-for-baseball",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3702399",
         "season": 18,
         "code": "S18E08",
@@ -984,35 +1012,7 @@
         "url": "https://www.tvmaze.com/episodes/3702399/its-always-sunny-in-philadelphia-18x08-mac-and-dennis-tear-their-acls",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3702398",
-        "season": 18,
-        "code": "S18E07",
-        "name": "Gilligan's Island: A Conspiracy Theorist's Paradise",
-        "count": 1,
-        "date": "2026-09-21",
-        "time": "20:00",
-        "datetime": "2026-09-21T20:00:00-05:00",
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3702398/its-always-sunny-in-philadelphia-18x07-gilligans-island-a-conspiracy-theorists-paradise",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3702399",
-          "season": 18,
-          "code": "S18E08",
-          "name": "Mac and Dennis Tear Their ACLs",
-          "count": 1,
-          "date": "2026-09-28",
-          "time": "20:00",
-          "datetime": "2026-09-28T20:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3702399/its-always-sunny-in-philadelphia-18x08-mac-and-dennis-tear-their-acls",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3702400",
@@ -1045,20 +1045,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3702394",
-          "season": 18,
-          "code": "S18E06",
-          "name": "The War on Alcohol",
-          "count": 1,
-          "date": "2026-09-14",
-          "time": "20:00",
-          "datetime": "2026-09-14T20:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3702394/its-always-sunny-in-philadelphia-18x06-the-war-on-alcohol",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3702398",
           "season": 18,
           "code": "S18E07",
@@ -1069,6 +1055,20 @@
           "datetime": "2026-09-21T20:00:00-05:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3702398/its-always-sunny-in-philadelphia-18x07-gilligans-island-a-conspiracy-theorists-paradise",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3702399",
+          "season": 18,
+          "code": "S18E08",
+          "name": "Mac and Dennis Tear Their ACLs",
+          "count": 1,
+          "date": "2026-09-28",
+          "time": "20:00",
+          "datetime": "2026-09-28T20:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3702399/its-always-sunny-in-philadelphia-18x08-mac-and-dennis-tear-their-acls",
           "variant": null
         }
       ]
@@ -1293,6 +1293,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3773304",
+        "season": 1,
+        "code": "S01E02",
+        "name": "Sick of the Shtick",
+        "count": 1,
+        "date": "2026-10-05",
+        "time": "20:00",
+        "datetime": "2026-10-05T20:00:00-05:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3773304/still-flipping-out-1x02-sick-of-the-shtick",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3716223",
         "season": 1,
         "code": "S01E01",
@@ -1305,22 +1319,7 @@
         "url": "https://www.tvmaze.com/episodes/3716223/still-flipping-out-1x01-did-you-miss-me",
         "variant": null
       },
-      "last": null,
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3716223",
-          "season": 1,
-          "code": "S01E01",
-          "name": "Did You Miss Me?",
-          "count": 1,
-          "date": "2026-09-28",
-          "time": "20:00",
-          "datetime": "2026-09-28T20:00:00-05:00",
-          "premiere": true,
-          "url": "https://www.tvmaze.com/episodes/3716223/still-flipping-out-1x01-did-you-miss-me",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3773304",
@@ -1364,7 +1363,22 @@
           "variant": null
         }
       ],
-      "recent": []
+      "recent": [
+        {
+          "kind": "episode",
+          "id": "3716223",
+          "season": 1,
+          "code": "S01E01",
+          "name": "Did You Miss Me?",
+          "count": 1,
+          "date": "2026-09-28",
+          "time": "20:00",
+          "datetime": "2026-09-28T20:00:00-05:00",
+          "premiere": true,
+          "url": "https://www.tvmaze.com/episodes/3716223/still-flipping-out-1x01-did-you-miss-me",
+          "variant": null
+        }
+      ]
     },
     {
       "title": "Project Runway",
@@ -1792,17 +1806,17 @@
           "source": "Netflix"
         },
         {
-          "id": 89143,
-          "name": "Is It Cake? Valentines",
-          "url": "https://www.tvmaze.com/shows/89143/is-it-cake-valentines",
-          "status": "To Be Determined",
-          "source": "Netflix"
-        },
-        {
           "id": 80440,
           "name": "Is It Cake? Holiday",
           "url": "https://www.tvmaze.com/shows/80440/is-it-cake-holiday",
           "status": "Running",
+          "source": "Netflix"
+        },
+        {
+          "id": 89143,
+          "name": "Is It Cake? Valentines",
+          "url": "https://www.tvmaze.com/shows/89143/is-it-cake-valentines",
+          "status": "To Be Determined",
           "source": "Netflix"
         }
       ],
