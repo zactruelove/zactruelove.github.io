@@ -221,7 +221,7 @@
         row.appendChild(when);
 
         const main = el('div', 'row-main');
-        main.appendChild(el('div', 'row-title', show.title));
+        main.appendChild(el('div', 'row-title', ev.variant || show.title));
         const sub = el('div', 'row-sub');
         sub.appendChild(el('span', 'ep-code', ev.code));
         sub.appendChild(document.createTextNode(eventLabel(ev)));
@@ -259,6 +259,7 @@
         if (show.last) {
             sub.appendChild(el('span', 'ep-code', show.last.code));
             sub.appendChild(document.createTextNode(show.last.kind === 'binge' ? `All ${show.last.count} episodes` : (show.last.name || '')));
+            if (show.last.variant) sub.appendChild(document.createTextNode(` (${show.last.variant})`));
         }
         if (show.tvmaze && show.tvmaze.status) {
             sub.appendChild(document.createTextNode((show.last ? ' · ' : '') + `TVmaze: ${show.tvmaze.status}`));
@@ -340,7 +341,7 @@
             return td;
         }
         td.appendChild(document.createTextNode(fmtShort(ev.date)));
-        const code = el('span', 'ep-code', ev.code + (ev.time ? ' · ' + fmtTime(ev.time) : ''));
+        const code = el('span', 'ep-code', (ev.variant ? ev.variant + ' ' : '') + ev.code + (ev.time ? ' · ' + fmtTime(ev.time) : ''));
         if (ev.kind === 'binge') code.appendChild(tag(`×${ev.count}`, 'tag-strong'));
         else if (ev.premiere && !past) code.appendChild(tag('Premiere', 'tag-strong'));
         if (ev.kind === 'manual') code.appendChild(tag('Manual', 'tag-dim'));
@@ -375,6 +376,10 @@
                 const a = el('a', 'tv-link', show.title);
                 a.href = show.tvmaze.url; a.target = '_blank'; a.rel = 'noopener noreferrer';
                 title.appendChild(a);
+            }
+            if (show.variants && show.variants.length) {
+                const v = el('span', 'variants', 'Includes ' + show.variants.map((x) => x.name).join(', '));
+                title.appendChild(v);
             }
             tr.appendChild(title);
             tr.appendChild(el('td', 'muted', show.category));
@@ -426,9 +431,9 @@
 
     function chip(show, ev) {
         const c = el('div', 'ev' + (show.priority === 1 ? ' p1' : '') + (ev.kind === 'binge' ? ' binge' : ''));
-        c.appendChild(document.createTextNode(show.title + ' '));
+        c.appendChild(document.createTextNode((ev.variant || show.title) + ' '));
         c.appendChild(el('span', 'code', ev.kind === 'binge' ? `${ev.code} ×${ev.count}` : ev.code));
-        c.title = `${show.title} ${ev.code} · ${fmtTime(ev.time)}${show.platform ? ' · ' + show.platform : ''}`;
+        c.title = `${ev.variant || show.title} ${ev.code} · ${fmtTime(ev.time)}${show.platform ? ' · ' + show.platform : ''}`;
         return c;
     }
 

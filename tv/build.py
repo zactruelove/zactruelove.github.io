@@ -164,11 +164,42 @@ def resolve_show(entry, country):
     return show, "search", candidates
 
 
+def find_variants(entry, main_show, country):
+    """Spin-offs and specials TVmaze lists as separate shows ("Is It Cake? Holiday").
+
+    Only for entries with include_variants: true. A variant is any search
+    result whose title starts with the entry's query (punctuation and case
+    ignored), from the same country or a global streamer, that is not the
+    main show and not in exclude_ids. Returns shows with embedded episodes.
+    """
+    if not entry.get("include_variants") or not main_show:
+        return []
+    query = entry.get("query") or entry["title"]
+    q = normalize(query)
+    skip = {main_show["id"]} | {int(i) for i in entry.get("exclude_ids") or []}
+    results = fetch_json(f"/search/shows?q={urllib.parse.quote(query)}") or []
+    variants = []
+    for r in results:
+        show = r["show"]
+        if show["id"] in skip or not normalize(show.get("name")).startswith(q):
+            continue
+        code = country_of(show)
+        if code not in (country, None):
+            log(f"  variant skipped (country {code}): {show['name']} ({show['id']})")
+            continue
+        full = fetch_json(f"/shows/{show['id']}?embed=episodes")
+        if full:
+            log(f"  variant: {full['name']} ({full['id']}, {source_name(full)})")
+            variants.append(full)
+            skip.add(show["id"])
+    return variants
+
+
 # ---------------------------------------------------------------------------
 # Episodes -> local dates
 # ---------------------------------------------------------------------------
 
-def localize_episode(ep, tz, shift_days):
+def localize_episode(ep, tz, shift_days, variant=None):
     """Convert a TVmaze episode into a record with dates in the target time zone."""
     if not ep.get("airdate"):
         return None
@@ -207,6 +238,8 @@ def localize_episode(ep, tz, shift_days):
         "time": local_dt.strftime("%H:%M") if local_dt else None,
         "datetime": local_dt.isoformat() if local_dt else None,
         "url": ep.get("url"),
+        "variant_id": variant["id"] if variant else None,
+        "variant": variant["name"] if variant else None,
     }
 
 
@@ -215,7 +248,7 @@ def group_events(episodes, threshold):
     by_day = {}
     order = []
     for ep in episodes:
-        key = (ep["season"], ep["date"])
+        key = (ep["variant_id"], ep["season"], ep["date"])
         if key not in by_day:
             by_day[key] = []
             order.append(key)
@@ -228,7 +261,7 @@ def group_events(episodes, threshold):
             first = group[0]
             events.append({
                 "kind": "binge",
-                "id": f"s{first['season']}-{first['date']}",
+                "id": (f"v{first['variant_id']}-" if first["variant_id"] else "") + f"s{first['season']}-{first['date']}",
                 "season": first["season"],
                 "code": f"S{first['season']:02d}" if first["season"] is not None else "Season",
                 "name": f"All {len(group)} episodes",
@@ -238,6 +271,7 @@ def group_events(episodes, threshold):
                 "datetime": None,
                 "premiere": any(e["number"] == 1 for e in group),
                 "url": first["url"],
+                "variant": first["variant"],
             })
         else:
             for ep in group:
@@ -253,6 +287,7 @@ def group_events(episodes, threshold):
                     "datetime": ep["datetime"],
                     "premiere": ep["number"] == 1,
                     "url": ep["url"],
+                    "variant": ep["variant"],
                 })
     return events
 
@@ -296,15 +331,17 @@ def build_show(entry, cfg, tz, today):
     recent_start = today - timedelta(days=int(cfg.get("recent_window_days", 14)))
     history_start = today - timedelta(days=int(cfg.get("history_days", 90)))
 
+    variants = find_variants(entry, tvshow, cfg["country"])
     episodes = []
-    if tvshow:
-        raw = (tvshow.get("_embedded") or {}).get("episodes") or []
+    for source, variant in ([(tvshow, None)] if tvshow else []) + [(v, v) for v in variants]:
+        raw = (source.get("_embedded") or {}).get("episodes") or []
         for ep in raw:
             if ep.get("type") == "insignificant_special":
                 continue
-            rec = localize_episode(ep, tz, shift)
+            rec = localize_episode(ep, tz, shift, variant)
             if rec:
                 episodes.append(rec)
+    if episodes:
         episodes.sort(key=lambda e: (e["date"], e["time"] or "", e["season"] or 0, e["number"] or 0))
 
     today_iso = today.isoformat()
@@ -364,6 +401,13 @@ def build_show(entry, cfg, tz, today):
             "image": (tvshow.get("image") or {}).get("medium"),
             "episode_count": len(episodes),
         } if tvshow else None,
+        "variants": [{
+            "id": v["id"],
+            "name": v.get("name"),
+            "url": v.get("url"),
+            "status": v.get("status"),
+            "source": source_name(v),
+        } for v in variants],
         "next": next_event,
         "last": last_event,
         "upcoming": upcoming,
@@ -450,7 +494,7 @@ def build_ics(shows, cfg, tz, now):
             if ev["date"] < recent_start:
                 continue
             ev_date = date.fromisoformat(ev["date"])
-            summary = f"{show['title']} {ev['code']}"
+            summary = f"{ev.get('variant') or show['title']} {ev['code']}"
             if ev["kind"] == "binge":
                 summary += f" · all {ev['count']} episodes"
             elif ev["premiere"]:
@@ -515,6 +559,10 @@ def validate(entries):
                 date.fromisoformat(e["next_date"])
             except ValueError:
                 problems.append(f"{where}: next_date must be YYYY-MM-DD")
+        if "include_variants" in e and not isinstance(e["include_variants"], bool):
+            problems.append(f"{where}: include_variants must be true or false")
+        if e.get("exclude_ids") is not None and not all(isinstance(i, int) for i in e["exclude_ids"]):
+            problems.append(f"{where}: exclude_ids must be a list of TVmaze ids")
         if e.get("title") in seen:
             problems.append(f"{where}: duplicate title")
         seen.add(e.get("title"))
@@ -555,7 +603,7 @@ def main(argv=None):
                 "status": entry["status"], "notes": entry.get("notes") or "",
                 "platform": entry.get("watch_on"), "platform_source": "override" if entry.get("watch_on") else "unknown",
                 "on_our_platforms": None, "phase": "error", "matched_by": "error", "candidates": [],
-                "tvmaze": None, "next": None, "last": None, "upcoming": [], "recent": [], "calendar": [],
+                "tvmaze": None, "variants": [], "next": None, "last": None, "upcoming": [], "recent": [], "calendar": [],
                 "error": str(exc),
             })
 

@@ -110,7 +110,9 @@ the main site must leave `tv/` alone.
 - **Source of truth:** `tv/shows.json`. Categories `reality | competition | comedy | drama`,
   priority `1..3`, status `active | ignore | finished`, optional `watch_on` override,
   `next_date`, `date_shift_days`, `tvmaze_id` (pin once verified; otherwise matched by search,
-  preferring US listings). Schema documented in `tv/README.md`.
+  preferring exact titles, then US listings), `include_variants` + `exclude_ids` (merge
+  separately listed specials/spin-offs whose title starts with the query). Schema documented
+  in `tv/README.md`.
 - **Data:** free TVmaze API, no key. `tv/build.py` is standard-library Python only (no pip).
   Weekly shows become timed events in Central; streaming drops are all-day; 3+ episodes of a
   season on one day collapse into one "all N episodes" event.

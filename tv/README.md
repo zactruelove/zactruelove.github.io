@@ -45,6 +45,14 @@ Each entry in `shows.json`:
 - **date_shift_days** — optional. Shifts every episode by N days and makes
   them all-day, for a show you watch on a later release than the one TVmaze
   tracks.
+- **include_variants** — optional `true`. Also merges in every TVmaze show
+  whose title starts with the `query` (case and punctuation ignored), from
+  the US or a global streamer. For shows whose holiday specials or spin-offs
+  are listed separately, e.g. Is It Cake. Their episodes appear under their
+  own titles on the page and in the calendar feed, and the Shows view lists
+  which variants were merged. New variants are picked up by the next build.
+- **exclude_ids** — optional list of TVmaze IDs `include_variants` should
+  skip, for a title that matches but isn't one you want.
 
 Config knobs worth knowing: `alerts` (the calendar reminders), `platforms`
 (the services you both have; anything else is flagged), `calendar_priorities`

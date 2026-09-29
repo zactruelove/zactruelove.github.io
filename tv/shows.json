@@ -1,5 +1,5 @@
 {
-  "_readme": "The watchlist. Edit this file to add, drop, re-prioritize or ignore shows; tv/build.py turns it into data.json and schedule.ics. Fields per show: title (display name), query (TVmaze search text, defaults to title), tvmaze_id (pin the exact show once verified; null = match by search), category (reality | competition | comedy | drama), priority (1 = must watch, 2 = normal, 3 = whenever), status (active | ignore | finished), watch_on (platform override; null = derived from the network map below), notes (free text shown on the page), next_date (optional YYYY-MM-DD for a premiere TVmaze does not know yet), date_shift_days (optional; shifts every episode date, e.g. a UK show that lands on Netflix US three days later).",
+  "_readme": "The watchlist. Edit this file to add, drop, re-prioritize or ignore shows; tv/build.py turns it into data.json and schedule.ics. Fields per show: title (display name), query (TVmaze search text, defaults to title), tvmaze_id (pin the exact show once verified; null = match by search), category (reality | competition | comedy | drama), priority (1 = must watch, 2 = normal, 3 = whenever), status (active | ignore | finished), watch_on (platform override; null = derived from the network map below), notes (free text shown on the page), next_date (optional YYYY-MM-DD for a premiere TVmaze does not know yet), date_shift_days (optional; shifts every episode date, e.g. a UK show that lands on Netflix US three days later), include_variants (optional true; also merges every TVmaze show whose title starts with the query, e.g. holiday specials listed separately), exclude_ids (optional list of TVmaze ids to leave out of include_variants).",
 
   "config": {
     "timezone": "America/Chicago",
@@ -75,7 +75,7 @@
     { "title": "The Traitors", "query": "The Traitors", "tvmaze_id": 58177, "category": "competition", "priority": 1, "status": "active", "watch_on": "Peacock", "notes": "US version." },
     { "title": "Next Gen NYC", "query": "Next Gen NYC", "tvmaze_id": 83941, "category": "reality", "priority": 2, "status": "active", "watch_on": null, "notes": "" },
     { "title": "Next Gen LA", "query": "Next Gen LA", "tvmaze_id": null, "category": "reality", "priority": 2, "status": "active", "watch_on": "Peacock", "notes": "" },
-    { "title": "Is It Cake?", "query": "Is It Cake", "tvmaze_id": 60662, "category": "competition", "priority": 2, "status": "active", "watch_on": null, "notes": "" },
+    { "title": "Is It Cake?", "query": "Is It Cake", "tvmaze_id": 60662, "include_variants": true, "category": "competition", "priority": 2, "status": "active", "watch_on": null, "notes": "Holiday specials and spin-offs are merged in automatically." },
     { "title": "Only Murders in the Building", "query": "Only Murders in the Building", "tvmaze_id": 48830, "category": "comedy", "priority": 2, "status": "active", "watch_on": null, "notes": "" },
     { "title": "House of Villains", "query": "House of Villains", "tvmaze_id": 68675, "category": "competition", "priority": 2, "status": "active", "watch_on": null, "notes": "" },
     { "title": "The Challenge", "query": "The Challenge", "tvmaze_id": 2100, "category": "competition", "priority": 2, "status": "active", "watch_on": null, "notes": "MTV flagship series." },
@@ -89,6 +89,7 @@
     { "title": "Adults", "query": "Adults", "tvmaze_id": 83946, "category": "comedy", "priority": 2, "status": "active", "watch_on": null, "notes": "" },
     { "title": "Overcompensating", "query": "Overcompensating", "tvmaze_id": 74993, "category": "comedy", "priority": 2, "status": "active", "watch_on": "Prime Video", "notes": "" },
     { "title": "Not Suitable for Work", "query": "Not Suitable for Work", "tvmaze_id": 83015, "category": "reality", "priority": 2, "status": "active", "watch_on": null, "notes": "" },
-    { "title": "Members Only Palm Beach", "query": "Members Only: Palm Beach", "tvmaze_id": 88500, "category": "reality", "priority": 2, "status": "active", "watch_on": null, "notes": "" }
+    { "title": "Members Only Palm Beach", "query": "Members Only: Palm Beach", "tvmaze_id": 88500, "category": "reality", "priority": 2, "status": "active", "watch_on": null, "notes": "" },
+    { "title": "Little Singles", "query": "Little Singles", "tvmaze_id": null, "category": "reality", "priority": 2, "status": "active", "watch_on": null, "notes": "Watching for a renewal." }
   ]
 }
