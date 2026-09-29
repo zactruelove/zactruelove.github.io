@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T10:29:01Z",
+  "generated_at": "2026-09-29T16:55:50Z",
   "today": "2026-09-29",
   "timezone": "America/Chicago",
   "platforms": [
@@ -2647,13 +2647,13 @@
           "id": "3762533",
           "season": 2,
           "code": "S02E04",
-          "name": "TBA",
+          "name": "No Place Like Om",
           "count": 1,
           "date": "2026-10-13",
           "time": "19:00",
           "datetime": "2026-10-13T19:00:00-05:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3762533/best-medicine-2x04-tba",
+          "url": "https://www.tvmaze.com/episodes/3762533/best-medicine-2x04-no-place-like-om",
           "variant": null
         },
         {
@@ -2947,6 +2947,219 @@
       },
       "upcoming": [],
       "recent": []
+    },
+    {
+      "title": "The Gentlemen",
+      "category": "drama",
+      "priority": 2,
+      "status": "active",
+      "notes": "",
+      "platform": "Netflix",
+      "platform_source": "webChannel",
+      "on_our_platforms": true,
+      "phase": "between_seasons",
+      "matched_by": "search",
+      "candidates": [
+        {
+          "id": 64992,
+          "name": "The Gentlemen",
+          "premiered": "2024-03-07",
+          "source": "Netflix",
+          "country": null,
+          "status": "Running"
+        },
+        {
+          "id": 18632,
+          "name": "The Gentlemen of Wolgyesu Tailor Shop",
+          "premiered": "2016-08-27",
+          "source": "KBS2",
+          "country": "KR",
+          "status": "Ended"
+        },
+        {
+          "id": 1720,
+          "name": "The League of Gentlemen",
+          "premiered": "1999-01-11",
+          "source": "BBC Two",
+          "country": "GB",
+          "status": "Ended"
+        },
+        {
+          "id": 9891,
+          "name": "The Elegant Gentleman's Guide to Knife Fighting",
+          "premiered": "2013-04-03",
+          "source": "ABC",
+          "country": "AU",
+          "status": "Ended"
+        }
+      ],
+      "tvmaze": {
+        "id": 64992,
+        "name": "The Gentlemen",
+        "url": "https://www.tvmaze.com/shows/64992/the-gentlemen",
+        "status": "Running",
+        "source": "Netflix",
+        "premiered": "2024-03-07",
+        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/641/1603070.jpg",
+        "episode_count": 16
+      },
+      "variants": [],
+      "next": null,
+      "last": {
+        "kind": "binge",
+        "id": "s2-2026-09-03",
+        "season": 2,
+        "code": "S02",
+        "name": "All 8 episodes",
+        "count": 8,
+        "date": "2026-09-03",
+        "time": null,
+        "datetime": null,
+        "premiere": true,
+        "url": "https://www.tvmaze.com/episodes/3667664/the-gentlemen-2x01-the-road-to-kingdom",
+        "variant": null
+      },
+      "upcoming": [],
+      "recent": []
+    },
+    {
+      "title": "Lanterns",
+      "category": "drama",
+      "priority": 2,
+      "status": "active",
+      "notes": "",
+      "platform": "HBO Max",
+      "platform_source": "network",
+      "on_our_platforms": true,
+      "phase": "this_week",
+      "matched_by": "search",
+      "candidates": [
+        {
+          "id": 44776,
+          "name": "Lanterns",
+          "premiered": "2026-08-16",
+          "source": "HBO",
+          "country": "US",
+          "status": "Running"
+        },
+        {
+          "id": 26709,
+          "name": "Scrubs: Interns",
+          "premiered": "2009-01-01",
+          "source": "ABC.com",
+          "country": "US",
+          "status": "Ended"
+        },
+        {
+          "id": 3585,
+          "name": "Green Lantern The Animated Series",
+          "premiered": "2011-11-11",
+          "source": "Cartoon Network",
+          "country": "US",
+          "status": "Ended"
+        },
+        {
+          "id": 64734,
+          "name": "The Interns",
+          "premiered": "1970-09-18",
+          "source": "CBS",
+          "country": "US",
+          "status": "Ended"
+        },
+        {
+          "id": 21258,
+          "name": "College Hill: Interns",
+          "premiered": "2007-10-23",
+          "source": "BET",
+          "country": "US",
+          "status": "Ended"
+        }
+      ],
+      "tvmaze": {
+        "id": 44776,
+        "name": "Lanterns",
+        "url": "https://www.tvmaze.com/shows/44776/lanterns",
+        "status": "Running",
+        "source": "HBO",
+        "premiered": "2026-08-16",
+        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/637/1592971.jpg",
+        "episode_count": 8
+      },
+      "variants": [],
+      "next": {
+        "kind": "episode",
+        "id": "3695366",
+        "season": 1,
+        "code": "S01E08",
+        "name": "Dirt and Stars",
+        "count": 1,
+        "date": "2026-10-04",
+        "time": "20:00",
+        "datetime": "2026-10-04T20:00:00-05:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3695366/lanterns-1x08-dirt-and-stars",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
+        "id": "3695365",
+        "season": 1,
+        "code": "S01E07",
+        "name": "The Jordan Boys' Legacy",
+        "count": 1,
+        "date": "2026-09-27",
+        "time": "20:00",
+        "datetime": "2026-09-27T20:00:00-05:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3695365/lanterns-1x07-the-jordan-boys-legacy",
+        "variant": null
+      },
+      "upcoming": [
+        {
+          "kind": "episode",
+          "id": "3695366",
+          "season": 1,
+          "code": "S01E08",
+          "name": "Dirt and Stars",
+          "count": 1,
+          "date": "2026-10-04",
+          "time": "20:00",
+          "datetime": "2026-10-04T20:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3695366/lanterns-1x08-dirt-and-stars",
+          "variant": null
+        }
+      ],
+      "recent": [
+        {
+          "kind": "episode",
+          "id": "3695364",
+          "season": 1,
+          "code": "S01E06",
+          "name": "Bad Optics",
+          "count": 1,
+          "date": "2026-09-20",
+          "time": "20:00",
+          "datetime": "2026-09-20T20:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3695364/lanterns-1x06-bad-optics",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3695365",
+          "season": 1,
+          "code": "S01E07",
+          "name": "The Jordan Boys' Legacy",
+          "count": 1,
+          "date": "2026-09-27",
+          "time": "20:00",
+          "datetime": "2026-09-27T20:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3695365/lanterns-1x07-the-jordan-boys-legacy",
+          "variant": null
+        }
+      ]
     }
   ],
   "events_file": "events.json"
