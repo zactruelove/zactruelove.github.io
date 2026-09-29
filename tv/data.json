@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T01:50:53Z",
+  "generated_at": "2026-09-29T01:51:55Z",
   "today": "2026-09-28",
   "timezone": "America/Chicago",
   "platforms": [
@@ -2903,17 +2903,8 @@
       "platform_source": "network",
       "on_our_platforms": true,
       "phase": "between_seasons",
-      "matched_by": "search",
-      "candidates": [
-        {
-          "id": 91890,
-          "name": "Little Singles",
-          "premiered": "2026-06-15",
-          "source": "TLC",
-          "country": "US",
-          "status": "Running"
-        }
-      ],
+      "matched_by": "id",
+      "candidates": [],
       "tvmaze": {
         "id": 91890,
         "name": "Little Singles",
