@@ -91,7 +91,7 @@
     { "title": "Not Suitable for Work", "query": "Not Suitable for Work", "tvmaze_id": 83015, "category": "reality", "priority": 2, "status": "active", "watch_on": null, "notes": "" },
     { "title": "Members Only Palm Beach", "query": "Members Only: Palm Beach", "tvmaze_id": 88500, "category": "reality", "priority": 2, "status": "active", "watch_on": null, "notes": "" },
     { "title": "Little Singles", "query": "Little Singles", "tvmaze_id": 91890, "category": "reality", "priority": 2, "status": "active", "watch_on": null, "notes": "Watching for a renewal." },
-    { "title": "The Gentlemen", "query": "The Gentlemen", "tvmaze_id": null, "category": "drama", "priority": 2, "status": "active", "watch_on": null, "notes": "" },
-    { "title": "Lanterns", "query": "Lanterns", "tvmaze_id": null, "category": "drama", "priority": 2, "status": "active", "watch_on": null, "notes": "" }
+    { "title": "The Gentlemen", "query": "The Gentlemen", "tvmaze_id": 64992, "category": "drama", "priority": 2, "status": "active", "watch_on": null, "notes": "" },
+    { "title": "Lanterns", "query": "Lanterns", "tvmaze_id": 44776, "category": "drama", "priority": 2, "status": "active", "watch_on": null, "notes": "" }
   ]
 }
