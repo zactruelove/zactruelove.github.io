@@ -1,0 +1,3 @@
+# Python bytecode from running tv/build.py locally
+__pycache__/
+*.pyc
