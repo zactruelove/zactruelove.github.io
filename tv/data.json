@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T16:56:31Z",
+  "generated_at": "2026-09-29T16:57:11Z",
   "today": "2026-09-29",
   "timezone": "America/Chicago",
   "platforms": [
@@ -2958,41 +2958,8 @@
       "platform_source": "webChannel",
       "on_our_platforms": true,
       "phase": "between_seasons",
-      "matched_by": "search",
-      "candidates": [
-        {
-          "id": 64992,
-          "name": "The Gentlemen",
-          "premiered": "2024-03-07",
-          "source": "Netflix",
-          "country": null,
-          "status": "Running"
-        },
-        {
-          "id": 18632,
-          "name": "The Gentlemen of Wolgyesu Tailor Shop",
-          "premiered": "2016-08-27",
-          "source": "KBS2",
-          "country": "KR",
-          "status": "Ended"
-        },
-        {
-          "id": 1720,
-          "name": "The League of Gentlemen",
-          "premiered": "1999-01-11",
-          "source": "BBC Two",
-          "country": "GB",
-          "status": "Ended"
-        },
-        {
-          "id": 9891,
-          "name": "The Elegant Gentleman's Guide to Knife Fighting",
-          "premiered": "2013-04-03",
-          "source": "ABC",
-          "country": "AU",
-          "status": "Ended"
-        }
-      ],
+      "matched_by": "id",
+      "candidates": [],
       "tvmaze": {
         "id": 64992,
         "name": "The Gentlemen",
@@ -3032,49 +2999,8 @@
       "platform_source": "network",
       "on_our_platforms": true,
       "phase": "this_week",
-      "matched_by": "search",
-      "candidates": [
-        {
-          "id": 44776,
-          "name": "Lanterns",
-          "premiered": "2026-08-16",
-          "source": "HBO",
-          "country": "US",
-          "status": "Running"
-        },
-        {
-          "id": 26709,
-          "name": "Scrubs: Interns",
-          "premiered": "2009-01-01",
-          "source": "ABC.com",
-          "country": "US",
-          "status": "Ended"
-        },
-        {
-          "id": 3585,
-          "name": "Green Lantern The Animated Series",
-          "premiered": "2011-11-11",
-          "source": "Cartoon Network",
-          "country": "US",
-          "status": "Ended"
-        },
-        {
-          "id": 64734,
-          "name": "The Interns",
-          "premiered": "1970-09-18",
-          "source": "CBS",
-          "country": "US",
-          "status": "Ended"
-        },
-        {
-          "id": 21258,
-          "name": "College Hill: Interns",
-          "premiered": "2007-10-23",
-          "source": "BET",
-          "country": "US",
-          "status": "Ended"
-        }
-      ],
+      "matched_by": "id",
+      "candidates": [],
       "tvmaze": {
         "id": 44776,
         "name": "Lanterns",
