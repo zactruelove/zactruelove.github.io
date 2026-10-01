@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T22:45:42Z",
+  "generated_at": "2026-10-01T22:46:32Z",
   "today": "2026-10-01",
   "timezone": "America/Chicago",
   "platforms": [
@@ -3028,49 +3028,8 @@
       "platform_source": "network",
       "on_our_platforms": true,
       "phase": "this_week",
-      "matched_by": "search",
-      "candidates": [
-        {
-          "id": 84836,
-          "name": "Scrubs",
-          "premiered": "2026-02-25",
-          "source": "ABC",
-          "country": "US",
-          "status": "Running"
-        },
-        {
-          "id": 532,
-          "name": "Scrubs",
-          "premiered": "2001-10-02",
-          "source": "ABC",
-          "country": "US",
-          "status": "Ended"
-        },
-        {
-          "id": 26709,
-          "name": "Scrubs: Interns",
-          "premiered": "2009-01-01",
-          "source": "ABC.com",
-          "country": "US",
-          "status": "Ended"
-        },
-        {
-          "id": 5414,
-          "name": "Wormwood Scrubs",
-          "premiered": "2010-05-10",
-          "source": "ITV1",
-          "country": "GB",
-          "status": "Ended"
-        },
-        {
-          "id": 30562,
-          "name": "Crumbs",
-          "premiered": "2006-01-12",
-          "source": "ABC",
-          "country": "US",
-          "status": "Ended"
-        }
-      ],
+      "matched_by": "id",
+      "candidates": [],
       "tvmaze": {
         "id": 84836,
         "name": "Scrubs",
