@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-01T22:46:32Z",
-  "today": "2026-10-01",
+  "generated_at": "2026-10-02T16:15:21Z",
+  "today": "2026-10-02",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -49,6 +49,20 @@
       },
       "variants": [],
       "next": {
+        "kind": "episode",
+        "id": "3667323",
+        "season": 13,
+        "code": "S13E07",
+        "name": "The Baddest Witch of Them All",
+        "count": 1,
+        "date": "2026-10-08",
+        "time": "20:00",
+        "datetime": "2026-10-08T20:00:00-05:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3667323/american-horror-story-13x07-the-baddest-witch-of-them-all",
+        "variant": null
+      },
+      "last": {
         "kind": "binge",
         "id": "s13-2026-10-01",
         "season": 13,
@@ -62,35 +76,7 @@
         "url": "https://www.tvmaze.com/episodes/3667320/american-horror-story-13x04-is-that-all-there-is",
         "variant": null
       },
-      "last": {
-        "kind": "binge",
-        "id": "s13-2026-09-24",
-        "season": 13,
-        "code": "S13",
-        "name": "All 3 episodes",
-        "count": 3,
-        "date": "2026-09-24",
-        "time": null,
-        "datetime": null,
-        "premiere": true,
-        "url": "https://www.tvmaze.com/episodes/3667317/american-horror-story-13x01-13",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "binge",
-          "id": "s13-2026-10-01",
-          "season": 13,
-          "code": "S13",
-          "name": "All 3 episodes",
-          "count": 3,
-          "date": "2026-10-01",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3667320/american-horror-story-13x04-is-that-all-there-is",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3667323",
@@ -113,8 +99,8 @@
           "name": "Hell No",
           "count": 1,
           "date": "2026-10-08",
-          "time": "20:30",
-          "datetime": "2026-10-08T20:30:00-05:00",
+          "time": "20:33",
+          "datetime": "2026-10-08T20:33:00-05:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3667324/american-horror-story-13x08-hell-no",
           "variant": null
@@ -203,6 +189,20 @@
           "datetime": null,
           "premiere": true,
           "url": "https://www.tvmaze.com/episodes/3667317/american-horror-story-13x01-13",
+          "variant": null
+        },
+        {
+          "kind": "binge",
+          "id": "s13-2026-10-01",
+          "season": 13,
+          "code": "S13",
+          "name": "All 3 episodes",
+          "count": 3,
+          "date": "2026-10-01",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3667320/american-horror-story-13x04-is-that-all-there-is",
           "variant": null
         }
       ]
@@ -598,13 +598,13 @@
         "id": "3684661",
         "season": 51,
         "code": "S51E03",
-        "name": "TBA",
+        "name": "What I'm Smellin' Is Stinky",
         "count": 1,
         "date": "2026-10-07",
         "time": "19:00",
         "datetime": "2026-10-07T19:00:00-05:00",
         "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3684661/survivor-51x03-tba",
+        "url": "https://www.tvmaze.com/episodes/3684661/survivor-51x03-what-im-smellin-is-stinky",
         "variant": null
       },
       "last": {
@@ -627,13 +627,13 @@
           "id": "3684661",
           "season": 51,
           "code": "S51E03",
-          "name": "TBA",
+          "name": "What I'm Smellin' Is Stinky",
           "count": 1,
           "date": "2026-10-07",
           "time": "19:00",
           "datetime": "2026-10-07T19:00:00-05:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3684661/survivor-51x03-tba",
+          "url": "https://www.tvmaze.com/episodes/3684661/survivor-51x03-what-im-smellin-is-stinky",
           "variant": null
         },
         {
@@ -777,6 +777,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3684628",
+        "season": 39,
+        "code": "S39E03",
+        "name": "This Is Sick and Twisted",
+        "count": 1,
+        "date": "2026-10-07",
+        "time": "20:30",
+        "datetime": "2026-10-07T20:30:00-05:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3684628/the-amazing-race-39x03-this-is-sick-and-twisted",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3684168",
         "season": 39,
         "code": "S39E02",
@@ -789,47 +803,19 @@
         "url": "https://www.tvmaze.com/episodes/3684168/the-amazing-race-39x02-are-tomatoes-good-for-skin-care",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3684167",
-        "season": 39,
-        "code": "S39E01",
-        "name": "Sorry Guys, We Used Our Express Pass",
-        "count": 1,
-        "date": "2026-09-30",
-        "time": "20:30",
-        "datetime": "2026-09-30T20:30:00-05:00",
-        "premiere": true,
-        "url": "https://www.tvmaze.com/episodes/3684167/the-amazing-race-39x01-sorry-guys-we-used-our-express-pass",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3684168",
-          "season": 39,
-          "code": "S39E02",
-          "name": "Are Tomatoes Good for Skin Care?",
-          "count": 1,
-          "date": "2026-10-01",
-          "time": "20:30",
-          "datetime": "2026-10-01T20:30:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3684168/the-amazing-race-39x02-are-tomatoes-good-for-skin-care",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3684628",
           "season": 39,
           "code": "S39E03",
-          "name": "TBA",
+          "name": "This Is Sick and Twisted",
           "count": 1,
           "date": "2026-10-07",
           "time": "20:30",
           "datetime": "2026-10-07T20:30:00-05:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3684628/the-amazing-race-39x03-tba",
+          "url": "https://www.tvmaze.com/episodes/3684628/the-amazing-race-39x03-this-is-sick-and-twisted",
           "variant": null
         },
         {
@@ -930,6 +916,20 @@
           "datetime": "2026-09-30T20:30:00-05:00",
           "premiere": true,
           "url": "https://www.tvmaze.com/episodes/3684167/the-amazing-race-39x01-sorry-guys-we-used-our-express-pass",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3684168",
+          "season": 39,
+          "code": "S39E02",
+          "name": "Are Tomatoes Good for Skin Care?",
+          "count": 1,
+          "date": "2026-10-01",
+          "time": "20:30",
+          "datetime": "2026-10-01T20:30:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3684168/the-amazing-race-39x02-are-tomatoes-good-for-skin-care",
           "variant": null
         }
       ]
@@ -1055,7 +1055,7 @@
       "platform": "Paramount+",
       "platform_source": "network",
       "on_our_platforms": true,
-      "phase": "this_week",
+      "phase": "between_seasons",
       "matched_by": "id",
       "candidates": [],
       "tvmaze": {
@@ -1069,7 +1069,8 @@
         "episode_count": 1006
       },
       "variants": [],
-      "next": {
+      "next": null,
+      "last": {
         "kind": "episode",
         "id": "3767837",
         "season": 28,
@@ -1083,51 +1084,8 @@
         "url": "https://www.tvmaze.com/episodes/3767837/big-brother-28x36-episode-36-live-finale",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3684558",
-        "season": 28,
-        "code": "S28E35",
-        "name": "Episode 35",
-        "count": 1,
-        "date": "2026-09-27",
-        "time": "21:15",
-        "datetime": "2026-09-27T21:15:00-05:00",
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3684558/big-brother-28x35-episode-35",
-        "variant": null
-      },
-      "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3767837",
-          "season": 28,
-          "code": "S28E36",
-          "name": "Episode 36--Live Finale",
-          "count": 1,
-          "date": "2026-10-01",
-          "time": "19:00",
-          "datetime": "2026-10-01T19:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3767837/big-brother-28x36-episode-36-live-finale",
-          "variant": null
-        }
-      ],
+      "upcoming": [],
       "recent": [
-        {
-          "kind": "episode",
-          "id": "3652975",
-          "season": 28,
-          "code": "S28E31",
-          "name": "Episode 31--Live Eviction",
-          "count": 1,
-          "date": "2026-09-17",
-          "time": "19:00",
-          "datetime": "2026-09-17T19:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3652975/big-brother-28x31-episode-31-live-eviction",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3652976",
@@ -1182,6 +1140,20 @@
           "datetime": "2026-09-27T21:15:00-05:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3684558/big-brother-28x35-episode-35",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3767837",
+          "season": 28,
+          "code": "S28E36",
+          "name": "Episode 36--Live Finale",
+          "count": 1,
+          "date": "2026-10-01",
+          "time": "19:00",
+          "datetime": "2026-10-01T19:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3767837/big-brother-28x36-episode-36-live-finale",
           "variant": null
         }
       ]
@@ -1589,34 +1561,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3772082",
-          "season": 5,
-          "code": "S05E01",
-          "name": "A New Dawn is Rising",
-          "count": 1,
-          "date": "2026-09-17",
-          "time": "19:00",
-          "datetime": "2026-09-17T19:00:00-05:00",
-          "premiere": true,
-          "url": "https://www.tvmaze.com/episodes/3772082/the-traitors-5x01-a-new-dawn-is-rising",
-          "variant": null
-        },
-        {
-          "kind": "episode",
-          "id": "3772083",
-          "season": 5,
-          "code": "S05E02",
-          "name": "I'm a Sweaty Boy",
-          "count": 1,
-          "date": "2026-09-17",
-          "time": "20:00",
-          "datetime": "2026-09-17T20:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3772083/the-traitors-5x02-im-a-sweaty-boy",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3772084",
           "season": 5,
           "code": "S05E03",
@@ -1729,7 +1673,7 @@
       "platform": "Netflix",
       "platform_source": "webChannel",
       "on_our_platforms": true,
-      "phase": "upcoming",
+      "phase": "this_week",
       "matched_by": "id",
       "candidates": [],
       "tvmaze": {
@@ -3103,13 +3047,13 @@
           "id": "3694636",
           "season": 2,
           "code": "S02E05",
-          "name": "TBA",
+          "name": "My Best Friend's Birthday",
           "count": 1,
           "date": "2026-10-21",
           "time": "19:00",
           "datetime": "2026-10-21T19:00:00-05:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3694636/scrubs-2x05-tba",
+          "url": "https://www.tvmaze.com/episodes/3694636/scrubs-2x05-my-best-friends-birthday",
           "variant": null
         },
         {
