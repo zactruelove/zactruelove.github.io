@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-02T16:15:21Z",
-  "today": "2026-10-02",
+  "generated_at": "2026-10-03T14:42:40Z",
+  "today": "2026-10-03",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -1983,7 +1983,7 @@
         "source": "Paramount+",
         "premiered": "1998-06-01",
         "image": "https://static.tvmaze.com/uploads/images/medium_portrait/635/1588785.jpg",
-        "episode_count": 648
+        "episode_count": 651
       },
       "variants": [],
       "next": {
@@ -2027,6 +2027,48 @@
           "datetime": null,
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3776928/the-challenge-42x11-tba",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3779716",
+          "season": 42,
+          "code": "S42E12",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-10-14",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3779716/the-challenge-42x12-tba",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3779717",
+          "season": 42,
+          "code": "S42E13",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-10-21",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3779717/the-challenge-42x13-tba",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3779718",
+          "season": 42,
+          "code": "S42E14",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-10-28",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3779718/the-challenge-42x14-tba",
           "variant": null
         }
       ],
@@ -2350,6 +2392,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3770244",
+        "season": 17,
+        "code": "S17E03",
+        "name": "Audience Choice Week",
+        "count": 1,
+        "date": "2026-10-09",
+        "time": null,
+        "datetime": null,
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3770244/the-great-british-bake-off-17x03-audience-choice-week",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3765531",
         "season": 17,
         "code": "S17E02",
@@ -2362,35 +2418,7 @@
         "url": "https://www.tvmaze.com/episodes/3765531/the-great-british-bake-off-17x02-biscuit-week",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3744890",
-        "season": 17,
-        "code": "S17E01",
-        "name": "Cake Week",
-        "count": 1,
-        "date": "2026-09-25",
-        "time": null,
-        "datetime": null,
-        "premiere": true,
-        "url": "https://www.tvmaze.com/episodes/3744890/the-great-british-bake-off-17x01-cake-week",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3765531",
-          "season": 17,
-          "code": "S17E02",
-          "name": "Biscuit Week",
-          "count": 1,
-          "date": "2026-10-02",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3765531/the-great-british-bake-off-17x02-biscuit-week",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3770244",
@@ -2433,6 +2461,20 @@
           "datetime": null,
           "premiere": true,
           "url": "https://www.tvmaze.com/episodes/3744890/the-great-british-bake-off-17x01-cake-week",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3765531",
+          "season": 17,
+          "code": "S17E02",
+          "name": "Biscuit Week",
+          "count": 1,
+          "date": "2026-10-02",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3765531/the-great-british-bake-off-17x02-biscuit-week",
           "variant": null
         }
       ]
