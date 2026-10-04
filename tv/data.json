@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-03T14:42:40Z",
-  "today": "2026-10-03",
+  "generated_at": "2026-10-04T15:20:15Z",
+  "today": "2026-10-04",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -227,7 +227,7 @@
         "source": "Bravo",
         "premiered": "2008-03-04",
         "image": "https://static.tvmaze.com/uploads/images/medium_portrait/639/1598898.jpg",
-        "episode_count": 297
+        "episode_count": 298
       },
       "variants": [],
       "next": {
@@ -235,13 +235,13 @@
         "id": "3766634",
         "season": 16,
         "code": "S16E05",
-        "name": "TBA",
+        "name": "Trouble in Paradise",
         "count": 1,
         "date": "2026-10-06",
         "time": "19:00",
         "datetime": "2026-10-06T19:00:00-05:00",
         "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3766634/the-real-housewives-of-new-york-city-16x05-tba",
+        "url": "https://www.tvmaze.com/episodes/3766634/the-real-housewives-of-new-york-city-16x05-trouble-in-paradise",
         "variant": null
       },
       "last": {
@@ -264,13 +264,13 @@
           "id": "3766634",
           "season": 16,
           "code": "S16E05",
-          "name": "TBA",
+          "name": "Trouble in Paradise",
           "count": 1,
           "date": "2026-10-06",
           "time": "19:00",
           "datetime": "2026-10-06T19:00:00-05:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3766634/the-real-housewives-of-new-york-city-16x05-tba",
+          "url": "https://www.tvmaze.com/episodes/3766634/the-real-housewives-of-new-york-city-16x05-trouble-in-paradise",
           "variant": null
         },
         {
@@ -285,6 +285,20 @@
           "datetime": "2026-10-13T19:00:00-05:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3774992/the-real-housewives-of-new-york-city-16x06-tba",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3780668",
+          "season": 16,
+          "code": "S16E07",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-10-20",
+          "time": "19:00",
+          "datetime": "2026-10-20T19:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3780668/the-real-housewives-of-new-york-city-16x07-tba",
           "variant": null
         }
       ],
@@ -339,7 +353,7 @@
         "source": "Bravo",
         "premiered": "2020-11-11",
         "image": "https://static.tvmaze.com/uploads/images/medium_portrait/639/1598899.jpg",
-        "episode_count": 118
+        "episode_count": 120
       },
       "variants": [],
       "next": {
@@ -347,13 +361,13 @@
         "id": "3765171",
         "season": 7,
         "code": "S07E04",
-        "name": "TBA",
+        "name": "Fortune and Misfortune",
         "count": 1,
         "date": "2026-10-07",
         "time": "19:00",
         "datetime": "2026-10-07T19:00:00-05:00",
         "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3765171/the-real-housewives-of-salt-lake-city-7x04-tba",
+        "url": "https://www.tvmaze.com/episodes/3765171/the-real-housewives-of-salt-lake-city-7x04-fortune-and-misfortune",
         "variant": null
       },
       "last": {
@@ -376,13 +390,13 @@
           "id": "3765171",
           "season": 7,
           "code": "S07E04",
-          "name": "TBA",
+          "name": "Fortune and Misfortune",
           "count": 1,
           "date": "2026-10-07",
           "time": "19:00",
           "datetime": "2026-10-07T19:00:00-05:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3765171/the-real-housewives-of-salt-lake-city-7x04-tba",
+          "url": "https://www.tvmaze.com/episodes/3765171/the-real-housewives-of-salt-lake-city-7x04-fortune-and-misfortune",
           "variant": null
         },
         {
@@ -390,13 +404,41 @@
           "id": "3771321",
           "season": 7,
           "code": "S07E05",
-          "name": "TBA",
+          "name": "Hypocrisy and Bull ...",
           "count": 1,
           "date": "2026-10-14",
           "time": "19:00",
           "datetime": "2026-10-14T19:00:00-05:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3771321/the-real-housewives-of-salt-lake-city-7x05-tba",
+          "url": "https://www.tvmaze.com/episodes/3771321/the-real-housewives-of-salt-lake-city-7x05-hypocrisy-and-bull",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3780669",
+          "season": 7,
+          "code": "S07E06",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-10-21",
+          "time": "19:00",
+          "datetime": "2026-10-21T19:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3780669/the-real-housewives-of-salt-lake-city-7x06-tba",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3780670",
+          "season": 7,
+          "code": "S07E07",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-10-28",
+          "time": "19:00",
+          "datetime": "2026-10-28T19:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3780670/the-real-housewives-of-salt-lake-city-7x07-tba",
           "variant": null
         }
       ],
