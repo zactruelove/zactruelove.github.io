@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-05T02:21:45Z",
-  "today": "2026-10-04",
+  "generated_at": "2026-10-05T19:16:57Z",
+  "today": "2026-10-05",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -353,7 +353,7 @@
         "source": "Bravo",
         "premiered": "2020-11-11",
         "image": "https://static.tvmaze.com/uploads/images/medium_portrait/639/1598899.jpg",
-        "episode_count": 120
+        "episode_count": 122
       },
       "variants": [],
       "next": {
@@ -418,13 +418,13 @@
           "id": "3780669",
           "season": 7,
           "code": "S07E06",
-          "name": "TBA",
+          "name": "Boss Up or Shut Up",
           "count": 1,
           "date": "2026-10-21",
           "time": "19:00",
           "datetime": "2026-10-21T19:00:00-05:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3780669/the-real-housewives-of-salt-lake-city-7x06-tba",
+          "url": "https://www.tvmaze.com/episodes/3780669/the-real-housewives-of-salt-lake-city-7x06-boss-up-or-shut-up",
           "variant": null
         },
         {
@@ -432,13 +432,41 @@
           "id": "3780670",
           "season": 7,
           "code": "S07E07",
-          "name": "TBA",
+          "name": "Star Signs and Struggles",
           "count": 1,
           "date": "2026-10-28",
           "time": "19:00",
           "datetime": "2026-10-28T19:00:00-05:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3780670/the-real-housewives-of-salt-lake-city-7x07-tba",
+          "url": "https://www.tvmaze.com/episodes/3780670/the-real-housewives-of-salt-lake-city-7x07-star-signs-and-struggles",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3781672",
+          "season": 7,
+          "code": "S07E08",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-11-04",
+          "time": "19:00",
+          "datetime": "2026-11-04T19:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3781672/the-real-housewives-of-salt-lake-city-7x08-tba",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3781673",
+          "season": 7,
+          "code": "S07E09",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-11-11",
+          "time": "19:00",
+          "datetime": "2026-11-11T19:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3781673/the-real-housewives-of-salt-lake-city-7x09-tba",
           "variant": null
         }
       ],
@@ -523,7 +551,7 @@
       "platform": "Peacock",
       "platform_source": "override",
       "on_our_platforms": true,
-      "phase": "this_week",
+      "phase": "between_seasons",
       "matched_by": "id",
       "candidates": [],
       "tvmaze": {
@@ -537,7 +565,8 @@
         "episode_count": 37
       },
       "variants": [],
-      "next": {
+      "next": null,
+      "last": {
         "kind": "episode",
         "id": "3747227",
         "season": 5,
@@ -551,51 +580,8 @@
         "url": "https://www.tvmaze.com/episodes/3747227/the-real-housewives-ultimate-girls-trip-5x09-bluestone-manners",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3747226",
-        "season": 5,
-        "code": "S05E08",
-        "name": "Mic Drop, Please",
-        "count": 1,
-        "date": "2026-09-27",
-        "time": "20:00",
-        "datetime": "2026-09-27T20:00:00-05:00",
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3747226/the-real-housewives-ultimate-girls-trip-5x08-mic-drop-please",
-        "variant": null
-      },
-      "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3747227",
-          "season": 5,
-          "code": "S05E09",
-          "name": "Bluestone Manners",
-          "count": 1,
-          "date": "2026-10-04",
-          "time": "20:00",
-          "datetime": "2026-10-04T20:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3747227/the-real-housewives-ultimate-girls-trip-5x09-bluestone-manners",
-          "variant": null
-        }
-      ],
+      "upcoming": [],
       "recent": [
-        {
-          "kind": "episode",
-          "id": "3747225",
-          "season": 5,
-          "code": "S05E07",
-          "name": "Sisterhood of the Traveling Housewives",
-          "count": 1,
-          "date": "2026-09-20",
-          "time": "20:00",
-          "datetime": "2026-09-20T20:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3747225/the-real-housewives-ultimate-girls-trip-5x07-sisterhood-of-the-traveling-housewives",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3747226",
@@ -608,6 +594,20 @@
           "datetime": "2026-09-27T20:00:00-05:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3747226/the-real-housewives-ultimate-girls-trip-5x08-mic-drop-please",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3747227",
+          "season": 5,
+          "code": "S05E09",
+          "name": "Bluestone Manners",
+          "count": 1,
+          "date": "2026-10-04",
+          "time": "20:00",
+          "datetime": "2026-10-04T20:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3747227/the-real-housewives-ultimate-girls-trip-5x09-bluestone-manners",
           "variant": null
         }
       ]
@@ -1130,20 +1130,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3652976",
-          "season": 28,
-          "code": "S28E32",
-          "name": "Episode 32",
-          "count": 1,
-          "date": "2026-09-20",
-          "time": "19:00",
-          "datetime": "2026-09-20T19:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3652976/big-brother-28x32-episode-32",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3684555",
           "season": 28,
           "code": "S28E33",
@@ -1261,7 +1247,7 @@
         "source": "Bravo",
         "premiered": "2026-09-28",
         "image": "https://static.tvmaze.com/uploads/images/medium_portrait/639/1598001.jpg",
-        "episode_count": 4
+        "episode_count": 5
       },
       "variants": [],
       "next": {
@@ -1272,8 +1258,8 @@
         "name": "Sick of the Shtick",
         "count": 1,
         "date": "2026-10-05",
-        "time": "20:00",
-        "datetime": "2026-10-05T20:00:00-05:00",
+        "time": "20:15",
+        "datetime": "2026-10-05T20:15:00-05:00",
         "premiere": false,
         "url": "https://www.tvmaze.com/episodes/3773304/still-flipping-out-1x02-sick-of-the-shtick",
         "variant": null
@@ -1301,8 +1287,8 @@
           "name": "Sick of the Shtick",
           "count": 1,
           "date": "2026-10-05",
-          "time": "20:00",
-          "datetime": "2026-10-05T20:00:00-05:00",
+          "time": "20:15",
+          "datetime": "2026-10-05T20:15:00-05:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3773304/still-flipping-out-1x02-sick-of-the-shtick",
           "variant": null
@@ -1333,6 +1319,20 @@
           "datetime": "2026-10-19T20:00:00-05:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3773306/still-flipping-out-1x04-in-thickness-and-in-health",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3781674",
+          "season": 1,
+          "code": "S01E05",
+          "name": "Totes Inappropes",
+          "count": 1,
+          "date": "2026-10-26",
+          "time": "20:00",
+          "datetime": "2026-10-26T20:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3781674/still-flipping-out-1x05-totes-inappropes",
           "variant": null
         }
       ],
@@ -1959,6 +1959,20 @@
           "datetime": null,
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3714490/only-murders-in-the-building-6x08-tba",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3714495",
+          "season": 6,
+          "code": "S06E09",
+          "name": "TBA",
+          "count": 1,
+          "date": "2027-02-02",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3714495/only-murders-in-the-building-6x09-tba",
           "variant": null
         }
       ],
@@ -2633,20 +2647,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3673496",
-          "season": 2,
-          "code": "S02E01",
-          "name": "Be Careful What You Fish For",
-          "count": 1,
-          "date": "2026-09-20",
-          "time": "19:00",
-          "datetime": "2026-09-20T19:00:00-05:00",
-          "premiere": true,
-          "url": "https://www.tvmaze.com/episodes/3673496/best-medicine-2x01-be-careful-what-you-fish-for",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3725324",
           "season": 2,
           "code": "S02E02",
@@ -2957,7 +2957,7 @@
       "platform": "HBO Max",
       "platform_source": "network",
       "on_our_platforms": true,
-      "phase": "this_week",
+      "phase": "between_seasons",
       "matched_by": "id",
       "candidates": [],
       "tvmaze": {
@@ -2971,7 +2971,8 @@
         "episode_count": 8
       },
       "variants": [],
-      "next": {
+      "next": null,
+      "last": {
         "kind": "episode",
         "id": "3695366",
         "season": 1,
@@ -2985,51 +2986,8 @@
         "url": "https://www.tvmaze.com/episodes/3695366/lanterns-1x08-dirt-and-stars",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3695365",
-        "season": 1,
-        "code": "S01E07",
-        "name": "The Jordan Boys' Legacy",
-        "count": 1,
-        "date": "2026-09-27",
-        "time": "20:00",
-        "datetime": "2026-09-27T20:00:00-05:00",
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3695365/lanterns-1x07-the-jordan-boys-legacy",
-        "variant": null
-      },
-      "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3695366",
-          "season": 1,
-          "code": "S01E08",
-          "name": "Dirt and Stars",
-          "count": 1,
-          "date": "2026-10-04",
-          "time": "20:00",
-          "datetime": "2026-10-04T20:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3695366/lanterns-1x08-dirt-and-stars",
-          "variant": null
-        }
-      ],
+      "upcoming": [],
       "recent": [
-        {
-          "kind": "episode",
-          "id": "3695364",
-          "season": 1,
-          "code": "S01E06",
-          "name": "Bad Optics",
-          "count": 1,
-          "date": "2026-09-20",
-          "time": "20:00",
-          "datetime": "2026-09-20T20:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3695364/lanterns-1x06-bad-optics",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3695365",
@@ -3042,6 +3000,20 @@
           "datetime": "2026-09-27T20:00:00-05:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3695365/lanterns-1x07-the-jordan-boys-legacy",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3695366",
+          "season": 1,
+          "code": "S01E08",
+          "name": "Dirt and Stars",
+          "count": 1,
+          "date": "2026-10-04",
+          "time": "20:00",
+          "datetime": "2026-10-04T20:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3695366/lanterns-1x08-dirt-and-stars",
           "variant": null
         }
       ]
