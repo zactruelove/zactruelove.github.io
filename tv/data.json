@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T15:20:15Z",
+  "generated_at": "2026-10-05T02:20:50Z",
   "today": "2026-10-04",
   "timezone": "America/Chicago",
   "platforms": [
@@ -2964,7 +2964,7 @@
         "id": 44776,
         "name": "Lanterns",
         "url": "https://www.tvmaze.com/shows/44776/lanterns",
-        "status": "Running",
+        "status": "To Be Determined",
         "source": "HBO",
         "premiered": "2026-08-16",
         "image": "https://static.tvmaze.com/uploads/images/medium_portrait/637/1592971.jpg",
@@ -3238,6 +3238,71 @@
           "datetime": "2026-09-30T19:31:00-05:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3684579/scrubs-2x02-my-mentee",
+          "variant": null
+        }
+      ]
+    },
+    {
+      "title": "Coven Academy",
+      "category": "drama",
+      "priority": 2,
+      "status": "active",
+      "notes": "",
+      "platform": "Disney+",
+      "platform_source": "webChannel",
+      "on_our_platforms": true,
+      "phase": "between_seasons",
+      "matched_by": "search",
+      "candidates": [
+        {
+          "id": 83159,
+          "name": "Coven Academy",
+          "premiered": "2026-10-02",
+          "source": "Disney+",
+          "country": null,
+          "status": "To Be Determined"
+        }
+      ],
+      "tvmaze": {
+        "id": 83159,
+        "name": "Coven Academy",
+        "url": "https://www.tvmaze.com/shows/83159/coven-academy",
+        "status": "To Be Determined",
+        "source": "Disney+",
+        "premiered": "2026-10-02",
+        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/643/1609609.jpg",
+        "episode_count": 21
+      },
+      "variants": [],
+      "next": null,
+      "last": {
+        "kind": "binge",
+        "id": "s1-2026-10-02",
+        "season": 1,
+        "code": "S01",
+        "name": "All 21 episodes",
+        "count": 21,
+        "date": "2026-10-02",
+        "time": null,
+        "datetime": null,
+        "premiere": true,
+        "url": "https://www.tvmaze.com/episodes/3698273/coven-academy-1x01-a-hex-education",
+        "variant": null
+      },
+      "upcoming": [],
+      "recent": [
+        {
+          "kind": "binge",
+          "id": "s1-2026-10-02",
+          "season": 1,
+          "code": "S01",
+          "name": "All 21 episodes",
+          "count": 21,
+          "date": "2026-10-02",
+          "time": null,
+          "datetime": null,
+          "premiere": true,
+          "url": "https://www.tvmaze.com/episodes/3698273/coven-academy-1x01-a-hex-education",
           "variant": null
         }
       ]
