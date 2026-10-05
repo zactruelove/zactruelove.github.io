@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T02:20:50Z",
+  "generated_at": "2026-10-05T02:21:45Z",
   "today": "2026-10-04",
   "timezone": "America/Chicago",
   "platforms": [
@@ -3252,17 +3252,8 @@
       "platform_source": "webChannel",
       "on_our_platforms": true,
       "phase": "between_seasons",
-      "matched_by": "search",
-      "candidates": [
-        {
-          "id": 83159,
-          "name": "Coven Academy",
-          "premiered": "2026-10-02",
-          "source": "Disney+",
-          "country": null,
-          "status": "To Be Determined"
-        }
-      ],
+      "matched_by": "id",
+      "candidates": [],
       "tvmaze": {
         "id": 83159,
         "name": "Coven Academy",
