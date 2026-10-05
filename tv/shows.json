@@ -94,6 +94,6 @@
     { "title": "The Gentlemen", "query": "The Gentlemen", "tvmaze_id": 64992, "category": "drama", "priority": 2, "status": "active", "watch_on": null, "notes": "" },
     { "title": "Lanterns", "query": "Lanterns", "tvmaze_id": 44776, "category": "drama", "priority": 2, "status": "active", "watch_on": null, "notes": "" },
     { "title": "Scrubs", "query": "Scrubs", "tvmaze_id": 84836, "category": "comedy", "priority": 2, "status": "active", "watch_on": null, "notes": "" },
-    { "title": "Coven Academy", "query": "Coven Academy", "tvmaze_id": null, "category": "drama", "priority": 2, "status": "active", "watch_on": null, "notes": "" }
+    { "title": "Coven Academy", "query": "Coven Academy", "tvmaze_id": 83159, "category": "drama", "priority": 2, "status": "active", "watch_on": null, "notes": "" }
   ]
 }
