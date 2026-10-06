@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-05T19:16:57Z",
-  "today": "2026-10-05",
+  "generated_at": "2026-10-06T16:46:33Z",
+  "today": "2026-10-06",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -1001,6 +1001,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3702401",
+        "season": 18,
+        "code": "S18E10",
+        "name": "The Guys Have a Sleepover",
+        "count": 1,
+        "date": "2026-10-12",
+        "time": "20:00",
+        "datetime": "2026-10-12T20:00:00-05:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3702401/its-always-sunny-in-philadelphia-18x10-the-guys-have-a-sleepover",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3702400",
         "season": 18,
         "code": "S18E09",
@@ -1013,35 +1027,7 @@
         "url": "https://www.tvmaze.com/episodes/3702400/its-always-sunny-in-philadelphia-18x09-franks-team-a-dark-day-for-baseball",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3702399",
-        "season": 18,
-        "code": "S18E08",
-        "name": "Mac and Dennis Tear Their ACLs",
-        "count": 1,
-        "date": "2026-09-28",
-        "time": "20:00",
-        "datetime": "2026-09-28T20:00:00-05:00",
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3702399/its-always-sunny-in-philadelphia-18x08-mac-and-dennis-tear-their-acls",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3702400",
-          "season": 18,
-          "code": "S18E09",
-          "name": "Frank's Team: A Dark Day for Baseball",
-          "count": 1,
-          "date": "2026-10-05",
-          "time": "20:00",
-          "datetime": "2026-10-05T20:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3702400/its-always-sunny-in-philadelphia-18x09-franks-team-a-dark-day-for-baseball",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3702401",
@@ -1060,20 +1046,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3702398",
-          "season": 18,
-          "code": "S18E07",
-          "name": "Gilligan's Island: A Conspiracy Theorist's Paradise",
-          "count": 1,
-          "date": "2026-09-21",
-          "time": "20:00",
-          "datetime": "2026-09-21T20:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3702398/its-always-sunny-in-philadelphia-18x07-gilligans-island-a-conspiracy-theorists-paradise",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3702399",
           "season": 18,
           "code": "S18E08",
@@ -1084,6 +1056,20 @@
           "datetime": "2026-09-28T20:00:00-05:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3702399/its-always-sunny-in-philadelphia-18x08-mac-and-dennis-tear-their-acls",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3702400",
+          "season": 18,
+          "code": "S18E09",
+          "name": "Frank's Team: A Dark Day for Baseball",
+          "count": 1,
+          "date": "2026-10-05",
+          "time": "20:00",
+          "datetime": "2026-10-05T20:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3702400/its-always-sunny-in-philadelphia-18x09-franks-team-a-dark-day-for-baseball",
           "variant": null
         }
       ]
@@ -1252,6 +1238,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3773305",
+        "season": 1,
+        "code": "S01E03",
+        "name": "Chumped and Dumped",
+        "count": 1,
+        "date": "2026-10-12",
+        "time": "20:00",
+        "datetime": "2026-10-12T20:00:00-05:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3773305/still-flipping-out-1x03-chumped-and-dumped",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3773304",
         "season": 1,
         "code": "S01E02",
@@ -1264,35 +1264,7 @@
         "url": "https://www.tvmaze.com/episodes/3773304/still-flipping-out-1x02-sick-of-the-shtick",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3716223",
-        "season": 1,
-        "code": "S01E01",
-        "name": "Did You Miss Me?",
-        "count": 1,
-        "date": "2026-09-28",
-        "time": "20:00",
-        "datetime": "2026-09-28T20:00:00-05:00",
-        "premiere": true,
-        "url": "https://www.tvmaze.com/episodes/3716223/still-flipping-out-1x01-did-you-miss-me",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3773304",
-          "season": 1,
-          "code": "S01E02",
-          "name": "Sick of the Shtick",
-          "count": 1,
-          "date": "2026-10-05",
-          "time": "20:15",
-          "datetime": "2026-10-05T20:15:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3773304/still-flipping-out-1x02-sick-of-the-shtick",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3773305",
@@ -1349,6 +1321,20 @@
           "datetime": "2026-09-28T20:00:00-05:00",
           "premiere": true,
           "url": "https://www.tvmaze.com/episodes/3716223/still-flipping-out-1x01-did-you-miss-me",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3773304",
+          "season": 1,
+          "code": "S01E02",
+          "name": "Sick of the Shtick",
+          "count": 1,
+          "date": "2026-10-05",
+          "time": "20:15",
+          "datetime": "2026-10-05T20:15:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3773304/still-flipping-out-1x02-sick-of-the-shtick",
           "variant": null
         }
       ]
