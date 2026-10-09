@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-08T17:23:18Z",
-  "today": "2026-10-08",
+  "generated_at": "2026-10-09T16:58:41Z",
+  "today": "2026-10-09",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -50,61 +50,33 @@
       "variants": [],
       "next": {
         "kind": "episode",
-        "id": "3667323",
+        "id": "3667325",
         "season": 13,
-        "code": "S13E07",
-        "name": "The Baddest Witch of Them All",
+        "code": "S13E09",
+        "name": "The Devil Is in the Details",
         "count": 1,
-        "date": "2026-10-08",
+        "date": "2026-10-15",
         "time": "20:00",
-        "datetime": "2026-10-08T20:00:00-05:00",
+        "datetime": "2026-10-15T20:00:00-05:00",
         "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3667323/american-horror-story-13x07-the-baddest-witch-of-them-all",
+        "url": "https://www.tvmaze.com/episodes/3667325/american-horror-story-13x09-the-devil-is-in-the-details",
         "variant": null
       },
       "last": {
-        "kind": "binge",
-        "id": "s13-2026-10-01",
+        "kind": "episode",
+        "id": "3667324",
         "season": 13,
-        "code": "S13",
-        "name": "All 3 episodes",
-        "count": 3,
-        "date": "2026-10-01",
-        "time": null,
-        "datetime": null,
+        "code": "S13E08",
+        "name": "Hell No",
+        "count": 1,
+        "date": "2026-10-08",
+        "time": "20:33",
+        "datetime": "2026-10-08T20:33:00-05:00",
         "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3667320/american-horror-story-13x04-is-that-all-there-is",
+        "url": "https://www.tvmaze.com/episodes/3667324/american-horror-story-13x08-hell-no",
         "variant": null
       },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3667323",
-          "season": 13,
-          "code": "S13E07",
-          "name": "The Baddest Witch of Them All",
-          "count": 1,
-          "date": "2026-10-08",
-          "time": "20:00",
-          "datetime": "2026-10-08T20:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3667323/american-horror-story-13x07-the-baddest-witch-of-them-all",
-          "variant": null
-        },
-        {
-          "kind": "episode",
-          "id": "3667324",
-          "season": 13,
-          "code": "S13E08",
-          "name": "Hell No",
-          "count": 1,
-          "date": "2026-10-08",
-          "time": "20:33",
-          "datetime": "2026-10-08T20:33:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3667324/american-horror-story-13x08-hell-no",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3667325",
@@ -179,20 +151,6 @@
       "recent": [
         {
           "kind": "binge",
-          "id": "s13-2026-09-24",
-          "season": 13,
-          "code": "S13",
-          "name": "All 3 episodes",
-          "count": 3,
-          "date": "2026-09-24",
-          "time": null,
-          "datetime": null,
-          "premiere": true,
-          "url": "https://www.tvmaze.com/episodes/3667317/american-horror-story-13x01-13",
-          "variant": null
-        },
-        {
-          "kind": "binge",
           "id": "s13-2026-10-01",
           "season": 13,
           "code": "S13",
@@ -203,6 +161,34 @@
           "datetime": null,
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3667320/american-horror-story-13x04-is-that-all-there-is",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3667323",
+          "season": 13,
+          "code": "S13E07",
+          "name": "The Baddest Witch of Them All",
+          "count": 1,
+          "date": "2026-10-08",
+          "time": "20:00",
+          "datetime": "2026-10-08T20:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3667323/american-horror-story-13x07-the-baddest-witch-of-them-all",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3667324",
+          "season": 13,
+          "code": "S13E08",
+          "name": "Hell No",
+          "count": 1,
+          "date": "2026-10-08",
+          "time": "20:33",
+          "datetime": "2026-10-08T20:33:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3667324/american-horror-story-13x08-hell-no",
           "variant": null
         }
       ]
@@ -227,7 +213,7 @@
         "source": "Bravo",
         "premiered": "2008-03-04",
         "image": "https://static.tvmaze.com/uploads/images/medium_portrait/639/1598898.jpg",
-        "episode_count": 298
+        "episode_count": 299
       },
       "variants": [],
       "next": {
@@ -235,13 +221,13 @@
         "id": "3774992",
         "season": 16,
         "code": "S16E06",
-        "name": "TBA",
+        "name": "Moskito Madness",
         "count": 1,
         "date": "2026-10-13",
         "time": "19:00",
         "datetime": "2026-10-13T19:00:00-05:00",
         "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3774992/the-real-housewives-of-new-york-city-16x06-tba",
+        "url": "https://www.tvmaze.com/episodes/3774992/the-real-housewives-of-new-york-city-16x06-moskito-madness",
         "variant": null
       },
       "last": {
@@ -264,13 +250,13 @@
           "id": "3774992",
           "season": 16,
           "code": "S16E06",
-          "name": "TBA",
+          "name": "Moskito Madness",
           "count": 1,
           "date": "2026-10-13",
           "time": "19:00",
           "datetime": "2026-10-13T19:00:00-05:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3774992/the-real-housewives-of-new-york-city-16x06-tba",
+          "url": "https://www.tvmaze.com/episodes/3774992/the-real-housewives-of-new-york-city-16x06-moskito-madness",
           "variant": null
         },
         {
@@ -285,6 +271,20 @@
           "datetime": "2026-10-20T19:00:00-05:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3780668/the-real-housewives-of-new-york-city-16x07-tba",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3784273",
+          "season": 16,
+          "code": "S16E08",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-10-27",
+          "time": "19:00",
+          "datetime": "2026-10-27T19:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3784273/the-real-housewives-of-new-york-city-16x08-tba",
           "variant": null
         }
       ],
@@ -612,13 +612,13 @@
         "id": "3711572",
         "season": 51,
         "code": "S51E04",
-        "name": "TBA",
+        "name": "That's the Magic of Survivor",
         "count": 1,
         "date": "2026-10-14",
         "time": "19:00",
         "datetime": "2026-10-14T19:00:00-05:00",
         "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3711572/survivor-51x04-tba",
+        "url": "https://www.tvmaze.com/episodes/3711572/survivor-51x04-thats-the-magic-of-survivor",
         "variant": null
       },
       "last": {
@@ -641,13 +641,13 @@
           "id": "3711572",
           "season": 51,
           "code": "S51E04",
-          "name": "TBA",
+          "name": "That's the Magic of Survivor",
           "count": 1,
           "date": "2026-10-14",
           "time": "19:00",
           "datetime": "2026-10-14T19:00:00-05:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3711572/survivor-51x04-tba",
+          "url": "https://www.tvmaze.com/episodes/3711572/survivor-51x04-thats-the-magic-of-survivor",
           "variant": null
         },
         {
@@ -780,13 +780,13 @@
         "id": "3711578",
         "season": 39,
         "code": "S39E04",
-        "name": "TBA",
+        "name": "Deception and Sleight of Hand",
         "count": 1,
         "date": "2026-10-14",
         "time": "20:30",
         "datetime": "2026-10-14T20:30:00-05:00",
         "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3711578/the-amazing-race-39x04-tba",
+        "url": "https://www.tvmaze.com/episodes/3711578/the-amazing-race-39x04-deception-and-sleight-of-hand",
         "variant": null
       },
       "last": {
@@ -809,13 +809,13 @@
           "id": "3711578",
           "season": 39,
           "code": "S39E04",
-          "name": "TBA",
+          "name": "Deception and Sleight of Hand",
           "count": 1,
           "date": "2026-10-14",
           "time": "20:30",
           "datetime": "2026-10-14T20:30:00-05:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3711578/the-amazing-race-39x04-tba",
+          "url": "https://www.tvmaze.com/episodes/3711578/the-amazing-race-39x04-deception-and-sleight-of-hand",
           "variant": null
         },
         {
@@ -1072,20 +1072,6 @@
       },
       "upcoming": [],
       "recent": [
-        {
-          "kind": "episode",
-          "id": "3684556",
-          "season": 28,
-          "code": "S28E34",
-          "name": "Episode 34--Live Eviction",
-          "count": 1,
-          "date": "2026-09-24",
-          "time": "19:00",
-          "datetime": "2026-09-24T19:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3684556/big-brother-28x34-episode-34-live-eviction",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3684558",
@@ -1390,6 +1376,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3772247",
+        "season": 5,
+        "code": "S05E06",
+        "name": "A Murder of Necessity",
+        "count": 1,
+        "date": "2026-10-15",
+        "time": "19:00",
+        "datetime": "2026-10-15T19:00:00-05:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3772247/the-traitors-5x06-a-murder-of-necessity",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3772240",
         "season": 5,
         "code": "S05E05",
@@ -1402,35 +1402,7 @@
         "url": "https://www.tvmaze.com/episodes/3772240/the-traitors-5x05-wake-of-the-living-dead",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3772085",
-        "season": 5,
-        "code": "S05E04",
-        "name": "The Death Parade",
-        "count": 1,
-        "date": "2026-09-24",
-        "time": "20:00",
-        "datetime": "2026-09-24T20:00:00-05:00",
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3772085/the-traitors-5x04-the-death-parade",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3772240",
-          "season": 5,
-          "code": "S05E05",
-          "name": "Wake of the Living Dead",
-          "count": 1,
-          "date": "2026-10-08",
-          "time": "19:00",
-          "datetime": "2026-10-08T19:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3772240/the-traitors-5x05-wake-of-the-living-dead",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3772247",
@@ -1533,30 +1505,16 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3772084",
+          "id": "3772240",
           "season": 5,
-          "code": "S05E03",
-          "name": "The Traitors are Watching",
+          "code": "S05E05",
+          "name": "Wake of the Living Dead",
           "count": 1,
-          "date": "2026-09-24",
+          "date": "2026-10-08",
           "time": "19:00",
-          "datetime": "2026-09-24T19:00:00-05:00",
+          "datetime": "2026-10-08T19:00:00-05:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3772084/the-traitors-5x03-the-traitors-are-watching",
-          "variant": null
-        },
-        {
-          "kind": "episode",
-          "id": "3772085",
-          "season": 5,
-          "code": "S05E04",
-          "name": "The Death Parade",
-          "count": 1,
-          "date": "2026-09-24",
-          "time": "20:00",
-          "datetime": "2026-09-24T20:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3772085/the-traitors-5x04-the-death-parade",
+          "url": "https://www.tvmaze.com/episodes/3772240/the-traitors-5x05-wake-of-the-living-dead",
           "variant": null
         }
       ]
@@ -1677,7 +1635,7 @@
         "time": null,
         "datetime": null,
         "premiere": true,
-        "url": "https://www.tvmaze.com/episodes/3757471/is-it-cake-halloween-2x01-tba",
+        "url": "https://www.tvmaze.com/episodes/3757471/is-it-cake-halloween-2x01-nightmare-on-cake-street",
         "variant": "Is It Cake? Halloween"
       },
       "last": {
@@ -1706,7 +1664,7 @@
           "time": null,
           "datetime": null,
           "premiere": true,
-          "url": "https://www.tvmaze.com/episodes/3757471/is-it-cake-halloween-2x01-tba",
+          "url": "https://www.tvmaze.com/episodes/3757471/is-it-cake-halloween-2x01-nightmare-on-cake-street",
           "variant": "Is It Cake? Halloween"
         }
       ],
@@ -2910,7 +2868,7 @@
         "status": "Running",
         "source": "ABC",
         "premiered": "2026-02-25",
-        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/639/1598903.jpg",
+        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/643/1609354.jpg",
         "episode_count": 19
       },
       "variants": [],
