@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-09T16:58:41Z",
-  "today": "2026-10-09",
+  "generated_at": "2026-10-10T15:51:44Z",
+  "today": "2026-10-10",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -1588,7 +1588,7 @@
       "platform": "Netflix",
       "platform_source": "webChannel",
       "on_our_platforms": true,
-      "phase": "this_week",
+      "phase": "between_seasons",
       "matched_by": "id",
       "candidates": [],
       "tvmaze": {
@@ -1624,7 +1624,8 @@
           "source": "Netflix"
         }
       ],
-      "next": {
+      "next": null,
+      "last": {
         "kind": "binge",
         "id": "v87502-s2-2026-10-09",
         "season": 2,
@@ -1638,21 +1639,8 @@
         "url": "https://www.tvmaze.com/episodes/3757471/is-it-cake-halloween-2x01-nightmare-on-cake-street",
         "variant": "Is It Cake? Halloween"
       },
-      "last": {
-        "kind": "episode",
-        "id": "3515435",
-        "season": 1,
-        "code": "S01E01",
-        "name": "Baked With Love",
-        "count": 1,
-        "date": "2026-02-04",
-        "time": null,
-        "datetime": null,
-        "premiere": true,
-        "url": "https://www.tvmaze.com/episodes/3515435/is-it-cake-valentines-1x01-baked-with-love",
-        "variant": "Is It Cake? Valentines"
-      },
-      "upcoming": [
+      "upcoming": [],
+      "recent": [
         {
           "kind": "binge",
           "id": "v87502-s2-2026-10-09",
@@ -1667,8 +1655,7 @@
           "url": "https://www.tvmaze.com/episodes/3757471/is-it-cake-halloween-2x01-nightmare-on-cake-street",
           "variant": "Is It Cake? Halloween"
         }
-      ],
-      "recent": []
+      ]
     },
     {
       "title": "Only Murders in the Building",
@@ -2179,7 +2166,7 @@
       "platform": "HBO Max",
       "platform_source": "network",
       "on_our_platforms": true,
-      "phase": "between_seasons",
+      "phase": "this_week",
       "matched_by": "id",
       "candidates": [],
       "tvmaze": {
@@ -2190,10 +2177,23 @@
         "source": "HGTV",
         "premiered": "2026-09-02",
         "image": "https://static.tvmaze.com/uploads/images/medium_portrait/639/1597998.jpg",
-        "episode_count": 6
+        "episode_count": 8
       },
       "variants": [],
-      "next": null,
+      "next": {
+        "kind": "episode",
+        "id": "3784695",
+        "season": 1,
+        "code": "S01E07",
+        "name": "Rhinestone Throne",
+        "count": 1,
+        "date": "2026-10-14",
+        "time": "21:00",
+        "datetime": "2026-10-14T21:00:00-05:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3784695/botched-homes-1x07-rhinestone-throne",
+        "variant": null
+      },
       "last": {
         "kind": "episode",
         "id": "3729421",
@@ -2208,7 +2208,36 @@
         "url": "https://www.tvmaze.com/episodes/3729421/botched-homes-1x06-welcome-to-the-swamp",
         "variant": null
       },
-      "upcoming": [],
+      "upcoming": [
+        {
+          "kind": "episode",
+          "id": "3784695",
+          "season": 1,
+          "code": "S01E07",
+          "name": "Rhinestone Throne",
+          "count": 1,
+          "date": "2026-10-14",
+          "time": "21:00",
+          "datetime": "2026-10-14T21:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3784695/botched-homes-1x07-rhinestone-throne",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3784696",
+          "season": 1,
+          "code": "S01E08",
+          "name": "A Tale of Two Saunas",
+          "count": 1,
+          "date": "2026-10-21",
+          "time": "21:00",
+          "datetime": "2026-10-21T21:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3784696/botched-homes-1x08-a-tale-of-two-saunas",
+          "variant": null
+        }
+      ],
       "recent": [
         {
           "kind": "episode",
@@ -2265,6 +2294,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3776831",
+        "season": 17,
+        "code": "S17E04",
+        "name": "Bread Week",
+        "count": 1,
+        "date": "2026-10-16",
+        "time": null,
+        "datetime": null,
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3776831/the-great-british-bake-off-17x04-bread-week",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3770244",
         "season": 17,
         "code": "S17E03",
@@ -2277,35 +2320,7 @@
         "url": "https://www.tvmaze.com/episodes/3770244/the-great-british-bake-off-17x03-audience-choice-week",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3765531",
-        "season": 17,
-        "code": "S17E02",
-        "name": "Biscuit Week",
-        "count": 1,
-        "date": "2026-10-02",
-        "time": null,
-        "datetime": null,
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3765531/the-great-british-bake-off-17x02-biscuit-week",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3770244",
-          "season": 17,
-          "code": "S17E03",
-          "name": "Audience Choice Week",
-          "count": 1,
-          "date": "2026-10-09",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3770244/the-great-british-bake-off-17x03-audience-choice-week",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3776831",
@@ -2338,20 +2353,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3744890",
-          "season": 17,
-          "code": "S17E01",
-          "name": "Cake Week",
-          "count": 1,
-          "date": "2026-09-25",
-          "time": null,
-          "datetime": null,
-          "premiere": true,
-          "url": "https://www.tvmaze.com/episodes/3744890/the-great-british-bake-off-17x01-cake-week",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3765531",
           "season": 17,
           "code": "S17E02",
@@ -2362,6 +2363,20 @@
           "datetime": null,
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3765531/the-great-british-bake-off-17x02-biscuit-week",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3770244",
+          "season": 17,
+          "code": "S17E03",
+          "name": "Audience Choice Week",
+          "count": 1,
+          "date": "2026-10-09",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3770244/the-great-british-bake-off-17x03-audience-choice-week",
           "variant": null
         }
       ]
@@ -2934,13 +2949,13 @@
           "id": "3694637",
           "season": 2,
           "code": "S02E06",
-          "name": "TBA",
+          "name": "My Halloween",
           "count": 1,
           "date": "2026-10-28",
           "time": "19:00",
           "datetime": "2026-10-28T19:00:00-05:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3694637/scrubs-2x06-tba",
+          "url": "https://www.tvmaze.com/episodes/3694637/scrubs-2x06-my-halloween",
           "variant": null
         },
         {
