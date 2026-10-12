@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-11T16:18:22Z",
-  "today": "2026-10-11",
+  "generated_at": "2026-10-12T19:47:17Z",
+  "today": "2026-10-12",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -556,20 +556,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3747226",
-          "season": 5,
-          "code": "S05E08",
-          "name": "Mic Drop, Please",
-          "count": 1,
-          "date": "2026-09-27",
-          "time": "20:00",
-          "datetime": "2026-09-27T20:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3747226/the-real-housewives-ultimate-girls-trip-5x08-mic-drop-please",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3747227",
           "season": 5,
           "code": "S05E09",
@@ -1072,20 +1058,6 @@
       },
       "upcoming": [],
       "recent": [
-        {
-          "kind": "episode",
-          "id": "3684558",
-          "season": 28,
-          "code": "S28E35",
-          "name": "Episode 35",
-          "count": 1,
-          "date": "2026-09-27",
-          "time": "21:15",
-          "datetime": "2026-09-27T21:15:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3684558/big-brother-28x35-episode-35",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3767837",
@@ -1833,6 +1805,20 @@
           "datetime": null,
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3714495/only-murders-in-the-building-6x09-tba",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3714501",
+          "season": 6,
+          "code": "S06E10",
+          "name": "TBA",
+          "count": 1,
+          "date": "2027-02-09",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3714501/only-murders-in-the-building-6x10-tba",
           "variant": null
         }
       ],
@@ -2834,20 +2820,6 @@
       },
       "upcoming": [],
       "recent": [
-        {
-          "kind": "episode",
-          "id": "3695365",
-          "season": 1,
-          "code": "S01E07",
-          "name": "The Jordan Boys' Legacy",
-          "count": 1,
-          "date": "2026-09-27",
-          "time": "20:00",
-          "datetime": "2026-09-27T20:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3695365/lanterns-1x07-the-jordan-boys-legacy",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3695366",
