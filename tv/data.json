@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-12T19:47:17Z",
-  "today": "2026-10-12",
+  "generated_at": "2026-10-13T10:31:11Z",
+  "today": "2026-10-13",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -929,21 +929,22 @@
       "platform": "Hulu",
       "platform_source": "network",
       "on_our_platforms": true,
-      "phase": "this_week",
+      "phase": "between_seasons",
       "matched_by": "id",
       "candidates": [],
       "tvmaze": {
         "id": 347,
         "name": "It's Always Sunny in Philadelphia",
         "url": "https://www.tvmaze.com/shows/347/its-always-sunny-in-philadelphia",
-        "status": "Running",
+        "status": "To Be Determined",
         "source": "FXX",
         "premiered": "2005-08-04",
         "image": "https://static.tvmaze.com/uploads/images/medium_portrait/636/1592247.jpg",
         "episode_count": 187
       },
       "variants": [],
-      "next": {
+      "next": null,
+      "last": {
         "kind": "episode",
         "id": "3702401",
         "season": 18,
@@ -957,51 +958,8 @@
         "url": "https://www.tvmaze.com/episodes/3702401/its-always-sunny-in-philadelphia-18x10-the-guys-have-a-sleepover",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3702400",
-        "season": 18,
-        "code": "S18E09",
-        "name": "Frank's Team: A Dark Day for Baseball",
-        "count": 1,
-        "date": "2026-10-05",
-        "time": "20:00",
-        "datetime": "2026-10-05T20:00:00-05:00",
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3702400/its-always-sunny-in-philadelphia-18x09-franks-team-a-dark-day-for-baseball",
-        "variant": null
-      },
-      "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3702401",
-          "season": 18,
-          "code": "S18E10",
-          "name": "The Guys Have a Sleepover",
-          "count": 1,
-          "date": "2026-10-12",
-          "time": "20:00",
-          "datetime": "2026-10-12T20:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3702401/its-always-sunny-in-philadelphia-18x10-the-guys-have-a-sleepover",
-          "variant": null
-        }
-      ],
+      "upcoming": [],
       "recent": [
-        {
-          "kind": "episode",
-          "id": "3702399",
-          "season": 18,
-          "code": "S18E08",
-          "name": "Mac and Dennis Tear Their ACLs",
-          "count": 1,
-          "date": "2026-09-28",
-          "time": "20:00",
-          "datetime": "2026-09-28T20:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3702399/its-always-sunny-in-philadelphia-18x08-mac-and-dennis-tear-their-acls",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3702400",
@@ -1014,6 +972,20 @@
           "datetime": "2026-10-05T20:00:00-05:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3702400/its-always-sunny-in-philadelphia-18x09-franks-team-a-dark-day-for-baseball",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3702401",
+          "season": 18,
+          "code": "S18E10",
+          "name": "The Guys Have a Sleepover",
+          "count": 1,
+          "date": "2026-10-12",
+          "time": "20:00",
+          "datetime": "2026-10-12T20:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3702401/its-always-sunny-in-philadelphia-18x10-the-guys-have-a-sleepover",
           "variant": null
         }
       ]
@@ -1140,6 +1112,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3773306",
+        "season": 1,
+        "code": "S01E04",
+        "name": "In Thickness and in Health",
+        "count": 1,
+        "date": "2026-10-19",
+        "time": "20:00",
+        "datetime": "2026-10-19T20:00:00-05:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3773306/still-flipping-out-1x04-in-thickness-and-in-health",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3773305",
         "season": 1,
         "code": "S01E03",
@@ -1152,35 +1138,7 @@
         "url": "https://www.tvmaze.com/episodes/3773305/still-flipping-out-1x03-chumped-and-dumped",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3773304",
-        "season": 1,
-        "code": "S01E02",
-        "name": "Sick of the Shtick",
-        "count": 1,
-        "date": "2026-10-05",
-        "time": "20:15",
-        "datetime": "2026-10-05T20:15:00-05:00",
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3773304/still-flipping-out-1x02-sick-of-the-shtick",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3773305",
-          "season": 1,
-          "code": "S01E03",
-          "name": "Chumped and Dumped",
-          "count": 1,
-          "date": "2026-10-12",
-          "time": "20:00",
-          "datetime": "2026-10-12T20:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3773305/still-flipping-out-1x03-chumped-and-dumped",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3773306",
@@ -1213,20 +1171,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3716223",
-          "season": 1,
-          "code": "S01E01",
-          "name": "Did You Miss Me?",
-          "count": 1,
-          "date": "2026-09-28",
-          "time": "20:00",
-          "datetime": "2026-09-28T20:00:00-05:00",
-          "premiere": true,
-          "url": "https://www.tvmaze.com/episodes/3716223/still-flipping-out-1x01-did-you-miss-me",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3773304",
           "season": 1,
           "code": "S01E02",
@@ -1237,6 +1181,20 @@
           "datetime": "2026-10-05T20:15:00-05:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3773304/still-flipping-out-1x02-sick-of-the-shtick",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3773305",
+          "season": 1,
+          "code": "S01E03",
+          "name": "Chumped and Dumped",
+          "count": 1,
+          "date": "2026-10-12",
+          "time": "20:00",
+          "datetime": "2026-10-12T20:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3773305/still-flipping-out-1x03-chumped-and-dumped",
           "variant": null
         }
       ]
