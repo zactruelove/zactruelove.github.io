@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-15T10:26:23Z",
-  "today": "2026-10-15",
+  "generated_at": "2026-10-16T10:26:20Z",
+  "today": "2026-10-16",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -50,61 +50,33 @@
       "variants": [],
       "next": {
         "kind": "episode",
-        "id": "3667325",
+        "id": "3686782",
         "season": 13,
-        "code": "S13E09",
-        "name": "The Devil Is in the Details",
+        "code": "S13E11",
+        "name": "Madison's Happy Ending",
         "count": 1,
-        "date": "2026-10-15",
+        "date": "2026-10-22",
         "time": "20:00",
-        "datetime": "2026-10-15T20:00:00-05:00",
+        "datetime": "2026-10-22T20:00:00-05:00",
         "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3667325/american-horror-story-13x09-the-devil-is-in-the-details",
+        "url": "https://www.tvmaze.com/episodes/3686782/american-horror-story-13x11-madisons-happy-ending",
         "variant": null
       },
       "last": {
         "kind": "episode",
-        "id": "3667324",
+        "id": "3667326",
         "season": 13,
-        "code": "S13E08",
-        "name": "Hell No",
+        "code": "S13E10",
+        "name": "The Prodigal Son",
         "count": 1,
-        "date": "2026-10-08",
-        "time": "20:33",
-        "datetime": "2026-10-08T20:33:00-05:00",
+        "date": "2026-10-15",
+        "time": "20:45",
+        "datetime": "2026-10-15T20:45:00-05:00",
         "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3667324/american-horror-story-13x08-hell-no",
+        "url": "https://www.tvmaze.com/episodes/3667326/american-horror-story-13x10-the-prodigal-son",
         "variant": null
       },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3667325",
-          "season": 13,
-          "code": "S13E09",
-          "name": "The Devil Is in the Details",
-          "count": 1,
-          "date": "2026-10-15",
-          "time": "20:00",
-          "datetime": "2026-10-15T20:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3667325/american-horror-story-13x09-the-devil-is-in-the-details",
-          "variant": null
-        },
-        {
-          "kind": "episode",
-          "id": "3667326",
-          "season": 13,
-          "code": "S13E10",
-          "name": "The Prodigal Son",
-          "count": 1,
-          "date": "2026-10-15",
-          "time": "20:45",
-          "datetime": "2026-10-15T20:45:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3667326/american-horror-story-13x10-the-prodigal-son",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3686782",
@@ -127,8 +99,8 @@
           "name": "Sisters in Arms",
           "count": 1,
           "date": "2026-10-22",
-          "time": "20:30",
-          "datetime": "2026-10-22T20:30:00-05:00",
+          "time": "20:44",
+          "datetime": "2026-10-22T20:44:00-05:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3686783/american-horror-story-13x12-sisters-in-arms",
           "variant": null
@@ -149,20 +121,6 @@
         }
       ],
       "recent": [
-        {
-          "kind": "binge",
-          "id": "s13-2026-10-01",
-          "season": 13,
-          "code": "S13",
-          "name": "All 3 episodes",
-          "count": 3,
-          "date": "2026-10-01",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3667320/american-horror-story-13x04-is-that-all-there-is",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3667323",
@@ -189,6 +147,34 @@
           "datetime": "2026-10-08T20:33:00-05:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3667324/american-horror-story-13x08-hell-no",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3667325",
+          "season": 13,
+          "code": "S13E09",
+          "name": "The Devil Is in the Details",
+          "count": 1,
+          "date": "2026-10-15",
+          "time": "20:00",
+          "datetime": "2026-10-15T20:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3667325/american-horror-story-13x09-the-devil-is-in-the-details",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3667326",
+          "season": 13,
+          "code": "S13E10",
+          "name": "The Prodigal Son",
+          "count": 1,
+          "date": "2026-10-15",
+          "time": "20:45",
+          "datetime": "2026-10-15T20:45:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3667326/american-horror-story-13x10-the-prodigal-son",
           "variant": null
         }
       ]
@@ -404,13 +390,13 @@
           "id": "3781673",
           "season": 7,
           "code": "S07E09",
-          "name": "TBA",
+          "name": "Feed Her to the Sharks",
           "count": 1,
           "date": "2026-11-11",
           "time": "19:00",
           "datetime": "2026-11-11T19:00:00-06:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3781673/the-real-housewives-of-salt-lake-city-7x09-tba",
+          "url": "https://www.tvmaze.com/episodes/3781673/the-real-housewives-of-salt-lake-city-7x09-feed-her-to-the-sharks",
           "variant": null
         }
       ],
@@ -850,20 +836,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3684168",
-          "season": 39,
-          "code": "S39E02",
-          "name": "Are Tomatoes Good for Skin Care?",
-          "count": 1,
-          "date": "2026-10-01",
-          "time": "20:30",
-          "datetime": "2026-10-01T20:30:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3684168/the-amazing-race-39x02-are-tomatoes-good-for-skin-care",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3684628",
           "season": 39,
           "code": "S39E03",
@@ -1001,22 +973,7 @@
         "variant": null
       },
       "upcoming": [],
-      "recent": [
-        {
-          "kind": "episode",
-          "id": "3767837",
-          "season": 28,
-          "code": "S28E36",
-          "name": "Episode 36--Live Finale",
-          "count": 1,
-          "date": "2026-10-01",
-          "time": "19:00",
-          "datetime": "2026-10-01T19:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3767837/big-brother-28x36-episode-36-live-finale",
-          "variant": null
-        }
-      ]
+      "recent": []
     },
     {
       "title": "The Secret Lives of Mormon Wives",
@@ -1292,6 +1249,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3772248",
+        "season": 5,
+        "code": "S05E07",
+        "name": "TBA",
+        "count": 1,
+        "date": "2026-10-22",
+        "time": "19:00",
+        "datetime": "2026-10-22T19:00:00-05:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3772248/the-traitors-5x07-tba",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3772247",
         "season": 5,
         "code": "S05E06",
@@ -1304,35 +1275,7 @@
         "url": "https://www.tvmaze.com/episodes/3772247/the-traitors-5x06-a-murder-of-necessity",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3772240",
-        "season": 5,
-        "code": "S05E05",
-        "name": "Wake of the Living Dead",
-        "count": 1,
-        "date": "2026-10-08",
-        "time": "19:00",
-        "datetime": "2026-10-08T19:00:00-05:00",
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3772240/the-traitors-5x05-wake-of-the-living-dead",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3772247",
-          "season": 5,
-          "code": "S05E06",
-          "name": "A Murder of Necessity",
-          "count": 1,
-          "date": "2026-10-15",
-          "time": "19:00",
-          "datetime": "2026-10-15T19:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3772247/the-traitors-5x06-a-murder-of-necessity",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3772248",
@@ -1432,6 +1375,20 @@
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3772240/the-traitors-5x05-wake-of-the-living-dead",
           "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3772247",
+          "season": 5,
+          "code": "S05E06",
+          "name": "A Murder of Necessity",
+          "count": 1,
+          "date": "2026-10-15",
+          "time": "19:00",
+          "datetime": "2026-10-15T19:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3772247/the-traitors-5x06-a-murder-of-necessity",
+          "variant": null
         }
       ]
     },
@@ -1519,16 +1476,16 @@
       },
       "variants": [
         {
-          "id": 87502,
-          "name": "Is It Cake? Halloween",
-          "url": "https://www.tvmaze.com/shows/87502/is-it-cake-halloween",
+          "id": 80440,
+          "name": "Is It Cake? Holiday",
+          "url": "https://www.tvmaze.com/shows/80440/is-it-cake-holiday",
           "status": "Running",
           "source": "Netflix"
         },
         {
-          "id": 80440,
-          "name": "Is It Cake? Holiday",
-          "url": "https://www.tvmaze.com/shows/80440/is-it-cake-holiday",
+          "id": 87502,
+          "name": "Is It Cake? Halloween",
+          "url": "https://www.tvmaze.com/shows/87502/is-it-cake-halloween",
           "status": "Running",
           "source": "Netflix"
         },
