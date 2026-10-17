@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-16T10:26:20Z",
-  "today": "2026-10-16",
+  "generated_at": "2026-10-17T10:22:46Z",
+  "today": "2026-10-17",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -207,13 +207,13 @@
         "id": "3780668",
         "season": 16,
         "code": "S16E07",
-        "name": "TBA",
+        "name": "Loveless Island",
         "count": 1,
         "date": "2026-10-20",
         "time": "19:00",
         "datetime": "2026-10-20T19:00:00-05:00",
         "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3780668/the-real-housewives-of-new-york-city-16x07-tba",
+        "url": "https://www.tvmaze.com/episodes/3780668/the-real-housewives-of-new-york-city-16x07-loveless-island",
         "variant": null
       },
       "last": {
@@ -236,13 +236,13 @@
           "id": "3780668",
           "season": 16,
           "code": "S16E07",
-          "name": "TBA",
+          "name": "Loveless Island",
           "count": 1,
           "date": "2026-10-20",
           "time": "19:00",
           "datetime": "2026-10-20T19:00:00-05:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3780668/the-real-housewives-of-new-york-city-16x07-tba",
+          "url": "https://www.tvmaze.com/episodes/3780668/the-real-housewives-of-new-york-city-16x07-loveless-island",
           "variant": null
         },
         {
@@ -376,13 +376,13 @@
           "id": "3781672",
           "season": 7,
           "code": "S07E08",
-          "name": "TBA",
+          "name": "Reiki'd Over the Coals",
           "count": 1,
           "date": "2026-11-04",
           "time": "19:00",
           "datetime": "2026-11-04T19:00:00-06:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3781672/the-real-housewives-of-salt-lake-city-7x08-tba",
+          "url": "https://www.tvmaze.com/episodes/3781672/the-real-housewives-of-salt-lake-city-7x08-reikid-over-the-coals",
           "variant": null
         },
         {
@@ -440,7 +440,7 @@
       "platform": "Peacock",
       "platform_source": "network",
       "on_our_platforms": true,
-      "phase": "between_seasons",
+      "phase": "upcoming",
       "matched_by": "id",
       "candidates": [],
       "tvmaze": {
@@ -451,10 +451,23 @@
         "source": "Bravo",
         "premiered": "2010-10-14",
         "image": "https://static.tvmaze.com/uploads/images/medium_portrait/601/1504593.jpg",
-        "episode_count": 329
+        "episode_count": 330
       },
       "variants": [],
-      "next": null,
+      "next": {
+        "kind": "episode",
+        "id": "3790077",
+        "season": 16,
+        "code": "S16E01",
+        "name": "Episode 1",
+        "count": 1,
+        "date": "2027-01-07",
+        "time": "19:00",
+        "datetime": "2027-01-07T19:00:00-06:00",
+        "premiere": true,
+        "url": "https://www.tvmaze.com/episodes/3790077/the-real-housewives-of-beverly-hills-16x01-episode-1",
+        "variant": null
+      },
       "last": {
         "kind": "episode",
         "id": "3592199",
@@ -469,7 +482,22 @@
         "url": "https://www.tvmaze.com/episodes/3592199/the-real-housewives-of-beverly-hills-15x21-reunion-part-3",
         "variant": null
       },
-      "upcoming": [],
+      "upcoming": [
+        {
+          "kind": "episode",
+          "id": "3790077",
+          "season": 16,
+          "code": "S16E01",
+          "name": "Episode 1",
+          "count": 1,
+          "date": "2027-01-07",
+          "time": "19:00",
+          "datetime": "2027-01-07T19:00:00-06:00",
+          "premiere": true,
+          "url": "https://www.tvmaze.com/episodes/3790077/the-real-housewives-of-beverly-hills-16x01-episode-1",
+          "variant": null
+        }
+      ],
       "recent": []
     },
     {
@@ -1486,7 +1514,7 @@
           "id": 87502,
           "name": "Is It Cake? Halloween",
           "url": "https://www.tvmaze.com/shows/87502/is-it-cake-halloween",
-          "status": "Running",
+          "status": "To Be Determined",
           "source": "Netflix"
         },
         {
@@ -2124,6 +2152,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3783214",
+        "season": 17,
+        "code": "S17E05",
+        "name": "Dessert Week",
+        "count": 1,
+        "date": "2026-10-23",
+        "time": null,
+        "datetime": null,
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3783214/the-great-british-bake-off-17x05-dessert-week",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3776831",
         "season": 17,
         "code": "S17E04",
@@ -2136,35 +2178,7 @@
         "url": "https://www.tvmaze.com/episodes/3776831/the-great-british-bake-off-17x04-bread-week",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3770244",
-        "season": 17,
-        "code": "S17E03",
-        "name": "Audience Choice Week",
-        "count": 1,
-        "date": "2026-10-09",
-        "time": null,
-        "datetime": null,
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3770244/the-great-british-bake-off-17x03-audience-choice-week",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3776831",
-          "season": 17,
-          "code": "S17E04",
-          "name": "Bread Week",
-          "count": 1,
-          "date": "2026-10-16",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3776831/the-great-british-bake-off-17x04-bread-week",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3783214",
@@ -2197,20 +2211,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3765531",
-          "season": 17,
-          "code": "S17E02",
-          "name": "Biscuit Week",
-          "count": 1,
-          "date": "2026-10-02",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3765531/the-great-british-bake-off-17x02-biscuit-week",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3770244",
           "season": 17,
           "code": "S17E03",
@@ -2221,6 +2221,20 @@
           "datetime": null,
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3770244/the-great-british-bake-off-17x03-audience-choice-week",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3776831",
+          "season": 17,
+          "code": "S17E04",
+          "name": "Bread Week",
+          "count": 1,
+          "date": "2026-10-16",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3776831/the-great-british-bake-off-17x04-bread-week",
           "variant": null
         }
       ]
@@ -2887,22 +2901,7 @@
         "variant": null
       },
       "upcoming": [],
-      "recent": [
-        {
-          "kind": "binge",
-          "id": "s1-2026-10-02",
-          "season": 1,
-          "code": "S01",
-          "name": "All 21 episodes",
-          "count": 21,
-          "date": "2026-10-02",
-          "time": null,
-          "datetime": null,
-          "premiere": true,
-          "url": "https://www.tvmaze.com/episodes/3698273/coven-academy-1x01-a-hex-education",
-          "variant": null
-        }
-      ]
+      "recent": []
     }
   ],
   "events_file": "events.json"
