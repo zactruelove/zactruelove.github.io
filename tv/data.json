@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-17T10:22:46Z",
-  "today": "2026-10-17",
+  "generated_at": "2026-10-18T10:23:37Z",
+  "today": "2026-10-18",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -199,7 +199,7 @@
         "source": "Bravo",
         "premiered": "2008-03-04",
         "image": "https://static.tvmaze.com/uploads/images/medium_portrait/639/1598898.jpg",
-        "episode_count": 299
+        "episode_count": 300
       },
       "variants": [],
       "next": {
@@ -257,6 +257,20 @@
           "datetime": "2026-10-27T19:00:00-05:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3784273/the-real-housewives-of-new-york-city-16x08-tba",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3791153",
+          "season": 16,
+          "code": "S16E09",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-11-03",
+          "time": "19:00",
+          "datetime": "2026-11-03T19:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3791153/the-real-housewives-of-new-york-city-16x09-tba",
           "variant": null
         }
       ],
