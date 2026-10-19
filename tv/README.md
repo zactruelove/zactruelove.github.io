@@ -30,7 +30,8 @@ Each entry in `shows.json`:
 - **query** — what to search TVmaze for (defaults to title). Use the show's
   official name if it differs, e.g. `The Great British Bake Off`.
 - **tvmaze_id** — once you've confirmed the match, put the numeric ID here.
-  Until then the builder searches by name and prefers US listings; the page
+  Until then the builder searches by name and prefers exact titles, then
+  shows that haven't ended, then US listings; the page
   shows a "matched by search" note with the top candidates so you can pin it.
 - **category** — `reality`, `competition`, `comedy`, `drama`.
 - **priority** — `1` must watch, `2` normal, `3` whenever.

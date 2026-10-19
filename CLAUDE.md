@@ -110,7 +110,7 @@ the main site must leave `tv/` alone.
 - **Source of truth:** `tv/shows.json`. Categories `reality | competition | comedy | drama`,
   priority `1..3`, status `active | ignore | finished`, optional `watch_on` override,
   `next_date`, `date_shift_days`, `tvmaze_id` (pin once verified; otherwise matched by search,
-  preferring exact titles, then US listings), `include_variants` + `exclude_ids` (merge
+  preferring exact titles, then shows not Ended, then US listings), `include_variants` + `exclude_ids` (merge
   separately listed specials/spin-offs whose title starts with the query). Schema documented
   in `tv/README.md`.
 - **Data:** free TVmaze API, no key. `tv/build.py` is standard-library Python only (no pip).

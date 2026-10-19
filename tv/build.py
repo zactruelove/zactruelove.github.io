@@ -112,8 +112,12 @@ def normalize(text):
 
 def rank_key(result, query, country):
     """Sort search results: exact title first, then titles containing the query,
-    then same country, then global streamers, then TVmaze's own score.
-    (TVmaze's fuzzy search will happily rank "The Love Boat" above "The GOAT".)"""
+    then shows that are not Ended, then same country, then global streamers,
+    then TVmaze's own score.
+
+    (TVmaze's fuzzy search will happily rank "The Love Boat" above "The GOAT",
+    and a US show that ended in 2009 above the 2023 Netflix show of the same
+    name, which is why status outranks country.)"""
     show = result["show"]
     q, name = normalize(query), normalize(show.get("name"))
     if q and name == q:
@@ -122,6 +126,7 @@ def rank_key(result, query, country):
         name_tier = 1
     else:
         name_tier = 2
+    status_tier = 1 if show.get("status") == "Ended" else 0
     code = country_of(show)
     if code == country:
         country_tier = 0
@@ -129,7 +134,7 @@ def rank_key(result, query, country):
         country_tier = 1
     else:
         country_tier = 2
-    return (name_tier, country_tier, -(result.get("score") or 0))
+    return (name_tier, status_tier, country_tier, -(result.get("score") or 0))
 
 
 def brief(show):
