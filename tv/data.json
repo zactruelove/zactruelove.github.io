@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T22:04:55Z",
+  "generated_at": "2026-10-19T22:05:55Z",
   "today": "2026-10-19",
   "timezone": "America/Chicago",
   "platforms": [
@@ -3089,65 +3089,55 @@
       "priority": 2,
       "status": "active",
       "notes": "",
-      "platform": "ION",
-      "platform_source": "network",
-      "on_our_platforms": false,
-      "phase": "ended",
-      "matched_by": "search",
-      "candidates": [
-        {
-          "id": 36773,
-          "name": "The Diplomat",
-          "premiered": "2009-01-11",
-          "source": "ION",
-          "country": "US",
-          "status": "Ended"
-        },
-        {
-          "id": 60213,
-          "name": "The Diplomat",
-          "premiered": "2023-04-20",
-          "source": "Netflix",
-          "country": null,
-          "status": "Running"
-        },
-        {
-          "id": 49116,
-          "name": "The Diplomat",
-          "premiered": "2023-02-28",
-          "source": "U&alibi",
-          "country": "GB",
-          "status": "Ended"
-        }
-      ],
+      "platform": "Netflix",
+      "platform_source": "webChannel",
+      "on_our_platforms": true,
+      "phase": "between_seasons",
+      "matched_by": "id",
+      "candidates": [],
       "tvmaze": {
-        "id": 36773,
+        "id": 60213,
         "name": "The Diplomat",
-        "url": "https://www.tvmaze.com/shows/36773/the-diplomat",
-        "status": "Ended",
-        "source": "ION",
-        "premiered": "2009-01-11",
-        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/155/389916.jpg",
-        "episode_count": 2
+        "url": "https://www.tvmaze.com/shows/60213/the-diplomat",
+        "status": "Running",
+        "source": "Netflix",
+        "premiered": "2023-04-20",
+        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/646/1615567.jpg",
+        "episode_count": 30
       },
       "variants": [],
       "next": null,
       "last": {
-        "kind": "episode",
-        "id": "1468210",
-        "season": 1,
-        "code": "S01E02",
-        "name": "Part 2",
-        "count": 1,
-        "date": "2009-01-12",
+        "kind": "binge",
+        "id": "s4-2026-10-15",
+        "season": 4,
+        "code": "S04",
+        "name": "All 8 episodes",
+        "count": 8,
+        "date": "2026-10-15",
         "time": null,
         "datetime": null,
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/1468210/the-diplomat-1x02-part-2",
+        "premiere": true,
+        "url": "https://www.tvmaze.com/episodes/3701737/the-diplomat-4x01-windsor",
         "variant": null
       },
       "upcoming": [],
-      "recent": []
+      "recent": [
+        {
+          "kind": "binge",
+          "id": "s4-2026-10-15",
+          "season": 4,
+          "code": "S04",
+          "name": "All 8 episodes",
+          "count": 8,
+          "date": "2026-10-15",
+          "time": null,
+          "datetime": null,
+          "premiere": true,
+          "url": "https://www.tvmaze.com/episodes/3701737/the-diplomat-4x01-windsor",
+          "variant": null
+        }
+      ]
     }
   ],
   "events_file": "events.json"
