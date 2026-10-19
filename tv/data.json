@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T22:03:01Z",
+  "generated_at": "2026-10-19T22:03:56Z",
   "today": "2026-10-19",
   "timezone": "America/Chicago",
   "platforms": [
@@ -2925,17 +2925,8 @@
       "platform_source": "webChannel",
       "on_our_platforms": true,
       "phase": "this_week",
-      "matched_by": "search",
-      "candidates": [
-        {
-          "id": 64950,
-          "name": "VisionQuest",
-          "premiered": "2026-10-13",
-          "source": "Disney+",
-          "country": null,
-          "status": "Running"
-        }
-      ],
+      "matched_by": "id",
+      "candidates": [],
       "tvmaze": {
         "id": 64950,
         "name": "VisionQuest",
