@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-19T23:08:14Z",
-  "today": "2026-10-19",
+  "generated_at": "2026-10-20T10:25:05Z",
+  "today": "2026-10-20",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -933,20 +933,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3702400",
-          "season": 18,
-          "code": "S18E09",
-          "name": "Frank's Team: A Dark Day for Baseball",
-          "count": 1,
-          "date": "2026-10-05",
-          "time": "20:00",
-          "datetime": "2026-10-05T20:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3702400/its-always-sunny-in-philadelphia-18x09-franks-team-a-dark-day-for-baseball",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3702401",
           "season": 18,
           "code": "S18E10",
@@ -1068,6 +1054,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3781674",
+        "season": 1,
+        "code": "S01E05",
+        "name": "Totes Inappropes",
+        "count": 1,
+        "date": "2026-10-26",
+        "time": "20:00",
+        "datetime": "2026-10-26T20:00:00-05:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3781674/still-flipping-out-1x05-totes-inappropes",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3773306",
         "season": 1,
         "code": "S01E04",
@@ -1080,35 +1080,7 @@
         "url": "https://www.tvmaze.com/episodes/3773306/still-flipping-out-1x04-in-thickness-and-in-health",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3773305",
-        "season": 1,
-        "code": "S01E03",
-        "name": "Chumped and Dumped",
-        "count": 1,
-        "date": "2026-10-12",
-        "time": "20:00",
-        "datetime": "2026-10-12T20:00:00-05:00",
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3773305/still-flipping-out-1x03-chumped-and-dumped",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3773306",
-          "season": 1,
-          "code": "S01E04",
-          "name": "In Thickness and in Health",
-          "count": 1,
-          "date": "2026-10-19",
-          "time": "20:00",
-          "datetime": "2026-10-19T20:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3773306/still-flipping-out-1x04-in-thickness-and-in-health",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3781674",
@@ -1141,20 +1113,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3773304",
-          "season": 1,
-          "code": "S01E02",
-          "name": "Sick of the Shtick",
-          "count": 1,
-          "date": "2026-10-05",
-          "time": "20:15",
-          "datetime": "2026-10-05T20:15:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3773304/still-flipping-out-1x02-sick-of-the-shtick",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3773305",
           "season": 1,
           "code": "S01E03",
@@ -1165,6 +1123,20 @@
           "datetime": "2026-10-12T20:00:00-05:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3773305/still-flipping-out-1x03-chumped-and-dumped",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3773306",
+          "season": 1,
+          "code": "S01E04",
+          "name": "In Thickness and in Health",
+          "count": 1,
+          "date": "2026-10-19",
+          "time": "20:00",
+          "datetime": "2026-10-19T20:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3773306/still-flipping-out-1x04-in-thickness-and-in-health",
           "variant": null
         }
       ]
