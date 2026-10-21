@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T01:33:31Z",
+  "generated_at": "2026-10-21T01:34:36Z",
   "today": "2026-10-20",
   "timezone": "America/Chicago",
   "platforms": [
@@ -3183,33 +3183,16 @@
     },
     {
       "title": "The Golden Life",
-      "category": "drama",
+      "category": "reality",
       "priority": 2,
       "status": "active",
-      "notes": "Premiered 2026-10-20 per Zac; date is a fallback until TVmaze lists it.",
+      "notes": "",
       "platform": "Hulu",
       "platform_source": "override",
       "on_our_platforms": true,
       "phase": "this_week",
-      "matched_by": "search",
-      "candidates": [
-        {
-          "id": 94330,
-          "name": "The Golden Life",
-          "premiered": "2026-10-20",
-          "source": "E!",
-          "country": "US",
-          "status": "In Development"
-        },
-        {
-          "id": 29643,
-          "name": "Kitchen Garden Live with the Hairy Bikers",
-          "premiered": "2017-07-03",
-          "source": "BBC One",
-          "country": "GB",
-          "status": "Ended"
-        }
-      ],
+      "matched_by": "id",
+      "candidates": [],
       "tvmaze": {
         "id": 94330,
         "name": "The Golden Life",
