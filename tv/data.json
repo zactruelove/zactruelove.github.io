@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T00:14:54Z",
+  "generated_at": "2026-10-21T01:33:31Z",
   "today": "2026-10-20",
   "timezone": "America/Chicago",
   "platforms": [
@@ -3176,6 +3176,121 @@
           "datetime": null,
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3761896/the-mob-1x02-tba",
+          "variant": null
+        }
+      ],
+      "recent": []
+    },
+    {
+      "title": "The Golden Life",
+      "category": "drama",
+      "priority": 2,
+      "status": "active",
+      "notes": "Premiered 2026-10-20 per Zac; date is a fallback until TVmaze lists it.",
+      "platform": "Hulu",
+      "platform_source": "override",
+      "on_our_platforms": true,
+      "phase": "this_week",
+      "matched_by": "search",
+      "candidates": [
+        {
+          "id": 94330,
+          "name": "The Golden Life",
+          "premiered": "2026-10-20",
+          "source": "E!",
+          "country": "US",
+          "status": "In Development"
+        },
+        {
+          "id": 29643,
+          "name": "Kitchen Garden Live with the Hairy Bikers",
+          "premiered": "2017-07-03",
+          "source": "BBC One",
+          "country": "GB",
+          "status": "Ended"
+        }
+      ],
+      "tvmaze": {
+        "id": 94330,
+        "name": "The Golden Life",
+        "url": "https://www.tvmaze.com/shows/94330/the-golden-life",
+        "status": "In Development",
+        "source": "E!",
+        "premiered": "2026-10-20",
+        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/640/1601969.jpg",
+        "episode_count": 4
+      },
+      "variants": [],
+      "next": {
+        "kind": "episode",
+        "id": "3757416",
+        "season": 1,
+        "code": "S01E01",
+        "name": "Golden Years In A Golden Place",
+        "count": 1,
+        "date": "2026-10-20",
+        "time": "21:00",
+        "datetime": "2026-10-20T21:00:00-05:00",
+        "premiere": true,
+        "url": "https://www.tvmaze.com/episodes/3757416/the-golden-life-1x01-golden-years-in-a-golden-place",
+        "variant": null
+      },
+      "last": null,
+      "upcoming": [
+        {
+          "kind": "episode",
+          "id": "3757416",
+          "season": 1,
+          "code": "S01E01",
+          "name": "Golden Years In A Golden Place",
+          "count": 1,
+          "date": "2026-10-20",
+          "time": "21:00",
+          "datetime": "2026-10-20T21:00:00-05:00",
+          "premiere": true,
+          "url": "https://www.tvmaze.com/episodes/3757416/the-golden-life-1x01-golden-years-in-a-golden-place",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3793148",
+          "season": 1,
+          "code": "S01E02",
+          "name": "I Need a Mocktail",
+          "count": 1,
+          "date": "2026-10-27",
+          "time": "21:00",
+          "datetime": "2026-10-27T21:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3793148/the-golden-life-1x02-i-need-a-mocktail",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3793149",
+          "season": 1,
+          "code": "S01E03",
+          "name": "Where's The Stylist?",
+          "count": 1,
+          "date": "2026-11-03",
+          "time": "21:00",
+          "datetime": "2026-11-03T21:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3793149/the-golden-life-1x03-wheres-the-stylist",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3793224",
+          "season": 1,
+          "code": "S01E04",
+          "name": "People Will Think We're Nuts",
+          "count": 1,
+          "date": "2026-11-10",
+          "time": "21:00",
+          "datetime": "2026-11-10T21:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3793224/the-golden-life-1x04-people-will-think-were-nuts",
           "variant": null
         }
       ],
