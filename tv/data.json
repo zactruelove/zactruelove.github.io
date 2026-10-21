@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T00:13:55Z",
+  "generated_at": "2026-10-21T00:14:54Z",
   "today": "2026-10-20",
   "timezone": "America/Chicago",
   "platforms": [
@@ -3116,54 +3116,13 @@
       "category": "competition",
       "priority": 2,
       "status": "active",
-      "notes": "Premieres Oct 26 per Zac; date is a fallback until TVmaze lists it.",
+      "notes": "",
       "platform": "Hulu",
       "platform_source": "override",
       "on_our_platforms": true,
       "phase": "this_week",
-      "matched_by": "search",
-      "candidates": [
-        {
-          "id": 94430,
-          "name": "The Mob",
-          "premiered": "2026-10-26",
-          "source": "Hulu",
-          "country": "US",
-          "status": "In Development"
-        },
-        {
-          "id": 93240,
-          "name": "Hollywood Crime Story: The Mob Takes Over the Movies",
-          "premiered": "2026-08-13",
-          "source": "Sundance Now",
-          "country": "US",
-          "status": "Running"
-        },
-        {
-          "id": 91963,
-          "name": "Marilyn and the Mob",
-          "premiered": "2026-05-20",
-          "source": "Channel 4",
-          "country": "GB",
-          "status": "Running"
-        },
-        {
-          "id": 1234,
-          "name": "The Mob Doctor",
-          "premiered": "2012-09-17",
-          "source": "FOX",
-          "country": "US",
-          "status": "Ended"
-        },
-        {
-          "id": 2294,
-          "name": "The Making of The Mob",
-          "premiered": "2015-06-15",
-          "source": "AMC",
-          "country": "US",
-          "status": "Ended"
-        }
-      ],
+      "matched_by": "id",
+      "candidates": [],
       "tvmaze": {
         "id": 94430,
         "name": "The Mob",
