@@ -96,6 +96,7 @@
     { "title": "Scrubs", "query": "Scrubs", "tvmaze_id": 84836, "category": "comedy", "priority": 2, "status": "active", "watch_on": null, "notes": "" },
     { "title": "Coven Academy", "query": "Coven Academy", "tvmaze_id": 83159, "category": "drama", "priority": 2, "status": "active", "watch_on": null, "notes": "" },
     { "title": "VisionQuest", "query": "VisionQuest", "tvmaze_id": 64950, "category": "drama", "priority": 2, "status": "active", "watch_on": null, "notes": "" },
-    { "title": "The Diplomat", "query": "The Diplomat", "tvmaze_id": 60213, "category": "drama", "priority": 2, "status": "active", "watch_on": null, "notes": "" }
+    { "title": "The Diplomat", "query": "The Diplomat", "tvmaze_id": 60213, "category": "drama", "priority": 2, "status": "active", "watch_on": null, "notes": "" },
+    { "title": "The Mob", "query": "The Mob", "tvmaze_id": null, "category": "competition", "priority": 2, "status": "active", "watch_on": "Hulu", "next_date": "2026-10-26", "notes": "Premieres Oct 26 per Zac; date is a fallback until TVmaze lists it." }
   ]
 }
