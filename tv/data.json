@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T10:25:05Z",
+  "generated_at": "2026-10-21T00:13:55Z",
   "today": "2026-10-20",
   "timezone": "America/Chicago",
   "platforms": [
@@ -3110,6 +3110,117 @@
           "variant": null
         }
       ]
+    },
+    {
+      "title": "The Mob",
+      "category": "competition",
+      "priority": 2,
+      "status": "active",
+      "notes": "Premieres Oct 26 per Zac; date is a fallback until TVmaze lists it.",
+      "platform": "Hulu",
+      "platform_source": "override",
+      "on_our_platforms": true,
+      "phase": "this_week",
+      "matched_by": "search",
+      "candidates": [
+        {
+          "id": 94430,
+          "name": "The Mob",
+          "premiered": "2026-10-26",
+          "source": "Hulu",
+          "country": "US",
+          "status": "In Development"
+        },
+        {
+          "id": 93240,
+          "name": "Hollywood Crime Story: The Mob Takes Over the Movies",
+          "premiered": "2026-08-13",
+          "source": "Sundance Now",
+          "country": "US",
+          "status": "Running"
+        },
+        {
+          "id": 91963,
+          "name": "Marilyn and the Mob",
+          "premiered": "2026-05-20",
+          "source": "Channel 4",
+          "country": "GB",
+          "status": "Running"
+        },
+        {
+          "id": 1234,
+          "name": "The Mob Doctor",
+          "premiered": "2012-09-17",
+          "source": "FOX",
+          "country": "US",
+          "status": "Ended"
+        },
+        {
+          "id": 2294,
+          "name": "The Making of The Mob",
+          "premiered": "2015-06-15",
+          "source": "AMC",
+          "country": "US",
+          "status": "Ended"
+        }
+      ],
+      "tvmaze": {
+        "id": 94430,
+        "name": "The Mob",
+        "url": "https://www.tvmaze.com/shows/94430/the-mob",
+        "status": "In Development",
+        "source": "Hulu",
+        "premiered": "2026-10-26",
+        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/646/1615337.jpg",
+        "episode_count": 2
+      },
+      "variants": [],
+      "next": {
+        "kind": "episode",
+        "id": "3761894",
+        "season": 1,
+        "code": "S01E01",
+        "name": "TBA",
+        "count": 1,
+        "date": "2026-10-26",
+        "time": null,
+        "datetime": null,
+        "premiere": true,
+        "url": "https://www.tvmaze.com/episodes/3761894/the-mob-1x01-tba",
+        "variant": null
+      },
+      "last": null,
+      "upcoming": [
+        {
+          "kind": "episode",
+          "id": "3761894",
+          "season": 1,
+          "code": "S01E01",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-10-26",
+          "time": null,
+          "datetime": null,
+          "premiere": true,
+          "url": "https://www.tvmaze.com/episodes/3761894/the-mob-1x01-tba",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3761896",
+          "season": 1,
+          "code": "S01E02",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-10-26",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3761896/the-mob-1x02-tba",
+          "variant": null
+        }
+      ],
+      "recent": []
     }
   ],
   "events_file": "events.json"
