@@ -98,6 +98,6 @@
     { "title": "VisionQuest", "query": "VisionQuest", "tvmaze_id": 64950, "category": "drama", "priority": 2, "status": "active", "watch_on": null, "notes": "" },
     { "title": "The Diplomat", "query": "The Diplomat", "tvmaze_id": 60213, "category": "drama", "priority": 2, "status": "active", "watch_on": null, "notes": "" },
     { "title": "The Mob", "query": "The Mob", "tvmaze_id": 94430, "category": "competition", "priority": 2, "status": "active", "watch_on": "Hulu", "notes": "" },
-    { "title": "The Golden Life", "query": "The Golden Life", "tvmaze_id": null, "category": "drama", "priority": 2, "status": "active", "watch_on": "Hulu", "next_date": "2026-10-20", "notes": "Premiered 2026-10-20 per Zac; date is a fallback until TVmaze lists it." }
+    { "title": "The Golden Life", "query": "The Golden Life", "tvmaze_id": 94330, "category": "reality", "priority": 2, "status": "active", "watch_on": "Hulu", "notes": "" }
   ]
 }
