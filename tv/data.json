@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-22T10:26:12Z",
-  "today": "2026-10-22",
+  "generated_at": "2026-10-23T10:25:53Z",
+  "today": "2026-10-23",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -50,61 +50,33 @@
       "variants": [],
       "next": {
         "kind": "episode",
-        "id": "3686782",
+        "id": "3686784",
         "season": 13,
-        "code": "S13E11",
-        "name": "Madison's Happy Ending",
+        "code": "S13E13",
+        "name": "Devil of a Good Time",
         "count": 1,
-        "date": "2026-10-22",
+        "date": "2026-10-29",
         "time": "20:00",
-        "datetime": "2026-10-22T20:00:00-05:00",
+        "datetime": "2026-10-29T20:00:00-05:00",
         "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3686782/american-horror-story-13x11-madisons-happy-ending",
+        "url": "https://www.tvmaze.com/episodes/3686784/american-horror-story-13x13-devil-of-a-good-time",
         "variant": null
       },
       "last": {
         "kind": "episode",
-        "id": "3667326",
+        "id": "3686783",
         "season": 13,
-        "code": "S13E10",
-        "name": "The Prodigal Son",
+        "code": "S13E12",
+        "name": "Sisters in Arms",
         "count": 1,
-        "date": "2026-10-15",
-        "time": "20:45",
-        "datetime": "2026-10-15T20:45:00-05:00",
+        "date": "2026-10-22",
+        "time": "20:44",
+        "datetime": "2026-10-22T20:44:00-05:00",
         "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3667326/american-horror-story-13x10-the-prodigal-son",
+        "url": "https://www.tvmaze.com/episodes/3686783/american-horror-story-13x12-sisters-in-arms",
         "variant": null
       },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3686782",
-          "season": 13,
-          "code": "S13E11",
-          "name": "Madison's Happy Ending",
-          "count": 1,
-          "date": "2026-10-22",
-          "time": "20:00",
-          "datetime": "2026-10-22T20:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3686782/american-horror-story-13x11-madisons-happy-ending",
-          "variant": null
-        },
-        {
-          "kind": "episode",
-          "id": "3686783",
-          "season": 13,
-          "code": "S13E12",
-          "name": "Sisters in Arms",
-          "count": 1,
-          "date": "2026-10-22",
-          "time": "20:44",
-          "datetime": "2026-10-22T20:44:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3686783/american-horror-story-13x12-sisters-in-arms",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3686784",
@@ -121,34 +93,6 @@
         }
       ],
       "recent": [
-        {
-          "kind": "episode",
-          "id": "3667323",
-          "season": 13,
-          "code": "S13E07",
-          "name": "The Baddest Witch of Them All",
-          "count": 1,
-          "date": "2026-10-08",
-          "time": "20:00",
-          "datetime": "2026-10-08T20:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3667323/american-horror-story-13x07-the-baddest-witch-of-them-all",
-          "variant": null
-        },
-        {
-          "kind": "episode",
-          "id": "3667324",
-          "season": 13,
-          "code": "S13E08",
-          "name": "Hell No",
-          "count": 1,
-          "date": "2026-10-08",
-          "time": "20:33",
-          "datetime": "2026-10-08T20:33:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3667324/american-horror-story-13x08-hell-no",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3667325",
@@ -175,6 +119,34 @@
           "datetime": "2026-10-15T20:45:00-05:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3667326/american-horror-story-13x10-the-prodigal-son",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3686782",
+          "season": 13,
+          "code": "S13E11",
+          "name": "Madison's Happy Ending",
+          "count": 1,
+          "date": "2026-10-22",
+          "time": "20:00",
+          "datetime": "2026-10-22T20:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3686782/american-horror-story-13x11-madisons-happy-ending",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3686783",
+          "season": 13,
+          "code": "S13E12",
+          "name": "Sisters in Arms",
+          "count": 1,
+          "date": "2026-10-22",
+          "time": "20:44",
+          "datetime": "2026-10-22T20:44:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3686783/american-horror-story-13x12-sisters-in-arms",
           "variant": null
         }
       ]
@@ -1206,6 +1178,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3772249",
+        "season": 5,
+        "code": "S05E08",
+        "name": "A Bad Apple Spoils the Whole Bunch",
+        "count": 1,
+        "date": "2026-10-29",
+        "time": "19:00",
+        "datetime": "2026-10-29T19:00:00-05:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3772249/the-traitors-5x08-a-bad-apple-spoils-the-whole-bunch",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3772248",
         "season": 5,
         "code": "S05E07",
@@ -1218,35 +1204,7 @@
         "url": "https://www.tvmaze.com/episodes/3772248/the-traitors-5x07-its-like-fighting-two-pigs-under-a-blanket",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3772247",
-        "season": 5,
-        "code": "S05E06",
-        "name": "A Murder of Necessity",
-        "count": 1,
-        "date": "2026-10-15",
-        "time": "19:00",
-        "datetime": "2026-10-15T19:00:00-05:00",
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3772247/the-traitors-5x06-a-murder-of-necessity",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3772248",
-          "season": 5,
-          "code": "S05E07",
-          "name": "It's Like Fighting Two Pigs Under a Blanket",
-          "count": 1,
-          "date": "2026-10-22",
-          "time": "19:00",
-          "datetime": "2026-10-22T19:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3772248/the-traitors-5x07-its-like-fighting-two-pigs-under-a-blanket",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3772249",
@@ -1321,20 +1279,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3772240",
-          "season": 5,
-          "code": "S05E05",
-          "name": "Wake of the Living Dead",
-          "count": 1,
-          "date": "2026-10-08",
-          "time": "19:00",
-          "datetime": "2026-10-08T19:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3772240/the-traitors-5x05-wake-of-the-living-dead",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3772247",
           "season": 5,
           "code": "S05E06",
@@ -1345,6 +1289,20 @@
           "datetime": "2026-10-15T19:00:00-05:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3772247/the-traitors-5x06-a-murder-of-necessity",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3772248",
+          "season": 5,
+          "code": "S05E07",
+          "name": "It's Like Fighting Two Pigs Under a Blanket",
+          "count": 1,
+          "date": "2026-10-22",
+          "time": "19:00",
+          "datetime": "2026-10-22T19:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3772248/the-traitors-5x07-its-like-fighting-two-pigs-under-a-blanket",
           "variant": null
         }
       ]
@@ -1960,7 +1918,7 @@
         "id": 88034,
         "name": "Botched Homes",
         "url": "https://www.tvmaze.com/shows/88034/botched-homes",
-        "status": "Running",
+        "status": "To Be Determined",
         "source": "HGTV",
         "premiered": "2026-09-02",
         "image": "https://static.tvmaze.com/uploads/images/medium_portrait/639/1597998.jpg",
