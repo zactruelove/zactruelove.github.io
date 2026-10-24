@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-23T10:25:53Z",
-  "today": "2026-10-23",
+  "generated_at": "2026-10-24T10:23:49Z",
+  "today": "2026-10-24",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -179,13 +179,13 @@
         "id": "3784273",
         "season": 16,
         "code": "S16E08",
-        "name": "Why Are Daisy Toye and Sai De Silva Questioning Hailey Glassman's Stories?",
+        "name": "Havana Fights",
         "count": 1,
         "date": "2026-10-27",
         "time": "19:00",
         "datetime": "2026-10-27T19:00:00-05:00",
         "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3784273/the-real-housewives-of-new-york-city-16x08-why-are-daisy-toye-and-sai-de-silva-questioning-hailey-glassmans-stories",
+        "url": "https://www.tvmaze.com/episodes/3784273/the-real-housewives-of-new-york-city-16x08-havana-fights",
         "variant": null
       },
       "last": {
@@ -208,13 +208,13 @@
           "id": "3784273",
           "season": 16,
           "code": "S16E08",
-          "name": "Why Are Daisy Toye and Sai De Silva Questioning Hailey Glassman's Stories?",
+          "name": "Havana Fights",
           "count": 1,
           "date": "2026-10-27",
           "time": "19:00",
           "datetime": "2026-10-27T19:00:00-05:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3784273/the-real-housewives-of-new-york-city-16x08-why-are-daisy-toye-and-sai-de-silva-questioning-hailey-glassmans-stories",
+          "url": "https://www.tvmaze.com/episodes/3784273/the-real-housewives-of-new-york-city-16x08-havana-fights",
           "variant": null
         },
         {
@@ -598,13 +598,13 @@
           "id": "3711576",
           "season": 51,
           "code": "S51E08",
-          "name": "TBA",
+          "name": "Load the Ark, Two by Two",
           "count": 1,
           "date": "2026-11-11",
           "time": "19:00",
           "datetime": "2026-11-11T19:00:00-06:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3711576/survivor-51x08-tba",
+          "url": "https://www.tvmaze.com/episodes/3711576/survivor-51x08-load-the-ark-two-by-two",
           "variant": null
         },
         {
@@ -752,13 +752,13 @@
           "id": "3711582",
           "season": 39,
           "code": "S39E08",
-          "name": "TBA",
+          "name": "Million Dollar Moves",
           "count": 1,
           "date": "2026-11-11",
           "time": "20:30",
           "datetime": "2026-11-11T20:30:00-06:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3711582/the-amazing-race-39x08-tba",
+          "url": "https://www.tvmaze.com/episodes/3711582/the-amazing-race-39x08-million-dollar-moves",
           "variant": null
         },
         {
@@ -766,13 +766,13 @@
           "id": "3711583",
           "season": 39,
           "code": "S39E09",
-          "name": "TBA",
+          "name": "A Double-Edged Sword with an Alliance",
           "count": 1,
           "date": "2026-11-18",
           "time": "20:30",
           "datetime": "2026-11-18T20:30:00-06:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3711583/the-amazing-race-39x09-tba",
+          "url": "https://www.tvmaze.com/episodes/3711583/the-amazing-race-39x09-a-double-edged-sword-with-an-alliance",
           "variant": null
         },
         {
@@ -1428,22 +1428,7 @@
         "variant": "Is It Cake? Halloween"
       },
       "upcoming": [],
-      "recent": [
-        {
-          "kind": "binge",
-          "id": "v87502-s2-2026-10-09",
-          "season": 2,
-          "code": "S02",
-          "name": "All 3 episodes",
-          "count": 3,
-          "date": "2026-10-09",
-          "time": null,
-          "datetime": null,
-          "premiere": true,
-          "url": "https://www.tvmaze.com/episodes/3757471/is-it-cake-halloween-2x01-nightmare-on-cake-street",
-          "variant": "Is It Cake? Halloween"
-        }
-      ]
+      "recent": []
     },
     {
       "title": "Only Murders in the Building",
@@ -1997,6 +1982,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3788802",
+        "season": 17,
+        "code": "S17E06",
+        "name": "Pastry Week",
+        "count": 1,
+        "date": "2026-10-30",
+        "time": null,
+        "datetime": null,
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3788802/the-great-british-bake-off-17x06-pastry-week",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3783214",
         "season": 17,
         "code": "S17E05",
@@ -2009,35 +2008,7 @@
         "url": "https://www.tvmaze.com/episodes/3783214/the-great-british-bake-off-17x05-dessert-week",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3776831",
-        "season": 17,
-        "code": "S17E04",
-        "name": "Bread Week",
-        "count": 1,
-        "date": "2026-10-16",
-        "time": null,
-        "datetime": null,
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3776831/the-great-british-bake-off-17x04-bread-week",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3783214",
-          "season": 17,
-          "code": "S17E05",
-          "name": "Dessert Week",
-          "count": 1,
-          "date": "2026-10-23",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3783214/the-great-british-bake-off-17x05-dessert-week",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3788802",
@@ -2070,20 +2041,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3770244",
-          "season": 17,
-          "code": "S17E03",
-          "name": "Audience Choice Week",
-          "count": 1,
-          "date": "2026-10-09",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3770244/the-great-british-bake-off-17x03-audience-choice-week",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3776831",
           "season": 17,
           "code": "S17E04",
@@ -2094,6 +2051,20 @@
           "datetime": null,
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3776831/the-great-british-bake-off-17x04-bread-week",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3783214",
+          "season": 17,
+          "code": "S17E05",
+          "name": "Dessert Week",
+          "count": 1,
+          "date": "2026-10-23",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3783214/the-great-british-bake-off-17x05-dessert-week",
           "variant": null
         }
       ]
