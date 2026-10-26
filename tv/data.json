@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-25T10:23:48Z",
-  "today": "2026-10-25",
+  "generated_at": "2026-10-26T10:29:32Z",
+  "today": "2026-10-26",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -533,7 +533,7 @@
         "source": "CBS",
         "premiered": "2000-05-31",
         "image": "https://static.tvmaze.com/uploads/images/medium_portrait/641/1603530.jpg",
-        "episode_count": 739
+        "episode_count": 742
       },
       "variants": [],
       "next": {
@@ -634,6 +634,48 @@
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3789586/survivor-51x10-tba",
           "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3796395",
+          "season": 51,
+          "code": "S51E11",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-12-02",
+          "time": "19:00",
+          "datetime": "2026-12-02T19:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3796395/survivor-51x11-tba",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3796396",
+          "season": 51,
+          "code": "S51E12",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-12-09",
+          "time": "19:00",
+          "datetime": "2026-12-09T19:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3796396/survivor-51x12-tba",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3796397",
+          "season": 51,
+          "code": "S51E13",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-12-16",
+          "time": "19:00",
+          "datetime": "2026-12-16T19:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3796397/survivor-51x13-tba",
+          "variant": null
         }
       ],
       "recent": [
@@ -687,7 +729,7 @@
         "source": "CBS",
         "premiered": "2001-09-05",
         "image": "https://static.tvmaze.com/uploads/images/medium_portrait/642/1606113.jpg",
-        "episode_count": 467
+        "episode_count": 469
       },
       "variants": [],
       "next": {
@@ -787,6 +829,34 @@
           "datetime": "2026-11-25T20:30:00-06:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3789587/the-amazing-race-39x10-tba",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3796398",
+          "season": 39,
+          "code": "S39E11",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-12-02",
+          "time": "20:30",
+          "datetime": "2026-12-02T20:30:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3796398/the-amazing-race-39x11-tba",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3796399",
+          "season": 39,
+          "code": "S39E12",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-12-09",
+          "time": "20:30",
+          "datetime": "2026-12-09T20:30:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3796399/the-amazing-race-39x12-tba",
           "variant": null
         }
       ],
@@ -2028,7 +2098,7 @@
           "id": "3794294",
           "season": 17,
           "code": "S17E07",
-          "name": "Free-from Week",
+          "name": "Free-From Week",
           "count": 1,
           "date": "2026-11-06",
           "time": null,
@@ -2624,9 +2694,9 @@
           "code": "S02E09",
           "name": "TBA",
           "count": 1,
-          "date": "2026-11-18",
+          "date": "2026-12-02",
           "time": "19:00",
-          "datetime": "2026-11-18T19:00:00-06:00",
+          "datetime": "2026-12-02T19:00:00-06:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3694640/scrubs-2x09-tba",
           "variant": null
@@ -2638,9 +2708,9 @@
           "code": "S02E10",
           "name": "TBA",
           "count": 1,
-          "date": "2026-11-25",
+          "date": "2026-12-09",
           "time": "19:00",
-          "datetime": "2026-11-25T19:00:00-06:00",
+          "datetime": "2026-12-09T19:00:00-06:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3694641/scrubs-2x10-tba",
           "variant": null
@@ -2958,11 +3028,11 @@
         "id": 94430,
         "name": "The Mob",
         "url": "https://www.tvmaze.com/shows/94430/the-mob",
-        "status": "In Development",
+        "status": "Running",
         "source": "Hulu",
         "premiered": "2026-10-26",
         "image": "https://static.tvmaze.com/uploads/images/medium_portrait/646/1615337.jpg",
-        "episode_count": 2
+        "episode_count": 4
       },
       "variants": [],
       "next": {
@@ -2970,13 +3040,13 @@
         "id": "3761894",
         "season": 1,
         "code": "S01E01",
-        "name": "TBA",
+        "name": "Kiss the Ring",
         "count": 1,
         "date": "2026-10-26",
         "time": null,
         "datetime": null,
         "premiere": true,
-        "url": "https://www.tvmaze.com/episodes/3761894/the-mob-1x01-tba",
+        "url": "https://www.tvmaze.com/episodes/3761894/the-mob-1x01-kiss-the-ring",
         "variant": null
       },
       "last": null,
@@ -2986,13 +3056,13 @@
           "id": "3761894",
           "season": 1,
           "code": "S01E01",
-          "name": "TBA",
+          "name": "Kiss the Ring",
           "count": 1,
           "date": "2026-10-26",
           "time": null,
           "datetime": null,
           "premiere": true,
-          "url": "https://www.tvmaze.com/episodes/3761894/the-mob-1x01-tba",
+          "url": "https://www.tvmaze.com/episodes/3761894/the-mob-1x01-kiss-the-ring",
           "variant": null
         },
         {
@@ -3000,13 +3070,41 @@
           "id": "3761896",
           "season": 1,
           "code": "S01E02",
-          "name": "TBA",
+          "name": "There's Always a Rat",
           "count": 1,
           "date": "2026-10-26",
           "time": null,
           "datetime": null,
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3761896/the-mob-1x02-tba",
+          "url": "https://www.tvmaze.com/episodes/3761896/the-mob-1x02-theres-always-a-rat",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3796404",
+          "season": 1,
+          "code": "S01E03",
+          "name": "This Is a Deadly Game",
+          "count": 1,
+          "date": "2026-11-02",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3796404/the-mob-1x03-this-is-a-deadly-game",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3796405",
+          "season": 1,
+          "code": "S01E04",
+          "name": "Going to War",
+          "count": 1,
+          "date": "2026-11-02",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3796405/the-mob-1x04-going-to-war",
           "variant": null
         }
       ],
@@ -3032,7 +3130,7 @@
         "source": "E!",
         "premiered": "2026-10-20",
         "image": "https://static.tvmaze.com/uploads/images/medium_portrait/640/1601969.jpg",
-        "episode_count": 4
+        "episode_count": 8
       },
       "variants": [],
       "next": {
@@ -3104,6 +3202,62 @@
           "datetime": "2026-11-10T21:00:00-06:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3793224/the-golden-life-1x04-people-will-think-were-nuts",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3796456",
+          "season": 1,
+          "code": "S01E05",
+          "name": "Episode 5",
+          "count": 1,
+          "date": "2026-11-17",
+          "time": "21:00",
+          "datetime": "2026-11-17T21:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3796456/the-golden-life-1x05-episode-5",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3796457",
+          "season": 1,
+          "code": "S01E06",
+          "name": "Episode 6",
+          "count": 1,
+          "date": "2026-11-24",
+          "time": "21:00",
+          "datetime": "2026-11-24T21:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3796457/the-golden-life-1x06-episode-6",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3796458",
+          "season": 1,
+          "code": "S01E07",
+          "name": "Episode 7",
+          "count": 1,
+          "date": "2026-12-01",
+          "time": "21:00",
+          "datetime": "2026-12-01T21:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3796458/the-golden-life-1x07-episode-7",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3796459",
+          "season": 1,
+          "code": "S01E08",
+          "name": "Episode 8",
+          "count": 1,
+          "date": "2026-12-08",
+          "time": "21:00",
+          "datetime": "2026-12-08T21:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3796459/the-golden-life-1x08-episode-8",
           "variant": null
         }
       ],
