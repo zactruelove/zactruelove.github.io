@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-26T10:29:32Z",
-  "today": "2026-10-26",
+  "generated_at": "2026-10-27T10:27:59Z",
+  "today": "2026-10-27",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -930,22 +930,7 @@
         "variant": null
       },
       "upcoming": [],
-      "recent": [
-        {
-          "kind": "episode",
-          "id": "3702401",
-          "season": 18,
-          "code": "S18E10",
-          "name": "The Guys Have a Sleepover",
-          "count": 1,
-          "date": "2026-10-12",
-          "time": "20:00",
-          "datetime": "2026-10-12T20:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3702401/its-always-sunny-in-philadelphia-18x10-the-guys-have-a-sleepover",
-          "variant": null
-        }
-      ]
+      "recent": []
     },
     {
       "title": "Big Brother",
@@ -1054,6 +1039,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3788619",
+        "season": 1,
+        "code": "S01E06",
+        "name": "TBA",
+        "count": 1,
+        "date": "2026-11-02",
+        "time": "20:00",
+        "datetime": "2026-11-02T20:00:00-06:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3788619/still-flipping-out-1x06-tba",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3781674",
         "season": 1,
         "code": "S01E05",
@@ -1066,35 +1065,7 @@
         "url": "https://www.tvmaze.com/episodes/3781674/still-flipping-out-1x05-totes-inappropes",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3773306",
-        "season": 1,
-        "code": "S01E04",
-        "name": "In Thickness and in Health",
-        "count": 1,
-        "date": "2026-10-19",
-        "time": "20:00",
-        "datetime": "2026-10-19T20:00:00-05:00",
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3773306/still-flipping-out-1x04-in-thickness-and-in-health",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3781674",
-          "season": 1,
-          "code": "S01E05",
-          "name": "Totes Inappropes",
-          "count": 1,
-          "date": "2026-10-26",
-          "time": "20:00",
-          "datetime": "2026-10-26T20:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3781674/still-flipping-out-1x05-totes-inappropes",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3788619",
@@ -1113,20 +1084,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3773305",
-          "season": 1,
-          "code": "S01E03",
-          "name": "Chumped and Dumped",
-          "count": 1,
-          "date": "2026-10-12",
-          "time": "20:00",
-          "datetime": "2026-10-12T20:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3773305/still-flipping-out-1x03-chumped-and-dumped",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3773306",
           "season": 1,
           "code": "S01E04",
@@ -1137,6 +1094,20 @@
           "datetime": "2026-10-19T20:00:00-05:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3773306/still-flipping-out-1x04-in-thickness-and-in-health",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3781674",
+          "season": 1,
+          "code": "S01E05",
+          "name": "Totes Inappropes",
+          "count": 1,
+          "date": "2026-10-26",
+          "time": "20:00",
+          "datetime": "2026-10-26T20:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3781674/still-flipping-out-1x05-totes-inappropes",
           "variant": null
         }
       ]
@@ -1294,13 +1265,13 @@
           "id": "3772250",
           "season": 5,
           "code": "S05E09",
-          "name": "TBA",
+          "name": "Playing Chess",
           "count": 1,
           "date": "2026-11-05",
           "time": "19:00",
           "datetime": "2026-11-05T19:00:00-06:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3772250/the-traitors-5x09-tba",
+          "url": "https://www.tvmaze.com/episodes/3772250/the-traitors-5x09-playing-chess",
           "variant": null
         },
         {
@@ -2148,7 +2119,7 @@
       "platform": "Hulu",
       "platform_source": "network",
       "on_our_platforms": true,
-      "phase": "upcoming",
+      "phase": "this_week",
       "matched_by": "id",
       "candidates": [],
       "tvmaze": {
@@ -2763,7 +2734,7 @@
         "id": 83159,
         "name": "Coven Academy",
         "url": "https://www.tvmaze.com/shows/83159/coven-academy",
-        "status": "To Be Determined",
+        "status": "Running",
         "source": "Disney+",
         "premiered": "2026-10-02",
         "image": "https://static.tvmaze.com/uploads/images/medium_portrait/643/1609609.jpg",
@@ -3031,54 +3002,39 @@
         "status": "Running",
         "source": "Hulu",
         "premiered": "2026-10-26",
-        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/646/1615337.jpg",
-        "episode_count": 4
+        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/647/1619977.jpg",
+        "episode_count": 6
       },
       "variants": [],
       "next": {
         "kind": "episode",
-        "id": "3761894",
+        "id": "3796404",
         "season": 1,
-        "code": "S01E01",
-        "name": "Kiss the Ring",
+        "code": "S01E03",
+        "name": "This Is a Deadly Game",
+        "count": 1,
+        "date": "2026-11-02",
+        "time": null,
+        "datetime": null,
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3796404/the-mob-1x03-this-is-a-deadly-game",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
+        "id": "3761896",
+        "season": 1,
+        "code": "S01E02",
+        "name": "There's Always a Rat",
         "count": 1,
         "date": "2026-10-26",
         "time": null,
         "datetime": null,
-        "premiere": true,
-        "url": "https://www.tvmaze.com/episodes/3761894/the-mob-1x01-kiss-the-ring",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3761896/the-mob-1x02-theres-always-a-rat",
         "variant": null
       },
-      "last": null,
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3761894",
-          "season": 1,
-          "code": "S01E01",
-          "name": "Kiss the Ring",
-          "count": 1,
-          "date": "2026-10-26",
-          "time": null,
-          "datetime": null,
-          "premiere": true,
-          "url": "https://www.tvmaze.com/episodes/3761894/the-mob-1x01-kiss-the-ring",
-          "variant": null
-        },
-        {
-          "kind": "episode",
-          "id": "3761896",
-          "season": 1,
-          "code": "S01E02",
-          "name": "There's Always a Rat",
-          "count": 1,
-          "date": "2026-10-26",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3761896/the-mob-1x02-theres-always-a-rat",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3796404",
@@ -3106,9 +3062,66 @@
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3796405/the-mob-1x04-going-to-war",
           "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3796939",
+          "season": 1,
+          "code": "S01E05",
+          "name": "Turns Out, I Am That Bitch",
+          "count": 1,
+          "date": "2026-11-09",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3796939/the-mob-1x05-turns-out-i-am-that-bitch",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3796940",
+          "season": 1,
+          "code": "S01E06",
+          "name": "I Can Spot a Fake From a Mile Away",
+          "count": 1,
+          "date": "2026-11-16",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3796940/the-mob-1x06-i-can-spot-a-fake-from-a-mile-away",
+          "variant": null
         }
       ],
-      "recent": []
+      "recent": [
+        {
+          "kind": "episode",
+          "id": "3761894",
+          "season": 1,
+          "code": "S01E01",
+          "name": "Kiss the Ring",
+          "count": 1,
+          "date": "2026-10-26",
+          "time": null,
+          "datetime": null,
+          "premiere": true,
+          "url": "https://www.tvmaze.com/episodes/3761894/the-mob-1x01-kiss-the-ring",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3761896",
+          "season": 1,
+          "code": "S01E02",
+          "name": "There's Always a Rat",
+          "count": 1,
+          "date": "2026-10-26",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3761896/the-mob-1x02-theres-always-a-rat",
+          "variant": null
+        }
+      ]
     },
     {
       "title": "The Golden Life",
