@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-27T10:27:59Z",
-  "today": "2026-10-27",
+  "generated_at": "2026-10-28T10:20:46Z",
+  "today": "2026-10-28",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -176,6 +176,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3791153",
+        "season": 16,
+        "code": "S16E09",
+        "name": "TBA",
+        "count": 1,
+        "date": "2026-11-03",
+        "time": "19:00",
+        "datetime": "2026-11-03T19:00:00-06:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3791153/the-real-housewives-of-new-york-city-16x09-tba",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3784273",
         "season": 16,
         "code": "S16E08",
@@ -188,35 +202,7 @@
         "url": "https://www.tvmaze.com/episodes/3784273/the-real-housewives-of-new-york-city-16x08-havana-fights",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3780668",
-        "season": 16,
-        "code": "S16E07",
-        "name": "Loveless Island",
-        "count": 1,
-        "date": "2026-10-20",
-        "time": "19:00",
-        "datetime": "2026-10-20T19:00:00-05:00",
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3780668/the-real-housewives-of-new-york-city-16x07-loveless-island",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3784273",
-          "season": 16,
-          "code": "S16E08",
-          "name": "Havana Fights",
-          "count": 1,
-          "date": "2026-10-27",
-          "time": "19:00",
-          "datetime": "2026-10-27T19:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3784273/the-real-housewives-of-new-york-city-16x08-havana-fights",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3791153",
@@ -249,20 +235,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3774992",
-          "season": 16,
-          "code": "S16E06",
-          "name": "Moskito Madness",
-          "count": 1,
-          "date": "2026-10-13",
-          "time": "19:00",
-          "datetime": "2026-10-13T19:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3774992/the-real-housewives-of-new-york-city-16x06-moskito-madness",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3780668",
           "season": 16,
           "code": "S16E07",
@@ -273,6 +245,20 @@
           "datetime": "2026-10-20T19:00:00-05:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3780668/the-real-housewives-of-new-york-city-16x07-loveless-island",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3784273",
+          "season": 16,
+          "code": "S16E08",
+          "name": "Havana Fights",
+          "count": 1,
+          "date": "2026-10-27",
+          "time": "19:00",
+          "datetime": "2026-10-27T19:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3784273/the-real-housewives-of-new-york-city-16x08-havana-fights",
           "variant": null
         }
       ]
@@ -1279,13 +1265,13 @@
           "id": "3772251",
           "season": 5,
           "code": "S05E10",
-          "name": "TBA",
+          "name": "The Sun, the Moon and the Truth",
           "count": 1,
           "date": "2026-11-12",
           "time": "19:00",
           "datetime": "2026-11-12T19:00:00-06:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3772251/the-traitors-5x10-tba",
+          "url": "https://www.tvmaze.com/episodes/3772251/the-traitors-5x10-the-sun-the-moon-and-the-truth",
           "variant": null
         },
         {
@@ -2208,20 +2194,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3762533",
-          "season": 2,
-          "code": "S02E04",
-          "name": "No Place Like Om",
-          "count": 1,
-          "date": "2026-10-13",
-          "time": "19:00",
-          "datetime": "2026-10-13T19:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3762533/best-medicine-2x04-no-place-like-om",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3768313",
           "season": 2,
           "code": "S02E05",
@@ -2677,13 +2649,13 @@
           "id": "3694641",
           "season": 2,
           "code": "S02E10",
-          "name": "TBA",
+          "name": "My Wonderful Life",
           "count": 1,
           "date": "2026-12-09",
           "time": "19:00",
           "datetime": "2026-12-09T19:00:00-06:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3694641/scrubs-2x10-tba",
+          "url": "https://www.tvmaze.com/episodes/3694641/scrubs-2x10-my-wonderful-life",
           "variant": null
         }
       ],
@@ -2784,61 +2756,33 @@
       "variants": [],
       "next": {
         "kind": "episode",
-        "id": "3616308",
+        "id": "3616310",
         "season": 1,
-        "code": "S01E05",
-        "name": "Firewall",
+        "code": "S01E07",
+        "name": "Immolation",
+        "count": 1,
+        "date": "2026-11-03",
+        "time": null,
+        "datetime": null,
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3616310/visionquest-1x07-immolation",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
+        "id": "3616309",
+        "season": 1,
+        "code": "S01E06",
+        "name": "Deadlock",
         "count": 1,
         "date": "2026-10-27",
         "time": null,
         "datetime": null,
         "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3616308/visionquest-1x05-firewall",
-        "variant": null
-      },
-      "last": {
-        "kind": "episode",
-        "id": "3616307",
-        "season": 1,
-        "code": "S01E04",
-        "name": "Malware",
-        "count": 1,
-        "date": "2026-10-20",
-        "time": null,
-        "datetime": null,
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3616307/visionquest-1x04-malware",
+        "url": "https://www.tvmaze.com/episodes/3616309/visionquest-1x06-deadlock",
         "variant": null
       },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3616308",
-          "season": 1,
-          "code": "S01E05",
-          "name": "Firewall",
-          "count": 1,
-          "date": "2026-10-27",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3616308/visionquest-1x05-firewall",
-          "variant": null
-        },
-        {
-          "kind": "episode",
-          "id": "3616309",
-          "season": 1,
-          "code": "S01E06",
-          "name": "Deadlock",
-          "count": 1,
-          "date": "2026-10-27",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3616309/visionquest-1x06-deadlock",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3616310",
@@ -2871,34 +2815,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3616304",
-          "season": 1,
-          "code": "S01E01",
-          "name": "No Strings",
-          "count": 1,
-          "date": "2026-10-13",
-          "time": null,
-          "datetime": null,
-          "premiere": true,
-          "url": "https://www.tvmaze.com/episodes/3616304/visionquest-1x01-no-strings",
-          "variant": null
-        },
-        {
-          "kind": "episode",
-          "id": "3616305",
-          "season": 1,
-          "code": "S01E02",
-          "name": "Theseus",
-          "count": 1,
-          "date": "2026-10-13",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3616305/visionquest-1x02-theseus",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3616306",
           "season": 1,
           "code": "S01E03",
@@ -2923,6 +2839,34 @@
           "datetime": null,
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3616307/visionquest-1x04-malware",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3616308",
+          "season": 1,
+          "code": "S01E05",
+          "name": "Firewall",
+          "count": 1,
+          "date": "2026-10-27",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3616308/visionquest-1x05-firewall",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3616309",
+          "season": 1,
+          "code": "S01E06",
+          "name": "Deadlock",
+          "count": 1,
+          "date": "2026-10-27",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3616309/visionquest-1x06-deadlock",
           "variant": null
         }
       ]
@@ -3148,6 +3092,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3793149",
+        "season": 1,
+        "code": "S01E03",
+        "name": "Where's The Stylist?",
+        "count": 1,
+        "date": "2026-11-03",
+        "time": "21:00",
+        "datetime": "2026-11-03T21:00:00-06:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3793149/the-golden-life-1x03-wheres-the-stylist",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3793148",
         "season": 1,
         "code": "S01E02",
@@ -3160,35 +3118,7 @@
         "url": "https://www.tvmaze.com/episodes/3793148/the-golden-life-1x02-i-need-a-mocktail",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3757416",
-        "season": 1,
-        "code": "S01E01",
-        "name": "Golden Years In A Golden Place",
-        "count": 1,
-        "date": "2026-10-20",
-        "time": "21:00",
-        "datetime": "2026-10-20T21:00:00-05:00",
-        "premiere": true,
-        "url": "https://www.tvmaze.com/episodes/3757416/the-golden-life-1x01-golden-years-in-a-golden-place",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3793148",
-          "season": 1,
-          "code": "S01E02",
-          "name": "I Need a Mocktail",
-          "count": 1,
-          "date": "2026-10-27",
-          "time": "21:00",
-          "datetime": "2026-10-27T21:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3793148/the-golden-life-1x02-i-need-a-mocktail",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3793149",
@@ -3287,6 +3217,20 @@
           "datetime": "2026-10-20T21:00:00-05:00",
           "premiere": true,
           "url": "https://www.tvmaze.com/episodes/3757416/the-golden-life-1x01-golden-years-in-a-golden-place",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3793148",
+          "season": 1,
+          "code": "S01E02",
+          "name": "I Need a Mocktail",
+          "count": 1,
+          "date": "2026-10-27",
+          "time": "21:00",
+          "datetime": "2026-10-27T21:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3793148/the-golden-life-1x02-i-need-a-mocktail",
           "variant": null
         }
       ]
