@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-28T10:20:46Z",
-  "today": "2026-10-28",
+  "generated_at": "2026-10-29T10:20:21Z",
+  "today": "2026-10-29",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -288,6 +288,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3781672",
+        "season": 7,
+        "code": "S07E08",
+        "name": "Reiki'd Over the Coals",
+        "count": 1,
+        "date": "2026-11-04",
+        "time": "19:00",
+        "datetime": "2026-11-04T19:00:00-06:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3781672/the-real-housewives-of-salt-lake-city-7x08-reikid-over-the-coals",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3780670",
         "season": 7,
         "code": "S07E07",
@@ -300,35 +314,7 @@
         "url": "https://www.tvmaze.com/episodes/3780670/the-real-housewives-of-salt-lake-city-7x07-star-signs-and-struggles",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3780669",
-        "season": 7,
-        "code": "S07E06",
-        "name": "Boss Up or Shut Up",
-        "count": 1,
-        "date": "2026-10-21",
-        "time": "19:00",
-        "datetime": "2026-10-21T19:00:00-05:00",
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3780669/the-real-housewives-of-salt-lake-city-7x06-boss-up-or-shut-up",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3780670",
-          "season": 7,
-          "code": "S07E07",
-          "name": "Star Signs and Struggles",
-          "count": 1,
-          "date": "2026-10-28",
-          "time": "19:00",
-          "datetime": "2026-10-28T19:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3780670/the-real-housewives-of-salt-lake-city-7x07-star-signs-and-struggles",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3781672",
@@ -361,20 +347,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3771321",
-          "season": 7,
-          "code": "S07E05",
-          "name": "Hypocrisy and Bull ...",
-          "count": 1,
-          "date": "2026-10-14",
-          "time": "19:00",
-          "datetime": "2026-10-14T19:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3771321/the-real-housewives-of-salt-lake-city-7x05-hypocrisy-and-bull",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3780669",
           "season": 7,
           "code": "S07E06",
@@ -385,6 +357,20 @@
           "datetime": "2026-10-21T19:00:00-05:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3780669/the-real-housewives-of-salt-lake-city-7x06-boss-up-or-shut-up",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3780670",
+          "season": 7,
+          "code": "S07E07",
+          "name": "Star Signs and Struggles",
+          "count": 1,
+          "date": "2026-10-28",
+          "time": "19:00",
+          "datetime": "2026-10-28T19:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3780670/the-real-housewives-of-salt-lake-city-7x07-star-signs-and-struggles",
           "variant": null
         }
       ]
@@ -524,6 +510,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3711575",
+        "season": 51,
+        "code": "S51E07",
+        "name": "You Broke My Heart Like I was a Girl at the Prom",
+        "count": 1,
+        "date": "2026-11-04",
+        "time": "19:00",
+        "datetime": "2026-11-04T19:00:00-06:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3711575/survivor-51x07-you-broke-my-heart-like-i-was-a-girl-at-the-prom",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3711574",
         "season": 51,
         "code": "S51E06",
@@ -536,35 +536,7 @@
         "url": "https://www.tvmaze.com/episodes/3711574/survivor-51x06-i-love-crying",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3711573",
-        "season": 51,
-        "code": "S51E05",
-        "name": "Not Here to Get a Pedicure",
-        "count": 1,
-        "date": "2026-10-21",
-        "time": "19:00",
-        "datetime": "2026-10-21T19:00:00-05:00",
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3711573/survivor-51x05-not-here-to-get-a-pedicure",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3711574",
-          "season": 51,
-          "code": "S51E06",
-          "name": "I Love Crying",
-          "count": 1,
-          "date": "2026-10-28",
-          "time": "19:00",
-          "datetime": "2026-10-28T19:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3711574/survivor-51x06-i-love-crying",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3711575",
@@ -667,20 +639,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3711572",
-          "season": 51,
-          "code": "S51E04",
-          "name": "That's the Magic of Survivor",
-          "count": 1,
-          "date": "2026-10-14",
-          "time": "19:00",
-          "datetime": "2026-10-14T19:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3711572/survivor-51x04-thats-the-magic-of-survivor",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3711573",
           "season": 51,
           "code": "S51E05",
@@ -691,6 +649,20 @@
           "datetime": "2026-10-21T19:00:00-05:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3711573/survivor-51x05-not-here-to-get-a-pedicure",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3711574",
+          "season": 51,
+          "code": "S51E06",
+          "name": "I Love Crying",
+          "count": 1,
+          "date": "2026-10-28",
+          "time": "19:00",
+          "datetime": "2026-10-28T19:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3711574/survivor-51x06-i-love-crying",
           "variant": null
         }
       ]
@@ -720,6 +692,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3711581",
+        "season": 39,
+        "code": "S39E07",
+        "name": "The Amazing Nightmare",
+        "count": 1,
+        "date": "2026-11-04",
+        "time": "20:30",
+        "datetime": "2026-11-04T20:30:00-06:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3711581/the-amazing-race-39x07-the-amazing-nightmare",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3711580",
         "season": 39,
         "code": "S39E06",
@@ -732,35 +718,7 @@
         "url": "https://www.tvmaze.com/episodes/3711580/the-amazing-race-39x06-a-fine-line-between-confidence-and-stupidity",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3711579",
-        "season": 39,
-        "code": "S39E05",
-        "name": "That's Honestly on Them",
-        "count": 1,
-        "date": "2026-10-21",
-        "time": "20:30",
-        "datetime": "2026-10-21T20:30:00-05:00",
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3711579/the-amazing-race-39x05-thats-honestly-on-them",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3711580",
-          "season": 39,
-          "code": "S39E06",
-          "name": "A Fine Line Between Confidence and Stupidity",
-          "count": 1,
-          "date": "2026-10-28",
-          "time": "20:30",
-          "datetime": "2026-10-28T20:30:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3711580/the-amazing-race-39x06-a-fine-line-between-confidence-and-stupidity",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3711581",
@@ -849,20 +807,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3711578",
-          "season": 39,
-          "code": "S39E04",
-          "name": "Deception and Sleight of Hand",
-          "count": 1,
-          "date": "2026-10-14",
-          "time": "20:30",
-          "datetime": "2026-10-14T20:30:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3711578/the-amazing-race-39x04-deception-and-sleight-of-hand",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3711579",
           "season": 39,
           "code": "S39E05",
@@ -873,6 +817,20 @@
           "datetime": "2026-10-21T20:30:00-05:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3711579/the-amazing-race-39x05-thats-honestly-on-them",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3711580",
+          "season": 39,
+          "code": "S39E06",
+          "name": "A Fine Line Between Confidence and Stupidity",
+          "count": 1,
+          "date": "2026-10-28",
+          "time": "20:30",
+          "datetime": "2026-10-28T20:30:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3711580/the-amazing-race-39x06-a-fine-line-between-confidence-and-stupidity",
           "variant": null
         }
       ]
@@ -1028,13 +986,13 @@
         "id": "3788619",
         "season": 1,
         "code": "S01E06",
-        "name": "TBA",
+        "name": "War on Lunch",
         "count": 1,
         "date": "2026-11-02",
         "time": "20:00",
         "datetime": "2026-11-02T20:00:00-06:00",
         "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3788619/still-flipping-out-1x06-tba",
+        "url": "https://www.tvmaze.com/episodes/3788619/still-flipping-out-1x06-war-on-lunch",
         "variant": null
       },
       "last": {
@@ -1057,13 +1015,13 @@
           "id": "3788619",
           "season": 1,
           "code": "S01E06",
-          "name": "TBA",
+          "name": "War on Lunch",
           "count": 1,
           "date": "2026-11-02",
           "time": "20:00",
           "datetime": "2026-11-02T20:00:00-06:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3788619/still-flipping-out-1x06-tba",
+          "url": "https://www.tvmaze.com/episodes/3788619/still-flipping-out-1x06-war-on-lunch",
           "variant": null
         }
       ],
@@ -1418,17 +1376,17 @@
       },
       "variants": [
         {
-          "id": 80440,
-          "name": "Is It Cake? Holiday",
-          "url": "https://www.tvmaze.com/shows/80440/is-it-cake-holiday",
-          "status": "Running",
-          "source": "Netflix"
-        },
-        {
           "id": 87502,
           "name": "Is It Cake? Halloween",
           "url": "https://www.tvmaze.com/shows/87502/is-it-cake-halloween",
           "status": "To Be Determined",
+          "source": "Netflix"
+        },
+        {
+          "id": 80440,
+          "name": "Is It Cake? Holiday",
+          "url": "https://www.tvmaze.com/shows/80440/is-it-cake-holiday",
+          "status": "Running",
           "source": "Netflix"
         },
         {
@@ -1702,21 +1660,22 @@
       "platform": "Paramount+",
       "platform_source": "webChannel",
       "on_our_platforms": true,
-      "phase": "this_week",
+      "phase": "between_seasons",
       "matched_by": "id",
       "candidates": [],
       "tvmaze": {
         "id": 2100,
         "name": "The Challenge",
         "url": "https://www.tvmaze.com/shows/2100/the-challenge",
-        "status": "Running",
+        "status": "To Be Determined",
         "source": "Paramount+",
         "premiered": "1998-06-01",
         "image": "https://static.tvmaze.com/uploads/images/medium_portrait/635/1588785.jpg",
         "episode_count": 651
       },
       "variants": [],
-      "next": {
+      "next": null,
+      "last": {
         "kind": "episode",
         "id": "3779718",
         "season": 42,
@@ -1730,51 +1689,8 @@
         "url": "https://www.tvmaze.com/episodes/3779718/the-challenge-42x14-the-final-part-2",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3779717",
-        "season": 42,
-        "code": "S42E13",
-        "name": "The Final Part 1",
-        "count": 1,
-        "date": "2026-10-21",
-        "time": null,
-        "datetime": null,
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3779717/the-challenge-42x13-the-final-part-1",
-        "variant": null
-      },
-      "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3779718",
-          "season": 42,
-          "code": "S42E14",
-          "name": "The Final Part 2",
-          "count": 1,
-          "date": "2026-10-28",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3779718/the-challenge-42x14-the-final-part-2",
-          "variant": null
-        }
-      ],
+      "upcoming": [],
       "recent": [
-        {
-          "kind": "episode",
-          "id": "3779716",
-          "season": 42,
-          "code": "S42E12",
-          "name": "Participation Trophies",
-          "count": 1,
-          "date": "2026-10-14",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3779716/the-challenge-42x12-participation-trophies",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3779717",
@@ -1787,6 +1703,20 @@
           "datetime": null,
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3779717/the-challenge-42x13-the-final-part-1",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3779718",
+          "season": 42,
+          "code": "S42E14",
+          "name": "The Final Part 2",
+          "count": 1,
+          "date": "2026-10-28",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3779718/the-challenge-42x14-the-final-part-2",
           "variant": null
         }
       ]
@@ -1956,20 +1886,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3784695",
-          "season": 1,
-          "code": "S01E07",
-          "name": "Rhinestone Throne",
-          "count": 1,
-          "date": "2026-10-14",
-          "time": "21:00",
-          "datetime": "2026-10-14T21:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3784695/botched-homes-1x07-rhinestone-throne",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3784696",
           "season": 1,
           "code": "S01E08",
@@ -2004,7 +1920,7 @@
         "source": "Channel 4",
         "premiered": "2010-08-17",
         "image": "https://static.tvmaze.com/uploads/images/medium_portrait/642/1606557.jpg",
-        "episode_count": 161
+        "episode_count": 162
       },
       "variants": [],
       "next": {
@@ -2062,6 +1978,20 @@
           "datetime": null,
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3794294/the-great-british-bake-off-17x07-free-from-week",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3798166",
+          "season": 17,
+          "code": "S17E08",
+          "name": "Caramel Week",
+          "count": 1,
+          "date": "2026-11-13",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3798166/the-great-british-bake-off-17x08-caramel-week",
           "variant": null
         }
       ],
@@ -2561,6 +2491,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3694638",
+        "season": 2,
+        "code": "S02E07",
+        "name": "My Story",
+        "count": 1,
+        "date": "2026-11-04",
+        "time": "19:00",
+        "datetime": "2026-11-04T19:00:00-06:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3694638/scrubs-2x07-my-story",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3694637",
         "season": 2,
         "code": "S02E06",
@@ -2573,35 +2517,7 @@
         "url": "https://www.tvmaze.com/episodes/3694637/scrubs-2x06-my-halloween",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3694636",
-        "season": 2,
-        "code": "S02E05",
-        "name": "My Best Friend's Birthday",
-        "count": 1,
-        "date": "2026-10-21",
-        "time": "19:00",
-        "datetime": "2026-10-21T19:00:00-05:00",
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3694636/scrubs-2x05-my-best-friends-birthday",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3694637",
-          "season": 2,
-          "code": "S02E06",
-          "name": "My Halloween",
-          "count": 1,
-          "date": "2026-10-28",
-          "time": "19:00",
-          "datetime": "2026-10-28T19:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3694637/scrubs-2x06-my-halloween",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3694638",
@@ -2662,20 +2578,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3694635",
-          "season": 2,
-          "code": "S02E04",
-          "name": "My Chief",
-          "count": 1,
-          "date": "2026-10-14",
-          "time": "19:00",
-          "datetime": "2026-10-14T19:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3694635/scrubs-2x04-my-chief",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3694636",
           "season": 2,
           "code": "S02E05",
@@ -2686,6 +2588,20 @@
           "datetime": "2026-10-21T19:00:00-05:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3694636/scrubs-2x05-my-best-friends-birthday",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3694637",
+          "season": 2,
+          "code": "S02E06",
+          "name": "My Halloween",
+          "count": 1,
+          "date": "2026-10-28",
+          "time": "19:00",
+          "datetime": "2026-10-28T19:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3694637/scrubs-2x06-my-halloween",
           "variant": null
         }
       ]
