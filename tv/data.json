@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-29T10:20:21Z",
-  "today": "2026-10-29",
+  "generated_at": "2026-10-30T10:20:38Z",
+  "today": "2026-10-30",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -34,7 +34,7 @@
       "platform": "Hulu",
       "platform_source": "network",
       "on_our_platforms": true,
-      "phase": "this_week",
+      "phase": "between_seasons",
       "matched_by": "id",
       "candidates": [],
       "tvmaze": {
@@ -48,7 +48,8 @@
         "episode_count": 145
       },
       "variants": [],
-      "next": {
+      "next": null,
+      "last": {
         "kind": "episode",
         "id": "3686784",
         "season": 13,
@@ -62,65 +63,8 @@
         "url": "https://www.tvmaze.com/episodes/3686784/american-horror-story-13x13-devil-of-a-good-time",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3686783",
-        "season": 13,
-        "code": "S13E12",
-        "name": "Sisters in Arms",
-        "count": 1,
-        "date": "2026-10-22",
-        "time": "20:44",
-        "datetime": "2026-10-22T20:44:00-05:00",
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3686783/american-horror-story-13x12-sisters-in-arms",
-        "variant": null
-      },
-      "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3686784",
-          "season": 13,
-          "code": "S13E13",
-          "name": "Devil of a Good Time",
-          "count": 1,
-          "date": "2026-10-29",
-          "time": "20:00",
-          "datetime": "2026-10-29T20:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3686784/american-horror-story-13x13-devil-of-a-good-time",
-          "variant": null
-        }
-      ],
+      "upcoming": [],
       "recent": [
-        {
-          "kind": "episode",
-          "id": "3667325",
-          "season": 13,
-          "code": "S13E09",
-          "name": "The Devil Is in the Details",
-          "count": 1,
-          "date": "2026-10-15",
-          "time": "20:00",
-          "datetime": "2026-10-15T20:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3667325/american-horror-story-13x09-the-devil-is-in-the-details",
-          "variant": null
-        },
-        {
-          "kind": "episode",
-          "id": "3667326",
-          "season": 13,
-          "code": "S13E10",
-          "name": "The Prodigal Son",
-          "count": 1,
-          "date": "2026-10-15",
-          "time": "20:45",
-          "datetime": "2026-10-15T20:45:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3667326/american-horror-story-13x10-the-prodigal-son",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3686782",
@@ -148,6 +92,20 @@
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3686783/american-horror-story-13x12-sisters-in-arms",
           "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3686784",
+          "season": 13,
+          "code": "S13E13",
+          "name": "Devil of a Good Time",
+          "count": 1,
+          "date": "2026-10-29",
+          "time": "20:00",
+          "datetime": "2026-10-29T20:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3686784/american-horror-story-13x13-devil-of-a-good-time",
+          "variant": null
         }
       ]
     },
@@ -171,7 +129,7 @@
         "source": "Bravo",
         "premiered": "2008-03-04",
         "image": "https://static.tvmaze.com/uploads/images/medium_portrait/639/1598898.jpg",
-        "episode_count": 301
+        "episode_count": 302
       },
       "variants": [],
       "next": {
@@ -179,13 +137,13 @@
         "id": "3791153",
         "season": 16,
         "code": "S16E09",
-        "name": "TBA",
+        "name": "All Bark, No Invite",
         "count": 1,
         "date": "2026-11-03",
         "time": "19:00",
         "datetime": "2026-11-03T19:00:00-06:00",
         "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3791153/the-real-housewives-of-new-york-city-16x09-tba",
+        "url": "https://www.tvmaze.com/episodes/3791153/the-real-housewives-of-new-york-city-16x09-all-bark-no-invite",
         "variant": null
       },
       "last": {
@@ -208,13 +166,13 @@
           "id": "3791153",
           "season": 16,
           "code": "S16E09",
-          "name": "TBA",
+          "name": "All Bark, No Invite",
           "count": 1,
           "date": "2026-11-03",
           "time": "19:00",
           "datetime": "2026-11-03T19:00:00-06:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3791153/the-real-housewives-of-new-york-city-16x09-tba",
+          "url": "https://www.tvmaze.com/episodes/3791153/the-real-housewives-of-new-york-city-16x09-all-bark-no-invite",
           "variant": null
         },
         {
@@ -229,6 +187,20 @@
           "datetime": "2026-11-10T19:00:00-06:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3794158/the-real-housewives-of-new-york-city-16x10-tba",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3799915",
+          "season": 16,
+          "code": "S16E11",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-11-17",
+          "time": "19:00",
+          "datetime": "2026-11-17T19:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3799915/the-real-housewives-of-new-york-city-16x11-tba",
           "variant": null
         }
       ],
@@ -766,13 +738,13 @@
           "id": "3789587",
           "season": 39,
           "code": "S39E10",
-          "name": "TBA",
+          "name": "We're Not Their Friends",
           "count": 1,
           "date": "2026-11-25",
           "time": "20:30",
           "datetime": "2026-11-25T20:30:00-06:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3789587/the-amazing-race-39x10-tba",
+          "url": "https://www.tvmaze.com/episodes/3789587/the-amazing-race-39x10-were-not-their-friends",
           "variant": null
         },
         {
@@ -1163,6 +1135,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3772250",
+        "season": 5,
+        "code": "S05E09",
+        "name": "Playing Chess",
+        "count": 1,
+        "date": "2026-11-05",
+        "time": "19:00",
+        "datetime": "2026-11-05T19:00:00-06:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3772250/the-traitors-5x09-playing-chess",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3772249",
         "season": 5,
         "code": "S05E08",
@@ -1175,35 +1161,7 @@
         "url": "https://www.tvmaze.com/episodes/3772249/the-traitors-5x08-a-bad-apple-spoils-the-whole-bunch",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3772248",
-        "season": 5,
-        "code": "S05E07",
-        "name": "It's Like Fighting Two Pigs Under a Blanket",
-        "count": 1,
-        "date": "2026-10-22",
-        "time": "19:00",
-        "datetime": "2026-10-22T19:00:00-05:00",
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3772248/the-traitors-5x07-its-like-fighting-two-pigs-under-a-blanket",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3772249",
-          "season": 5,
-          "code": "S05E08",
-          "name": "A Bad Apple Spoils the Whole Bunch",
-          "count": 1,
-          "date": "2026-10-29",
-          "time": "19:00",
-          "datetime": "2026-10-29T19:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3772249/the-traitors-5x08-a-bad-apple-spoils-the-whole-bunch",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3772250",
@@ -1264,20 +1222,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3772247",
-          "season": 5,
-          "code": "S05E06",
-          "name": "A Murder of Necessity",
-          "count": 1,
-          "date": "2026-10-15",
-          "time": "19:00",
-          "datetime": "2026-10-15T19:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3772247/the-traitors-5x06-a-murder-of-necessity",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3772248",
           "season": 5,
           "code": "S05E07",
@@ -1288,6 +1232,20 @@
           "datetime": "2026-10-22T19:00:00-05:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3772248/the-traitors-5x07-its-like-fighting-two-pigs-under-a-blanket",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3772249",
+          "season": 5,
+          "code": "S05E08",
+          "name": "A Bad Apple Spoils the Whole Bunch",
+          "count": 1,
+          "date": "2026-10-29",
+          "time": "19:00",
+          "datetime": "2026-10-29T19:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3772249/the-traitors-5x08-a-bad-apple-spoils-the-whole-bunch",
           "variant": null
         }
       ]
@@ -2803,7 +2761,7 @@
         "id": 60213,
         "name": "The Diplomat",
         "url": "https://www.tvmaze.com/shows/60213/the-diplomat",
-        "status": "To Be Determined",
+        "status": "Running",
         "source": "Netflix",
         "premiered": "2023-04-20",
         "image": "https://static.tvmaze.com/uploads/images/medium_portrait/646/1615567.jpg",
@@ -2826,22 +2784,7 @@
         "variant": null
       },
       "upcoming": [],
-      "recent": [
-        {
-          "kind": "binge",
-          "id": "s4-2026-10-15",
-          "season": 4,
-          "code": "S04",
-          "name": "All 8 episodes",
-          "count": 8,
-          "date": "2026-10-15",
-          "time": null,
-          "datetime": null,
-          "premiere": true,
-          "url": "https://www.tvmaze.com/episodes/3701737/the-diplomat-4x01-windsor",
-          "variant": null
-        }
-      ]
+      "recent": []
     },
     {
       "title": "The Mob",
