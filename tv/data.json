@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T18:38:19Z",
+  "generated_at": "2026-10-31T18:39:13Z",
   "today": "2026-10-31",
   "timezone": "America/Chicago",
   "platforms": [
@@ -3118,49 +3118,8 @@
       "platform_source": "override",
       "on_our_platforms": true,
       "phase": "this_week",
-      "matched_by": "search",
-      "candidates": [
-        {
-          "id": 63873,
-          "name": "Phony",
-          "premiered": "2026-10-20",
-          "source": "Hulu",
-          "country": "US",
-          "status": "Running"
-        },
-        {
-          "id": 37964,
-          "name": "The Phone",
-          "premiered": "2009-04-21",
-          "source": "MTV",
-          "country": "US",
-          "status": "Ended"
-        },
-        {
-          "id": 45753,
-          "name": "It's Pony",
-          "premiered": "2020-01-18",
-          "source": "Nicktoons",
-          "country": "US",
-          "status": "Ended"
-        },
-        {
-          "id": 26380,
-          "name": "My Little Pony Tales",
-          "premiered": "1992-07-03",
-          "source": "Disney Channel",
-          "country": "US",
-          "status": "Ended"
-        },
-        {
-          "id": 31753,
-          "name": "My Little Pony: Equestria Girls",
-          "premiered": "2013-09-01",
-          "source": "Discovery Family",
-          "country": "US",
-          "status": "Ended"
-        }
-      ],
+      "matched_by": "id",
+      "candidates": [],
       "tvmaze": {
         "id": 63873,
         "name": "Phony",
