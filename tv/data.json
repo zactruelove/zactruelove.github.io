@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T10:18:11Z",
+  "generated_at": "2026-10-31T18:38:19Z",
   "today": "2026-10-31",
   "timezone": "America/Chicago",
   "platforms": [
@@ -3104,6 +3104,215 @@
           "datetime": "2026-10-27T21:00:00-05:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3793148/the-golden-life-1x02-i-need-a-mocktail",
+          "variant": null
+        }
+      ]
+    },
+    {
+      "title": "Phony",
+      "category": "comedy",
+      "priority": 2,
+      "status": "active",
+      "notes": "",
+      "platform": "Hulu",
+      "platform_source": "override",
+      "on_our_platforms": true,
+      "phase": "this_week",
+      "matched_by": "search",
+      "candidates": [
+        {
+          "id": 63873,
+          "name": "Phony",
+          "premiered": "2026-10-20",
+          "source": "Hulu",
+          "country": "US",
+          "status": "Running"
+        },
+        {
+          "id": 37964,
+          "name": "The Phone",
+          "premiered": "2009-04-21",
+          "source": "MTV",
+          "country": "US",
+          "status": "Ended"
+        },
+        {
+          "id": 45753,
+          "name": "It's Pony",
+          "premiered": "2020-01-18",
+          "source": "Nicktoons",
+          "country": "US",
+          "status": "Ended"
+        },
+        {
+          "id": 26380,
+          "name": "My Little Pony Tales",
+          "premiered": "1992-07-03",
+          "source": "Disney Channel",
+          "country": "US",
+          "status": "Ended"
+        },
+        {
+          "id": 31753,
+          "name": "My Little Pony: Equestria Girls",
+          "premiered": "2013-09-01",
+          "source": "Discovery Family",
+          "country": "US",
+          "status": "Ended"
+        }
+      ],
+      "tvmaze": {
+        "id": 63873,
+        "name": "Phony",
+        "url": "https://www.tvmaze.com/shows/63873/phony",
+        "status": "Running",
+        "source": "Hulu",
+        "premiered": "2026-10-20",
+        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/646/1617071.jpg",
+        "episode_count": 8
+      },
+      "variants": [],
+      "next": {
+        "kind": "episode",
+        "id": "3793142",
+        "season": 1,
+        "code": "S01E04",
+        "name": "Vibes Are Rancid",
+        "count": 1,
+        "date": "2026-11-03",
+        "time": null,
+        "datetime": null,
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3793142/phony-1x04-vibes-are-rancid",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
+        "id": "3793141",
+        "season": 1,
+        "code": "S01E03",
+        "name": "Reverse Cuckoo Situation",
+        "count": 1,
+        "date": "2026-10-27",
+        "time": null,
+        "datetime": null,
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3793141/phony-1x03-reverse-cuckoo-situation",
+        "variant": null
+      },
+      "upcoming": [
+        {
+          "kind": "episode",
+          "id": "3793142",
+          "season": 1,
+          "code": "S01E04",
+          "name": "Vibes Are Rancid",
+          "count": 1,
+          "date": "2026-11-03",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3793142/phony-1x04-vibes-are-rancid",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3793143",
+          "season": 1,
+          "code": "S01E05",
+          "name": "House of Dog",
+          "count": 1,
+          "date": "2026-11-10",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3793143/phony-1x05-house-of-dog",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3793144",
+          "season": 1,
+          "code": "S01E06",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-11-17",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3793144/phony-1x06-tba",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3793145",
+          "season": 1,
+          "code": "S01E07",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-11-24",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3793145/phony-1x07-tba",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3793146",
+          "season": 1,
+          "code": "S01E08",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-12-01",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3793146/phony-1x08-tba",
+          "variant": null
+        }
+      ],
+      "recent": [
+        {
+          "kind": "episode",
+          "id": "3775941",
+          "season": 1,
+          "code": "S01E01",
+          "name": "Pilot",
+          "count": 1,
+          "date": "2026-10-20",
+          "time": null,
+          "datetime": null,
+          "premiere": true,
+          "url": "https://www.tvmaze.com/episodes/3775941/phony-1x01-pilot",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3793140",
+          "season": 1,
+          "code": "S01E02",
+          "name": "Crosby, Stills and Nash",
+          "count": 1,
+          "date": "2026-10-20",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3793140/phony-1x02-crosby-stills-and-nash",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3793141",
+          "season": 1,
+          "code": "S01E03",
+          "name": "Reverse Cuckoo Situation",
+          "count": 1,
+          "date": "2026-10-27",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3793141/phony-1x03-reverse-cuckoo-situation",
           "variant": null
         }
       ]
