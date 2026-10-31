@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-30T10:20:38Z",
-  "today": "2026-10-30",
+  "generated_at": "2026-10-31T10:18:11Z",
+  "today": "2026-10-31",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -950,7 +950,7 @@
         "source": "Bravo",
         "premiered": "2026-09-28",
         "image": "https://static.tvmaze.com/uploads/images/medium_portrait/639/1598001.jpg",
-        "episode_count": 6
+        "episode_count": 8
       },
       "variants": [],
       "next": {
@@ -994,6 +994,34 @@
           "datetime": "2026-11-02T20:00:00-06:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3788619/still-flipping-out-1x06-war-on-lunch",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3800542",
+          "season": 1,
+          "code": "S01E07",
+          "name": "H-O-A-Holes",
+          "count": 1,
+          "date": "2026-11-09",
+          "time": "20:00",
+          "datetime": "2026-11-09T20:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3800542/still-flipping-out-1x07-h-o-a-holes",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3800543",
+          "season": 1,
+          "code": "S01E08",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-11-16",
+          "time": "20:00",
+          "datetime": "2026-11-16T20:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3800543/still-flipping-out-1x08-tba",
           "variant": null
         }
       ],
@@ -1883,6 +1911,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3794294",
+        "season": 17,
+        "code": "S17E07",
+        "name": "Free-From Week",
+        "count": 1,
+        "date": "2026-11-06",
+        "time": null,
+        "datetime": null,
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3794294/the-great-british-bake-off-17x07-free-from-week",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3788802",
         "season": 17,
         "code": "S17E06",
@@ -1895,35 +1937,7 @@
         "url": "https://www.tvmaze.com/episodes/3788802/the-great-british-bake-off-17x06-pastry-week",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3783214",
-        "season": 17,
-        "code": "S17E05",
-        "name": "Dessert Week",
-        "count": 1,
-        "date": "2026-10-23",
-        "time": null,
-        "datetime": null,
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3783214/the-great-british-bake-off-17x05-dessert-week",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3788802",
-          "season": 17,
-          "code": "S17E06",
-          "name": "Pastry Week",
-          "count": 1,
-          "date": "2026-10-30",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3788802/the-great-british-bake-off-17x06-pastry-week",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3794294",
@@ -1956,20 +1970,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3776831",
-          "season": 17,
-          "code": "S17E04",
-          "name": "Bread Week",
-          "count": 1,
-          "date": "2026-10-16",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3776831/the-great-british-bake-off-17x04-bread-week",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3783214",
           "season": 17,
           "code": "S17E05",
@@ -1980,6 +1980,20 @@
           "datetime": null,
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3783214/the-great-british-bake-off-17x05-dessert-week",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3788802",
+          "season": 17,
+          "code": "S17E06",
+          "name": "Pastry Week",
+          "count": 1,
+          "date": "2026-10-30",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3788802/the-great-british-bake-off-17x06-pastry-week",
           "variant": null
         }
       ]
