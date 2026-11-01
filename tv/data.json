@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-31T18:39:13Z",
-  "today": "2026-10-31",
+  "generated_at": "2026-11-01T10:18:15Z",
+  "today": "2026-11-01",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -1369,17 +1369,17 @@
           "source": "Netflix"
         },
         {
-          "id": 80440,
-          "name": "Is It Cake? Holiday",
-          "url": "https://www.tvmaze.com/shows/80440/is-it-cake-holiday",
-          "status": "Running",
-          "source": "Netflix"
-        },
-        {
           "id": 89143,
           "name": "Is It Cake? Valentines",
           "url": "https://www.tvmaze.com/shows/89143/is-it-cake-valentines",
           "status": "To Be Determined",
+          "source": "Netflix"
+        },
+        {
+          "id": 80440,
+          "name": "Is It Cake? Holiday",
+          "url": "https://www.tvmaze.com/shows/80440/is-it-cake-holiday",
+          "status": "Running",
           "source": "Netflix"
         }
       ],
