@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-01T10:18:15Z",
-  "today": "2026-11-01",
+  "generated_at": "2026-11-02T20:19:59Z",
+  "today": "2026-11-02",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -2018,7 +2018,7 @@
         "source": "FOX",
         "premiered": "2026-01-04",
         "image": "https://static.tvmaze.com/uploads/images/medium_portrait/639/1597644.jpg",
-        "episode_count": 21
+        "episode_count": 22
       },
       "variants": [],
       "next": {
@@ -2090,6 +2090,20 @@
           "datetime": "2026-11-17T19:00:00-06:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3791803/best-medicine-2x08-back-to-the-suture",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3802883",
+          "season": 2,
+          "code": "S02E09",
+          "name": "The Song Good-Bye",
+          "count": 1,
+          "date": "2026-11-24",
+          "time": "19:00",
+          "datetime": "2026-11-24T19:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3802883/best-medicine-2x09-the-song-good-bye",
           "variant": null
         }
       ],
@@ -2820,7 +2834,7 @@
         "source": "Hulu",
         "premiered": "2026-10-26",
         "image": "https://static.tvmaze.com/uploads/images/medium_portrait/647/1619977.jpg",
-        "episode_count": 6
+        "episode_count": 8
       },
       "variants": [],
       "next": {
@@ -2901,11 +2915,39 @@
           "code": "S01E06",
           "name": "I Can Spot a Fake From a Mile Away",
           "count": 1,
-          "date": "2026-11-16",
+          "date": "2026-11-09",
           "time": null,
           "datetime": null,
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3796940/the-mob-1x06-i-can-spot-a-fake-from-a-mile-away",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3802977",
+          "season": 1,
+          "code": "S01E07",
+          "name": "You Can Never Be Too Comfortable",
+          "count": 1,
+          "date": "2026-11-16",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3802977/the-mob-1x07-you-can-never-be-too-comfortable",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3802978",
+          "season": 1,
+          "code": "S01E08",
+          "name": "What Would Tony Soprano Do?",
+          "count": 1,
+          "date": "2026-11-16",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3802978/the-mob-1x08-what-would-tony-soprano-do",
           "variant": null
         }
       ],
