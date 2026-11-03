@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-02T20:19:59Z",
-  "today": "2026-11-02",
+  "generated_at": "2026-11-03T17:48:45Z",
+  "today": "2026-11-03",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -955,6 +955,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3800542",
+        "season": 1,
+        "code": "S01E07",
+        "name": "H-O-A-Holes",
+        "count": 1,
+        "date": "2026-11-09",
+        "time": "20:00",
+        "datetime": "2026-11-09T20:00:00-06:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3800542/still-flipping-out-1x07-h-o-a-holes",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3788619",
         "season": 1,
         "code": "S01E06",
@@ -967,35 +981,7 @@
         "url": "https://www.tvmaze.com/episodes/3788619/still-flipping-out-1x06-war-on-lunch",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3781674",
-        "season": 1,
-        "code": "S01E05",
-        "name": "Totes Inappropes",
-        "count": 1,
-        "date": "2026-10-26",
-        "time": "20:00",
-        "datetime": "2026-10-26T20:00:00-05:00",
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3781674/still-flipping-out-1x05-totes-inappropes",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3788619",
-          "season": 1,
-          "code": "S01E06",
-          "name": "War on Lunch",
-          "count": 1,
-          "date": "2026-11-02",
-          "time": "20:00",
-          "datetime": "2026-11-02T20:00:00-06:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3788619/still-flipping-out-1x06-war-on-lunch",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3800542",
@@ -1028,20 +1014,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3773306",
-          "season": 1,
-          "code": "S01E04",
-          "name": "In Thickness and in Health",
-          "count": 1,
-          "date": "2026-10-19",
-          "time": "20:00",
-          "datetime": "2026-10-19T20:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3773306/still-flipping-out-1x04-in-thickness-and-in-health",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3781674",
           "season": 1,
           "code": "S01E05",
@@ -1052,6 +1024,20 @@
           "datetime": "2026-10-26T20:00:00-05:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3781674/still-flipping-out-1x05-totes-inappropes",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3788619",
+          "season": 1,
+          "code": "S01E06",
+          "name": "War on Lunch",
+          "count": 1,
+          "date": "2026-11-02",
+          "time": "20:00",
+          "datetime": "2026-11-02T20:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3788619/still-flipping-out-1x06-war-on-lunch",
           "variant": null
         }
       ]
@@ -2839,61 +2825,33 @@
       "variants": [],
       "next": {
         "kind": "episode",
-        "id": "3796404",
+        "id": "3796939",
         "season": 1,
-        "code": "S01E03",
-        "name": "This Is a Deadly Game",
+        "code": "S01E05",
+        "name": "Turns Out, I Am That Bitch",
+        "count": 1,
+        "date": "2026-11-09",
+        "time": null,
+        "datetime": null,
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3796939/the-mob-1x05-turns-out-i-am-that-bitch",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
+        "id": "3796405",
+        "season": 1,
+        "code": "S01E04",
+        "name": "Going to War",
         "count": 1,
         "date": "2026-11-02",
         "time": null,
         "datetime": null,
         "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3796404/the-mob-1x03-this-is-a-deadly-game",
-        "variant": null
-      },
-      "last": {
-        "kind": "episode",
-        "id": "3761896",
-        "season": 1,
-        "code": "S01E02",
-        "name": "There's Always a Rat",
-        "count": 1,
-        "date": "2026-10-26",
-        "time": null,
-        "datetime": null,
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3761896/the-mob-1x02-theres-always-a-rat",
+        "url": "https://www.tvmaze.com/episodes/3796405/the-mob-1x04-going-to-war",
         "variant": null
       },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3796404",
-          "season": 1,
-          "code": "S01E03",
-          "name": "This Is a Deadly Game",
-          "count": 1,
-          "date": "2026-11-02",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3796404/the-mob-1x03-this-is-a-deadly-game",
-          "variant": null
-        },
-        {
-          "kind": "episode",
-          "id": "3796405",
-          "season": 1,
-          "code": "S01E04",
-          "name": "Going to War",
-          "count": 1,
-          "date": "2026-11-02",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3796405/the-mob-1x04-going-to-war",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3796939",
@@ -2978,6 +2936,34 @@
           "datetime": null,
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3761896/the-mob-1x02-theres-always-a-rat",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3796404",
+          "season": 1,
+          "code": "S01E03",
+          "name": "This Is a Deadly Game",
+          "count": 1,
+          "date": "2026-11-02",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3796404/the-mob-1x03-this-is-a-deadly-game",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3796405",
+          "season": 1,
+          "code": "S01E04",
+          "name": "Going to War",
+          "count": 1,
+          "date": "2026-11-02",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3796405/the-mob-1x04-going-to-war",
           "variant": null
         }
       ]
@@ -3235,13 +3221,13 @@
           "id": "3793144",
           "season": 1,
           "code": "S01E06",
-          "name": "TBA",
+          "name": "I'm Right Here",
           "count": 1,
           "date": "2026-11-17",
           "time": null,
           "datetime": null,
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3793144/phony-1x06-tba",
+          "url": "https://www.tvmaze.com/episodes/3793144/phony-1x06-im-right-here",
           "variant": null
         },
         {
