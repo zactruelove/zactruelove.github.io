@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-03T17:48:45Z",
-  "today": "2026-11-03",
+  "generated_at": "2026-11-04T17:58:26Z",
+  "today": "2026-11-04",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -129,10 +129,24 @@
         "source": "Bravo",
         "premiered": "2008-03-04",
         "image": "https://static.tvmaze.com/uploads/images/medium_portrait/639/1598898.jpg",
-        "episode_count": 302
+        "episode_count": 303
       },
       "variants": [],
       "next": {
+        "kind": "episode",
+        "id": "3794158",
+        "season": 16,
+        "code": "S16E10",
+        "name": "TBA",
+        "count": 1,
+        "date": "2026-11-10",
+        "time": "19:00",
+        "datetime": "2026-11-10T19:00:00-06:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3794158/the-real-housewives-of-new-york-city-16x10-tba",
+        "variant": null
+      },
+      "last": {
         "kind": "episode",
         "id": "3791153",
         "season": 16,
@@ -146,35 +160,7 @@
         "url": "https://www.tvmaze.com/episodes/3791153/the-real-housewives-of-new-york-city-16x09-all-bark-no-invite",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3784273",
-        "season": 16,
-        "code": "S16E08",
-        "name": "Havana Fights",
-        "count": 1,
-        "date": "2026-10-27",
-        "time": "19:00",
-        "datetime": "2026-10-27T19:00:00-05:00",
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3784273/the-real-housewives-of-new-york-city-16x08-havana-fights",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3791153",
-          "season": 16,
-          "code": "S16E09",
-          "name": "All Bark, No Invite",
-          "count": 1,
-          "date": "2026-11-03",
-          "time": "19:00",
-          "datetime": "2026-11-03T19:00:00-06:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3791153/the-real-housewives-of-new-york-city-16x09-all-bark-no-invite",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3794158",
@@ -202,23 +188,23 @@
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3799915/the-real-housewives-of-new-york-city-16x11-tba",
           "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3804147",
+          "season": 16,
+          "code": "S16E12",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-11-24",
+          "time": "19:00",
+          "datetime": "2026-11-24T19:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3804147/the-real-housewives-of-new-york-city-16x12-tba",
+          "variant": null
         }
       ],
       "recent": [
-        {
-          "kind": "episode",
-          "id": "3780668",
-          "season": 16,
-          "code": "S16E07",
-          "name": "Loveless Island",
-          "count": 1,
-          "date": "2026-10-20",
-          "time": "19:00",
-          "datetime": "2026-10-20T19:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3780668/the-real-housewives-of-new-york-city-16x07-loveless-island",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3784273",
@@ -231,6 +217,20 @@
           "datetime": "2026-10-27T19:00:00-05:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3784273/the-real-housewives-of-new-york-city-16x08-havana-fights",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3791153",
+          "season": 16,
+          "code": "S16E09",
+          "name": "All Bark, No Invite",
+          "count": 1,
+          "date": "2026-11-03",
+          "time": "19:00",
+          "datetime": "2026-11-03T19:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3791153/the-real-housewives-of-new-york-city-16x09-all-bark-no-invite",
           "variant": null
         }
       ]
@@ -485,13 +485,13 @@
         "id": "3711575",
         "season": 51,
         "code": "S51E07",
-        "name": "You Broke My Heart Like I was a Girl at the Prom",
+        "name": "The Girl at the Prom",
         "count": 1,
         "date": "2026-11-04",
         "time": "19:00",
         "datetime": "2026-11-04T19:00:00-06:00",
         "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3711575/survivor-51x07-you-broke-my-heart-like-i-was-a-girl-at-the-prom",
+        "url": "https://www.tvmaze.com/episodes/3711575/survivor-51x07-the-girl-at-the-prom",
         "variant": null
       },
       "last": {
@@ -514,13 +514,13 @@
           "id": "3711575",
           "season": 51,
           "code": "S51E07",
-          "name": "You Broke My Heart Like I was a Girl at the Prom",
+          "name": "The Girl at the Prom",
           "count": 1,
           "date": "2026-11-04",
           "time": "19:00",
           "datetime": "2026-11-04T19:00:00-06:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3711575/survivor-51x07-you-broke-my-heart-like-i-was-a-girl-at-the-prom",
+          "url": "https://www.tvmaze.com/episodes/3711575/survivor-51x07-the-girl-at-the-prom",
           "variant": null
         },
         {
@@ -1001,13 +1001,13 @@
           "id": "3800543",
           "season": 1,
           "code": "S01E08",
-          "name": "TBA",
+          "name": "Moved On, Moved Out",
           "count": 1,
           "date": "2026-11-16",
           "time": "20:00",
           "datetime": "2026-11-16T20:00:00-06:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3800543/still-flipping-out-1x08-tba",
+          "url": "https://www.tvmaze.com/episodes/3800543/still-flipping-out-1x08-moved-on-moved-out",
           "variant": null
         }
       ],
@@ -1355,17 +1355,17 @@
           "source": "Netflix"
         },
         {
-          "id": 89143,
-          "name": "Is It Cake? Valentines",
-          "url": "https://www.tvmaze.com/shows/89143/is-it-cake-valentines",
-          "status": "To Be Determined",
-          "source": "Netflix"
-        },
-        {
           "id": 80440,
           "name": "Is It Cake? Holiday",
           "url": "https://www.tvmaze.com/shows/80440/is-it-cake-holiday",
           "status": "Running",
+          "source": "Netflix"
+        },
+        {
+          "id": 89143,
+          "name": "Is It Cake? Valentines",
+          "url": "https://www.tvmaze.com/shows/89143/is-it-cake-valentines",
+          "status": "To Be Determined",
           "source": "Netflix"
         }
       ],
@@ -1900,13 +1900,13 @@
         "id": "3794294",
         "season": 17,
         "code": "S17E07",
-        "name": "Free-From Week",
+        "name": "Free-from Party Week",
         "count": 1,
         "date": "2026-11-06",
         "time": null,
         "datetime": null,
         "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3794294/the-great-british-bake-off-17x07-free-from-week",
+        "url": "https://www.tvmaze.com/episodes/3794294/the-great-british-bake-off-17x07-free-from-party-week",
         "variant": null
       },
       "last": {
@@ -1929,13 +1929,13 @@
           "id": "3794294",
           "season": 17,
           "code": "S17E07",
-          "name": "Free-From Week",
+          "name": "Free-from Party Week",
           "count": 1,
           "date": "2026-11-06",
           "time": null,
           "datetime": null,
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3794294/the-great-british-bake-off-17x07-free-from-week",
+          "url": "https://www.tvmaze.com/episodes/3794294/the-great-british-bake-off-17x07-free-from-party-week",
           "variant": null
         },
         {
@@ -2009,6 +2009,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3768314",
+        "season": 2,
+        "code": "S02E07",
+        "name": "Love Is a Battlefield",
+        "count": 1,
+        "date": "2026-11-10",
+        "time": "19:00",
+        "datetime": "2026-11-10T19:00:00-06:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3768314/best-medicine-2x07-love-is-a-battlefield",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3791802",
         "season": 2,
         "code": "S02E06",
@@ -2021,35 +2035,7 @@
         "url": "https://www.tvmaze.com/episodes/3791802/best-medicine-2x06-cant-stop-the-healing",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3768313",
-        "season": 2,
-        "code": "S02E05",
-        "name": "Hare Today, Gone Tomorrow",
-        "count": 1,
-        "date": "2026-10-20",
-        "time": "19:00",
-        "datetime": "2026-10-20T19:00:00-05:00",
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3768313/best-medicine-2x05-hare-today-gone-tomorrow",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3791802",
-          "season": 2,
-          "code": "S02E06",
-          "name": "Can't Stop the Healing",
-          "count": 1,
-          "date": "2026-11-03",
-          "time": "19:00",
-          "datetime": "2026-11-03T19:00:00-06:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3791802/best-medicine-2x06-cant-stop-the-healing",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3768314",
@@ -2096,16 +2082,16 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3768313",
+          "id": "3791802",
           "season": 2,
-          "code": "S02E05",
-          "name": "Hare Today, Gone Tomorrow",
+          "code": "S02E06",
+          "name": "Can't Stop the Healing",
           "count": 1,
-          "date": "2026-10-20",
+          "date": "2026-11-03",
           "time": "19:00",
-          "datetime": "2026-10-20T19:00:00-05:00",
+          "datetime": "2026-11-03T19:00:00-06:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3768313/best-medicine-2x05-hare-today-gone-tomorrow",
+          "url": "https://www.tvmaze.com/episodes/3791802/best-medicine-2x06-cant-stop-the-healing",
           "variant": null
         }
       ]
@@ -2644,6 +2630,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3616311",
+        "season": 1,
+        "code": "S01E08",
+        "name": "Forever",
+        "count": 1,
+        "date": "2026-11-10",
+        "time": null,
+        "datetime": null,
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3616311/visionquest-1x08-forever",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3616310",
         "season": 1,
         "code": "S01E07",
@@ -2656,35 +2656,7 @@
         "url": "https://www.tvmaze.com/episodes/3616310/visionquest-1x07-immolation",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3616309",
-        "season": 1,
-        "code": "S01E06",
-        "name": "Deadlock",
-        "count": 1,
-        "date": "2026-10-27",
-        "time": null,
-        "datetime": null,
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3616309/visionquest-1x06-deadlock",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3616310",
-          "season": 1,
-          "code": "S01E07",
-          "name": "Immolation",
-          "count": 1,
-          "date": "2026-11-03",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3616310/visionquest-1x07-immolation",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3616311",
@@ -2701,34 +2673,6 @@
         }
       ],
       "recent": [
-        {
-          "kind": "episode",
-          "id": "3616306",
-          "season": 1,
-          "code": "S01E03",
-          "name": "Reboot",
-          "count": 1,
-          "date": "2026-10-20",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3616306/visionquest-1x03-reboot",
-          "variant": null
-        },
-        {
-          "kind": "episode",
-          "id": "3616307",
-          "season": 1,
-          "code": "S01E04",
-          "name": "Malware",
-          "count": 1,
-          "date": "2026-10-20",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3616307/visionquest-1x04-malware",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3616308",
@@ -2755,6 +2699,20 @@
           "datetime": null,
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3616309/visionquest-1x06-deadlock",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3616310",
+          "season": 1,
+          "code": "S01E07",
+          "name": "Immolation",
+          "count": 1,
+          "date": "2026-11-03",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3616310/visionquest-1x07-immolation",
           "variant": null
         }
       ]
@@ -2993,6 +2951,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3793224",
+        "season": 1,
+        "code": "S01E04",
+        "name": "People Will Think We're Nuts",
+        "count": 1,
+        "date": "2026-11-10",
+        "time": "21:00",
+        "datetime": "2026-11-10T21:00:00-06:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3793224/the-golden-life-1x04-people-will-think-were-nuts",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3793149",
         "season": 1,
         "code": "S01E03",
@@ -3005,35 +2977,7 @@
         "url": "https://www.tvmaze.com/episodes/3793149/the-golden-life-1x03-wheres-the-stylist",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3793148",
-        "season": 1,
-        "code": "S01E02",
-        "name": "I Need a Mocktail",
-        "count": 1,
-        "date": "2026-10-27",
-        "time": "21:00",
-        "datetime": "2026-10-27T21:00:00-05:00",
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3793148/the-golden-life-1x02-i-need-a-mocktail",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3793149",
-          "season": 1,
-          "code": "S01E03",
-          "name": "Where's The Stylist?",
-          "count": 1,
-          "date": "2026-11-03",
-          "time": "21:00",
-          "datetime": "2026-11-03T21:00:00-06:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3793149/the-golden-life-1x03-wheres-the-stylist",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3793224",
@@ -3108,20 +3052,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3757416",
-          "season": 1,
-          "code": "S01E01",
-          "name": "Golden Years In A Golden Place",
-          "count": 1,
-          "date": "2026-10-20",
-          "time": "21:00",
-          "datetime": "2026-10-20T21:00:00-05:00",
-          "premiere": true,
-          "url": "https://www.tvmaze.com/episodes/3757416/the-golden-life-1x01-golden-years-in-a-golden-place",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3793148",
           "season": 1,
           "code": "S01E02",
@@ -3132,6 +3062,20 @@
           "datetime": "2026-10-27T21:00:00-05:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3793148/the-golden-life-1x02-i-need-a-mocktail",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3793149",
+          "season": 1,
+          "code": "S01E03",
+          "name": "Where's The Stylist?",
+          "count": 1,
+          "date": "2026-11-03",
+          "time": "21:00",
+          "datetime": "2026-11-03T21:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3793149/the-golden-life-1x03-wheres-the-stylist",
           "variant": null
         }
       ]
@@ -3161,6 +3105,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3793143",
+        "season": 1,
+        "code": "S01E05",
+        "name": "House of Dog",
+        "count": 1,
+        "date": "2026-11-10",
+        "time": null,
+        "datetime": null,
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3793143/phony-1x05-house-of-dog",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3793142",
         "season": 1,
         "code": "S01E04",
@@ -3173,35 +3131,7 @@
         "url": "https://www.tvmaze.com/episodes/3793142/phony-1x04-vibes-are-rancid",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3793141",
-        "season": 1,
-        "code": "S01E03",
-        "name": "Reverse Cuckoo Situation",
-        "count": 1,
-        "date": "2026-10-27",
-        "time": null,
-        "datetime": null,
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3793141/phony-1x03-reverse-cuckoo-situation",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3793142",
-          "season": 1,
-          "code": "S01E04",
-          "name": "Vibes Are Rancid",
-          "count": 1,
-          "date": "2026-11-03",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3793142/phony-1x04-vibes-are-rancid",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3793143",
@@ -3262,34 +3192,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3775941",
-          "season": 1,
-          "code": "S01E01",
-          "name": "Pilot",
-          "count": 1,
-          "date": "2026-10-20",
-          "time": null,
-          "datetime": null,
-          "premiere": true,
-          "url": "https://www.tvmaze.com/episodes/3775941/phony-1x01-pilot",
-          "variant": null
-        },
-        {
-          "kind": "episode",
-          "id": "3793140",
-          "season": 1,
-          "code": "S01E02",
-          "name": "Crosby, Stills and Nash",
-          "count": 1,
-          "date": "2026-10-20",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3793140/phony-1x02-crosby-stills-and-nash",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3793141",
           "season": 1,
           "code": "S01E03",
@@ -3300,6 +3202,20 @@
           "datetime": null,
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3793141/phony-1x03-reverse-cuckoo-situation",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3793142",
+          "season": 1,
+          "code": "S01E04",
+          "name": "Vibes Are Rancid",
+          "count": 1,
+          "date": "2026-11-03",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3793142/phony-1x04-vibes-are-rancid",
           "variant": null
         }
       ]
