@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-06T17:27:54Z",
-  "today": "2026-11-06",
+  "generated_at": "2026-11-07T16:23:44Z",
+  "today": "2026-11-07",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -710,13 +710,13 @@
           "id": "3796398",
           "season": 39,
           "code": "S39E11",
-          "name": "TBA",
+          "name": "Woman of My Word",
           "count": 1,
           "date": "2026-12-02",
           "time": "20:30",
           "datetime": "2026-12-02T20:30:00-06:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3796398/the-amazing-race-39x11-tba",
+          "url": "https://www.tvmaze.com/episodes/3796398/the-amazing-race-39x11-woman-of-my-word",
           "variant": null
         },
         {
@@ -724,13 +724,13 @@
           "id": "3796399",
           "season": 39,
           "code": "S39E12",
-          "name": "TBA",
+          "name": "Trust Yourself, Trust Your Confidence",
           "count": 1,
           "date": "2026-12-09",
           "time": "20:30",
           "datetime": "2026-12-09T20:30:00-06:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3796399/the-amazing-race-39x12-tba",
+          "url": "https://www.tvmaze.com/episodes/3796399/the-amazing-race-39x12-trust-yourself-trust-your-confidence",
           "variant": null
         }
       ],
@@ -1812,6 +1812,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3798166",
+        "season": 17,
+        "code": "S17E08",
+        "name": "Caramel Week",
+        "count": 1,
+        "date": "2026-11-13",
+        "time": null,
+        "datetime": null,
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3798166/the-great-british-bake-off-17x08-caramel-week",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3794294",
         "season": 17,
         "code": "S17E07",
@@ -1824,35 +1838,7 @@
         "url": "https://www.tvmaze.com/episodes/3794294/the-great-british-bake-off-17x07-free-from-party-week",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3788802",
-        "season": 17,
-        "code": "S17E06",
-        "name": "Pastry Week",
-        "count": 1,
-        "date": "2026-10-30",
-        "time": null,
-        "datetime": null,
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3788802/the-great-british-bake-off-17x06-pastry-week",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3794294",
-          "season": 17,
-          "code": "S17E07",
-          "name": "Free-from Party Week",
-          "count": 1,
-          "date": "2026-11-06",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3794294/the-great-british-bake-off-17x07-free-from-party-week",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3798166",
@@ -1885,20 +1871,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3783214",
-          "season": 17,
-          "code": "S17E05",
-          "name": "Dessert Week",
-          "count": 1,
-          "date": "2026-10-23",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3783214/the-great-british-bake-off-17x05-dessert-week",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3788802",
           "season": 17,
           "code": "S17E06",
@@ -1909,6 +1881,20 @@
           "datetime": null,
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3788802/the-great-british-bake-off-17x06-pastry-week",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3794294",
+          "season": 17,
+          "code": "S17E07",
+          "name": "Free-from Party Week",
+          "count": 1,
+          "date": "2026-11-06",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3794294/the-great-british-bake-off-17x07-free-from-party-week",
           "variant": null
         }
       ]
