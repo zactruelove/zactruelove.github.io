@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-08T16:38:57Z",
-  "today": "2026-11-08",
+  "generated_at": "2026-11-09T20:41:10Z",
+  "today": "2026-11-09",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -1807,7 +1807,7 @@
         "source": "Channel 4",
         "premiered": "2010-08-17",
         "image": "https://static.tvmaze.com/uploads/images/medium_portrait/642/1606557.jpg",
-        "episode_count": 163
+        "episode_count": 164
       },
       "variants": [],
       "next": {
@@ -1865,6 +1865,20 @@
           "datetime": null,
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3804481/the-great-british-bake-off-17x09-patisserie-week",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3809415",
+          "season": 17,
+          "code": "S17E10",
+          "name": "The Final",
+          "count": 1,
+          "date": "2026-11-27",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3809415/the-great-british-bake-off-17x10-the-final",
           "variant": null
         }
       ],
