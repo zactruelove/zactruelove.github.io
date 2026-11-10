@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-09T20:41:10Z",
-  "today": "2026-11-09",
+  "generated_at": "2026-11-10T17:45:43Z",
+  "today": "2026-11-10",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -913,6 +913,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3800543",
+        "season": 1,
+        "code": "S01E08",
+        "name": "Moved On, Moved Out",
+        "count": 1,
+        "date": "2026-11-16",
+        "time": "20:00",
+        "datetime": "2026-11-16T20:00:00-06:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3800543/still-flipping-out-1x08-moved-on-moved-out",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3800542",
         "season": 1,
         "code": "S01E07",
@@ -925,35 +939,7 @@
         "url": "https://www.tvmaze.com/episodes/3800542/still-flipping-out-1x07-h-o-a-holes",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3788619",
-        "season": 1,
-        "code": "S01E06",
-        "name": "War on Lunch",
-        "count": 1,
-        "date": "2026-11-02",
-        "time": "20:00",
-        "datetime": "2026-11-02T20:00:00-06:00",
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3788619/still-flipping-out-1x06-war-on-lunch",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3800542",
-          "season": 1,
-          "code": "S01E07",
-          "name": "H-O-A-Holes",
-          "count": 1,
-          "date": "2026-11-09",
-          "time": "20:00",
-          "datetime": "2026-11-09T20:00:00-06:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3800542/still-flipping-out-1x07-h-o-a-holes",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3800543",
@@ -972,20 +958,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3781674",
-          "season": 1,
-          "code": "S01E05",
-          "name": "Totes Inappropes",
-          "count": 1,
-          "date": "2026-10-26",
-          "time": "20:00",
-          "datetime": "2026-10-26T20:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3781674/still-flipping-out-1x05-totes-inappropes",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3788619",
           "season": 1,
           "code": "S01E06",
@@ -996,6 +968,20 @@
           "datetime": "2026-11-02T20:00:00-06:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3788619/still-flipping-out-1x06-war-on-lunch",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3800542",
+          "season": 1,
+          "code": "S01E07",
+          "name": "H-O-A-Holes",
+          "count": 1,
+          "date": "2026-11-09",
+          "time": "20:00",
+          "datetime": "2026-11-09T20:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3800542/still-flipping-out-1x07-h-o-a-holes",
           "variant": null
         }
       ]
@@ -1292,17 +1278,17 @@
       },
       "variants": [
         {
-          "id": 80440,
-          "name": "Is It Cake? Holiday",
-          "url": "https://www.tvmaze.com/shows/80440/is-it-cake-holiday",
-          "status": "Running",
-          "source": "Netflix"
-        },
-        {
           "id": 87502,
           "name": "Is It Cake? Halloween",
           "url": "https://www.tvmaze.com/shows/87502/is-it-cake-halloween",
           "status": "To Be Determined",
+          "source": "Netflix"
+        },
+        {
+          "id": 80440,
+          "name": "Is It Cake? Holiday",
+          "url": "https://www.tvmaze.com/shows/80440/is-it-cake-holiday",
+          "status": "Running",
           "source": "Netflix"
         },
         {
@@ -2116,7 +2102,7 @@
       "platform": "Prime Video",
       "platform_source": "override",
       "on_our_platforms": true,
-      "phase": "between_seasons",
+      "phase": "upcoming",
       "matched_by": "id",
       "candidates": [],
       "tvmaze": {
@@ -2127,10 +2113,23 @@
         "source": "Prime Video",
         "premiered": "2025-05-15",
         "image": "https://static.tvmaze.com/uploads/images/medium_portrait/568/1420131.jpg",
-        "episode_count": 8
+        "episode_count": 9
       },
       "variants": [],
-      "next": null,
+      "next": {
+        "kind": "episode",
+        "id": "3809931",
+        "season": 2,
+        "code": "S02E01",
+        "name": "Epsiode 1",
+        "count": 1,
+        "date": "2027-02-17",
+        "time": null,
+        "datetime": null,
+        "premiere": true,
+        "url": "https://www.tvmaze.com/episodes/3809931/overcompensating-2x01-epsiode-1",
+        "variant": null
+      },
       "last": {
         "kind": "binge",
         "id": "s1-2025-05-15",
@@ -2145,7 +2144,22 @@
         "url": "https://www.tvmaze.com/episodes/3172629/overcompensating-1x01-lucky",
         "variant": null
       },
-      "upcoming": [],
+      "upcoming": [
+        {
+          "kind": "episode",
+          "id": "3809931",
+          "season": 2,
+          "code": "S02E01",
+          "name": "Epsiode 1",
+          "count": 1,
+          "date": "2027-02-17",
+          "time": null,
+          "datetime": null,
+          "premiere": true,
+          "url": "https://www.tvmaze.com/episodes/3809931/overcompensating-2x01-epsiode-1",
+          "variant": null
+        }
+      ],
       "recent": []
     },
     {
@@ -2698,61 +2712,33 @@
       "variants": [],
       "next": {
         "kind": "episode",
-        "id": "3796939",
+        "id": "3802977",
         "season": 1,
-        "code": "S01E05",
-        "name": "Turns Out, I Am That Bitch",
+        "code": "S01E07",
+        "name": "You Can Never Be Too Comfortable",
+        "count": 1,
+        "date": "2026-11-16",
+        "time": null,
+        "datetime": null,
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3802977/the-mob-1x07-you-can-never-be-too-comfortable",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
+        "id": "3796940",
+        "season": 1,
+        "code": "S01E06",
+        "name": "I Can Spot a Fake From a Mile Away",
         "count": 1,
         "date": "2026-11-09",
         "time": null,
         "datetime": null,
         "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3796939/the-mob-1x05-turns-out-i-am-that-bitch",
-        "variant": null
-      },
-      "last": {
-        "kind": "episode",
-        "id": "3796405",
-        "season": 1,
-        "code": "S01E04",
-        "name": "Going to War",
-        "count": 1,
-        "date": "2026-11-02",
-        "time": null,
-        "datetime": null,
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3796405/the-mob-1x04-going-to-war",
+        "url": "https://www.tvmaze.com/episodes/3796940/the-mob-1x06-i-can-spot-a-fake-from-a-mile-away",
         "variant": null
       },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3796939",
-          "season": 1,
-          "code": "S01E05",
-          "name": "Turns Out, I Am That Bitch",
-          "count": 1,
-          "date": "2026-11-09",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3796939/the-mob-1x05-turns-out-i-am-that-bitch",
-          "variant": null
-        },
-        {
-          "kind": "episode",
-          "id": "3796940",
-          "season": 1,
-          "code": "S01E06",
-          "name": "I Can Spot a Fake From a Mile Away",
-          "count": 1,
-          "date": "2026-11-09",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3796940/the-mob-1x06-i-can-spot-a-fake-from-a-mile-away",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3802977",
@@ -2785,34 +2771,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3761894",
-          "season": 1,
-          "code": "S01E01",
-          "name": "Kiss the Ring",
-          "count": 1,
-          "date": "2026-10-26",
-          "time": null,
-          "datetime": null,
-          "premiere": true,
-          "url": "https://www.tvmaze.com/episodes/3761894/the-mob-1x01-kiss-the-ring",
-          "variant": null
-        },
-        {
-          "kind": "episode",
-          "id": "3761896",
-          "season": 1,
-          "code": "S01E02",
-          "name": "There's Always a Rat",
-          "count": 1,
-          "date": "2026-10-26",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3761896/the-mob-1x02-theres-always-a-rat",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3796404",
           "season": 1,
           "code": "S01E03",
@@ -2837,6 +2795,34 @@
           "datetime": null,
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3796405/the-mob-1x04-going-to-war",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3796939",
+          "season": 1,
+          "code": "S01E05",
+          "name": "Turns Out, I Am That Bitch",
+          "count": 1,
+          "date": "2026-11-09",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3796939/the-mob-1x05-turns-out-i-am-that-bitch",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3796940",
+          "season": 1,
+          "code": "S01E06",
+          "name": "I Can Spot a Fake From a Mile Away",
+          "count": 1,
+          "date": "2026-11-09",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3796940/the-mob-1x06-i-can-spot-a-fake-from-a-mile-away",
           "variant": null
         }
       ]
@@ -2912,13 +2898,13 @@
           "id": "3796456",
           "season": 1,
           "code": "S01E05",
-          "name": "Episode 5",
+          "name": "Cesspool",
           "count": 1,
           "date": "2026-11-17",
           "time": "21:00",
           "datetime": "2026-11-17T21:00:00-06:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3796456/the-golden-life-1x05-episode-5",
+          "url": "https://www.tvmaze.com/episodes/3796456/the-golden-life-1x05-cesspool",
           "variant": null
         },
         {
@@ -3080,13 +3066,13 @@
           "id": "3793145",
           "season": 1,
           "code": "S01E07",
-          "name": "TBA",
+          "name": "What Comes Up?",
           "count": 1,
           "date": "2026-11-24",
           "time": null,
           "datetime": null,
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3793145/phony-1x07-tba",
+          "url": "https://www.tvmaze.com/episodes/3793145/phony-1x07-what-comes-up",
           "variant": null
         },
         {
