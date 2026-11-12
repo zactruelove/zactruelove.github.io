@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-11T17:52:05Z",
-  "today": "2026-11-11",
+  "generated_at": "2026-11-12T18:14:46Z",
+  "today": "2026-11-12",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -213,10 +213,24 @@
         "source": "Bravo",
         "premiered": "2020-11-11",
         "image": "https://static.tvmaze.com/uploads/images/medium_portrait/639/1598899.jpg",
-        "episode_count": 124
+        "episode_count": 125
       },
       "variants": [],
       "next": {
+        "kind": "episode",
+        "id": "3804731",
+        "season": 7,
+        "code": "S07E10",
+        "name": "Amends With Friends",
+        "count": 1,
+        "date": "2026-11-18",
+        "time": "19:00",
+        "datetime": "2026-11-18T19:00:00-06:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3804731/the-real-housewives-of-salt-lake-city-7x10-amends-with-friends",
+        "variant": null
+      },
+      "last": {
         "kind": "episode",
         "id": "3781673",
         "season": 7,
@@ -230,47 +244,19 @@
         "url": "https://www.tvmaze.com/episodes/3781673/the-real-housewives-of-salt-lake-city-7x09-feed-her-to-the-sharks",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3781672",
-        "season": 7,
-        "code": "S07E08",
-        "name": "Reiki'd Over the Coals",
-        "count": 1,
-        "date": "2026-11-04",
-        "time": "19:00",
-        "datetime": "2026-11-04T19:00:00-06:00",
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3781672/the-real-housewives-of-salt-lake-city-7x08-reikid-over-the-coals",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3781673",
-          "season": 7,
-          "code": "S07E09",
-          "name": "Feed Her to the Sharks",
-          "count": 1,
-          "date": "2026-11-11",
-          "time": "19:00",
-          "datetime": "2026-11-11T19:00:00-06:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3781673/the-real-housewives-of-salt-lake-city-7x09-feed-her-to-the-sharks",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3804731",
           "season": 7,
           "code": "S07E10",
-          "name": "TBA",
+          "name": "Amends With Friends",
           "count": 1,
           "date": "2026-11-18",
           "time": "19:00",
           "datetime": "2026-11-18T19:00:00-06:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3804731/the-real-housewives-of-salt-lake-city-7x10-tba",
+          "url": "https://www.tvmaze.com/episodes/3804731/the-real-housewives-of-salt-lake-city-7x10-amends-with-friends",
           "variant": null
         },
         {
@@ -278,31 +264,31 @@
           "id": "3805150",
           "season": 7,
           "code": "S07E11",
-          "name": "TBA",
+          "name": "Maui Mystery, Solved",
           "count": 1,
           "date": "2026-11-25",
           "time": "19:00",
           "datetime": "2026-11-25T19:00:00-06:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3805150/the-real-housewives-of-salt-lake-city-7x11-tba",
+          "url": "https://www.tvmaze.com/episodes/3805150/the-real-housewives-of-salt-lake-city-7x11-maui-mystery-solved",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3814149",
+          "season": 7,
+          "code": "S07E12",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-12-02",
+          "time": "19:00",
+          "datetime": "2026-12-02T19:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3814149/the-real-housewives-of-salt-lake-city-7x12-tba",
           "variant": null
         }
       ],
       "recent": [
-        {
-          "kind": "episode",
-          "id": "3780670",
-          "season": 7,
-          "code": "S07E07",
-          "name": "Star Signs and Struggles",
-          "count": 1,
-          "date": "2026-10-28",
-          "time": "19:00",
-          "datetime": "2026-10-28T19:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3780670/the-real-housewives-of-salt-lake-city-7x07-star-signs-and-struggles",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3781672",
@@ -315,6 +301,20 @@
           "datetime": "2026-11-04T19:00:00-06:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3781672/the-real-housewives-of-salt-lake-city-7x08-reikid-over-the-coals",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3781673",
+          "season": 7,
+          "code": "S07E09",
+          "name": "Feed Her to the Sharks",
+          "count": 1,
+          "date": "2026-11-11",
+          "time": "19:00",
+          "datetime": "2026-11-11T19:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3781673/the-real-housewives-of-salt-lake-city-7x09-feed-her-to-the-sharks",
           "variant": null
         }
       ]
@@ -454,6 +454,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3711577",
+        "season": 51,
+        "code": "S51E09",
+        "name": "TBA",
+        "count": 1,
+        "date": "2026-11-18",
+        "time": "19:00",
+        "datetime": "2026-11-18T19:00:00-06:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3711577/survivor-51x09-tba",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3711576",
         "season": 51,
         "code": "S51E08",
@@ -466,35 +480,7 @@
         "url": "https://www.tvmaze.com/episodes/3711576/survivor-51x08-load-the-ark-two-by-two",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3711575",
-        "season": 51,
-        "code": "S51E07",
-        "name": "The Girl at the Prom",
-        "count": 1,
-        "date": "2026-11-04",
-        "time": "19:00",
-        "datetime": "2026-11-04T19:00:00-06:00",
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3711575/survivor-51x07-the-girl-at-the-prom",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3711576",
-          "season": 51,
-          "code": "S51E08",
-          "name": "Load the Ark, Two by Two",
-          "count": 1,
-          "date": "2026-11-11",
-          "time": "19:00",
-          "datetime": "2026-11-11T19:00:00-06:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3711576/survivor-51x08-load-the-ark-two-by-two",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3711577",
@@ -569,20 +555,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3711574",
-          "season": 51,
-          "code": "S51E06",
-          "name": "I Love Crying",
-          "count": 1,
-          "date": "2026-10-28",
-          "time": "19:00",
-          "datetime": "2026-10-28T19:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3711574/survivor-51x06-i-love-crying",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3711575",
           "season": 51,
           "code": "S51E07",
@@ -593,6 +565,20 @@
           "datetime": "2026-11-04T19:00:00-06:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3711575/survivor-51x07-the-girl-at-the-prom",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3711576",
+          "season": 51,
+          "code": "S51E08",
+          "name": "Load the Ark, Two by Two",
+          "count": 1,
+          "date": "2026-11-11",
+          "time": "19:00",
+          "datetime": "2026-11-11T19:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3711576/survivor-51x08-load-the-ark-two-by-two",
           "variant": null
         }
       ]
@@ -622,6 +608,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3711583",
+        "season": 39,
+        "code": "S39E09",
+        "name": "A Double-Edged Sword with an Alliance",
+        "count": 1,
+        "date": "2026-11-18",
+        "time": "20:30",
+        "datetime": "2026-11-18T20:30:00-06:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3711583/the-amazing-race-39x09-a-double-edged-sword-with-an-alliance",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3711582",
         "season": 39,
         "code": "S39E08",
@@ -634,35 +634,7 @@
         "url": "https://www.tvmaze.com/episodes/3711582/the-amazing-race-39x08-million-dollar-moves",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3711581",
-        "season": 39,
-        "code": "S39E07",
-        "name": "The Amazing Nightmare",
-        "count": 1,
-        "date": "2026-11-04",
-        "time": "20:30",
-        "datetime": "2026-11-04T20:30:00-06:00",
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3711581/the-amazing-race-39x07-the-amazing-nightmare",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3711582",
-          "season": 39,
-          "code": "S39E08",
-          "name": "Million Dollar Moves",
-          "count": 1,
-          "date": "2026-11-11",
-          "time": "20:30",
-          "datetime": "2026-11-11T20:30:00-06:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3711582/the-amazing-race-39x08-million-dollar-moves",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3711583",
@@ -723,20 +695,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3711580",
-          "season": 39,
-          "code": "S39E06",
-          "name": "A Fine Line Between Confidence and Stupidity",
-          "count": 1,
-          "date": "2026-10-28",
-          "time": "20:30",
-          "datetime": "2026-10-28T20:30:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3711580/the-amazing-race-39x06-a-fine-line-between-confidence-and-stupidity",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3711581",
           "season": 39,
           "code": "S39E07",
@@ -747,6 +705,20 @@
           "datetime": "2026-11-04T20:30:00-06:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3711581/the-amazing-race-39x07-the-amazing-nightmare",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3711582",
+          "season": 39,
+          "code": "S39E08",
+          "name": "Million Dollar Moves",
+          "count": 1,
+          "date": "2026-11-11",
+          "time": "20:30",
+          "datetime": "2026-11-11T20:30:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3711582/the-amazing-race-39x08-million-dollar-moves",
           "variant": null
         }
       ]
@@ -1578,22 +1550,7 @@
         "variant": null
       },
       "upcoming": [],
-      "recent": [
-        {
-          "kind": "episode",
-          "id": "3779718",
-          "season": 42,
-          "code": "S42E14",
-          "name": "The Final Part 2",
-          "count": 1,
-          "date": "2026-10-28",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3779718/the-challenge-42x14-the-final-part-2",
-          "variant": null
-        }
-      ]
+      "recent": []
     },
     {
       "title": "Wonka's The Golden Ticket",
@@ -1905,7 +1862,7 @@
         "source": "FOX",
         "premiered": "2026-01-04",
         "image": "https://static.tvmaze.com/uploads/images/medium_portrait/639/1597644.jpg",
-        "episode_count": 22
+        "episode_count": 27
       },
       "variants": [],
       "next": {
@@ -1963,6 +1920,76 @@
           "datetime": "2026-11-24T19:00:00-06:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3802883/best-medicine-2x09-the-song-good-bye",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3814157",
+          "season": 2,
+          "code": "S02E10",
+          "name": "TBA",
+          "count": 1,
+          "date": "2027-01-05",
+          "time": "19:00",
+          "datetime": "2027-01-05T19:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3814157/best-medicine-2x10-tba",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3814158",
+          "season": 2,
+          "code": "S02E11",
+          "name": "TBA",
+          "count": 1,
+          "date": "2027-01-12",
+          "time": "19:00",
+          "datetime": "2027-01-12T19:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3814158/best-medicine-2x11-tba",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3814159",
+          "season": 2,
+          "code": "S02E12",
+          "name": "TBA",
+          "count": 1,
+          "date": "2027-01-19",
+          "time": "19:00",
+          "datetime": "2027-01-19T19:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3814159/best-medicine-2x12-tba",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3814160",
+          "season": 2,
+          "code": "S02E13",
+          "name": "TBA",
+          "count": 1,
+          "date": "2027-01-26",
+          "time": "19:00",
+          "datetime": "2027-01-26T19:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3814160/best-medicine-2x13-tba",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3814161",
+          "season": 2,
+          "code": "S02E14",
+          "name": "Season Finale",
+          "count": 1,
+          "date": "2027-02-02",
+          "time": "19:00",
+          "datetime": "2027-02-02T19:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3814161/best-medicine-2x14-season-finale",
           "variant": null
         }
       ],
@@ -2054,7 +2081,7 @@
         "id": 83946,
         "name": "Adults",
         "url": "https://www.tvmaze.com/shows/83946/adults",
-        "status": "To Be Determined",
+        "status": "Running",
         "source": "Hulu",
         "premiered": "2025-05-29",
         "image": "https://static.tvmaze.com/uploads/images/medium_portrait/641/1603022.jpg",
@@ -2362,7 +2389,7 @@
       "platform": "Hulu",
       "platform_source": "network",
       "on_our_platforms": true,
-      "phase": "this_week",
+      "phase": "upcoming",
       "matched_by": "id",
       "candidates": [],
       "tvmaze": {
@@ -2378,6 +2405,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3694640",
+        "season": 2,
+        "code": "S02E09",
+        "name": "TBA",
+        "count": 1,
+        "date": "2026-12-02",
+        "time": "19:00",
+        "datetime": "2026-12-02T19:00:00-06:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3694640/scrubs-2x09-tba",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3694639",
         "season": 2,
         "code": "S02E08",
@@ -2390,35 +2431,7 @@
         "url": "https://www.tvmaze.com/episodes/3694639/scrubs-2x08-my-emergency",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3694638",
-        "season": 2,
-        "code": "S02E07",
-        "name": "My Story",
-        "count": 1,
-        "date": "2026-11-04",
-        "time": "19:00",
-        "datetime": "2026-11-04T19:00:00-06:00",
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3694638/scrubs-2x07-my-story",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3694639",
-          "season": 2,
-          "code": "S02E08",
-          "name": "My Emergency",
-          "count": 1,
-          "date": "2026-11-11",
-          "time": "19:00",
-          "datetime": "2026-11-11T19:00:00-06:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3694639/scrubs-2x08-my-emergency",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3694640",
@@ -2451,20 +2464,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3694637",
-          "season": 2,
-          "code": "S02E06",
-          "name": "My Halloween",
-          "count": 1,
-          "date": "2026-10-28",
-          "time": "19:00",
-          "datetime": "2026-10-28T19:00:00-05:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3694637/scrubs-2x06-my-halloween",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3694638",
           "season": 2,
           "code": "S02E07",
@@ -2475,6 +2474,20 @@
           "datetime": "2026-11-04T19:00:00-06:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3694638/scrubs-2x07-my-story",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3694639",
+          "season": 2,
+          "code": "S02E08",
+          "name": "My Emergency",
+          "count": 1,
+          "date": "2026-11-11",
+          "time": "19:00",
+          "datetime": "2026-11-11T19:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3694639/scrubs-2x08-my-emergency",
           "variant": null
         }
       ]
