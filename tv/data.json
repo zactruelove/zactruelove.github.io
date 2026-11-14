@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-13T10:18:04Z",
-  "today": "2026-11-13",
+  "generated_at": "2026-11-14T10:18:15Z",
+  "today": "2026-11-14",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -1712,6 +1712,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3804481",
+        "season": 17,
+        "code": "S17E09",
+        "name": "Patisserie Week",
+        "count": 1,
+        "date": "2026-11-20",
+        "time": null,
+        "datetime": null,
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3804481/the-great-british-bake-off-17x09-patisserie-week",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3798166",
         "season": 17,
         "code": "S17E08",
@@ -1724,35 +1738,7 @@
         "url": "https://www.tvmaze.com/episodes/3798166/the-great-british-bake-off-17x08-caramel-week",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3794294",
-        "season": 17,
-        "code": "S17E07",
-        "name": "Free-from Party Week",
-        "count": 1,
-        "date": "2026-11-06",
-        "time": null,
-        "datetime": null,
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3794294/the-great-british-bake-off-17x07-free-from-party-week",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3798166",
-          "season": 17,
-          "code": "S17E08",
-          "name": "Caramel Week",
-          "count": 1,
-          "date": "2026-11-13",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3798166/the-great-british-bake-off-17x08-caramel-week",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3804481",
@@ -1785,20 +1771,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3788802",
-          "season": 17,
-          "code": "S17E06",
-          "name": "Pastry Week",
-          "count": 1,
-          "date": "2026-10-30",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3788802/the-great-british-bake-off-17x06-pastry-week",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3794294",
           "season": 17,
           "code": "S17E07",
@@ -1809,6 +1781,20 @@
           "datetime": null,
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3794294/the-great-british-bake-off-17x07-free-from-party-week",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3798166",
+          "season": 17,
+          "code": "S17E08",
+          "name": "Caramel Week",
+          "count": 1,
+          "date": "2026-11-13",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3798166/the-great-british-bake-off-17x08-caramel-week",
           "variant": null
         }
       ]
