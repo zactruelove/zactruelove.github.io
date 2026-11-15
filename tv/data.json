@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-14T10:18:15Z",
-  "today": "2026-11-14",
+  "generated_at": "2026-11-15T10:18:02Z",
+  "today": "2026-11-15",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -1872,9 +1872,9 @@
           "code": "S02E09",
           "name": "The Song Good-Bye",
           "count": 1,
-          "date": "2026-11-24",
+          "date": "2026-12-01",
           "time": "19:00",
-          "datetime": "2026-11-24T19:00:00-06:00",
+          "datetime": "2026-12-01T19:00:00-06:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3802883/best-medicine-2x09-the-song-good-bye",
           "variant": null
@@ -2365,13 +2365,13 @@
         "id": "3694640",
         "season": 2,
         "code": "S02E09",
-        "name": "TBA",
+        "name": "My Worthless Peon",
         "count": 1,
         "date": "2026-12-02",
         "time": "19:00",
         "datetime": "2026-12-02T19:00:00-06:00",
         "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3694640/scrubs-2x09-tba",
+        "url": "https://www.tvmaze.com/episodes/3694640/scrubs-2x09-my-worthless-peon",
         "variant": null
       },
       "last": {
@@ -2394,13 +2394,13 @@
           "id": "3694640",
           "season": 2,
           "code": "S02E09",
-          "name": "TBA",
+          "name": "My Worthless Peon",
           "count": 1,
           "date": "2026-12-02",
           "time": "19:00",
           "datetime": "2026-12-02T19:00:00-06:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3694640/scrubs-2x09-tba",
+          "url": "https://www.tvmaze.com/episodes/3694640/scrubs-2x09-my-worthless-peon",
           "variant": null
         },
         {
