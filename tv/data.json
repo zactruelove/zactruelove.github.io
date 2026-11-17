@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-16T10:23:57Z",
-  "today": "2026-11-16",
+  "generated_at": "2026-11-17T10:18:29Z",
+  "today": "2026-11-17",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -448,7 +448,7 @@
         "source": "CBS",
         "premiered": "2000-05-31",
         "image": "https://static.tvmaze.com/uploads/images/medium_portrait/641/1603530.jpg",
-        "episode_count": 742
+        "episode_count": 743
       },
       "variants": [],
       "next": {
@@ -499,13 +499,13 @@
           "id": "3789586",
           "season": 51,
           "code": "S51E10",
-          "name": "Original",
+          "name": "Sorting Hogs",
           "count": 1,
           "date": "2026-11-25",
           "time": "19:00",
           "datetime": "2026-11-25T19:00:00-06:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3789586/survivor-51x10-original",
+          "url": "https://www.tvmaze.com/episodes/3789586/survivor-51x10-sorting-hogs",
           "variant": null
         },
         {
@@ -513,13 +513,13 @@
           "id": "3796395",
           "season": 51,
           "code": "S51E11",
-          "name": "TBA",
+          "name": "My Fangs Feel A Little Sharp Today",
           "count": 1,
           "date": "2026-12-02",
           "time": "19:00",
           "datetime": "2026-12-02T19:00:00-06:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3796395/survivor-51x11-tba",
+          "url": "https://www.tvmaze.com/episodes/3796395/survivor-51x11-my-fangs-feel-a-little-sharp-today",
           "variant": null
         },
         {
@@ -527,13 +527,13 @@
           "id": "3796396",
           "season": 51,
           "code": "S51E12",
-          "name": "TBA",
+          "name": "My Time Is Up",
           "count": 1,
           "date": "2026-12-09",
           "time": "19:00",
           "datetime": "2026-12-09T19:00:00-06:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3796396/survivor-51x12-tba",
+          "url": "https://www.tvmaze.com/episodes/3796396/survivor-51x12-my-time-is-up",
           "variant": null
         },
         {
@@ -548,6 +548,20 @@
           "datetime": "2026-12-16T19:00:00-06:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3796397/survivor-51x13-tba",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3822781",
+          "season": 52,
+          "code": "S52E01",
+          "name": "TBA",
+          "count": 1,
+          "date": "2027-02-24",
+          "time": "19:00",
+          "datetime": "2027-02-24T19:00:00-06:00",
+          "premiere": true,
+          "url": "https://www.tvmaze.com/episodes/3822781/survivor-52x01-tba",
           "variant": null
         }
       ],
@@ -854,7 +868,7 @@
       "platform": "Peacock",
       "platform_source": "network",
       "on_our_platforms": true,
-      "phase": "this_week",
+      "phase": "between_seasons",
       "matched_by": "id",
       "candidates": [],
       "tvmaze": {
@@ -868,7 +882,8 @@
         "episode_count": 8
       },
       "variants": [],
-      "next": {
+      "next": null,
+      "last": {
         "kind": "episode",
         "id": "3800543",
         "season": 1,
@@ -882,51 +897,8 @@
         "url": "https://www.tvmaze.com/episodes/3800543/still-flipping-out-1x08-moved-on-moved-out",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3800542",
-        "season": 1,
-        "code": "S01E07",
-        "name": "H-O-A-Holes",
-        "count": 1,
-        "date": "2026-11-09",
-        "time": "20:00",
-        "datetime": "2026-11-09T20:00:00-06:00",
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3800542/still-flipping-out-1x07-h-o-a-holes",
-        "variant": null
-      },
-      "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3800543",
-          "season": 1,
-          "code": "S01E08",
-          "name": "Moved On, Moved Out",
-          "count": 1,
-          "date": "2026-11-16",
-          "time": "20:00",
-          "datetime": "2026-11-16T20:00:00-06:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3800543/still-flipping-out-1x08-moved-on-moved-out",
-          "variant": null
-        }
-      ],
+      "upcoming": [],
       "recent": [
-        {
-          "kind": "episode",
-          "id": "3788619",
-          "season": 1,
-          "code": "S01E06",
-          "name": "War on Lunch",
-          "count": 1,
-          "date": "2026-11-02",
-          "time": "20:00",
-          "datetime": "2026-11-02T20:00:00-06:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3788619/still-flipping-out-1x06-war-on-lunch",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3800542",
@@ -939,6 +911,20 @@
           "datetime": "2026-11-09T20:00:00-06:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3800542/still-flipping-out-1x07-h-o-a-holes",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3800543",
+          "season": 1,
+          "code": "S01E08",
+          "name": "Moved On, Moved Out",
+          "count": 1,
+          "date": "2026-11-16",
+          "time": "20:00",
+          "datetime": "2026-11-16T20:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3800543/still-flipping-out-1x08-moved-on-moved-out",
           "variant": null
         }
       ]
@@ -2624,7 +2610,7 @@
       "platform": "Hulu",
       "platform_source": "override",
       "on_our_platforms": true,
-      "phase": "this_week",
+      "phase": "between_seasons",
       "matched_by": "id",
       "candidates": [],
       "tvmaze": {
@@ -2638,93 +2624,23 @@
         "episode_count": 8
       },
       "variants": [],
-      "next": {
+      "next": null,
+      "last": {
         "kind": "episode",
-        "id": "3802977",
+        "id": "3802978",
         "season": 1,
-        "code": "S01E07",
-        "name": "You Can Never Be Too Comfortable",
+        "code": "S01E08",
+        "name": "What Would Tony Soprano Do?",
         "count": 1,
         "date": "2026-11-16",
         "time": null,
         "datetime": null,
         "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3802977/the-mob-1x07-you-can-never-be-too-comfortable",
+        "url": "https://www.tvmaze.com/episodes/3802978/the-mob-1x08-what-would-tony-soprano-do",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3796940",
-        "season": 1,
-        "code": "S01E06",
-        "name": "I Can Spot a Fake From a Mile Away",
-        "count": 1,
-        "date": "2026-11-09",
-        "time": null,
-        "datetime": null,
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3796940/the-mob-1x06-i-can-spot-a-fake-from-a-mile-away",
-        "variant": null
-      },
-      "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3802977",
-          "season": 1,
-          "code": "S01E07",
-          "name": "You Can Never Be Too Comfortable",
-          "count": 1,
-          "date": "2026-11-16",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3802977/the-mob-1x07-you-can-never-be-too-comfortable",
-          "variant": null
-        },
-        {
-          "kind": "episode",
-          "id": "3802978",
-          "season": 1,
-          "code": "S01E08",
-          "name": "What Would Tony Soprano Do?",
-          "count": 1,
-          "date": "2026-11-16",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3802978/the-mob-1x08-what-would-tony-soprano-do",
-          "variant": null
-        }
-      ],
+      "upcoming": [],
       "recent": [
-        {
-          "kind": "episode",
-          "id": "3796404",
-          "season": 1,
-          "code": "S01E03",
-          "name": "This Is a Deadly Game",
-          "count": 1,
-          "date": "2026-11-02",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3796404/the-mob-1x03-this-is-a-deadly-game",
-          "variant": null
-        },
-        {
-          "kind": "episode",
-          "id": "3796405",
-          "season": 1,
-          "code": "S01E04",
-          "name": "Going to War",
-          "count": 1,
-          "date": "2026-11-02",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3796405/the-mob-1x04-going-to-war",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3796939",
@@ -2751,6 +2667,34 @@
           "datetime": null,
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3796940/the-mob-1x06-i-can-spot-a-fake-from-a-mile-away",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3802977",
+          "season": 1,
+          "code": "S01E07",
+          "name": "You Can Never Be Too Comfortable",
+          "count": 1,
+          "date": "2026-11-16",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3802977/the-mob-1x07-you-can-never-be-too-comfortable",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3802978",
+          "season": 1,
+          "code": "S01E08",
+          "name": "What Would Tony Soprano Do?",
+          "count": 1,
+          "date": "2026-11-16",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3802978/the-mob-1x08-what-would-tony-soprano-do",
           "variant": null
         }
       ]
@@ -2980,13 +2924,13 @@
           "id": "3793146",
           "season": 1,
           "code": "S01E08",
-          "name": "TBA",
+          "name": "You've Got a Good Life",
           "count": 1,
           "date": "2026-12-01",
           "time": null,
           "datetime": null,
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3793146/phony-1x08-tba",
+          "url": "https://www.tvmaze.com/episodes/3793146/phony-1x08-youve-got-a-good-life",
           "variant": null
         }
       ],
