@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T10:18:29Z",
-  "today": "2026-11-18",
+  "generated_at": "2026-11-19T10:18:46Z",
+  "today": "2026-11-19",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -203,6 +203,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3805150",
+        "season": 7,
+        "code": "S07E11",
+        "name": "Maui Mystery, Solved",
+        "count": 1,
+        "date": "2026-11-25",
+        "time": "19:00",
+        "datetime": "2026-11-25T19:00:00-06:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3805150/the-real-housewives-of-salt-lake-city-7x11-maui-mystery-solved",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3804731",
         "season": 7,
         "code": "S07E10",
@@ -215,35 +229,7 @@
         "url": "https://www.tvmaze.com/episodes/3804731/the-real-housewives-of-salt-lake-city-7x10-amends-with-friends",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3781673",
-        "season": 7,
-        "code": "S07E09",
-        "name": "Feed Her to the Sharks",
-        "count": 1,
-        "date": "2026-11-11",
-        "time": "19:00",
-        "datetime": "2026-11-11T19:00:00-06:00",
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3781673/the-real-housewives-of-salt-lake-city-7x09-feed-her-to-the-sharks",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3804731",
-          "season": 7,
-          "code": "S07E10",
-          "name": "Amends With Friends",
-          "count": 1,
-          "date": "2026-11-18",
-          "time": "19:00",
-          "datetime": "2026-11-18T19:00:00-06:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3804731/the-real-housewives-of-salt-lake-city-7x10-amends-with-friends",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3805150",
@@ -290,20 +276,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3781672",
-          "season": 7,
-          "code": "S07E08",
-          "name": "Reiki'd Over the Coals",
-          "count": 1,
-          "date": "2026-11-04",
-          "time": "19:00",
-          "datetime": "2026-11-04T19:00:00-06:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3781672/the-real-housewives-of-salt-lake-city-7x08-reikid-over-the-coals",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3781673",
           "season": 7,
           "code": "S07E09",
@@ -314,6 +286,20 @@
           "datetime": "2026-11-11T19:00:00-06:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3781673/the-real-housewives-of-salt-lake-city-7x09-feed-her-to-the-sharks",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3804731",
+          "season": 7,
+          "code": "S07E10",
+          "name": "Amends With Friends",
+          "count": 1,
+          "date": "2026-11-18",
+          "time": "19:00",
+          "datetime": "2026-11-18T19:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3804731/the-real-housewives-of-salt-lake-city-7x10-amends-with-friends",
           "variant": null
         }
       ]
@@ -453,6 +439,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3789586",
+        "season": 51,
+        "code": "S51E10",
+        "name": "Sorting Hogs",
+        "count": 1,
+        "date": "2026-11-25",
+        "time": "19:00",
+        "datetime": "2026-11-25T19:00:00-06:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3789586/survivor-51x10-sorting-hogs",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3711577",
         "season": 51,
         "code": "S51E09",
@@ -465,35 +465,7 @@
         "url": "https://www.tvmaze.com/episodes/3711577/survivor-51x09-wilder-than-a-cat-in-a-bathtub",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3711576",
-        "season": 51,
-        "code": "S51E08",
-        "name": "Load the Ark, Two by Two",
-        "count": 1,
-        "date": "2026-11-11",
-        "time": "19:00",
-        "datetime": "2026-11-11T19:00:00-06:00",
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3711576/survivor-51x08-load-the-ark-two-by-two",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3711577",
-          "season": 51,
-          "code": "S51E09",
-          "name": "Wilder Than a Cat in a Bathtub",
-          "count": 1,
-          "date": "2026-11-18",
-          "time": "19:00",
-          "datetime": "2026-11-18T19:00:00-06:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3711577/survivor-51x09-wilder-than-a-cat-in-a-bathtub",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3789586",
@@ -568,20 +540,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3711575",
-          "season": 51,
-          "code": "S51E07",
-          "name": "The Girl at the Prom",
-          "count": 1,
-          "date": "2026-11-04",
-          "time": "19:00",
-          "datetime": "2026-11-04T19:00:00-06:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3711575/survivor-51x07-the-girl-at-the-prom",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3711576",
           "season": 51,
           "code": "S51E08",
@@ -592,6 +550,20 @@
           "datetime": "2026-11-11T19:00:00-06:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3711576/survivor-51x08-load-the-ark-two-by-two",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3711577",
+          "season": 51,
+          "code": "S51E09",
+          "name": "Wilder Than a Cat in a Bathtub",
+          "count": 1,
+          "date": "2026-11-18",
+          "time": "19:00",
+          "datetime": "2026-11-18T19:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3711577/survivor-51x09-wilder-than-a-cat-in-a-bathtub",
           "variant": null
         }
       ]
@@ -621,6 +593,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3789587",
+        "season": 39,
+        "code": "S39E10",
+        "name": "We're Not Their Friends",
+        "count": 1,
+        "date": "2026-11-25",
+        "time": "20:30",
+        "datetime": "2026-11-25T20:30:00-06:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3789587/the-amazing-race-39x10-were-not-their-friends",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3711583",
         "season": 39,
         "code": "S39E09",
@@ -633,35 +619,7 @@
         "url": "https://www.tvmaze.com/episodes/3711583/the-amazing-race-39x09-a-double-edged-sword-with-an-alliance",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3711582",
-        "season": 39,
-        "code": "S39E08",
-        "name": "Million Dollar Moves",
-        "count": 1,
-        "date": "2026-11-11",
-        "time": "20:30",
-        "datetime": "2026-11-11T20:30:00-06:00",
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3711582/the-amazing-race-39x08-million-dollar-moves",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3711583",
-          "season": 39,
-          "code": "S39E09",
-          "name": "A Double-Edged Sword with an Alliance",
-          "count": 1,
-          "date": "2026-11-18",
-          "time": "20:30",
-          "datetime": "2026-11-18T20:30:00-06:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3711583/the-amazing-race-39x09-a-double-edged-sword-with-an-alliance",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3789587",
@@ -708,20 +666,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3711581",
-          "season": 39,
-          "code": "S39E07",
-          "name": "The Amazing Nightmare",
-          "count": 1,
-          "date": "2026-11-04",
-          "time": "20:30",
-          "datetime": "2026-11-04T20:30:00-06:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3711581/the-amazing-race-39x07-the-amazing-nightmare",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3711582",
           "season": 39,
           "code": "S39E08",
@@ -732,6 +676,20 @@
           "datetime": "2026-11-11T20:30:00-06:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3711582/the-amazing-race-39x08-million-dollar-moves",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3711583",
+          "season": 39,
+          "code": "S39E09",
+          "name": "A Double-Edged Sword with an Alliance",
+          "count": 1,
+          "date": "2026-11-18",
+          "time": "20:30",
+          "datetime": "2026-11-18T20:30:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3711583/the-amazing-race-39x09-a-double-edged-sword-with-an-alliance",
           "variant": null
         }
       ]
@@ -1031,7 +989,7 @@
         "source": "NBC",
         "premiered": "2023-01-12",
         "image": "https://static.tvmaze.com/uploads/images/medium_portrait/643/1607830.jpg",
-        "episode_count": 61
+        "episode_count": 71
       },
       "variants": [],
       "next": {
@@ -1095,28 +1053,168 @@
           "kind": "episode",
           "id": "3824015",
           "season": 6,
-          "code": "S06E02",
+          "code": "S06E01",
           "name": "TBA",
           "count": 1,
           "date": "2027-01-14",
           "time": "20:00",
           "datetime": "2027-01-14T20:00:00-06:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3824015/the-traitors-6x02-tba",
+          "premiere": true,
+          "url": "https://www.tvmaze.com/episodes/3824015/the-traitors-6x01-tba",
           "variant": null
         },
         {
           "kind": "episode",
           "id": "3824016",
           "season": 6,
-          "code": "S06E03",
+          "code": "S06E02",
           "name": "TBA",
           "count": 1,
           "date": "2027-01-14",
           "time": "21:00",
           "datetime": "2027-01-14T21:00:00-06:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3824016/the-traitors-6x03-tba",
+          "url": "https://www.tvmaze.com/episodes/3824016/the-traitors-6x02-tba",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3824302",
+          "season": 6,
+          "code": "S06E03",
+          "name": "TBA",
+          "count": 1,
+          "date": "2027-01-21",
+          "time": "20:00",
+          "datetime": "2027-01-21T20:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3824302/the-traitors-6x03-tba",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3824303",
+          "season": 6,
+          "code": "S06E04",
+          "name": "TBA",
+          "count": 1,
+          "date": "2027-01-28",
+          "time": "20:00",
+          "datetime": "2027-01-28T20:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3824303/the-traitors-6x04-tba",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3824304",
+          "season": 6,
+          "code": "S06E05",
+          "name": "TBA",
+          "count": 1,
+          "date": "2027-02-04",
+          "time": "20:00",
+          "datetime": "2027-02-04T20:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3824304/the-traitors-6x05-tba",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3824305",
+          "season": 6,
+          "code": "S06E06",
+          "name": "TBA",
+          "count": 1,
+          "date": "2027-02-11",
+          "time": "20:00",
+          "datetime": "2027-02-11T20:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3824305/the-traitors-6x06-tba",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3824306",
+          "season": 6,
+          "code": "S06E07",
+          "name": "TBA",
+          "count": 1,
+          "date": "2027-02-18",
+          "time": "20:00",
+          "datetime": "2027-02-18T20:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3824306/the-traitors-6x07-tba",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3824307",
+          "season": 6,
+          "code": "S06E08",
+          "name": "TBA",
+          "count": 1,
+          "date": "2027-02-25",
+          "time": "20:00",
+          "datetime": "2027-02-25T20:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3824307/the-traitors-6x08-tba",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3824308",
+          "season": 6,
+          "code": "S06E09",
+          "name": "TBA",
+          "count": 1,
+          "date": "2027-03-04",
+          "time": "20:00",
+          "datetime": "2027-03-04T20:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3824308/the-traitors-6x09-tba",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3824309",
+          "season": 6,
+          "code": "S06E10",
+          "name": "TBA",
+          "count": 1,
+          "date": "2027-03-11",
+          "time": "20:00",
+          "datetime": "2027-03-11T20:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3824309/the-traitors-6x10-tba",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3824310",
+          "season": 6,
+          "code": "S06E11",
+          "name": "Season Finale",
+          "count": 1,
+          "date": "2027-03-18",
+          "time": "20:00",
+          "datetime": "2027-03-18T20:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3824310/the-traitors-6x11-season-finale",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3824311",
+          "season": 6,
+          "code": "S06E12",
+          "name": "Reunion",
+          "count": 1,
+          "date": "2027-03-18",
+          "time": "21:00",
+          "datetime": "2027-03-18T21:00:00-05:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3824311/the-traitors-6x12-reunion",
           "variant": null
         }
       ],
@@ -1293,7 +1391,7 @@
         "status": "Running",
         "source": "Hulu",
         "premiered": "2021-08-31",
-        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/586/1466415.jpg",
+        "image": "https://static.tvmaze.com/uploads/images/medium_portrait/652/1630933.jpg",
         "episode_count": 60
       },
       "variants": [],
@@ -2433,20 +2531,6 @@
         }
       ],
       "recent": [
-        {
-          "kind": "episode",
-          "id": "3694638",
-          "season": 2,
-          "code": "S02E07",
-          "name": "My Story",
-          "count": 1,
-          "date": "2026-11-04",
-          "time": "19:00",
-          "datetime": "2026-11-04T19:00:00-06:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3694638/scrubs-2x07-my-story",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3694639",
