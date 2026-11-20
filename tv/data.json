@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-19T10:18:46Z",
-  "today": "2026-11-19",
+  "generated_at": "2026-11-20T10:18:32Z",
+  "today": "2026-11-20",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -513,13 +513,13 @@
           "id": "3796397",
           "season": 51,
           "code": "S51E13",
-          "name": "TBA",
+          "name": "Season 51 Finale",
           "count": 1,
           "date": "2026-12-16",
           "time": "19:00",
           "datetime": "2026-12-16T19:00:00-06:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3796397/survivor-51x13-tba",
+          "url": "https://www.tvmaze.com/episodes/3796397/survivor-51x13-season-51-finale",
           "variant": null
         },
         {
@@ -978,7 +978,7 @@
       "platform": "Peacock",
       "platform_source": "override",
       "on_our_platforms": true,
-      "phase": "this_week",
+      "phase": "upcoming",
       "matched_by": "id",
       "candidates": [],
       "tvmaze": {
@@ -994,61 +994,33 @@
       "variants": [],
       "next": {
         "kind": "episode",
-        "id": "3772252",
-        "season": 5,
-        "code": "S05E11",
-        "name": "I'm Fighting Till the End",
+        "id": "3824015",
+        "season": 6,
+        "code": "S06E01",
+        "name": "TBA",
         "count": 1,
-        "date": "2026-11-19",
-        "time": "19:00",
-        "datetime": "2026-11-19T19:00:00-06:00",
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3772252/the-traitors-5x11-im-fighting-till-the-end",
+        "date": "2027-01-14",
+        "time": "20:00",
+        "datetime": "2027-01-14T20:00:00-06:00",
+        "premiere": true,
+        "url": "https://www.tvmaze.com/episodes/3824015/the-traitors-6x01-tba",
         "variant": null
       },
       "last": {
         "kind": "episode",
-        "id": "3772251",
+        "id": "3772253",
         "season": 5,
-        "code": "S05E10",
-        "name": "The Sun, the Moon and the Truth",
+        "code": "S05E12",
+        "name": "Who Do You Truly Trust?",
         "count": 1,
-        "date": "2026-11-12",
-        "time": "19:00",
-        "datetime": "2026-11-12T19:00:00-06:00",
+        "date": "2026-11-19",
+        "time": "20:00",
+        "datetime": "2026-11-19T20:00:00-06:00",
         "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3772251/the-traitors-5x10-the-sun-the-moon-and-the-truth",
+        "url": "https://www.tvmaze.com/episodes/3772253/the-traitors-5x12-who-do-you-truly-trust",
         "variant": null
       },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3772252",
-          "season": 5,
-          "code": "S05E11",
-          "name": "I'm Fighting Till the End",
-          "count": 1,
-          "date": "2026-11-19",
-          "time": "19:00",
-          "datetime": "2026-11-19T19:00:00-06:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3772252/the-traitors-5x11-im-fighting-till-the-end",
-          "variant": null
-        },
-        {
-          "kind": "episode",
-          "id": "3772253",
-          "season": 5,
-          "code": "S05E12",
-          "name": "Who Do You Truly Trust?",
-          "count": 1,
-          "date": "2026-11-19",
-          "time": "20:00",
-          "datetime": "2026-11-19T20:00:00-06:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3772253/the-traitors-5x12-who-do-you-truly-trust",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3824015",
@@ -1221,20 +1193,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3772250",
-          "season": 5,
-          "code": "S05E09",
-          "name": "Playing Chess",
-          "count": 1,
-          "date": "2026-11-05",
-          "time": "19:00",
-          "datetime": "2026-11-05T19:00:00-06:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3772250/the-traitors-5x09-playing-chess",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3772251",
           "season": 5,
           "code": "S05E10",
@@ -1245,6 +1203,34 @@
           "datetime": "2026-11-12T19:00:00-06:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3772251/the-traitors-5x10-the-sun-the-moon-and-the-truth",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3772252",
+          "season": 5,
+          "code": "S05E11",
+          "name": "I'm Fighting Till the End",
+          "count": 1,
+          "date": "2026-11-19",
+          "time": "19:00",
+          "datetime": "2026-11-19T19:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3772252/the-traitors-5x11-im-fighting-till-the-end",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3772253",
+          "season": 5,
+          "code": "S05E12",
+          "name": "Who Do You Truly Trust?",
+          "count": 1,
+          "date": "2026-11-19",
+          "time": "20:00",
+          "datetime": "2026-11-19T20:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3772253/the-traitors-5x12-who-do-you-truly-trust",
           "variant": null
         }
       ]
@@ -1333,17 +1319,17 @@
       },
       "variants": [
         {
-          "id": 80440,
-          "name": "Is It Cake? Holiday",
-          "url": "https://www.tvmaze.com/shows/80440/is-it-cake-holiday",
-          "status": "Running",
-          "source": "Netflix"
-        },
-        {
           "id": 87502,
           "name": "Is It Cake? Halloween",
           "url": "https://www.tvmaze.com/shows/87502/is-it-cake-halloween",
           "status": "To Be Determined",
+          "source": "Netflix"
+        },
+        {
+          "id": 80440,
+          "name": "Is It Cake? Holiday",
+          "url": "https://www.tvmaze.com/shows/80440/is-it-cake-holiday",
+          "status": "Running",
           "source": "Netflix"
         },
         {
@@ -1996,13 +1982,13 @@
           "id": "3814157",
           "season": 2,
           "code": "S02E10",
-          "name": "TBA",
+          "name": "Welkome Back",
           "count": 1,
-          "date": "2027-01-05",
+          "date": "2026-12-08",
           "time": "19:00",
-          "datetime": "2027-01-05T19:00:00-06:00",
+          "datetime": "2026-12-08T19:00:00-06:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3814157/best-medicine-2x10-tba",
+          "url": "https://www.tvmaze.com/episodes/3814157/best-medicine-2x10-welkome-back",
           "variant": null
         },
         {
@@ -2010,13 +1996,13 @@
           "id": "3814158",
           "season": 2,
           "code": "S02E11",
-          "name": "TBA",
+          "name": "Stop, Drop and Lobster Roll",
           "count": 1,
-          "date": "2027-01-12",
+          "date": "2027-01-05",
           "time": "19:00",
-          "datetime": "2027-01-12T19:00:00-06:00",
+          "datetime": "2027-01-05T19:00:00-06:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3814158/best-medicine-2x11-tba",
+          "url": "https://www.tvmaze.com/episodes/3814158/best-medicine-2x11-stop-drop-and-lobster-roll",
           "variant": null
         },
         {
@@ -2026,9 +2012,9 @@
           "code": "S02E12",
           "name": "TBA",
           "count": 1,
-          "date": "2027-01-19",
+          "date": "2027-01-12",
           "time": "19:00",
-          "datetime": "2027-01-19T19:00:00-06:00",
+          "datetime": "2027-01-12T19:00:00-06:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3814159/best-medicine-2x12-tba",
           "variant": null
