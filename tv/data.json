@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T10:18:32Z",
-  "today": "2026-11-20",
+  "generated_at": "2026-11-21T10:18:04Z",
+  "today": "2026-11-21",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -75,7 +75,7 @@
       "platform": "Peacock",
       "platform_source": "network",
       "on_our_platforms": true,
-      "phase": "this_week",
+      "phase": "upcoming",
       "matched_by": "id",
       "candidates": [],
       "tvmaze": {
@@ -96,9 +96,9 @@
         "code": "S16E12",
         "name": "TBA",
         "count": 1,
-        "date": "2026-11-24",
+        "date": "2026-12-01",
         "time": "19:00",
-        "datetime": "2026-11-24T19:00:00-06:00",
+        "datetime": "2026-12-01T19:00:00-06:00",
         "premiere": false,
         "url": "https://www.tvmaze.com/episodes/3804147/the-real-housewives-of-new-york-city-16x12-tba",
         "variant": null
@@ -125,9 +125,9 @@
           "code": "S16E12",
           "name": "TBA",
           "count": 1,
-          "date": "2026-11-24",
+          "date": "2026-12-01",
           "time": "19:00",
-          "datetime": "2026-11-24T19:00:00-06:00",
+          "datetime": "2026-12-01T19:00:00-06:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3804147/the-real-housewives-of-new-york-city-16x12-tba",
           "variant": null
@@ -139,9 +139,9 @@
           "code": "S16E13",
           "name": "TBA",
           "count": 1,
-          "date": "2026-12-01",
+          "date": "2026-12-08",
           "time": "19:00",
-          "datetime": "2026-12-01T19:00:00-06:00",
+          "datetime": "2026-12-08T19:00:00-06:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3824025/the-real-housewives-of-new-york-city-16x13-tba",
           "variant": null
@@ -198,7 +198,7 @@
         "source": "Bravo",
         "premiered": "2020-11-11",
         "image": "https://static.tvmaze.com/uploads/images/medium_portrait/639/1598899.jpg",
-        "episode_count": 126
+        "episode_count": 127
       },
       "variants": [],
       "next": {
@@ -249,13 +249,13 @@
           "id": "3814149",
           "season": 7,
           "code": "S07E12",
-          "name": "TBA",
+          "name": "Lei Down the Law",
           "count": 1,
           "date": "2026-12-02",
           "time": "19:00",
           "datetime": "2026-12-02T19:00:00-06:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3814149/the-real-housewives-of-salt-lake-city-7x12-tba",
+          "url": "https://www.tvmaze.com/episodes/3814149/the-real-housewives-of-salt-lake-city-7x12-lei-down-the-law",
           "variant": null
         },
         {
@@ -270,6 +270,20 @@
           "datetime": "2026-12-09T19:00:00-06:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3821305/the-real-housewives-of-salt-lake-city-7x13-tba",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3825326",
+          "season": 7,
+          "code": "S07E14",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-12-16",
+          "time": "19:00",
+          "datetime": "2026-12-16T19:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3825326/the-real-housewives-of-salt-lake-city-7x14-tba",
           "variant": null
         }
       ],
@@ -986,7 +1000,7 @@
         "name": "The Traitors",
         "url": "https://www.tvmaze.com/shows/58177/the-traitors",
         "status": "Running",
-        "source": "NBC",
+        "source": "Peacock",
         "premiered": "2023-01-12",
         "image": "https://static.tvmaze.com/uploads/images/medium_portrait/643/1607830.jpg",
         "episode_count": 71
@@ -1824,6 +1838,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3809415",
+        "season": 17,
+        "code": "S17E10",
+        "name": "The Final",
+        "count": 1,
+        "date": "2026-11-27",
+        "time": null,
+        "datetime": null,
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3809415/the-great-british-bake-off-17x10-the-final",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3804481",
         "season": 17,
         "code": "S17E09",
@@ -1836,35 +1864,7 @@
         "url": "https://www.tvmaze.com/episodes/3804481/the-great-british-bake-off-17x09-patisserie-week",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3798166",
-        "season": 17,
-        "code": "S17E08",
-        "name": "Caramel Week",
-        "count": 1,
-        "date": "2026-11-13",
-        "time": null,
-        "datetime": null,
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3798166/the-great-british-bake-off-17x08-caramel-week",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3804481",
-          "season": 17,
-          "code": "S17E09",
-          "name": "Patisserie Week",
-          "count": 1,
-          "date": "2026-11-20",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3804481/the-great-british-bake-off-17x09-patisserie-week",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3809415",
@@ -1883,20 +1883,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3794294",
-          "season": 17,
-          "code": "S17E07",
-          "name": "Free-from Party Week",
-          "count": 1,
-          "date": "2026-11-06",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3794294/the-great-british-bake-off-17x07-free-from-party-week",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3798166",
           "season": 17,
           "code": "S17E08",
@@ -1907,6 +1893,20 @@
           "datetime": null,
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3798166/the-great-british-bake-off-17x08-caramel-week",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3804481",
+          "season": 17,
+          "code": "S17E09",
+          "name": "Patisserie Week",
+          "count": 1,
+          "date": "2026-11-20",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3804481/the-great-british-bake-off-17x09-patisserie-week",
           "variant": null
         }
       ]
@@ -2680,14 +2680,14 @@
       "platform": "Hulu",
       "platform_source": "override",
       "on_our_platforms": true,
-      "phase": "between_seasons",
+      "phase": "ended",
       "matched_by": "id",
       "candidates": [],
       "tvmaze": {
         "id": 94430,
         "name": "The Mob",
         "url": "https://www.tvmaze.com/shows/94430/the-mob",
-        "status": "Running",
+        "status": "Ended",
         "source": "Hulu",
         "premiered": "2026-10-26",
         "image": "https://static.tvmaze.com/uploads/images/medium_portrait/647/1619977.jpg",
