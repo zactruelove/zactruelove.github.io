@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-23T10:19:16Z",
-  "today": "2026-11-23",
+  "generated_at": "2026-11-24T10:17:59Z",
+  "today": "2026-11-24",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -75,7 +75,7 @@
       "platform": "Peacock",
       "platform_source": "network",
       "on_our_platforms": true,
-      "phase": "upcoming",
+      "phase": "this_week",
       "matched_by": "id",
       "candidates": [],
       "tvmaze": {
@@ -871,20 +871,6 @@
       },
       "upcoming": [],
       "recent": [
-        {
-          "kind": "episode",
-          "id": "3800542",
-          "season": 1,
-          "code": "S01E07",
-          "name": "H-O-A-Holes",
-          "count": 1,
-          "date": "2026-11-09",
-          "time": "20:00",
-          "datetime": "2026-11-09T20:00:00-06:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3800542/still-flipping-out-1x07-h-o-a-holes",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3800543",
@@ -1920,7 +1906,7 @@
       "platform": "Hulu",
       "platform_source": "network",
       "on_our_platforms": true,
-      "phase": "upcoming",
+      "phase": "this_week",
       "matched_by": "id",
       "candidates": [],
       "tvmaze": {
@@ -2713,34 +2699,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3796939",
-          "season": 1,
-          "code": "S01E05",
-          "name": "Turns Out, I Am That Bitch",
-          "count": 1,
-          "date": "2026-11-09",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3796939/the-mob-1x05-turns-out-i-am-that-bitch",
-          "variant": null
-        },
-        {
-          "kind": "episode",
-          "id": "3796940",
-          "season": 1,
-          "code": "S01E06",
-          "name": "I Can Spot a Fake From a Mile Away",
-          "count": 1,
-          "date": "2026-11-09",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3796940/the-mob-1x06-i-can-spot-a-fake-from-a-mile-away",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3802977",
           "season": 1,
           "code": "S01E07",
@@ -2840,13 +2798,13 @@
           "id": "3796458",
           "season": 1,
           "code": "S01E07",
-          "name": "Episode 7",
+          "name": "Let's Blow This Sh*t Up!",
           "count": 1,
           "date": "2026-12-01",
           "time": "21:00",
           "datetime": "2026-12-01T21:00:00-06:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3796458/the-golden-life-1x07-episode-7",
+          "url": "https://www.tvmaze.com/episodes/3796458/the-golden-life-1x07-lets-blow-this-sht-up",
           "variant": null
         },
         {
