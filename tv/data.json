@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-24T10:17:59Z",
-  "today": "2026-11-24",
+  "generated_at": "2026-11-25T10:19:38Z",
+  "today": "2026-11-25",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -94,13 +94,13 @@
         "id": "3804147",
         "season": 16,
         "code": "S16E12",
-        "name": "TBA",
+        "name": "Echoes of the Past",
         "count": 1,
         "date": "2026-12-01",
         "time": "19:00",
         "datetime": "2026-12-01T19:00:00-06:00",
         "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3804147/the-real-housewives-of-new-york-city-16x12-tba",
+        "url": "https://www.tvmaze.com/episodes/3804147/the-real-housewives-of-new-york-city-16x12-echoes-of-the-past",
         "variant": null
       },
       "last": {
@@ -123,13 +123,13 @@
           "id": "3804147",
           "season": 16,
           "code": "S16E12",
-          "name": "TBA",
+          "name": "Echoes of the Past",
           "count": 1,
           "date": "2026-12-01",
           "time": "19:00",
           "datetime": "2026-12-01T19:00:00-06:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3804147/the-real-housewives-of-new-york-city-16x12-tba",
+          "url": "https://www.tvmaze.com/episodes/3804147/the-real-housewives-of-new-york-city-16x12-echoes-of-the-past",
           "variant": null
         },
         {
@@ -148,20 +148,6 @@
         }
       ],
       "recent": [
-        {
-          "kind": "episode",
-          "id": "3794158",
-          "season": 16,
-          "code": "S16E10",
-          "name": "Joke's on You",
-          "count": 1,
-          "date": "2026-11-10",
-          "time": "19:00",
-          "datetime": "2026-11-10T19:00:00-06:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3794158/the-real-housewives-of-new-york-city-16x10-jokes-on-you",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3799915",
@@ -263,13 +249,13 @@
           "id": "3821305",
           "season": 7,
           "code": "S07E13",
-          "name": "TBA",
+          "name": "Hostess with the Roastest",
           "count": 1,
           "date": "2026-12-09",
           "time": "19:00",
           "datetime": "2026-12-09T19:00:00-06:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3821305/the-real-housewives-of-salt-lake-city-7x13-tba",
+          "url": "https://www.tvmaze.com/episodes/3821305/the-real-housewives-of-salt-lake-city-7x13-hostess-with-the-roastest",
           "variant": null
         },
         {
@@ -499,7 +485,7 @@
           "id": "3796395",
           "season": 51,
           "code": "S51E11",
-          "name": "My Fangs Feel A Little Sharp Today",
+          "name": "My Fangs Feel a Little Sharp Today",
           "count": 1,
           "date": "2026-12-02",
           "time": "19:00",
@@ -2037,20 +2023,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3768314",
-          "season": 2,
-          "code": "S02E07",
-          "name": "Love Is a Battlefield",
-          "count": 1,
-          "date": "2026-11-10",
-          "time": "19:00",
-          "datetime": "2026-11-10T19:00:00-06:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3768314/best-medicine-2x07-love-is-a-battlefield",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3791803",
           "season": 2,
           "code": "S02E08",
@@ -2430,7 +2402,7 @@
       "platform": "Hulu",
       "platform_source": "network",
       "on_our_platforms": true,
-      "phase": "upcoming",
+      "phase": "this_week",
       "matched_by": "id",
       "candidates": [],
       "tvmaze": {
@@ -2599,22 +2571,7 @@
         "variant": null
       },
       "upcoming": [],
-      "recent": [
-        {
-          "kind": "episode",
-          "id": "3616311",
-          "season": 1,
-          "code": "S01E08",
-          "name": "Forever",
-          "count": 1,
-          "date": "2026-11-10",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3616311/visionquest-1x08-forever",
-          "variant": null
-        }
-      ]
+      "recent": []
     },
     {
       "title": "The Diplomat",
@@ -2752,6 +2709,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3796458",
+        "season": 1,
+        "code": "S01E07",
+        "name": "Let's Blow This Sh*t Up!",
+        "count": 1,
+        "date": "2026-12-01",
+        "time": "21:00",
+        "datetime": "2026-12-01T21:00:00-06:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3796458/the-golden-life-1x07-lets-blow-this-sht-up",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3796457",
         "season": 1,
         "code": "S01E06",
@@ -2764,35 +2735,7 @@
         "url": "https://www.tvmaze.com/episodes/3796457/the-golden-life-1x06-she-lost-her-sugar-on-me",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3796456",
-        "season": 1,
-        "code": "S01E05",
-        "name": "Cesspool",
-        "count": 1,
-        "date": "2026-11-17",
-        "time": "21:00",
-        "datetime": "2026-11-17T21:00:00-06:00",
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3796456/the-golden-life-1x05-cesspool",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3796457",
-          "season": 1,
-          "code": "S01E06",
-          "name": "She Lost Her Sugar on Me",
-          "count": 1,
-          "date": "2026-11-24",
-          "time": "21:00",
-          "datetime": "2026-11-24T21:00:00-06:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3796457/the-golden-life-1x06-she-lost-her-sugar-on-me",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3796458",
@@ -2825,20 +2768,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3793224",
-          "season": 1,
-          "code": "S01E04",
-          "name": "People Will Think We're Nuts",
-          "count": 1,
-          "date": "2026-11-10",
-          "time": "21:00",
-          "datetime": "2026-11-10T21:00:00-06:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3793224/the-golden-life-1x04-people-will-think-were-nuts",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3796456",
           "season": 1,
           "code": "S01E05",
@@ -2849,6 +2778,20 @@
           "datetime": "2026-11-17T21:00:00-06:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3796456/the-golden-life-1x05-cesspool",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3796457",
+          "season": 1,
+          "code": "S01E06",
+          "name": "She Lost Her Sugar on Me",
+          "count": 1,
+          "date": "2026-11-24",
+          "time": "21:00",
+          "datetime": "2026-11-24T21:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3796457/the-golden-life-1x06-she-lost-her-sugar-on-me",
           "variant": null
         }
       ]
@@ -2878,6 +2821,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3793146",
+        "season": 1,
+        "code": "S01E08",
+        "name": "You've Got a Good Life",
+        "count": 1,
+        "date": "2026-12-01",
+        "time": null,
+        "datetime": null,
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3793146/phony-1x08-youve-got-a-good-life",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3793145",
         "season": 1,
         "code": "S01E07",
@@ -2890,35 +2847,7 @@
         "url": "https://www.tvmaze.com/episodes/3793145/phony-1x07-what-comes-up",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3793144",
-        "season": 1,
-        "code": "S01E06",
-        "name": "I'm Right Here",
-        "count": 1,
-        "date": "2026-11-17",
-        "time": null,
-        "datetime": null,
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3793144/phony-1x06-im-right-here",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3793145",
-          "season": 1,
-          "code": "S01E07",
-          "name": "What Comes Up?",
-          "count": 1,
-          "date": "2026-11-24",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3793145/phony-1x07-what-comes-up",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3793146",
@@ -2937,20 +2866,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3793143",
-          "season": 1,
-          "code": "S01E05",
-          "name": "House of Dog",
-          "count": 1,
-          "date": "2026-11-10",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3793143/phony-1x05-house-of-dog",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3793144",
           "season": 1,
           "code": "S01E06",
@@ -2961,6 +2876,20 @@
           "datetime": null,
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3793144/phony-1x06-im-right-here",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3793145",
+          "season": 1,
+          "code": "S01E07",
+          "name": "What Comes Up?",
+          "count": 1,
+          "date": "2026-11-24",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3793145/phony-1x07-what-comes-up",
           "variant": null
         }
       ]
