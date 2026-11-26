@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-25T10:19:38Z",
-  "today": "2026-11-25",
+  "generated_at": "2026-11-26T10:19:14Z",
+  "today": "2026-11-26",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -86,7 +86,7 @@
         "source": "Bravo",
         "premiered": "2008-03-04",
         "image": "https://static.tvmaze.com/uploads/images/medium_portrait/639/1598898.jpg",
-        "episode_count": 304
+        "episode_count": 305
       },
       "variants": [],
       "next": {
@@ -137,13 +137,27 @@
           "id": "3824025",
           "season": 16,
           "code": "S16E13",
-          "name": "TBA",
+          "name": "Good Vibes Only",
           "count": 1,
           "date": "2026-12-08",
           "time": "19:00",
           "datetime": "2026-12-08T19:00:00-06:00",
           "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3824025/the-real-housewives-of-new-york-city-16x13-tba",
+          "url": "https://www.tvmaze.com/episodes/3824025/the-real-housewives-of-new-york-city-16x13-good-vibes-only",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3837826",
+          "season": 16,
+          "code": "S16E14",
+          "name": "TBA",
+          "count": 1,
+          "date": "2026-12-15",
+          "time": "19:00",
+          "datetime": "2026-12-15T19:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3837826/the-real-housewives-of-new-york-city-16x14-tba",
           "variant": null
         }
       ],
@@ -189,6 +203,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3814149",
+        "season": 7,
+        "code": "S07E12",
+        "name": "Lei Down the Law",
+        "count": 1,
+        "date": "2026-12-02",
+        "time": "19:00",
+        "datetime": "2026-12-02T19:00:00-06:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3814149/the-real-housewives-of-salt-lake-city-7x12-lei-down-the-law",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3805150",
         "season": 7,
         "code": "S07E11",
@@ -201,35 +229,7 @@
         "url": "https://www.tvmaze.com/episodes/3805150/the-real-housewives-of-salt-lake-city-7x11-maui-mystery-solved",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3804731",
-        "season": 7,
-        "code": "S07E10",
-        "name": "Amends With Friends",
-        "count": 1,
-        "date": "2026-11-18",
-        "time": "19:00",
-        "datetime": "2026-11-18T19:00:00-06:00",
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3804731/the-real-housewives-of-salt-lake-city-7x10-amends-with-friends",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3805150",
-          "season": 7,
-          "code": "S07E11",
-          "name": "Maui Mystery, Solved",
-          "count": 1,
-          "date": "2026-11-25",
-          "time": "19:00",
-          "datetime": "2026-11-25T19:00:00-06:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3805150/the-real-housewives-of-salt-lake-city-7x11-maui-mystery-solved",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3814149",
@@ -276,20 +276,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3781673",
-          "season": 7,
-          "code": "S07E09",
-          "name": "Feed Her to the Sharks",
-          "count": 1,
-          "date": "2026-11-11",
-          "time": "19:00",
-          "datetime": "2026-11-11T19:00:00-06:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3781673/the-real-housewives-of-salt-lake-city-7x09-feed-her-to-the-sharks",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3804731",
           "season": 7,
           "code": "S07E10",
@@ -300,6 +286,20 @@
           "datetime": "2026-11-18T19:00:00-06:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3804731/the-real-housewives-of-salt-lake-city-7x10-amends-with-friends",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3805150",
+          "season": 7,
+          "code": "S07E11",
+          "name": "Maui Mystery, Solved",
+          "count": 1,
+          "date": "2026-11-25",
+          "time": "19:00",
+          "datetime": "2026-11-25T19:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3805150/the-real-housewives-of-salt-lake-city-7x11-maui-mystery-solved",
           "variant": null
         }
       ]
@@ -439,6 +439,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3796395",
+        "season": 51,
+        "code": "S51E11",
+        "name": "My Fangs Feel a Little Sharp Today",
+        "count": 1,
+        "date": "2026-12-02",
+        "time": "19:00",
+        "datetime": "2026-12-02T19:00:00-06:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3796395/survivor-51x11-my-fangs-feel-a-little-sharp-today",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3789586",
         "season": 51,
         "code": "S51E10",
@@ -451,35 +465,7 @@
         "url": "https://www.tvmaze.com/episodes/3789586/survivor-51x10-sorting-hogs",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3711577",
-        "season": 51,
-        "code": "S51E09",
-        "name": "Wilder Than a Cat in a Bathtub",
-        "count": 1,
-        "date": "2026-11-18",
-        "time": "19:00",
-        "datetime": "2026-11-18T19:00:00-06:00",
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3711577/survivor-51x09-wilder-than-a-cat-in-a-bathtub",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3789586",
-          "season": 51,
-          "code": "S51E10",
-          "name": "Sorting Hogs",
-          "count": 1,
-          "date": "2026-11-25",
-          "time": "19:00",
-          "datetime": "2026-11-25T19:00:00-06:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3789586/survivor-51x10-sorting-hogs",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3796395",
@@ -540,20 +526,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3711576",
-          "season": 51,
-          "code": "S51E08",
-          "name": "Load the Ark, Two by Two",
-          "count": 1,
-          "date": "2026-11-11",
-          "time": "19:00",
-          "datetime": "2026-11-11T19:00:00-06:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3711576/survivor-51x08-load-the-ark-two-by-two",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3711577",
           "season": 51,
           "code": "S51E09",
@@ -564,6 +536,20 @@
           "datetime": "2026-11-18T19:00:00-06:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3711577/survivor-51x09-wilder-than-a-cat-in-a-bathtub",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3789586",
+          "season": 51,
+          "code": "S51E10",
+          "name": "Sorting Hogs",
+          "count": 1,
+          "date": "2026-11-25",
+          "time": "19:00",
+          "datetime": "2026-11-25T19:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3789586/survivor-51x10-sorting-hogs",
           "variant": null
         }
       ]
@@ -593,6 +579,20 @@
       "variants": [],
       "next": {
         "kind": "episode",
+        "id": "3796398",
+        "season": 39,
+        "code": "S39E11",
+        "name": "Woman of My Word",
+        "count": 1,
+        "date": "2026-12-02",
+        "time": "20:30",
+        "datetime": "2026-12-02T20:30:00-06:00",
+        "premiere": false,
+        "url": "https://www.tvmaze.com/episodes/3796398/the-amazing-race-39x11-woman-of-my-word",
+        "variant": null
+      },
+      "last": {
+        "kind": "episode",
         "id": "3789587",
         "season": 39,
         "code": "S39E10",
@@ -605,35 +605,7 @@
         "url": "https://www.tvmaze.com/episodes/3789587/the-amazing-race-39x10-were-not-their-friends",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3711583",
-        "season": 39,
-        "code": "S39E09",
-        "name": "A Double-Edged Sword with an Alliance",
-        "count": 1,
-        "date": "2026-11-18",
-        "time": "20:30",
-        "datetime": "2026-11-18T20:30:00-06:00",
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3711583/the-amazing-race-39x09-a-double-edged-sword-with-an-alliance",
-        "variant": null
-      },
       "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3789587",
-          "season": 39,
-          "code": "S39E10",
-          "name": "We're Not Their Friends",
-          "count": 1,
-          "date": "2026-11-25",
-          "time": "20:30",
-          "datetime": "2026-11-25T20:30:00-06:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3789587/the-amazing-race-39x10-were-not-their-friends",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3796398",
@@ -666,20 +638,6 @@
       "recent": [
         {
           "kind": "episode",
-          "id": "3711582",
-          "season": 39,
-          "code": "S39E08",
-          "name": "Million Dollar Moves",
-          "count": 1,
-          "date": "2026-11-11",
-          "time": "20:30",
-          "datetime": "2026-11-11T20:30:00-06:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3711582/the-amazing-race-39x08-million-dollar-moves",
-          "variant": null
-        },
-        {
-          "kind": "episode",
           "id": "3711583",
           "season": 39,
           "code": "S39E09",
@@ -690,6 +648,20 @@
           "datetime": "2026-11-18T20:30:00-06:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3711583/the-amazing-race-39x09-a-double-edged-sword-with-an-alliance",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3789587",
+          "season": 39,
+          "code": "S39E10",
+          "name": "We're Not Their Friends",
+          "count": 1,
+          "date": "2026-11-25",
+          "time": "20:30",
+          "datetime": "2026-11-25T20:30:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3789587/the-amazing-race-39x10-were-not-their-friends",
           "variant": null
         }
       ]
@@ -2474,22 +2446,7 @@
           "variant": null
         }
       ],
-      "recent": [
-        {
-          "kind": "episode",
-          "id": "3694639",
-          "season": 2,
-          "code": "S02E08",
-          "name": "My Emergency",
-          "count": 1,
-          "date": "2026-11-11",
-          "time": "19:00",
-          "datetime": "2026-11-11T19:00:00-06:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3694639/scrubs-2x08-my-emergency",
-          "variant": null
-        }
-      ]
+      "recent": []
     },
     {
       "title": "Coven Academy",
