@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-26T10:19:14Z",
-  "today": "2026-11-26",
+  "generated_at": "2026-11-27T10:19:01Z",
+  "today": "2026-11-27",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -198,7 +198,7 @@
         "source": "Bravo",
         "premiered": "2020-11-11",
         "image": "https://static.tvmaze.com/uploads/images/medium_portrait/639/1598899.jpg",
-        "episode_count": 127
+        "episode_count": 128
       },
       "variants": [],
       "next": {
@@ -270,6 +270,20 @@
           "datetime": "2026-12-16T19:00:00-06:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3825326/the-real-housewives-of-salt-lake-city-7x14-tba",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3838302",
+          "season": 7,
+          "code": "S07E15",
+          "name": "Your Energy Is Tragic, Tragic",
+          "count": 1,
+          "date": "2026-12-23",
+          "time": "19:00",
+          "datetime": "2026-12-23T19:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3838302/the-real-housewives-of-salt-lake-city-7x15-your-energy-is-tragic-tragic",
           "variant": null
         }
       ],
@@ -1149,20 +1163,6 @@
         }
       ],
       "recent": [
-        {
-          "kind": "episode",
-          "id": "3772251",
-          "season": 5,
-          "code": "S05E10",
-          "name": "The Sun, the Moon and the Truth",
-          "count": 1,
-          "date": "2026-11-12",
-          "time": "19:00",
-          "datetime": "2026-11-12T19:00:00-06:00",
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3772251/the-traitors-5x10-the-sun-the-moon-and-the-truth",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3772252",
@@ -2661,7 +2661,7 @@
         "source": "E!",
         "premiered": "2026-10-20",
         "image": "https://static.tvmaze.com/uploads/images/medium_portrait/640/1601969.jpg",
-        "episode_count": 8
+        "episode_count": 10
       },
       "variants": [],
       "next": {
@@ -2719,6 +2719,34 @@
           "datetime": "2026-12-08T21:00:00-06:00",
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3796459/the-golden-life-1x08-episode-8",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3838319",
+          "season": 1,
+          "code": "S01E09",
+          "name": "Episode 9",
+          "count": 1,
+          "date": "2026-12-15",
+          "time": "21:00",
+          "datetime": "2026-12-15T21:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3838319/the-golden-life-1x09-episode-9",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3838320",
+          "season": 1,
+          "code": "S01E10",
+          "name": "Episode 10",
+          "count": 1,
+          "date": "2026-12-22",
+          "time": "21:00",
+          "datetime": "2026-12-22T21:00:00-06:00",
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3838320/the-golden-life-1x10-episode-10",
           "variant": null
         }
       ],
