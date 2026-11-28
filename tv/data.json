@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-27T10:19:01Z",
-  "today": "2026-11-27",
+  "generated_at": "2026-11-28T10:17:51Z",
+  "today": "2026-11-28",
   "timezone": "America/Chicago",
   "platforms": [
     "Hulu",
@@ -1766,7 +1766,7 @@
       "platform": "Netflix",
       "platform_source": "override",
       "on_our_platforms": true,
-      "phase": "this_week",
+      "phase": "between_seasons",
       "matched_by": "id",
       "candidates": [],
       "tvmaze": {
@@ -1780,7 +1780,8 @@
         "episode_count": 164
       },
       "variants": [],
-      "next": {
+      "next": null,
+      "last": {
         "kind": "episode",
         "id": "3809415",
         "season": 17,
@@ -1794,51 +1795,8 @@
         "url": "https://www.tvmaze.com/episodes/3809415/the-great-british-bake-off-17x10-the-final",
         "variant": null
       },
-      "last": {
-        "kind": "episode",
-        "id": "3804481",
-        "season": 17,
-        "code": "S17E09",
-        "name": "Patisserie Week",
-        "count": 1,
-        "date": "2026-11-20",
-        "time": null,
-        "datetime": null,
-        "premiere": false,
-        "url": "https://www.tvmaze.com/episodes/3804481/the-great-british-bake-off-17x09-patisserie-week",
-        "variant": null
-      },
-      "upcoming": [
-        {
-          "kind": "episode",
-          "id": "3809415",
-          "season": 17,
-          "code": "S17E10",
-          "name": "The Final",
-          "count": 1,
-          "date": "2026-11-27",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3809415/the-great-british-bake-off-17x10-the-final",
-          "variant": null
-        }
-      ],
+      "upcoming": [],
       "recent": [
-        {
-          "kind": "episode",
-          "id": "3798166",
-          "season": 17,
-          "code": "S17E08",
-          "name": "Caramel Week",
-          "count": 1,
-          "date": "2026-11-13",
-          "time": null,
-          "datetime": null,
-          "premiere": false,
-          "url": "https://www.tvmaze.com/episodes/3798166/the-great-british-bake-off-17x08-caramel-week",
-          "variant": null
-        },
         {
           "kind": "episode",
           "id": "3804481",
@@ -1851,6 +1809,20 @@
           "datetime": null,
           "premiere": false,
           "url": "https://www.tvmaze.com/episodes/3804481/the-great-british-bake-off-17x09-patisserie-week",
+          "variant": null
+        },
+        {
+          "kind": "episode",
+          "id": "3809415",
+          "season": 17,
+          "code": "S17E10",
+          "name": "The Final",
+          "count": 1,
+          "date": "2026-11-27",
+          "time": null,
+          "datetime": null,
+          "premiere": false,
+          "url": "https://www.tvmaze.com/episodes/3809415/the-great-british-bake-off-17x10-the-final",
           "variant": null
         }
       ]
